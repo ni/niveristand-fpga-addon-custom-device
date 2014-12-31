@@ -19,13 +19,21 @@
   <CustomDeviceVI>
 		<SourceDistribution>
       <Source>
-        <SupportedTarget>PharlapWindows</SupportedTarget>
+        <SupportedTarget>Windows</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
 					<Path>Custom Devices\FPGA Addon\FPGA Addon Engine.llb\RT Driver VI.vi</Path>
 				</Source>
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
+      <Source>
+        <SupportedTarget>Pharlap</SupportedTarget>
+        <Source>
+          <Type>To Common Doc Dir</Type>
+          <Path>Custom Devices\FPGA Addon\c\FPGA Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
+        </Source>
+        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+      </Source>
 		</SourceDistribution>
 	</CustomDeviceVI>
   <Dependencies />
