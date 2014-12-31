@@ -1,0 +1,12 @@
+[My Computer]
+My Computer = "192.168.111.193"
+
+[NI-PXI8110-2F11AC06]
+NI-PXI8110-2F11AC06 = "192.168.1.11"
+
+[RT CompactRIO Target]
+RT CompactRIO Target = "0.0.0.0"
+
+[RT PXI Target]
+RT PXI Target = "0.0.0.0"
+
