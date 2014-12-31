@@ -1,4 +1,4 @@
-CAN-Frame-Protection-Custom-Device
+FPGA-Custom-Device
 ===================
 
 **IP Name** is a insert description of IP
