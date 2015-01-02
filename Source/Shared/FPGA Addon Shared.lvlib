@@ -5,6 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="Types" Type="Folder">
+			<Item Name="Compiled.DMASettings.ctl" Type="VI" URL="../Compiled.DMASettings.ctl"/>
+			<Item Name="Compiled.RegisterSettings.ctl" Type="VI" URL="../Compiled.RegisterSettings.ctl"/>
+			<Item Name="Compiled.Settings" Type="VI" URL="../Compiled.Settings"/>
 			<Item Name="Delacing Scheme.ctl" Type="VI" URL="../Delacing Scheme.ctl"/>
 			<Item Name="DMA Settings.ctl" Type="VI" URL="../DMA Settings.ctl"/>
 			<Item Name="FG Action.ctl" Type="VI" URL="../FG Action.ctl"/>

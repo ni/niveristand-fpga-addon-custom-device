@@ -5,6 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
+			<Item Name="Actions" Type="Folder">
+				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
+			</Item>
 			<Item Name="Extra Pages" Type="Folder">
 				<Item Name="DMA Channel.vi" Type="VI" URL="../DMA Channel.vi"/>
 				<Item Name="DMA Elements Remaining.vi" Type="VI" URL="../DMA Elements Remaining.vi"/>
@@ -35,6 +38,10 @@
 			<Item Name="Add Item.vi" Type="VI" URL="../SubVIs/Add Item.vi"/>
 			<Item Name="Determine Listbox Values.vi" Type="VI" URL="../SubVIs/Determine Listbox Values.vi"/>
 			<Item Name="Enable Disable Add Remove buttons.vi" Type="VI" URL="../SubVIs/Enable Disable Add Remove buttons.vi"/>
+			<Item Name="Get Input DMA Refs.vi" Type="VI" URL="../SubVIs/Get Input DMA Refs.vi"/>
+			<Item Name="Get Output DMA Refs.vi" Type="VI" URL="../SubVIs/Get Output DMA Refs.vi"/>
+			<Item Name="Get Scalar Datatypes and Refs.vi" Type="VI" URL="../SubVIs/Get Scalar Datatypes and Refs.vi"/>
+			<Item Name="Get Write Data to VS Channel Refs.vi" Type="VI" URL="../SubVIs/Get Write Data to VS Channel Refs.vi"/>
 			<Item Name="Initialize Listbox.vi" Type="VI" URL="../SubVIs/Initialize Listbox.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
 			<Item Name="Load New Bitfile.vi" Type="VI" URL="../Load New Bitfile.vi"/>

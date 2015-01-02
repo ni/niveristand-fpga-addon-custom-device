@@ -100,6 +100,7 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorageUI" Type="Document" URL="NationalInstruments.VeriStand.SystemStorageUI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Initialize Output DMA Refs.vi" Type="VI" URL="../Engine/SubVIs/Initialize Output DMA Refs.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
@@ -371,21 +372,21 @@
 				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Initialize Read From VS Engine.vi</Property>
+				<Property Name="Source[20].itemID" Type="Ref"></Property>
 				<Property Name="Source[20].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[20].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[20].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[20].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[20].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Initialize ReadWrite Data.vi</Property>
+				<Property Name="Source[21].itemID" Type="Ref"></Property>
 				<Property Name="Source[21].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[21].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[21].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[21].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[21].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Initialize Write Data to VS Engine.vi</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/FPGA Addon System Explorer.lvlib/System Explorer/SubVIs/Get Write Data to VS Channel Refs.vi</Property>
 				<Property Name="Source[22].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[22].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[22].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -628,6 +629,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Initialize Output DMA Refs.vi" Type="VI" URL="../Engine/SubVIs/Initialize Output DMA Refs.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
