@@ -90,6 +90,10 @@
           </Item2Launch>
         </MenuItem>
       </RunTimeMenu>
+      <ActionVIOnCompile>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\ActionVIOnCompile.vi</Path>
+      </ActionVIOnCompile>
     </Page>
     <Page>
       <Name>
