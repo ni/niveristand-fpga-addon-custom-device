@@ -100,7 +100,22 @@
 			<Item Name="NationalInstruments.VeriStand.SystemStorageUI" Type="Document" URL="NationalInstruments.VeriStand.SystemStorageUI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Initialize Output DMA Refs.vi" Type="VI" URL="../Engine/SubVIs/Initialize Output DMA Refs.vi"/>
+			<Item Name="niFpgaWaitOnOcc.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaWaitOnOcc.vi"/>
+			<Item Name="niLvFpga_Close_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_Close_Dynamic.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
+			<Item Name="niFpgaEscapeDelimiterAndNull.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/dynamic/niFpgaEscapeDelimiterAndNull.vi"/>
+			<Item Name="niLvFpga_AcknowledgeIrq_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_AcknowledgeIrq_Dynamic.vi"/>
+			<Item Name="niLvFpga_WaitOnIrq_Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/FPGAPlugInAG/Dynamic/niLvFpga_WaitOnIrq_Dynamic.vi"/>
+			<Item Name="StockFPGA_InlinedAdjustHostInterfaceError.vi" Type="VI" URL="../../../../Program Files/National Instruments/LabVIEW 2013/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/StockFPGA_InlinedAdjustHostInterfaceError.vi"/>
+			<Item Name="niFpgaHostInterfaceSession.ctl" Type="VI" URL="../../../../Program Files/National Instruments/LabVIEW 2013/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/niFpgaHostInterfaceSession.ctl"/>
+			<Item Name="StockFPGA_PlugInOptionalWaitOnIrq.vi" Type="VI" URL="../../../../Program Files/National Instruments/LabVIEW 2013/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/StockFPGA_PlugInOptionalWaitOnIrq.vi"/>
+			<Item Name="StockFPGA_InlinedWaitFor1OrMoreIRQs.vi" Type="VI" URL="../../../../Program Files/National Instruments/LabVIEW 2013/Targets/NI/FPGA/StockFPGA_IntfPrivate/ScriptTemplates/StockFPGA_InlinedWaitFor1OrMoreIRQs.vi"/>
+			<Item Name="StockFPGA_InlinedMethodWaitForSingleIRQ.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/nirviMethod/StockFPGA_InlinedMethodWaitForSingleIRQ.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
@@ -265,7 +280,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Custom Devices/FPGA Addon</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{29A71E28-6A95-4902-A468-EBAC96E8B6A1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A6ECD0B9-66B1-4C83-B049-6B6999C9A8B3}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -283,44 +298,44 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/SubVIs</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Close Error Handles.vi</Property>
 				<Property Name="Source[10].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[10].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[10].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[10].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[10].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[10].type" Type="Str">Container</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Close Error Handles.vi</Property>
+				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Connect to Error Handles.vi</Property>
 				<Property Name="Source[11].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[11].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[11].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[11].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[11].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Connect to Error Handles.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Display and Log Process.vi</Property>
 				<Property Name="Source[12].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[12].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[12].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[12].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[12].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[12].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Display and Log Process.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Inline Error Handler.vi</Property>
 				<Property Name="Source[13].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[13].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[13].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[13].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[13].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[13].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Inline Error Handler.vi</Property>
+				<Property Name="Source[14].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Controls</Property>
 				<Property Name="Source[14].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[14].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[14].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[14].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[14].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[14].type" Type="Str">Container</Property>
 				<Property Name="Source[15].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Controls</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Helper VIs</Property>
 				<Property Name="Source[15].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[15].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[15].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -328,29 +343,28 @@
 				<Property Name="Source[15].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[15].type" Type="Str">Container</Property>
 				<Property Name="Source[16].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Helper VIs</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Triggering</Property>
 				<Property Name="Source[16].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[16].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[16].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[16].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[16].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[16].type" Type="Str">Container</Property>
-				<Property Name="Source[17].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Triggering</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Close Async VIs.vi</Property>
 				<Property Name="Source[17].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[17].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[17].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[17].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[17].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[17].type" Type="Str">Container</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Close Async VIs.vi</Property>
+				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Initialize Async VIs.vi</Property>
 				<Property Name="Source[18].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[18].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[18].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[18].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[18].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[18].type" Type="Str">VI</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Initialize Async VIs.vi</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/My Computer/FPGA Addon System Explorer.lvlib/System Explorer/SubVIs/Get Write Data to VS Channel Refs.vi</Property>
 				<Property Name="Source[19].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[19].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[19].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -372,78 +386,71 @@
 				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[20].itemID" Type="Ref"></Property>
+				<Property Name="Source[20].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Read Data From VS Engine.vi</Property>
 				<Property Name="Source[20].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[20].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[20].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[20].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[20].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[20].type" Type="Str">VI</Property>
-				<Property Name="Source[21].itemID" Type="Ref"></Property>
+				<Property Name="Source[21].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/ReadWrite Data.vi</Property>
 				<Property Name="Source[21].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[21].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[21].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[21].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[21].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[21].type" Type="Str">VI</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/FPGA Addon System Explorer.lvlib/System Explorer/SubVIs/Get Write Data to VS Channel Refs.vi</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Run Process.vi</Property>
 				<Property Name="Source[22].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[22].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[22].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[22].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[22].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[22].type" Type="Str">VI</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Read Data From VS Engine.vi</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Stop Processes.vi</Property>
 				<Property Name="Source[23].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[23].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[23].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[23].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[23].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[23].type" Type="Str">VI</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/ReadWrite Data.vi</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Write Data to VS Engine.vi</Property>
 				<Property Name="Source[24].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[24].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[24].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[24].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[24].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[24].type" Type="Str">VI</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Run Process.vi</Property>
+				<Property Name="Source[25].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Stop FG.lvlib/Controls</Property>
 				<Property Name="Source[25].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[25].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[25].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[25].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[25].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[25].type" Type="Str">VI</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Stop Processes.vi</Property>
+				<Property Name="Source[25].type" Type="Str">Container</Property>
+				<Property Name="Source[26].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Stop FG.lvlib/SubVIs</Property>
 				<Property Name="Source[26].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[26].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[26].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[26].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[26].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[26].type" Type="Str">VI</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Write Data to VS Engine.vi</Property>
+				<Property Name="Source[26].type" Type="Str">Container</Property>
+				<Property Name="Source[27].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Stop FG.lvlib/Global Stop Actions.vi</Property>
 				<Property Name="Source[27].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[27].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[27].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[27].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[27].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[27].type" Type="Str">VI</Property>
-				<Property Name="Source[28].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Stop FG.lvlib/Controls</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Stop FG.lvlib/Initialize Global Stop.vi</Property>
 				<Property Name="Source[28].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[28].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[28].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[28].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[28].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[28].type" Type="Str">Container</Property>
-				<Property Name="Source[29].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[29].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Stop FG.lvlib/SubVIs</Property>
-				<Property Name="Source[29].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[29].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[29].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[29].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[29].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[29].type" Type="Str">Container</Property>
+				<Property Name="Source[28].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
@@ -459,20 +466,6 @@
 				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[30].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Stop FG.lvlib/Global Stop Actions.vi</Property>
-				<Property Name="Source[30].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[30].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[30].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[30].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[30].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[30].type" Type="Str">VI</Property>
-				<Property Name="Source[31].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Stop FG.lvlib/Initialize Global Stop.vi</Property>
-				<Property Name="Source[31].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[31].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[31].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[31].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[31].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[31].type" Type="Str">VI</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/FPGA Addon Shared.lvlib/Shared</Property>
@@ -488,11 +481,16 @@
 				<Property Name="Source[4].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[5].itemID" Type="Ref"></Property>
-				<Property Name="Source[5].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/SubVIs</Property>
+				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/SubVIs</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Types</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -500,7 +498,7 @@
 				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Types</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Controls</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -508,7 +506,7 @@
 				<Property Name="Source[7].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Controls</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Print</Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -516,14 +514,14 @@
 				<Property Name="Source[8].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Print</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/SubVIs</Property>
 				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[9].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[9].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">32</Property>
+				<Property Name="SourceCount" Type="Int">29</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -629,7 +627,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Initialize Output DMA Refs.vi" Type="VI" URL="../Engine/SubVIs/Initialize Output DMA Refs.vi"/>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -649,6 +646,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{40347456-3130-4631-A31F-8B2F0130D69C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/FPGA Addon Engine Pharlap.llb</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/FPGA Addon Engine Pharlap.llb</Property>

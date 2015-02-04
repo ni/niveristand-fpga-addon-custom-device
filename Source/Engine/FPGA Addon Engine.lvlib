@@ -28,7 +28,6 @@
 		<Item Name="DMA Input References.ctl" Type="VI" URL="../Types/DMA Input References.ctl"/>
 		<Item Name="DMA Output Ref.ctl" Type="VI" URL="../Types/DMA Output Ref.ctl"/>
 		<Item Name="DMA Output References.ctl" Type="VI" URL="../Types/DMA Output References.ctl"/>
-		<Item Name="DMA Output Settings.ctl" Type="VI" URL="../Types/DMA Output Settings.ctl"/>
 		<Item Name="Register Settings.ctl" Type="VI" URL="../Types/Register Settings.ctl"/>
 		<Item Name="State Variables.ctl" Type="VI" URL="../Types/State Variables.ctl"/>
 		<Item Name="VS Refs.ctl" Type="VI" URL="../Types/VS Refs.ctl"/>
