@@ -1,7 +1,7 @@
 FPGA-Custom-Device
 ===================
 
-**IP Name** is a insert description of IP
+The FPGA addon allows a user to pull an existing FPGA bitfile into NI VeriStand with little or no modification. The FPGA bitfile does not need to meet the standard NI VeriStand FPGA framework (doesn't require two DMA channels or a XML descriptor file). It also provides support for streaming data over DMA to a VeriStand waveform. This is not supported by the standard NI VeriStand FPGA framework.
 
 ### LabVIEW Version ###
 
@@ -17,6 +17,12 @@ IP has been tested by developer on PXI 7831R. It meets VeriStand addon coding be
 
 IP limitations are as follows.
 Addon uses LabVIEW FPGA Advanced Session Resources. This requires an update to an RT INI file. This file must be updated and the RT target rebooted. The addon automatically updates the file for the user but it does not reboot the controller. Therefore, the first deployment will likely return an error. Reboot the controller after first deployment and everything should work fine after that.
+
+Addon requires an IRQ to fire on the FPGA before it starts.
+
+Addon does not provide a way to synchronize data acquisition/generation with the VeriStand PCL (supported in the standard NI VeriStand FPGA framework).
+
+Addon does not support providing timing for VeriStand (supported in the standard NI VeriStand FPGA framework).
 
 Addon only supports reading and writing FPGA indicators and controls with basic data types. 
 
