@@ -31,7 +31,9 @@ Addon only supports reading and writing DMA of SGL data type.
 ### Dependencies ###
 
 NI RIO 14.0 or later
+
 LabVIEW FPGA Advanced Session Resources (https://decibel.ni.com/content/docs/DOC-35574)
+
 OpenG LabVIEW Data Library 4.2.0.21 or later
 
 ### License ###
