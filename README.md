@@ -5,21 +5,27 @@ FPGA-Custom-Device
 
 ### LabVIEW Version ###
 
-Describe the LabVIEW version used to develop this source
+LabVIEW 2013. Also required is LabVIEW FPGA Advanced Session Resources (https://decibel.ni.com/content/docs/DOC-35574)
 
 ### Built Availability ###
 
-Describe the availability, or lack of availability of built versions of this IP and provide any links needed to go get builds
+Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales. 
 
 ### Quality, Limitations ###
 
-Describe the maturity of the IP. Is this in use worldwide? Is this terrible code that needs lots of updates? Is this a work in progress?
+IP has been tested by developer on PXI 7831R. It meets VeriStand addon coding best practices. It is not currently widely used.
 
-Describe any limitations of the IP.
+IP limitations are as follows.
+Addon uses LabVIEW FPGA Advanced Session Resources. This requires an update to an RT INI file. This file must be updated and the RT target rebooted. The addon automatically updates the file for the user but it does not reboot the controller. Therefore, the first deployment will likely return an error. Reboot the controller after first deployment and everything should work fine after that.
+
+Addon only supports reading and writing FPGA indicators and controls with basic data types. 
+
+Addon only supports reading and writing DMA of SGL data type.
 
 ### Dependencies ###
 
-Describe any dependencies of the IP
+NI RIO 14.0 or later
+LabVIEW FPGA Advanced Session Resources (https://decibel.ni.com/content/docs/DOC-35574)
 
 ### License ###
 
