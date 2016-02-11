@@ -5,7 +5,7 @@ The FPGA addon allows a user to pull an existing FPGA bitfile into NI VeriStand 
 
 ### LabVIEW Version ###
 
-LabVIEW 2013. Also required is LabVIEW FPGA Advanced Session Resources (https://decibel.ni.com/content/docs/DOC-35574)
+LabVIEW 2015. Also required is LabVIEW FPGA Advanced Session Resources (https://decibel.ni.com/content/docs/DOC-35574)
 
 ### Built Availability ###
 

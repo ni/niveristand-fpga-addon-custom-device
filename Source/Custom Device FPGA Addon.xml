@@ -17,24 +17,40 @@
     </Item2Launch>
   </InitializationVI>
   <CustomDeviceVI>
-		<SourceDistribution>
-      <Source>
-        <SupportedTarget>Windows</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\FPGA Addon\FPGA Addon Engine.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine.llb\RT Driver VI.vi</RealTimeSystemDestination>
+	<SourceDistribution>
+		<Source>
+			<SupportedTarget>Windows</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\FPGA Addon\FPGA Addon Engine.llb\RT Driver VI.vi</Path>
 			</Source>
-      <Source>
-        <SupportedTarget>Pharlap</SupportedTarget>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine.llb\RT Driver VI.vi</RealTimeSystemDestination>
+		</Source>
         <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\FPGA Addon\c\FPGA Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
-      </Source>
-		</SourceDistribution>
+			<SupportedTarget>Pharlap</SupportedTarget>
+			<Source>
+			  <Type>To Common Doc Dir</Type>
+			  <Path>Custom Devices\FPGA Addon\c\FPGA Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+		</Source>
+		<Source>
+			<SupportedTarget>Linux_32_ARM</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\FPGA Addon\c\FPGA Addon Engine LinuxARM.llb\RT Driver VI.vi</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+		</Source>
+		<Source>
+			<SupportedTarget>Linux_x64</SupportedTarget>
+			<Source>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\FPGA Addon\c\FPGA Addon Engine Linux64.llb\RT Driver VI.vi</Path>
+			</Source>
+			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+		</Source>
+	</SourceDistribution>
 	</CustomDeviceVI>
   <Dependencies />
   <Pages>
