@@ -9,6 +9,7 @@
 			<Item Name="Compiled.RegisterSettings.ctl" Type="VI" URL="../Compiled.RegisterSettings.ctl"/>
 			<Item Name="Compiled.Settings" Type="VI" URL="../Compiled.Settings"/>
 			<Item Name="Delacing Scheme.ctl" Type="VI" URL="../Delacing Scheme.ctl"/>
+			<Item Name="DMA Acquisition Mode.ctl" Type="VI" URL="../DMA Acquisition Mode.ctl"/>
 			<Item Name="DMA Settings.ctl" Type="VI" URL="../DMA Settings.ctl"/>
 			<Item Name="FG Action.ctl" Type="VI" URL="../FG Action.ctl"/>
 			<Item Name="FPGA Settings.ctl" Type="VI" URL="../FPGA Settings.ctl"/>
