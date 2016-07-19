@@ -19,7 +19,6 @@
 		<Item Name="Read DMA and Update Waveform.vi" Type="VI" URL="../SubVIs/Read DMA and Update Waveform.vi"/>
 		<Item Name="Read Scalar Data.vi" Type="VI" URL="../SubVIs/Read Scalar Data.vi"/>
 		<Item Name="Set RIO INI Key.vi" Type="VI" URL="../SubVIs/Set RIO INI Key.vi"/>
-		<Item Name="Update Status Channels.vi" Type="VI" URL="../SubVIs/Update Status Channels.vi"/>
 		<Item Name="Write DMA.vi" Type="VI" URL="../SubVIs/Write DMA.vi"/>
 		<Item Name="Write Scalar Data.vi" Type="VI" URL="../SubVIs/Write Scalar Data.vi"/>
 	</Item>
@@ -32,10 +31,6 @@
 		<Item Name="State Variables.ctl" Type="VI" URL="../Types/State Variables.ctl"/>
 		<Item Name="VS Refs.ctl" Type="VI" URL="../Types/VS Refs.ctl"/>
 	</Item>
-	<Item Name="Userlib" Type="Folder">
-		<Item Name="Error Handling API.lvlib" Type="Library" URL="../SubVIs/Error Handling API/Error Handling API.lvlib"/>
-		<Item Name="Inline Async API.lvlib" Type="Library" URL="../SubVIs/Inline Async API/Inline Async API.lvlib"/>
-		<Item Name="Stop FG.lvlib" Type="Library" URL="../SubVIs/Stop FG/Stop FG.lvlib"/>
-	</Item>
+	<Item Name="Userlib" Type="Folder"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
