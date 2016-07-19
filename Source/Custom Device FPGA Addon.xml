@@ -13,7 +13,7 @@
     <Type>Action</Type>
     <Item2Launch>
       <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Initialization VI.vi</Path>
+		<Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Initialization VI.vi</Path>
     </Item2Launch>
   </InitializationVI>
   <CustomDeviceVI>
@@ -66,7 +66,7 @@
 		  </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		    <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Main Page.vi</Path>
+		    <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -78,7 +78,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\EnableDisable Main Page.vi</Path>
+            <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\EnableDisable Main Page.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -108,11 +108,11 @@
       </RunTimeMenu>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\ActionVIOnLoad.vi</Path>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\ActionVIOnLoad.vi</Path>
       </ActionVIOnLoad>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\ActionVIOnCompile.vi</Path>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
     </Page>
     <Page>
@@ -127,7 +127,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Main Page.vi</Path>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -139,7 +139,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\EnableDisable Main Page.vi</Path>
+            <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\EnableDisable Main Page.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -169,7 +169,7 @@
       </RunTimeMenu>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\ActionVIOnLoad.vi</Path>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\ActionVIOnLoad.vi</Path>
       </ActionVIOnLoad>
     </Page>
     <Page>
@@ -186,7 +186,7 @@
 		  </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		    <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Scalars.vi</Path>
+		    <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Scalars.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -218,7 +218,7 @@
 		  </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		    <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Scalar Inputs.vi</Path>
+		    <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Scalar Inputs.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -250,7 +250,7 @@
 		  </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		    <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Scalar Outputs.vi</Path>
+		    <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Scalar Outputs.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -282,7 +282,7 @@
 		  </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		    <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Waveforms.vi</Path>
+		    <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Waveforms.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -315,7 +315,7 @@
 		  </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		    <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Waveform Inputs.vi</Path>
+		    <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Waveform Inputs.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -348,7 +348,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Waveform Outputs.vi</Path>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Waveform Outputs.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -378,7 +378,7 @@
 		  </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		    <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Scalar Input.vi</Path>
+		    <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Scalar Input.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -390,7 +390,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Switch Scalar Type.vi</Path>
+            <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Switch Scalar Type.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -431,7 +431,7 @@
 	  	</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		    <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Scalar Output.vi</Path>
+		    <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Scalar Output.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -443,7 +443,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Switch Scalar Type.vi</Path>
+            <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Switch Scalar Type.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -485,7 +485,7 @@
 		  </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		    <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\DMA Channel.vi</Path>
+		    <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\DMA Channel.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -517,7 +517,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Waveform Output.vi</Path>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Waveform Output.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -534,7 +534,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Waveform Input.vi</Path>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Waveform Input.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -552,7 +552,7 @@
 		  </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-	    	<Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\DMA Status Channels.vi</Path>
+	    	<Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\DMA Status Channels.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -569,7 +569,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\DMA Error.vi</Path>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\DMA Error.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -586,7 +586,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\DMA Elements Remaining.vi</Path>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\DMA Elements Remaining.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -602,7 +602,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Scalar Bitpacked.vi</Path>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Scalar Bitpacked.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -614,7 +614,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Switch Scalar Type.vi</Path>
+            <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Switch Scalar Type.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -656,7 +656,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Scalar Bitpacked.vi</Path>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Scalar Bitpacked.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -668,7 +668,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Switch Scalar Type.vi</Path>
+            <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Switch Scalar Type.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -711,7 +711,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Scalar Input.vi</Path>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Scalar Input.vi</Path>
       </Item2Launch>
     </Page>
     <Page>
@@ -728,7 +728,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\FPGA Addon\FPGA Addon Configuration.llb\Scalar Output.vi</Path>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Scalar Output.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>

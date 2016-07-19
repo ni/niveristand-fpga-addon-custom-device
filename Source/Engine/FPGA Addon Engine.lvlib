@@ -31,6 +31,5 @@
 		<Item Name="State Variables.ctl" Type="VI" URL="../Types/State Variables.ctl"/>
 		<Item Name="VS Refs.ctl" Type="VI" URL="../Types/VS Refs.ctl"/>
 	</Item>
-	<Item Name="Userlib" Type="Folder"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
