@@ -7,6 +7,9 @@ The FPGA addon allows a user to pull an existing FPGA bitfile into NI VeriStand 
 
 LabVIEW 2015. Also required is LabVIEW FPGA Advanced Session Resources (https://decibel.ni.com/content/docs/DOC-35574)
 
+VeriStand Inline Async API is required
+https://github.com/NIVeriStandAdd-Ons/Inline-Async-API
+
 ### Built Availability ###
 
 Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales. 
