@@ -14,6 +14,7 @@
 				<Item Name="DMA Elements Remaining.vi" Type="VI" URL="../DMA Elements Remaining.vi"/>
 				<Item Name="DMA Error.vi" Type="VI" URL="../DMA Error.vi"/>
 				<Item Name="DMA Status Channels.vi" Type="VI" URL="../DMA Status Channels.vi"/>
+				<Item Name="PWM.vi" Type="VI" URL="../PWM.vi"/>
 				<Item Name="Scalar Bitpacked.vi" Type="VI" URL="../Scalar Bitpacked.vi"/>
 				<Item Name="Scalar Input.vi" Type="VI" URL="../Scalar Input.vi"/>
 				<Item Name="Scalar Inputs.vi" Type="VI" URL="../Scalar Inputs.vi"/>

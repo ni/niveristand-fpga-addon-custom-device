@@ -5,7 +5,7 @@
     <eng>FPGA Addon</eng>
     <loc>FPGA Addon</loc>
   </AddMenu>
-  <Version>2.0.0</Version>
+  <Version>3.0.0</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>e80a28c5-621d-4211-b584-b71df509dee0</MainPageGUID>
@@ -729,6 +729,53 @@
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Scalar Output.vi</Path>
+      </Item2Launch>
+    </Page>
+      <Page>
+      <Name>
+        <eng>Static Scalar Input</eng>
+        <loc>Static Scalar Input</loc>
+      </Name>
+      <GUID>7579cb69-d559-4b2b-a1fc-0d112e8661b6</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Scalar Input.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Static Scalar Output</eng>
+        <loc>Static Scalar Output</loc>
+      </Name>
+      <GUID>ddc5186b-4b14-4629-b48a-cef4575f789c</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Scalar Output.vi</Path>
+      </Item2Launch>
+    </Page>
+      <Page>
+      <Name>
+        <eng>PWM</eng>
+        <loc>PWM</loc>
+      </Name>
+      <DeleteProtection>true</DeleteProtection>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <GUID>25832021-24b6-475a-aa84-f4ed7870ed99</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\default fpga channel.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\PWM.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>
