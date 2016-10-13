@@ -771,7 +771,7 @@
       <GUID>25832021-24b6-475a-aa84-f4ed7870ed99</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\default fpga channel.png</Path>
+        <Path>System Explorer\Glyphs\default fpga category.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>

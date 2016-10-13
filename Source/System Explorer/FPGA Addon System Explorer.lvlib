@@ -40,6 +40,7 @@
 			<Item Name="Add Item.vi" Type="VI" URL="../SubVIs/Add Item.vi"/>
 			<Item Name="Determine Listbox Values.vi" Type="VI" URL="../SubVIs/Determine Listbox Values.vi"/>
 			<Item Name="Enable Disable Add Remove buttons.vi" Type="VI" URL="../SubVIs/Enable Disable Add Remove buttons.vi"/>
+			<Item Name="Get Cluster Element Names.vi" Type="VI" URL="../SubVIs/Get Cluster Element Names.vi"/>
 			<Item Name="Get Input DMA Refs.vi" Type="VI" URL="../SubVIs/Get Input DMA Refs.vi"/>
 			<Item Name="Get Output DMA Refs.vi" Type="VI" URL="../SubVIs/Get Output DMA Refs.vi"/>
 			<Item Name="Get Scalar Datatypes and Refs.vi" Type="VI" URL="../SubVIs/Get Scalar Datatypes and Refs.vi"/>
