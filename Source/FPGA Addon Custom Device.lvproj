@@ -113,6 +113,7 @@
 			<Item Name="PWM.Measure.Digital.Settings.ctl" Type="VI" URL="../FPGA/PWM IP/Types/PWM.Measure.Digital.Settings.ctl"/>
 			<Item Name="PWM.Measure.Analog.Analyzed.ctl" Type="VI" URL="../FPGA/PWM IP/Types/PWM.Measure.Analog.Analyzed.ctl"/>
 			<Item Name="PWM.Measure.Digital.Analyzed.ctl" Type="VI" URL="../FPGA/PWM IP/Types/PWM.Measure.Digital.Analyzed.ctl"/>
+			<Item Name="PWM.Generate.Digital.Convert.Settings.ctl" Type="VI" URL="../FPGA/PWM IP/Types/PWM.Generate.Digital.Convert.Settings.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -591,7 +592,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{40347456-3130-4631-A31F-8B2F0130D69C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/FPGA Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/FPGA Addon Engine Pharlap.llb</Property>
@@ -834,7 +835,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F6098661-992B-49E0-9019-88D860A139BD}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/FPGA Addon Engine LinuxARM.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/FPGA Addon Engine LinuxARM.llb</Property>
