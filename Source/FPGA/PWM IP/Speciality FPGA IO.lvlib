@@ -18,12 +18,12 @@
 		<Item Name="PWM.Generate.Digital.Convert.Settings.ctl" Type="VI" URL="../Types/PWM.Generate.Digital.Convert.Settings.ctl"/>
 		<Item Name="PWM.Generate.Digital.Internal.ctl" Type="VI" URL="../Types/PWM.Generate.Digital.Internal.ctl"/>
 		<Item Name="PWM.Generate.Digital.Settings.ctl" Type="VI" URL="../Types/PWM.Generate.Digital.Settings.ctl"/>
-		<Item Name="PWM.Measure.Analog.Analyzed.ctl" Type="VI" URL="../Types/PWM.Measure.Analog.Analyzed.ctl"/>
 		<Item Name="PWM.Measure.Analog.Internal.ctl" Type="VI" URL="../Types/PWM.Measure.Analog.Internal.ctl"/>
+		<Item Name="PWM.Measure.Analog.Measurement.ctl" Type="VI" URL="../Types/PWM.Measure.Analog.Measurement.ctl"/>
 		<Item Name="PWM.Measure.Analog.Result.ctl" Type="VI" URL="../Types/PWM.Measure.Analog.Result.ctl"/>
 		<Item Name="PWM.Measure.Analog.Settings.ctl" Type="VI" URL="../Types/PWM.Measure.Analog.Settings.ctl"/>
-		<Item Name="PWM.Measure.Digital.Analyzed.ctl" Type="VI" URL="../Types/PWM.Measure.Digital.Analyzed.ctl"/>
 		<Item Name="PWM.Measure.Digital.Internal.ctl" Type="VI" URL="../Types/PWM.Measure.Digital.Internal.ctl"/>
+		<Item Name="PWM.Measure.Digital.Measurement.ctl" Type="VI" URL="../Types/PWM.Measure.Digital.Measurement.ctl"/>
 		<Item Name="PWM.Measure.Digital.Result.ctl" Type="VI" URL="../Types/PWM.Measure.Digital.Result.ctl"/>
 		<Item Name="PWM.Measure.Digital.Settings.ctl" Type="VI" URL="../Types/PWM.Measure.Digital.Settings.ctl"/>
 		<Item Name="Sine.Generate.Convert.Settings.ctl" Type="VI" URL="../Types/Sine.Generate.Convert.Settings.ctl"/>
