@@ -393,6 +393,9 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\addons\FPGA Addon\Source\FPGA\PWM IP\FPGA Bitfiles\FPGAProject_FPGATarget_VeriStandExample_6POWURmDR-U.lvbitx</Property>
 			</Item>
 			<Item Name="Dependencies" Type="Dependencies">
+				<Item Name="vi.lib" Type="Folder">
+					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+				</Item>
 				<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../Speciality FPGA IO.lvlib"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
