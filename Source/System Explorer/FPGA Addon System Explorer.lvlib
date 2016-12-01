@@ -14,13 +14,13 @@
 				<Item Name="DMA Elements Remaining.vi" Type="VI" URL="../DMA Elements Remaining.vi"/>
 				<Item Name="DMA Error.vi" Type="VI" URL="../DMA Error.vi"/>
 				<Item Name="DMA Status Channels.vi" Type="VI" URL="../DMA Status Channels.vi"/>
-				<Item Name="PWM.vi" Type="VI" URL="../PWM.vi"/>
 				<Item Name="Scalar Bitpacked.vi" Type="VI" URL="../Scalar Bitpacked.vi"/>
 				<Item Name="Scalar Input.vi" Type="VI" URL="../Scalar Input.vi"/>
 				<Item Name="Scalar Inputs.vi" Type="VI" URL="../Scalar Inputs.vi"/>
 				<Item Name="Scalar Output.vi" Type="VI" URL="../Scalar Output.vi"/>
 				<Item Name="Scalar Outputs.vi" Type="VI" URL="../Scalar Outputs.vi"/>
 				<Item Name="Scalars.vi" Type="VI" URL="../Scalars.vi"/>
+				<Item Name="Speciality IO.vi" Type="VI" URL="../Speciality IO.vi"/>
 				<Item Name="Waveform Input.vi" Type="VI" URL="../Waveform Input.vi"/>
 				<Item Name="Waveform Inputs.vi" Type="VI" URL="../Waveform Inputs.vi"/>
 				<Item Name="Waveform Output.vi" Type="VI" URL="../Waveform Output.vi"/>

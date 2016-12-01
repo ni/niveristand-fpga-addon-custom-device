@@ -763,8 +763,8 @@
     </Page>
       <Page>
       <Name>
-        <eng>PWM</eng>
-        <loc>PWM</loc>
+        <eng>Speciality IO</eng>
+        <loc>Speciality IO</loc>
       </Name>
       <DeleteProtection>true</DeleteProtection>
       <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
@@ -775,7 +775,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\PWM.vi</Path>
+        <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Speciality IO.vi</Path>
       </Item2Launch>
     </Page>
   </Pages>
