@@ -91,14 +91,14 @@
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="LVFPGAAdvSessionResources.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/LVFPGA Adv Session Resources/LVFPGAAdvSessionResources.lvlib"/>
-				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="Error.Format.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Format.vi"/>
-				<Item Name="Error.Message.Format.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Message.Format.vi"/>
-				<Item Name="Error.Tags.Check.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Tags.Check.vi"/>
+				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
+				<Item Name="Error.Tags.Check.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Tags.Check.vi"/>
+				<Item Name="Error.Message.Format.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Message.Format.vi"/>
+				<Item Name="Error.Format.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Format.vi"/>
+				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -524,20 +524,28 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Async.Engine.Close.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Close.vi"/>
+				<Item Name="Async.Engine.Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Initialize.vi"/>
+				<Item Name="Async.Engine.Read Data from HW.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Read Data from HW.vi"/>
+				<Item Name="Async.Engine.Start.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Start.vi"/>
+				<Item Name="Async.Processes.Report.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Methods/Async.Processes.Report.vi"/>
+				<Item Name="Async.Processes.WaitonStart.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Methods/Async.Processes.WaitonStart.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+				<Item Name="Data Access Engine.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass/Data Access Engine.ctl"/>
+				<Item Name="Data Access Engine.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass"/>
+				<Item Name="Data.Engine.Read Data from HW.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Engine.Read Data from HW.vi"/>
+				<Item Name="Data.Processes.Execute.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Processes.Execute.vi"/>
+				<Item Name="Data.Processes.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Processes.Lookup.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="Error.Format.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Format.vi"/>
-				<Item Name="Error.Message.Format.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Message.Format.vi"/>
-				<Item Name="Error.Tags.Check.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Tags.Check.vi"/>
+				<Item Name="Error.ConvertArray.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.ConvertArray.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
@@ -560,6 +568,11 @@
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Process.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Process.lvclass/Process.ctl"/>
+				<Item Name="Process.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Process.lvclass"/>
+				<Item Name="Read Data Access.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Data Member Access/Read Data Access.vi"/>
+				<Item Name="ReadWrite.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.lvclass/ReadWrite.ctl"/>
+				<Item Name="ReadWrite.EngineData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.EngineData.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -569,8 +582,14 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
+				<Item Name="VS Inline Async API.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass/VS Inline Async API.ctl"/>
+				<Item Name="VS Inline Async API.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.lvclass/Write.ctl"/>
+				<Item Name="Write.Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Data.vi"/>
+				<Item Name="Write.EngineData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.EngineData.vi"/>
+				<Item Name="Write.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Lookup.vi"/>
+				<Item Name="Write.ProcessData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.ProcessData.vi"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -769,20 +788,28 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Async.Engine.Close.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Close.vi"/>
+				<Item Name="Async.Engine.Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Initialize.vi"/>
+				<Item Name="Async.Engine.Read Data from HW.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Read Data from HW.vi"/>
+				<Item Name="Async.Engine.Start.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Start.vi"/>
+				<Item Name="Async.Processes.Report.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Methods/Async.Processes.Report.vi"/>
+				<Item Name="Async.Processes.WaitonStart.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Methods/Async.Processes.WaitonStart.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+				<Item Name="Data Access Engine.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass/Data Access Engine.ctl"/>
+				<Item Name="Data Access Engine.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass"/>
+				<Item Name="Data.Engine.Read Data from HW.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Engine.Read Data from HW.vi"/>
+				<Item Name="Data.Processes.Execute.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Processes.Execute.vi"/>
+				<Item Name="Data.Processes.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Processes.Lookup.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="Error.Format.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Format.vi"/>
-				<Item Name="Error.Message.Format.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Message.Format.vi"/>
-				<Item Name="Error.Tags.Check.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Tags.Check.vi"/>
+				<Item Name="Error.ConvertArray.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.ConvertArray.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
@@ -805,6 +832,11 @@
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Process.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Process.lvclass/Process.ctl"/>
+				<Item Name="Process.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Process.lvclass"/>
+				<Item Name="Read Data Access.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Data Member Access/Read Data Access.vi"/>
+				<Item Name="ReadWrite.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.lvclass/ReadWrite.ctl"/>
+				<Item Name="ReadWrite.EngineData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.EngineData.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -814,8 +846,14 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
+				<Item Name="VS Inline Async API.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass/VS Inline Async API.ctl"/>
+				<Item Name="VS Inline Async API.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.lvclass/Write.ctl"/>
+				<Item Name="Write.Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Data.vi"/>
+				<Item Name="Write.EngineData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.EngineData.vi"/>
+				<Item Name="Write.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Lookup.vi"/>
+				<Item Name="Write.ProcessData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.ProcessData.vi"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1036,20 +1074,28 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Async.Engine.Close.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Close.vi"/>
+				<Item Name="Async.Engine.Initialize.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Initialize.vi"/>
+				<Item Name="Async.Engine.Read Data from HW.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Read Data from HW.vi"/>
+				<Item Name="Async.Engine.Start.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/Methods/Async.Engine.Start.vi"/>
+				<Item Name="Async.Processes.Report.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Methods/Async.Processes.Report.vi"/>
+				<Item Name="Async.Processes.WaitonStart.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Methods/Async.Processes.WaitonStart.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+				<Item Name="Data Access Engine.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass/Data Access Engine.ctl"/>
+				<Item Name="Data Access Engine.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Data Access Engine.lvclass"/>
+				<Item Name="Data.Engine.Read Data from HW.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Engine.Read Data from HW.vi"/>
+				<Item Name="Data.Processes.Execute.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Processes.Execute.vi"/>
+				<Item Name="Data.Processes.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Data.Processes.Lookup.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="Error.Format.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Format.vi"/>
-				<Item Name="Error.Message.Format.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Message.Format.vi"/>
-				<Item Name="Error.Tags.Check.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.Tags.Check.vi"/>
+				<Item Name="Error.ConvertArray.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Error Handling Process/SubVIs/Error.ConvertArray.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
@@ -1072,6 +1118,11 @@
 				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="Process.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Process.lvclass/Process.ctl"/>
+				<Item Name="Process.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Process.lvclass"/>
+				<Item Name="Read Data Access.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/Process/Data Member Access/Read Data Access.vi"/>
+				<Item Name="ReadWrite.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.lvclass/ReadWrite.ctl"/>
+				<Item Name="ReadWrite.EngineData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/ReadWrite/ReadWrite.EngineData.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -1081,8 +1132,14 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
+				<Item Name="VS Inline Async API.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass/VS Inline Async API.ctl"/>
+				<Item Name="VS Inline Async API.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/Inline Async API/_VS Inline Async API/VS Inline Async API/VS Inline Async API.lvclass"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.lvclass/Write.ctl"/>
+				<Item Name="Write.Data.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Data.vi"/>
+				<Item Name="Write.EngineData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.EngineData.vi"/>
+				<Item Name="Write.Lookup.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Data Access Engine/Methods/Write.Lookup.vi"/>
+				<Item Name="Write.ProcessData.vi" Type="VI" URL="/&lt;vilib&gt;/addons/Inline Async API/_Data Access Engine/Access Type Classes/Write/Write.ProcessData.vi"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
