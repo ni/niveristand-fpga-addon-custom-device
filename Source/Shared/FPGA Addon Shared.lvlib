@@ -7,7 +7,7 @@
 		<Item Name="Types" Type="Folder">
 			<Item Name="Compiled.DMASettings.ctl" Type="VI" URL="../Compiled.DMASettings.ctl"/>
 			<Item Name="Compiled.RegisterSettings.ctl" Type="VI" URL="../Compiled.RegisterSettings.ctl"/>
-			<Item Name="Compiled.Settings" Type="VI" URL="../Compiled.Settings"/>
+			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Compiled.Settings.ctl"/>
 			<Item Name="Data Type.ctl" Type="VI" URL="../Data Type.ctl"/>
 			<Item Name="Delacing Scheme.ctl" Type="VI" URL="../Delacing Scheme.ctl"/>
 			<Item Name="DMA Acquisition Mode.ctl" Type="VI" URL="../DMA Acquisition Mode.ctl"/>
