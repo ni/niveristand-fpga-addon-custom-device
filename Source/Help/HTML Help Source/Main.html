@@ -15,7 +15,8 @@
 		<hr width="100%" noshade>
 	</noscript>
 <h1>FPGA Addon</h1>
-<p class="Body">This add-on allows the user to run a FPGA bitfile without needing to implement the VeriStand FPGA Template. It allows the transfer of basic scalar data types:
+<p class="Body">This add-on allows the user to run a FPGA bitfile without needing to implement the VeriStand FPGA Template. The only requirement to the FPGA code is an IRQ (address of 30) to control when the FPGA bitfile starts.</p>
+It allows the transfer of basic scalar data types:
 <ul>
 <li>Bool
 <li>U8
@@ -45,7 +46,6 @@ It also supports special FPGA cores (included in the addon folder) for:
 <li>Analog PWM Measurement (PWM.Measure.Analog.vi)
 <li>Digital PWM Measurement (PWM.Measure.Digital.vi)
 </ul>
-The only requirement to the FPGA code is an IRQ (address of 30) to control when the FPGA bitfile starts.</p>
 <h2>What do you want to do?</h2>
 <h3>Disable the Device</h3> 
 <p>Right click on the custom device and select <strong>Disable</strong>.</p>
