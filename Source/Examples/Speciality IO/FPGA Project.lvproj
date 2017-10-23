@@ -396,16 +396,7 @@ AddOutputFilter chunkFilter
 				<Item Name="vi.lib" Type="Folder">
 					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 				</Item>
-				<Item Name="PWM.Generate.Digital.Settings.ctl" Type="VI" URL="../Types/PWM.Generate.Digital.Settings.ctl"/>
-				<Item Name="PWM.Generate.Digital.vi" Type="VI" URL="../SubVIs/PWM.Generate.Digital.vi"/>
-				<Item Name="PWM.Measure.Analog.Measurement.ctl" Type="VI" URL="../Types/PWM.Measure.Analog.Measurement.ctl"/>
-				<Item Name="PWM.Measure.Analog.Settings.ctl" Type="VI" URL="../Types/PWM.Measure.Analog.Settings.ctl"/>
-				<Item Name="PWM.Measure.Analog.vi" Type="VI" URL="../SubVIs/PWM.Measure.Analog.vi"/>
-				<Item Name="PWM.Measure.Digital.Measurement.ctl" Type="VI" URL="../Types/PWM.Measure.Digital.Measurement.ctl"/>
-				<Item Name="PWM.Measure.Digital.Settings.ctl" Type="VI" URL="../Types/PWM.Measure.Digital.Settings.ctl"/>
-				<Item Name="PWM.Measure.Digital.vi" Type="VI" URL="../SubVIs/PWM.Measure.Digital.vi"/>
-				<Item Name="Sine.Generate.Settings.ctl" Type="VI" URL="../Types/Sine.Generate.Settings.ctl"/>
-				<Item Name="Sine.Generate.vi" Type="VI" URL="../SubVIs/Sine.Generate.vi"/>
+				<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../../../FPGA/Speciality IO/Speciality FPGA IO.lvlib"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="VeriStand Example" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
