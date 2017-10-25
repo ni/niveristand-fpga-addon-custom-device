@@ -29,6 +29,7 @@
 			</Item>
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../SubVIs/EnableDisable Main Page.vi"/>
+				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../ExportConfigurationToFile.vi"/>
 				<Item Name="Switch Scalar Type.vi" Type="VI" URL="../SubVIs/Switch Scalar Type.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
