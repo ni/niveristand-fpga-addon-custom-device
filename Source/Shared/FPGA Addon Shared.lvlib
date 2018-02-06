@@ -4,6 +4,31 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">369131520</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Shared" Type="Folder">
+		<Item Name="Reservations" Type="Folder">
+			<Item Name="Controls" Type="Folder">
+				<Item Name="RM.resourceDirection.ctl" Type="VI" URL="../RM.resourceDirection.ctl"/>
+				<Item Name="RM.resourceType.ctl" Type="VI" URL="../RM.resourceType.ctl"/>
+			</Item>
+			<Item Name="FPGA CD API" Type="Folder">
+				<Item Name="RM.initFPGADevice.vi" Type="VI" URL="../RM.initFPGADevice.vi"/>
+			</Item>
+			<Item Name="Internal API" Type="Folder">
+				<Item Name="deviceReservationDB" Type="Folder">
+					<Item Name="RM.deleteDeviceReservationDB.vi" Type="VI" URL="../RM.deleteDeviceReservationDB.vi"/>
+					<Item Name="RM.getAllDeviceReservationDBs.vi" Type="VI" URL="../RM.getAllDeviceReservationDBs.vi"/>
+					<Item Name="RM.getDeviceReservationDB.vi" Type="VI" URL="../RM.getDeviceReservationDB.vi"/>
+					<Item Name="RM.renameDeviceReservationDB.vi" Type="VI" URL="../../System Explorer/RM.renameDeviceReservationDB.vi"/>
+					<Item Name="RM.setDeviceReservationDB.vi" Type="VI" URL="../RM.setDeviceReservationDB.vi"/>
+				</Item>
+				<Item Name="RM.checkReservation.vi" Type="VI" URL="../RM.checkReservation.vi"/>
+				<Item Name="RM.forceAddReservation.vi" Type="VI" URL="../RM.forceAddReservation.vi"/>
+				<Item Name="RM.forceDeleteReservation.vi" Type="VI" URL="../RM.forceDeleteReservation.vi"/>
+				<Item Name="RM.getReservationList.vi" Type="VI" URL="../RM.getReservationList.vi"/>
+				<Item Name="RM.initDatabase.vi" Type="VI" URL="../RM.initDatabase.vi"/>
+				<Item Name="RM.internalAPITests.vi" Type="VI" URL="../RM.internalAPITests.vi"/>
+			</Item>
+			<Item Name="Other CD API" Type="Folder"/>
+		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Compiled.DMASettings.ctl" Type="VI" URL="../Compiled.DMASettings.ctl"/>
 			<Item Name="Compiled.RegisterSettings.ctl" Type="VI" URL="../Compiled.RegisterSettings.ctl"/>
