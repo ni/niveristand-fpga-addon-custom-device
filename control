@@ -1,0 +1,15 @@
+Package: fpga-add-on-custom-device-{version}
+Version: 3.0.1
+Architecture: windows_x64
+Maintainer: National Instruments <support@ni.com>
+XB-Plugin: file
+Description:  This add-on allows a user to pull an existing FPGA bitfile into NI VeriStand with little or no modification.
+XB-Eula:  
+Priority: standard
+Homepage: http://www.ni.com
+XB-LanguageSupport: en
+XB-UserVisible: yes
+Section: Add-Ons
+XB-DisplayVersion: 3.0.1
+XB-DisplayName: FPGA Add-On Custom Device for VeriStand {version}
+Depends: 

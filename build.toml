@@ -1,0 +1,25 @@
+[archive]
+build_output_dir = 'Built'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\fpga_addon'
+
+[projects.cd]
+path = 'Source\FPGA Addon Custom Device.lvproj'
+
+[[build.steps]]
+name = 'Configuration Library'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Configuration - Release'
+
+[[build.steps]]
+name = 'Engine Libraries'
+type = 'lvBuildSpecAllTargets'
+project = '{cd}'
+build_spec = 'Engine Release'
+
+[package]
+type = 'nipkg'
+name = 'scan-engine-and-ethercat-custom-device-{version}'
+release_version = '4.4.1'
+install_destination = 'documents\National Instruments\NI VeriStand {version}'
