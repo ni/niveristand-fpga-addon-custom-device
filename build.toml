@@ -10,7 +10,7 @@ name = 'Configuration Library'
 type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
-build_spec = 'Configuration - Release'
+build_spec = 'Configuration Release'
 
 [[build.steps]]
 name = 'Engine Libraries'
