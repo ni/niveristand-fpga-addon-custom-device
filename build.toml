@@ -20,6 +20,6 @@ build_spec = 'Engine Release'
 
 [package]
 type = 'nipkg'
-name = 'scan-engine-and-ethercat-custom-device-{version}'
-release_version = '4.4.1'
+name = 'fpga-addon-custom-device-{version}'
+release_version = '3.0.1'
 install_destination = 'documents\National Instruments\NI VeriStand {version}'

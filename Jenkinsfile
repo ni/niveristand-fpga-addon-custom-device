@@ -4,6 +4,4 @@
 
 def lvVersions = ['2017','2016','2015']
 
-List<String> dependencies = ['Scan-Engine-Custom-Device-FXP-LLB', 'Scan-Engine-Custom-Device-Classes']
-
 ni.vsbuild.PipelineExecutor.execute(this, lvVersions, dependencies)
