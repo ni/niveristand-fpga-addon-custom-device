@@ -43,3 +43,9 @@ type = 'nipkg'
 name = 'fpga-addon-custom-device-{veristand_version}'
 dev_xml_path = 'Source\Custom Device FPGA Addon.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
+
+[[release.steps]]
+name = 'Master Release'
+type = 'githubRelease'
+2016_release_branches = ["master",]
+2017_release_branches = ["master",]
