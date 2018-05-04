@@ -1,4 +1,4 @@
-Package: fpga-add-on-custom-device-{veristand_version}
+Package: fpga-addon-{veristand_version}
 Version: {nipkg_version}
 Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
@@ -11,5 +11,5 @@ XB-LanguageSupport: en
 XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: 1.0
-XB-DisplayName: FPGA Add-On Custom Device for VeriStand {veristand_version}
+XB-DisplayName: FPGA Addon for VeriStand {veristand_version}
 Depends: 
