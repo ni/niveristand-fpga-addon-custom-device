@@ -10,6 +10,10 @@
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Close Scalar Refs.vi" Type="VI" URL="../SubVIs/Close Scalar Refs.vi"/>
 		<Item Name="Convert Bitpacked Array.vi" Type="VI" URL="../SubVIs/Convert Bitpacked Array.vi"/>
+		<Item Name="Convert Bitpacked U8 DMA.vi" Type="VI" URL="../SubVIs/Convert Bitpacked U8 DMA.vi"/>
+		<Item Name="Convert Bitpacked U16 DMA.vi" Type="VI" URL="../SubVIs/Convert Bitpacked U16 DMA.vi"/>
+		<Item Name="Convert Bitpacked U32 DMA.vi" Type="VI" URL="../SubVIs/Convert Bitpacked U32 DMA.vi"/>
+		<Item Name="Convert Bitpacked U64 DMA.vi" Type="VI" URL="../SubVIs/Convert Bitpacked U64 DMA.vi"/>
 		<Item Name="Format Bitpacked Array.vi" Type="VI" URL="../SubVIs/Format Bitpacked Array.vi"/>
 		<Item Name="Initialize DMA.vi" Type="VI" URL="../SubVIs/Initialize DMA.vi"/>
 		<Item Name="Initialize Driver.vi" Type="VI" URL="../SubVIs/Initialize Driver.vi"/>
