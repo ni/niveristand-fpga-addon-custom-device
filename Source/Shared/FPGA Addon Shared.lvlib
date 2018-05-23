@@ -25,4 +25,5 @@
 		<Item Name="FPGA Settings.vi" Type="VI" URL="../FPGA Settings.vi"/>
 		<Item Name="Scalar Settings.vi" Type="VI" URL="../Scalar Settings.vi"/>
 	</Item>
+	<Item Name="DMA Information.ctl" Type="VI" URL="../DMA Information.ctl"/>
 </Library>

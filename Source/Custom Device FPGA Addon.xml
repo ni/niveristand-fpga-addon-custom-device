@@ -5,7 +5,7 @@
     <eng>FPGA Addon</eng>
     <loc>FPGA Addon</loc>
   </AddMenu>
-  <Version>3.0.1</Version>
+  <Version>3.0.2</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>-1</MaxOccurrence>
   <MainPageGUID>e80a28c5-621d-4211-b584-b71df509dee0</MainPageGUID>

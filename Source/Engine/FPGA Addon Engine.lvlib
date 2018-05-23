@@ -19,16 +19,17 @@
 		<Item Name="Initialize Scalar Datatypes and Refs.vi" Type="VI" URL="../SubVIs/Initialize Scalar Datatypes and Refs.vi"/>
 		<Item Name="Poll DMA.vi" Type="VI" URL="../SubVIs/Poll DMA.vi"/>
 		<Item Name="Read DMA and Update Waveform.vi" Type="VI" URL="../SubVIs/Read DMA and Update Waveform.vi"/>
+		<Item Name="Read DMA Number of Samples.vi" Type="VI" URL="../SubVIs/Read DMA Number of Samples.vi"/>
 		<Item Name="Read Scalar Data.vi" Type="VI" URL="../SubVIs/Read Scalar Data.vi"/>
 		<Item Name="Set RIO INI Key.vi" Type="VI" URL="../SubVIs/Set RIO INI Key.vi"/>
 		<Item Name="Write DMA.vi" Type="VI" URL="../SubVIs/Write DMA.vi"/>
 		<Item Name="Write Scalar Data.vi" Type="VI" URL="../SubVIs/Write Scalar Data.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="DMA Input Ref.ctl" Type="VI" URL="../Types/DMA Input Ref.ctl"/>
 		<Item Name="DMA Input References.ctl" Type="VI" URL="../Types/DMA Input References.ctl"/>
-		<Item Name="DMA Output Ref.ctl" Type="VI" URL="../Types/DMA Output Ref.ctl"/>
+		<Item Name="DMA Input Refs.ctl" Type="VI" URL="../Types/DMA Input Refs.ctl"/>
 		<Item Name="DMA Output References.ctl" Type="VI" URL="../Types/DMA Output References.ctl"/>
+		<Item Name="DMA Output Refs.ctl" Type="VI" URL="../Types/DMA Output Refs.ctl"/>
 		<Item Name="Register Settings.ctl" Type="VI" URL="../Types/Register Settings.ctl"/>
 		<Item Name="State Variables.ctl" Type="VI" URL="../Types/State Variables.ctl"/>
 		<Item Name="VS Refs.ctl" Type="VI" URL="../Types/VS Refs.ctl"/>
