@@ -181,7 +181,7 @@ AddOutputFilter chunkFilter
 				<Item Name="VeriStand Example.vi" Type="VI" URL="../VeriStand Example.vi">
 					<Property Name="configString.guid" Type="Str">{2ABC9B43-4DC4-4358-B658-0F68C35B5D56}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{7EDDE511-8F5B-4392-A201-77253A4BD08E}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{B2463BE0-5B2D-4D72-8FE2-0CA4B3236B37}resource=/Scan Clock;0;ReadMethodType=bool{E3D7882F-AD8D-444A-9D93-1B5F51E7DB79}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{E6848446-864A-4C9A-8AC4-460E81ADEEB4}resource=/Chassis Temperature;0;ReadMethodType=i16{EC180EE7-70F4-434E-BDA7-468945EB6B45}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8</Property>
-					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\addons\FPGA Addon\Source\FPGA\PWM IP\FPGA Bitfiles\FPGAProject_FPGATarget2_VeriStandExample_3YSE3Qxu2cA.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Addons\FPGA Addon\Source\Examples\Speciality IO\FPGA Bitfiles\FPGAProject_FPGATarget2_VeriStandExample_A1mLINlwYrI.lvbitx</Property>
 				</Item>
 				<Item Name="IP Builder" Type="IP Builder Target">
 					<Item Name="Dependencies" Type="Dependencies"/>
@@ -260,8 +260,8 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/addons/FPGA Addon/Source/FPGA/PWM IP/FPGA Bitfiles/FPGAProject_FPGATarget2_VeriStandExample_3YSE3Qxu2cA.lvbitx</Property>
-						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/FPGAProject_FPGATarget2_VeriStandExample_3YSE3Qxu2cA.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Addons/FPGA Addon/Source/Examples/Speciality IO/FPGA Bitfiles/FPGAProject_FPGATarget2_VeriStandExample_A1mLINlwYrI.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/FPGAProject_FPGATarget2_VeriStandExample_A1mLINlwYrI.lvbitx</Property>
 						<Property Name="ProjectPath" Type="Path">/C/Conti/DET Config/PWMs/FPGA Project.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
@@ -390,7 +390,7 @@ AddOutputFilter chunkFilter
 				<Property Name="BuildSpec" Type="Str">{B888DE23-4668-47A6-947F-E2F6A9445026}</Property>
 				<Property Name="configString.guid" Type="Str">{2ABC9B43-4DC4-4358-B658-0F68C35B5D56}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{7EDDE511-8F5B-4392-A201-77253A4BD08E}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{B2463BE0-5B2D-4D72-8FE2-0CA4B3236B37}resource=/Scan Clock;0;ReadMethodType=bool{E3D7882F-AD8D-444A-9D93-1B5F51E7DB79}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{E6848446-864A-4C9A-8AC4-460E81ADEEB4}resource=/Chassis Temperature;0;ReadMethodType=i16{EC180EE7-70F4-434E-BDA7-468945EB6B45}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
 				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8</Property>
-				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\addons\FPGA Addon\Source\FPGA\PWM IP\FPGA Bitfiles\FPGAProject_FPGATarget_VeriStandExample_6POWURmDR-U.lvbitx</Property>
+				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Addons\FPGA Addon\Source\Examples\Speciality IO\FPGA Bitfiles\FPGAProject_FPGATarget_VeriStandExample_LYuq9GMc36U.lvbitx</Property>
 			</Item>
 			<Item Name="Dependencies" Type="Dependencies">
 				<Item Name="vi.lib" Type="Folder">
@@ -427,8 +427,8 @@ AddOutputFilter chunkFilter
 					<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 					<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 					<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/addons/FPGA Addon/Source/FPGA/PWM IP/FPGA Bitfiles/FPGAProject_FPGATarget_VeriStandExample_6POWURmDR-U.lvbitx</Property>
-					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/FPGAProject_FPGATarget_VeriStandExample_6POWURmDR-U.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Addons/FPGA Addon/Source/Examples/Speciality IO/FPGA Bitfiles/FPGAProject_FPGATarget_VeriStandExample_LYuq9GMc36U.lvbitx</Property>
+					<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/FPGAProject_FPGATarget_VeriStandExample_LYuq9GMc36U.lvbitx</Property>
 					<Property Name="ProjectPath" Type="Path">/C/addons/FPGA Addon/Source/FPGA/PWM IP/FPGA Project.lvproj</Property>
 					<Property Name="RelativePath" Type="Bool">true</Property>
 					<Property Name="RunWhenLoaded" Type="Bool">false</Property>

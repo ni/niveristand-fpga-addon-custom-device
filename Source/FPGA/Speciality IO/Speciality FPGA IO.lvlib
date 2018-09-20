@@ -9,6 +9,8 @@
 		<Item Name="PWM.Measure.Analog.vi" Type="VI" URL="../SubVIs/PWM.Measure.Analog.vi"/>
 		<Item Name="PWM.Measure.Digital.vi" Type="VI" URL="../SubVIs/PWM.Measure.Digital.vi"/>
 		<Item Name="Sine.Generate.vi" Type="VI" URL="../SubVIs/Sine.Generate.vi"/>
+		<Item Name="Static.Generate.Digital.vi" Type="VI" URL="../SubVIs/Static.Generate.Digital.vi"/>
+		<Item Name="Static.Measure.Digital.vi" Type="VI" URL="../SubVIs/Static.Measure.Digital.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="PWM.Generate.Digital.Convert.Settings.ctl" Type="VI" URL="../Types/PWM.Generate.Digital.Convert.Settings.ctl"/>
@@ -24,6 +26,9 @@
 		<Item Name="PWM.Measure.Digital.Settings.ctl" Type="VI" URL="../Types/PWM.Measure.Digital.Settings.ctl"/>
 		<Item Name="Sine.Generate.Convert.Settings.ctl" Type="VI" URL="../Types/Sine.Generate.Convert.Settings.ctl"/>
 		<Item Name="Sine.Generate.Settings.ctl" Type="VI" URL="../Types/Sine.Generate.Settings.ctl"/>
+		<Item Name="Static.Generate.Digital.Settings.ctl" Type="VI" URL="../Types/Static.Generate.Digital.Settings.ctl"/>
+		<Item Name="Static.Measure.Digital.Measurement.ctl" Type="VI" URL="../Types/Static.Measure.Digital.Measurement.ctl"/>
+		<Item Name="Static.Measure.Digital.Settings.ctl" Type="VI" URL="../Types/Static.Measure.Digital.Settings.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="PWM.Generate.Digital.Convert.vi" Type="VI" URL="../Utilities/PWM.Generate.Digital.Convert.vi"/>
