@@ -29,6 +29,7 @@
 		<Item Name="Static.Generate.Digital.Settings.ctl" Type="VI" URL="../Types/Static.Generate.Digital.Settings.ctl"/>
 		<Item Name="Static.Measure.Digital.Measurement.ctl" Type="VI" URL="../Types/Static.Measure.Digital.Measurement.ctl"/>
 		<Item Name="Static.Measure.Digital.Settings.ctl" Type="VI" URL="../Types/Static.Measure.Digital.Settings.ctl"/>
+		<Item Name="WSS.Generate.Digital.Convert.Settings.ctl" Type="VI" URL="../Types/WSS.Generate.Digital.Convert.Settings.ctl"/>
 		<Item Name="WSS.Generate.Digital.Settings.ctl" Type="VI" URL="../Types/WSS.Generate.Digital.Settings.ctl"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
