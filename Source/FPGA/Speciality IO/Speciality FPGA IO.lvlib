@@ -11,8 +11,10 @@
 		<Item Name="Sine.Generate.vi" Type="VI" URL="../SubVIs/Sine.Generate.vi"/>
 		<Item Name="Static.Generate.Digital.vi" Type="VI" URL="../SubVIs/Static.Generate.Digital.vi"/>
 		<Item Name="Static.Measure.Digital.vi" Type="VI" URL="../SubVIs/Static.Measure.Digital.vi"/>
+		<Item Name="WSS.Generate.Digital.vi" Type="VI" URL="../SubVIs/WSS.Generate.Digital.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
+		<Item Name="Protocol State.ctl" Type="VI" URL="../Types/Protocol State.ctl"/>
 		<Item Name="PWM.Generate.Digital.Convert.Settings.ctl" Type="VI" URL="../Types/PWM.Generate.Digital.Convert.Settings.ctl"/>
 		<Item Name="PWM.Generate.Digital.Internal.ctl" Type="VI" URL="../Types/PWM.Generate.Digital.Internal.ctl"/>
 		<Item Name="PWM.Generate.Digital.Settings.ctl" Type="VI" URL="../Types/PWM.Generate.Digital.Settings.ctl"/>
@@ -36,6 +38,8 @@
 		<Item Name="PWM.Generate.Digital.Convert.vi" Type="VI" URL="../Utilities/PWM.Generate.Digital.Convert.vi"/>
 		<Item Name="PWM.Measure.Analog.Convert.vi" Type="VI" URL="../Utilities/PWM.Measure.Analog.Convert.vi"/>
 		<Item Name="PWM.Measure.Digital.Convert.vi" Type="VI" URL="../Utilities/PWM.Measure.Digital.Convert.vi"/>
+		<Item Name="Send Speed Message_Bosch.vi" Type="VI" URL="../Utilities/Send Speed Message_Bosch.vi"/>
+		<Item Name="Send Speed Message_Conti.vi" Type="VI" URL="../Utilities/Send Speed Message_Conti.vi"/>
 		<Item Name="Sine.Generate.Convert.vi" Type="VI" URL="../Utilities/Sine.Generate.Convert.vi"/>
 	</Item>
 </Library>
