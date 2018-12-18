@@ -28,6 +28,7 @@
 		<Item Name="Set RIO INI Key.vi" Type="VI" URL="../SubVIs/Set RIO INI Key.vi"/>
 		<Item Name="Write DMA.vi" Type="VI" URL="../SubVIs/Write DMA.vi"/>
 		<Item Name="Write Scalar Data.vi" Type="VI" URL="../SubVIs/Write Scalar Data.vi"/>
+		<Item Name="WSS_Data_Conversion.vi" Type="VI" URL="../SubVIs/WSS_Data_Conversion.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="DMA Input References.ctl" Type="VI" URL="../Types/DMA Input References.ctl"/>
