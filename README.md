@@ -47,6 +47,8 @@ VeriStand Addon System Definition Utilities (https://github.com/NIVeriStandAdd-O
 
 HTML Help File Tools (https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools)
 
+VeriStand Import and Export Tools (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-CD-Import-and-Export-Tool)
+
 ### License ###
 Copyright 2018 National Instruments
 
