@@ -43,6 +43,8 @@ VeriStand Addon Inline Async API (https://github.com/NIVeriStandAdd-Ons/VeriStan
 
 VeriStand Addon Hardware Resource Discovery (https://github.com/NIVeriStandAdd-Ons/Hardware-Resource-Discovery)
 
+VeriStand Addon System Definition Utilities (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities)
+
 HTML Help File Tools (https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools)
 
 ### License ###
