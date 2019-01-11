@@ -30,6 +30,7 @@
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../SubVIs/EnableDisable Main Page.vi"/>
 				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../ExportConfigurationToFile.vi"/>
+				<Item Name="Import DMA Channels RTM.vi" Type="VI" URL="../Import DMA Channels RTM.vi"/>
 				<Item Name="Switch Scalar Type.vi" Type="VI" URL="../SubVIs/Switch Scalar Type.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
@@ -39,12 +40,15 @@
 			<Item Name="Add Bitfile Dependancy.vi" Type="VI" URL="../SubVIs/Add Bitfile Dependancy.vi"/>
 			<Item Name="Add FPGA Sections.vi" Type="VI" URL="../SubVIs/Add FPGA Sections.vi"/>
 			<Item Name="Add Item.vi" Type="VI" URL="../SubVIs/Add Item.vi"/>
+			<Item Name="Create DMA Channel.vi" Type="VI" URL="../SubVIs/Create DMA Channel.vi"/>
+			<Item Name="Delete DMA Channels.vi" Type="VI" URL="../Delete DMA Channels.vi"/>
 			<Item Name="Determine Listbox Values.vi" Type="VI" URL="../SubVIs/Determine Listbox Values.vi"/>
 			<Item Name="Enable Disable Add Remove buttons.vi" Type="VI" URL="../SubVIs/Enable Disable Add Remove buttons.vi"/>
 			<Item Name="Get Bitfile Object Name.vi" Type="VI" URL="../SubVIs/Get Bitfile Object Name.vi"/>
 			<Item Name="Get Cluster Element Names.vi" Type="VI" URL="../SubVIs/Get Cluster Element Names.vi"/>
 			<Item Name="Get Input DMA Refs.vi" Type="VI" URL="../SubVIs/Get Input DMA Refs.vi"/>
 			<Item Name="Get Output DMA Refs.vi" Type="VI" URL="../SubVIs/Get Output DMA Refs.vi"/>
+			<Item Name="Get Parent and DMA Type.vi" Type="VI" URL="../SubVIs/Get Parent and DMA Type.vi"/>
 			<Item Name="Get Scalar Datatypes and Refs.vi" Type="VI" URL="../SubVIs/Get Scalar Datatypes and Refs.vi"/>
 			<Item Name="Get Write Data to VS Channel Refs.vi" Type="VI" URL="../SubVIs/Get Write Data to VS Channel Refs.vi"/>
 			<Item Name="Initialize Listbox.vi" Type="VI" URL="../SubVIs/Initialize Listbox.vi"/>

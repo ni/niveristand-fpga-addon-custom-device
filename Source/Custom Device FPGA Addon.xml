@@ -512,7 +512,31 @@
 		    <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\DMA Channel.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
-        <MenuItem>
+         <MenuItem>
+            <GUID>345ad323-e622-4d27-9f97-b3d588c29827</GUID>
+            <Type>Action</Type>
+            <Name>
+              <eng>Import DMA Channels</eng>
+              <loc>Import DMA Channels</loc>
+            </Name>
+            <Item2Launch>
+              <Type>To Common Doc Dir</Type>
+              <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Import DMA Channels RTM.vi</Path>
+            </Item2Launch>
+          </MenuItem>
+          <MenuItem>
+            <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+            <Type>Separator</Type>
+            <Name>
+              <eng>.</eng>
+              <loc>.</loc>
+            </Name>
+            <Item2Launch>
+              <Type>Absolute</Type>
+              <Path>.</Path>
+            </Item2Launch>
+          </MenuItem>
+          <MenuItem>
           <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
           <Type>VI</Type>
           <MinNrOfChilds>1</MinNrOfChilds>
@@ -526,6 +550,33 @@
           </Item2Launch>
         </MenuItem>
       </RunTimeMenu>
+    <ButtonList>
+        <Button>
+          <ID>Import DMA Channels</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\NI-XNET ImportXNETFrames.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>345ad323-e622-4d27-9f97-b3d588c29827</ReferencedGUID>
+          <ButtonText>
+            <eng>Import DMA Channels</eng>
+            <loc>Import DMA Channels</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Import DMA Channels</eng>
+            <loc>Import DMA Channels</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Import DMA Channels</eng>
+            <loc>Import DMA Channels</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+    </ButtonList>
     </Page>
     <Page>
       <Name>
