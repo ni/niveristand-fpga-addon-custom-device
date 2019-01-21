@@ -12,7 +12,11 @@ https://github.com/NIVeriStandAdd-Ons/Inline-Async-API
 
 ### Built Availability ###
 
-Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales. 
+https://github.com/NIVeriStandAdd-Ons/FPGA-Custom-Device/releases
+
+### Built Dependencies ###
+
+NI RIO 14.0 or later
 
 ### Quality, Limitations ###
 
@@ -31,7 +35,7 @@ Addon only supports reading and writing FPGA indicators and controls with basic 
 
 Addon only supports reading and writing DMA of SGL data type.
 
-### Dependencies ###
+### Source Dependencies ###
 
 NI RIO 14.0 or later
 
