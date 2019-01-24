@@ -13,7 +13,7 @@
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 		</Item>
-		<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../FPGA/Speciality IO/Speciality FPGA IO.lvlib"/>
+		<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../SubModules/FPGA Addon Speciality IO/Source/Speciality FPGA IO.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>

@@ -41,9 +41,11 @@
 			<Item Name="Add FPGA Sections.vi" Type="VI" URL="../SubVIs/Add FPGA Sections.vi"/>
 			<Item Name="Add Item.vi" Type="VI" URL="../SubVIs/Add Item.vi"/>
 			<Item Name="Create DMA Channel.vi" Type="VI" URL="../SubVIs/Create DMA Channel.vi"/>
+			<Item Name="Create Workspace Ring Channel.vi" Type="VI" URL="../SubVIs/Create Workspace Ring Channel.vi"/>
 			<Item Name="Delete DMA Channels.vi" Type="VI" URL="../Delete DMA Channels.vi"/>
 			<Item Name="Determine Listbox Values.vi" Type="VI" URL="../SubVIs/Determine Listbox Values.vi"/>
 			<Item Name="Enable Disable Add Remove buttons.vi" Type="VI" URL="../SubVIs/Enable Disable Add Remove buttons.vi"/>
+			<Item Name="Enum.ConvertToDescription.vi" Type="VI" URL="../SubVIs/Enum.ConvertToDescription.vi"/>
 			<Item Name="Get Bitfile Object Name.vi" Type="VI" URL="../SubVIs/Get Bitfile Object Name.vi"/>
 			<Item Name="Get Cluster Element Names.vi" Type="VI" URL="../SubVIs/Get Cluster Element Names.vi"/>
 			<Item Name="Get Input DMA Refs.vi" Type="VI" URL="../SubVIs/Get Input DMA Refs.vi"/>
