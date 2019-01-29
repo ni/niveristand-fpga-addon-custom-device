@@ -187,11 +187,32 @@ AddOutputFilter chunkFilter
 					<Item Name="Dependencies" Type="Dependencies"/>
 					<Item Name="Build Specifications" Type="Build"/>
 				</Item>
-				<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../../../FPGA/Speciality IO/Speciality FPGA IO.lvlib"/>
+				<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../../../../../VeriStand FPGA Generation Wizard/Source/SubModules/FPGA Addon Speciality IO/Source/Speciality FPGA IO.lvlib"/>
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
+					<Item Name="PWM.Measure.Digital.Measurement.ctl" Type="VI" URL="../../../FPGA/Speciality IO/Types/PWM.Measure.Digital.Measurement.ctl"/>
+					<Item Name="PWM.Measure.Digital.Result.ctl" Type="VI" URL="../../../FPGA/Speciality IO/Types/PWM.Measure.Digital.Result.ctl"/>
+					<Item Name="PWM.Generate.Digital.Convert.Settings.ctl" Type="VI" URL="../../../FPGA/Speciality IO/Types/PWM.Generate.Digital.Convert.Settings.ctl"/>
+					<Item Name="PWM.Generate.Digital.Settings.ctl" Type="VI" URL="../../../FPGA/Speciality IO/Types/PWM.Generate.Digital.Settings.ctl"/>
+					<Item Name="PWM.Measure.Analog.Measurement.ctl" Type="VI" URL="../../../FPGA/Speciality IO/Types/PWM.Measure.Analog.Measurement.ctl"/>
+					<Item Name="PWM.Measure.Analog.Result.ctl" Type="VI" URL="../../../FPGA/Speciality IO/Types/PWM.Measure.Analog.Result.ctl"/>
+					<Item Name="PWM.Measure.Digital.Settings.ctl" Type="VI" URL="../../../FPGA/Speciality IO/Types/PWM.Measure.Digital.Settings.ctl"/>
+					<Item Name="PWM.Measure.Analog.Settings.ctl" Type="VI" URL="../../../FPGA/Speciality IO/Types/PWM.Measure.Analog.Settings.ctl"/>
+					<Item Name="Sine.Generate.Settings.ctl" Type="VI" URL="../../../FPGA/Speciality IO/Types/Sine.Generate.Settings.ctl"/>
+					<Item Name="Sine.Generate.Convert.Settings.ctl" Type="VI" URL="../../../FPGA/Speciality IO/Types/Sine.Generate.Convert.Settings.ctl"/>
+					<Item Name="PWM.Measure.Digital.Convert.vi" Type="VI" URL="../../../FPGA/Speciality IO/Utilities/PWM.Measure.Digital.Convert.vi"/>
+					<Item Name="PWM.Measure.Analog.Convert.vi" Type="VI" URL="../../../FPGA/Speciality IO/Utilities/PWM.Measure.Analog.Convert.vi"/>
+					<Item Name="PWM.Generate.Digital.Convert.vi" Type="VI" URL="../../../FPGA/Speciality IO/Utilities/PWM.Generate.Digital.Convert.vi"/>
+					<Item Name="Sine.Generate.Convert.vi" Type="VI" URL="../../../FPGA/Speciality IO/Utilities/Sine.Generate.Convert.vi"/>
+					<Item Name="Sine.Generate.vi" Type="VI" URL="../../../FPGA/Speciality IO/SubVIs/Sine.Generate.vi"/>
+					<Item Name="PWM.Measure.Analog.vi" Type="VI" URL="../../../FPGA/Speciality IO/SubVIs/PWM.Measure.Analog.vi"/>
+					<Item Name="PWM.Generate.Digital.vi" Type="VI" URL="../../../FPGA/Speciality IO/SubVIs/PWM.Generate.Digital.vi"/>
+					<Item Name="PWM.Measure.Digital.vi" Type="VI" URL="../../../FPGA/Speciality IO/SubVIs/PWM.Measure.Digital.vi"/>
+					<Item Name="QuadratureEncoder.Measure.Digital.Measurement.ctl" Type="VI" URL="../../../../../VeriStand FPGA Generation Wizard/Source/SubModules/FPGA Addon Speciality IO/Source/Types/QuadratureEncoder.Measure.Digital.Measurement.ctl"/>
+					<Item Name="QuadratureEncoder.Measure.Digital.Settings.ctl" Type="VI" URL="../../../../../VeriStand FPGA Generation Wizard/Source/SubModules/FPGA Addon Speciality IO/Source/Types/QuadratureEncoder.Measure.Digital.Settings.ctl"/>
+					<Item Name="QuadratureEncoder.Measure.Digital.vi" Type="VI" URL="../../../../../VeriStand FPGA Generation Wizard/Source/SubModules/FPGA Addon Speciality IO/Source/SubVIs/QuadratureEncoder.Measure.Digital.vi"/>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
 					<Item Name="Example" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -393,10 +414,10 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Addons\FPGA Addon\Source\Examples\Speciality IO\FPGA Bitfiles\FPGAProject_FPGATarget_VeriStandExample_LYuq9GMc36U.lvbitx</Property>
 			</Item>
 			<Item Name="Dependencies" Type="Dependencies">
-				<Item Name="vi.lib" Type="Folder">
-					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
-				</Item>
-				<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../../../FPGA/Speciality IO/Speciality FPGA IO.lvlib"/>
+				<Item Name="QuadratureEncoder.Measure.Digital.Measurement.ctl" Type="VI" URL="../../../../../VeriStand FPGA Generation Wizard/Source/SubModules/FPGA Addon Speciality IO/Source/Types/QuadratureEncoder.Measure.Digital.Measurement.ctl"/>
+				<Item Name="QuadratureEncoder.Measure.Digital.Settings.ctl" Type="VI" URL="../../../../../VeriStand FPGA Generation Wizard/Source/SubModules/FPGA Addon Speciality IO/Source/Types/QuadratureEncoder.Measure.Digital.Settings.ctl"/>
+				<Item Name="QuadratureEncoder.Measure.Digital.vi" Type="VI" URL="../../../../../VeriStand FPGA Generation Wizard/Source/SubModules/FPGA Addon Speciality IO/Source/SubVIs/QuadratureEncoder.Measure.Digital.vi"/>
+				<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../../../../../VeriStand FPGA Generation Wizard/Source/SubModules/FPGA Addon Speciality IO/Source/Speciality FPGA IO.lvlib"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="VeriStand Example" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
