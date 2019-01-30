@@ -142,8 +142,6 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="QuadratureEncoder.Measure.Digital.Measurement.ctl" Type="VI" URL="../../../VeriStand FPGA Generation Wizard/Source/SubModules/FPGA Addon Speciality IO/Source/Types/QuadratureEncoder.Measure.Digital.Measurement.ctl"/>
-			<Item Name="QuadratureEncoder.Measure.Digital.Settings.ctl" Type="VI" URL="../../../VeriStand FPGA Generation Wizard/Source/SubModules/FPGA Addon Speciality IO/Source/Types/QuadratureEncoder.Measure.Digital.Settings.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -617,7 +615,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{40347456-3130-4631-A31F-8B2F0130D69C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/FPGA Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">62</Property>
+				<Property Name="Bld_version.build" Type="Int">63</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/FPGA Addon Engine Pharlap.llb</Property>
