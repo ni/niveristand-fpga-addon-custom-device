@@ -21,9 +21,12 @@
 <ul>
 <li>PWM Generation (PWM.Generate.Digital.vi)
 <li>Sinewave Generation (Sine.Generate.vi)
+<li>Digital Static Generation (Static.Generate.Digital.vi)
 <li>Analog PWM Measurement (PWM.Measure.Analog.vi)
 <li>Digital PWM Measurement (PWM.Measure.Digital.vi)
-<li>Wheel Speed Sensor Generation (WSS.Generate.Digital.vi)
+<li>Digital Static Measurement (Static.Measure.Digital.vi)
+<li>Digital Wheel Speed Sensor Simulation (WSS.Generate.Digital.vi)
+<li>Quadrature Encoder Measurement (QuadratureEncoder.Measure.Digital.vi)
 </ul>
 </p>
 <h3>PWM Generation</h3> 
@@ -88,7 +91,7 @@ Allows user to output a digital pattern to simulate Wheel Speed Sensors. Paramet
 <h3>Quadrature Encoder Measurement</h3>
 Allows user to measure position using a digital quadrature encoder. Parameters are:
 <ul>
-<li>Direction: 0 = B leads A, 1 = A leads B
+<li>Direction: 0 = Increments on A leads B, 1 = Increments on B leads A
 <li>Reset Value: The value to reset the position to once the encoder index is found.
 <li>Reset A State: The state the A signal must be at for a reset to occur.
 <li>Reset B State: The state the B signal must be at for a reset to occur.

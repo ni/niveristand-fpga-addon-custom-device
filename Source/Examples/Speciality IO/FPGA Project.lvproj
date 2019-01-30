@@ -414,6 +414,10 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Addons\FPGA Addon\Source\Examples\Speciality IO\FPGA Bitfiles\FPGAProject_FPGATarget_VeriStandExample_LYuq9GMc36U.lvbitx</Property>
 			</Item>
 			<Item Name="Dependencies" Type="Dependencies">
+				<Item Name="vi.lib" Type="Folder">
+					<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+				</Item>
+				<Item Name="Quad Encoder In - FPGA.vi" Type="VI" URL="../../../../../../Users/Administrator/Desktop/QuadEncoder/FPGA VIs/SubVIs/Quad Encoder In - FPGA.vi"/>
 				<Item Name="QuadratureEncoder.Measure.Digital.Measurement.ctl" Type="VI" URL="../../../../../VeriStand FPGA Generation Wizard/Source/SubModules/FPGA Addon Speciality IO/Source/Types/QuadratureEncoder.Measure.Digital.Measurement.ctl"/>
 				<Item Name="QuadratureEncoder.Measure.Digital.Settings.ctl" Type="VI" URL="../../../../../VeriStand FPGA Generation Wizard/Source/SubModules/FPGA Addon Speciality IO/Source/Types/QuadratureEncoder.Measure.Digital.Settings.ctl"/>
 				<Item Name="QuadratureEncoder.Measure.Digital.vi" Type="VI" URL="../../../../../VeriStand FPGA Generation Wizard/Source/SubModules/FPGA Addon Speciality IO/Source/SubVIs/QuadratureEncoder.Measure.Digital.vi"/>
