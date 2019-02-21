@@ -21,9 +21,9 @@
 		<Item Name="Available DMA FG.vi" Type="VI" URL="../Available DMA FG.vi"/>
 		<Item Name="Available Registers FG.vi" Type="VI" URL="../Available Registers FG.vi"/>
 		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
+		<Item Name="DMA Information.ctl" Type="VI" URL="../DMA Information.ctl"/>
 		<Item Name="DMA Settings.vi" Type="VI" URL="../DMA Settings.vi"/>
 		<Item Name="FPGA Settings.vi" Type="VI" URL="../FPGA Settings.vi"/>
 		<Item Name="Scalar Settings.vi" Type="VI" URL="../Scalar Settings.vi"/>
 	</Item>
-	<Item Name="DMA Information.ctl" Type="VI" URL="../DMA Information.ctl"/>
 </Library>
