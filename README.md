@@ -40,7 +40,7 @@ LabVIEW FPGA Advanced Session Resources (https://decibel.ni.com/content/docs/DOC
 
 OpenG LabVIEW Data Library 4.2.0.21 or later
 
-VeriStand Addon Inline Async API (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Inline-Async-API)
+VeriStand Addon Inline Async API (https://github.com/ni/niveristand-custom-device-inline-async-api)
 
 VeriStand Addon Hardware Resource Discovery (https://github.com/NIVeriStandAdd-Ons/Hardware-Resource-Discovery)
 
