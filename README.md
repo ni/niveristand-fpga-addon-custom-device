@@ -5,7 +5,7 @@ The FPGA addon allows a user to pull an existing FPGA bitfile into NI VeriStand 
 
 ### LabVIEW Version ###
 
-LabVIEW 2015.
+LabVIEW 2019.
 
 ### Built Availability ###
 
@@ -13,7 +13,7 @@ https://github.com/NIVeriStandAdd-Ons/FPGA-Custom-Device/releases
 
 ### Built Dependencies ###
 
-NI RIO 14.0 or later
+NI RIO 19.0 or later
 
 ### Quality, Limitations ###
 
@@ -34,7 +34,7 @@ Addon only supports reading and writing DMA of SGL data type.
 
 ### Source Dependencies ###
 
-NI RIO 14.0 or later
+NI RIO 19.0 or later
 
 LabVIEW FPGA Advanced Session Resources (https://decibel.ni.com/content/docs/DOC-35574)
 
