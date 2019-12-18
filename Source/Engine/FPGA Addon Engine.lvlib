@@ -16,6 +16,7 @@
 		<Item Name="Convert Bitpacked U32 DMA.vi" Type="VI" URL="../SubVIs/Convert Bitpacked U32 DMA.vi"/>
 		<Item Name="Convert Bitpacked U64 DMA.vi" Type="VI" URL="../SubVIs/Convert Bitpacked U64 DMA.vi"/>
 		<Item Name="Format Bitpacked Array.vi" Type="VI" URL="../SubVIs/Format Bitpacked Array.vi"/>
+		<Item Name="Format Debug String.vi" Type="VI" URL="../SubVIs/Format Debug String.vi"/>
 		<Item Name="Initialize DMA.vi" Type="VI" URL="../SubVIs/Initialize DMA.vi"/>
 		<Item Name="Initialize Driver.vi" Type="VI" URL="../SubVIs/Initialize Driver.vi"/>
 		<Item Name="Initialize Input DMA Refs.vi" Type="VI" URL="../SubVIs/Initialize Input DMA Refs.vi"/>
