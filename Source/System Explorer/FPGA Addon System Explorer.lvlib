@@ -41,6 +41,7 @@
 			<Item Name="Add Bitfile Dependancy.vi" Type="VI" URL="../SubVIs/Add Bitfile Dependancy.vi"/>
 			<Item Name="Add FPGA Sections.vi" Type="VI" URL="../SubVIs/Add FPGA Sections.vi"/>
 			<Item Name="Add Item.vi" Type="VI" URL="../SubVIs/Add Item.vi"/>
+			<Item Name="Convert Error Cluster to Table.vi" Type="VI" URL="../SubVIs/Convert Error Cluster to Table.vi"/>
 			<Item Name="Create DMA Channel.vi" Type="VI" URL="../SubVIs/Create DMA Channel.vi"/>
 			<Item Name="Create Workspace Ring Channel.vi" Type="VI" URL="../SubVIs/Create Workspace Ring Channel.vi"/>
 			<Item Name="Delete DMA Channels.vi" Type="VI" URL="../Delete DMA Channels.vi"/>
