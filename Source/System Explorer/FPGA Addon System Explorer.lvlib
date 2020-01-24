@@ -59,6 +59,7 @@
 			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
 			<Item Name="Load New Bitfile.vi" Type="VI" URL="../Load New Bitfile.vi"/>
 			<Item Name="Parse FPGA Bitfile.vi" Type="VI" URL="../SubVIs/Parse FPGA Bitfile.vi"/>
+			<Item Name="Prompt User for Init Type.vi" Type="VI" URL="../SubVIs/Prompt User for Init Type.vi"/>
 			<Item Name="Remove FPGA Sections.vi" Type="VI" URL="../SubVIs/Remove FPGA Sections.vi"/>
 			<Item Name="Remove Item.vi" Type="VI" URL="../SubVIs/Remove Item.vi"/>
 			<Item Name="Set Bitfile Object Name.vi" Type="VI" URL="../SubVIs/Set Bitfile Object Name.vi"/>

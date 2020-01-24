@@ -26,5 +26,6 @@
 		<Item Name="DMA Settings.vi" Type="VI" URL="../DMA Settings.vi"/>
 		<Item Name="FPGA Settings.vi" Type="VI" URL="../FPGA Settings.vi"/>
 		<Item Name="Scalar Settings.vi" Type="VI" URL="../Scalar Settings.vi"/>
+		<Item Name="Upgrade Addon to Latest Version.vi" Type="VI" URL="../Upgrade Addon to Latest Version.vi"/>
 	</Item>
 </Library>
