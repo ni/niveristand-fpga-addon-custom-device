@@ -11,7 +11,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Utilities" Type="Folder">
-			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
+			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utilities/Copy .LLB to NI VeriStand dir.vi"/>
 		</Item>
 		<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../SubModules/FPGA Addon Speciality IO/Source/Speciality FPGA IO.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -51,7 +51,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/FPGA Addon/FPGA IP/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9F691B02-0132-4CEB-98CD-2D469CFFA069}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{201706BE-0F65-47BB-86F4-D0EA7821BFEC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Speciality FPGA IO.lvlib</Property>

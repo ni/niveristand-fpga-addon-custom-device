@@ -22,24 +22,24 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utilities/Copy .LLB to NI VeriStand dir.vi"/>
+			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utilities/LLB Pre-Build CHM Build.vi"/>
 		</Item>
-		<Item Name="Utility" Type="Folder">
-			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
-			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
+		<Item Name="Addon" Type="Folder">
+			<Item Name="Support Files" Type="Folder">
+				<Item Name="Help" Type="Folder" URL="../Addon/Support Files/Help">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
+				</Item>
+				<Item Name="Import File Formats" Type="Folder" URL="../Addon/Support Files/Import File Formats">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
+				</Item>
+			</Item>
+			<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/FPGA Addon Engine.lvlib"/>
+			<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
+			<Item Name="FPGA Addon System Explorer.lvlib" Type="Library" URL="../Addon/Addon System Explorer/FPGA Addon System Explorer.lvlib"/>
+			<Item Name="Custom Device FPGA Addon.xml" Type="Document" URL="../Addon/Custom Device FPGA Addon.xml"/>
 		</Item>
-		<Item Name="Support Files" Type="Folder">
-			<Item Name="Custom Device FPGA Addon.xml" Type="Document" URL="../Custom Device FPGA Addon.xml"/>
-		</Item>
-		<Item Name="Help" Type="Folder" URL="../Help">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Engine/FPGA Addon Engine.lvlib"/>
-		<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Shared/FPGA Addon Shared.lvlib"/>
-		<Item Name="FPGA Addon System Explorer.lvlib" Type="Library" URL="../System Explorer/FPGA Addon System Explorer.lvlib"/>
-		<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../SubModules/FPGA Addon Speciality IO/Source/Speciality FPGA IO.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
@@ -99,7 +99,6 @@
 				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
 				<Item Name="NI_VS UI Single Node Browser.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/UI Controls/Single Node Browser/NI_VS UI Single Node Browser.lvlib"/>
-				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -128,6 +127,8 @@
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NIVS Hardware Discovery.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Hardware Resource Discovery/NIVS Hardware Discovery.lvlib"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -154,6 +155,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../SubModules/FPGA Addon Speciality IO/Source/Speciality FPGA IO.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -164,8 +166,8 @@
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/FPGA Addon/Windows</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/LLB Pre-Build CHM Build.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utilities/LLB Pre-Build CHM Build.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
@@ -177,18 +179,33 @@
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">XML Location</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/FPGA Addon</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{071B1310-54E4-4664-9E89-FC3D23FAE999}</Property>
+				<Property Name="Destination[4].destName" Type="Str">Import File Formats</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Custom Devices/FPGA Addon/Windows/Import File Formats</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C264217B-C0E4-4A6D-9940-F08A77769E6E}</Property>
+				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[0].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Support Files/Custom Device FPGA Addon.xml</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Addon/Custom Device FPGA Addon.xml</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/FPGA Addon System Explorer.lvlib/System Explorer</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Addon/FPGA Addon System Explorer.lvlib/System Explorer</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
@@ -202,11 +219,13 @@
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Addon/FPGA Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
@@ -217,30 +236,20 @@
 				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/FPGA Addon Shared.lvlib/Shared</Property>
-				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/FPGA Addon Shared.lvlib</Property>
-				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[5].type" Type="Str">Library</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Help/FPGA Addon.chm</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/FPGA Addon Shared.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/FPGA Addon.chm</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Addon/Support Files/Import File Formats</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -248,19 +257,19 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/FPGA Addon/Windows/FPGA Addon Engine.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/FPGA Addon/Windows/FPGA Addon Engine Windows.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{32214451-43E2-4D3E-92C8-CE819321FAC4}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/FPGA Addon/Windows/FPGA Addon Engine.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/FPGA Addon/Windows/FPGA Addon Engine Windows.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/FPGA Addon/Windows/Data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E3E68F24-E871-4C2B-AAB0-7529F979DF3B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9AFCC216-30F3-4646-BD9F-F1B115E0D70A}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -268,7 +277,7 @@
 				<Property Name="Source[0].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Addon/FPGA Addon Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -278,82 +287,9 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Close Error Handles.vi</Property>
-				<Property Name="Source[10].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[10].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[10].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[10].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[10].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[10].type" Type="Str">VI</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Connect to Error Handles.vi</Property>
-				<Property Name="Source[11].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[11].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[11].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[11].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[11].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Display and Log Process.vi</Property>
-				<Property Name="Source[12].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[12].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[12].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[12].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[12].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[12].type" Type="Str">VI</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Inline Error Handler.vi</Property>
-				<Property Name="Source[13].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[13].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[13].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[13].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[13].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[14].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Controls</Property>
-				<Property Name="Source[14].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[14].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[14].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[14].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[14].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[14].type" Type="Str">Container</Property>
-				<Property Name="Source[15].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Helper VIs</Property>
-				<Property Name="Source[15].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[15].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[15].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[15].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[15].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[15].type" Type="Str">Container</Property>
-				<Property Name="Source[16].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Triggering</Property>
-				<Property Name="Source[16].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[16].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[16].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[16].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[16].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[16].type" Type="Str">Container</Property>
-				<Property Name="Source[17].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Close Async VIs.vi</Property>
-				<Property Name="Source[17].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[17].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[17].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[17].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[17].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[17].type" Type="Str">VI</Property>
-				<Property Name="Source[18].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Initialize Async VIs.vi</Property>
-				<Property Name="Source[18].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[18].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[18].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[18].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[18].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[18].type" Type="Str">VI</Property>
-				<Property Name="Source[19].itemID" Type="Ref">/My Computer/FPGA Addon System Explorer.lvlib/System Explorer/SubVIs/Get Write Data to VS Channel Refs.vi</Property>
-				<Property Name="Source[19].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[19].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[19].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[19].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[19].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[19].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Addon/FPGA Addon Engine.lvlib/Processes</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
@@ -366,74 +302,9 @@
 				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[20].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Read Data From VS Engine.vi</Property>
-				<Property Name="Source[20].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[20].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[20].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[20].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[20].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[20].type" Type="Str">VI</Property>
-				<Property Name="Source[21].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/ReadWrite Data.vi</Property>
-				<Property Name="Source[21].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[21].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[21].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[21].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[21].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[21].type" Type="Str">VI</Property>
-				<Property Name="Source[22].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Run Process.vi</Property>
-				<Property Name="Source[22].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[22].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[22].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[22].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[22].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[22].type" Type="Str">VI</Property>
-				<Property Name="Source[23].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Stop Processes.vi</Property>
-				<Property Name="Source[23].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[23].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[23].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[23].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[23].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[23].type" Type="Str">VI</Property>
-				<Property Name="Source[24].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Inline Async API.lvlib/Write Data to VS Engine.vi</Property>
-				<Property Name="Source[24].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[24].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[24].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[24].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[24].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[24].type" Type="Str">VI</Property>
-				<Property Name="Source[25].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[25].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Stop FG.lvlib/Controls</Property>
-				<Property Name="Source[25].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[25].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[25].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[25].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[25].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[25].type" Type="Str">Container</Property>
-				<Property Name="Source[26].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[26].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Stop FG.lvlib/SubVIs</Property>
-				<Property Name="Source[26].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[26].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[26].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[26].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[26].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[26].type" Type="Str">Container</Property>
-				<Property Name="Source[27].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Stop FG.lvlib/Global Stop Actions.vi</Property>
-				<Property Name="Source[27].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[27].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[27].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[27].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[27].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[27].type" Type="Str">VI</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Stop FG.lvlib/Initialize Global Stop.vi</Property>
-				<Property Name="Source[28].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[28].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[28].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[28].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[28].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[28].type" Type="Str">VI</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -448,7 +319,7 @@
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/FPGA Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/FPGA Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Allow debugging</Property>
@@ -462,7 +333,7 @@
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/SubVIs</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Addon/FPGA Addon Engine.lvlib/SubVIs</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -470,38 +341,21 @@
 				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Types</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Addon/FPGA Addon Engine.lvlib/Types</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Controls</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Addon/FPGA Addon System Explorer.lvlib/System Explorer/SubVIs/Get Write Data to VS Channel Refs.vi</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="Source[8].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/Print</Property>
-				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[8].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[8].type" Type="Str">Container</Property>
-				<Property Name="Source[9].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/FPGA Addon Engine.lvlib/Userlib/Error Handling API.lvlib/SubVIs</Property>
-				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[9].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[9].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[9].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">29</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -554,58 +408,31 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-		</Item>
-		<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Engine/FPGA Addon Engine.lvlib"/>
-		<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Shared/FPGA Addon Shared.lvlib"/>
+		<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/FPGA Addon Engine.lvlib"/>
+		<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVFPGAAdvSessionResources.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/LVFPGA Adv Session Resources/LVFPGAAdvSessionResources.lvlib"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
-				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
@@ -640,7 +467,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/FPGA Addon</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{40347456-3130-4631-A31F-8B2F0130D69C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/FPGA Addon Engine Pharlap.llb</Property>
 				<Property Name="Bld_version.build" Type="Int">72</Property>
@@ -745,7 +572,7 @@
 				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/RT PXI Target - Pharlap/NI VeriStand APIs</Property>
+				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -812,58 +639,31 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-		</Item>
-		<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Engine/FPGA Addon Engine.lvlib"/>
-		<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Shared/FPGA Addon Shared.lvlib"/>
+		<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/FPGA Addon Engine.lvlib"/>
+		<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVFPGAAdvSessionResources.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/LVFPGA Adv Session Resources/LVFPGAAdvSessionResources.lvlib"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
-				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
@@ -898,7 +698,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/FPGA Addon</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F6098661-992B-49E0-9019-88D860A139BD}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/FPGA Addon Engine LinuxARM.llb</Property>
 				<Property Name="Bld_version.build" Type="Int">31</Property>
@@ -1023,7 +823,7 @@
 				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target - Linux ARM/NI VeriStand APIs</Property>
+				<Property Name="Source[7].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1091,58 +891,31 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-		</Item>
-		<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Engine/FPGA Addon Engine.lvlib"/>
-		<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Shared/FPGA Addon Shared.lvlib"/>
+		<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/FPGA Addon Engine.lvlib"/>
+		<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVFPGAAdvSessionResources.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/LVFPGA Adv Session Resources/LVFPGAAdvSessionResources.lvlib"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
-				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
@@ -1177,7 +950,7 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/FPGA Addon</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3C0A088C-FC56-4B53-9408-E63D219756B7}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/FPGA Addon Engine Linux64.llb</Property>
 				<Property Name="Bld_version.build" Type="Int">25</Property>
@@ -1302,7 +1075,7 @@
 				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/NI VeriStand APIs</Property>
+				<Property Name="Source[7].itemID" Type="Ref"></Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1369,58 +1142,31 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="NI VeriStand APIs" Type="Folder">
-			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
-		</Item>
-		<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Engine/FPGA Addon Engine.lvlib"/>
-		<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Shared/FPGA Addon Shared.lvlib"/>
+		<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/FPGA Addon Engine.lvlib"/>
+		<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVFPGAAdvSessionResources.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/LVFPGA Adv Session Resources/LVFPGAAdvSessionResources.lvlib"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
-				<Item Name="NI_WebDAV.lvlib" Type="Library" URL="/&lt;vilib&gt;/WebDAVClient/NI_WebDAV.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeriStand_DataServices.dll"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
@@ -1455,8 +1201,8 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/FPGA Addon</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/LLB Pre-Build CHM Build.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utilities/LLB Pre-Build CHM Build.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{687D148C-4FFC-46DE-9811-7F5B6AC67495}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/VxWorks/FPGA Addon Engine VxWorks.llb</Property>
 				<Property Name="Bld_version.build" Type="Int">3</Property>
@@ -1501,7 +1247,7 @@
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target - VxWorks/NI VeriStand APIs</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>

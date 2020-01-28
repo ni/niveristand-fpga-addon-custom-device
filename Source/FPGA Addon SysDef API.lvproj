@@ -13,10 +13,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Utilities" Type="Folder">
-			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
+		<Item Name="System Definition API" Type="Folder">
+			<Item Name="FPGA System Definition API.lvlib" Type="Library" URL="../APIs/System Definition API/FPGA System Definition API.lvlib"/>
 		</Item>
-		<Item Name="FPGA Addon SysDef API.lvlib" Type="Library" URL="../System Definition API/FPGA Addon SysDef API.lvlib"/>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utilities/Copy .LLB to NI VeriStand dir.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
@@ -34,7 +36,7 @@
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 			</Item>
-			<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Shared/FPGA Addon Shared.lvlib"/>
+			<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -61,9 +63,9 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F1E0D1FB-4A1C-4638-A64F-DCE8458A2DA5}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">FPGA Addon System Definition API.lvlibp</Property>
+				<Property Name="Destination[0].destName" Type="Str">FPGA System Definition API.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/FPGA Addon/Windows/System Definition API/System Definition API.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -71,10 +73,10 @@
 				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/FPGA Addon/Windows/System Definition API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CD7B8495-42A3-49CF-B444-D4512765716D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F25DD67D-CE5B-4BCF-A5F7-B5A5A0118714}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FPGA Addon SysDef API.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/System Definition API/FPGA System Definition API.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -87,7 +89,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 </Property>
 				<Property Name="TgtF_productName" Type="Str">System Definition API</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{BCE544BF-C1DE-465A-BE7D-A8E5B8D05F33}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">FPGA Addon System Definition API.lvlibp</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">FPGA System Definition API.lvlibp</Property>
 			</Item>
 		</Item>
 	</Item>
