@@ -7,32 +7,32 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Actions" Type="Folder">
-				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
-				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
+				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../Actions/ActionVIOnCompile.vi"/>
+				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../Actions/ActionVIOnLoad.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="DMA Channel.vi" Type="VI" URL="../DMA Channel.vi"/>
-				<Item Name="DMA Elements Remaining.vi" Type="VI" URL="../DMA Elements Remaining.vi"/>
-				<Item Name="DMA Error.vi" Type="VI" URL="../DMA Error.vi"/>
-				<Item Name="DMA Status Channels.vi" Type="VI" URL="../DMA Status Channels.vi"/>
-				<Item Name="Scalar Bitpacked.vi" Type="VI" URL="../Scalar Bitpacked.vi"/>
-				<Item Name="Scalar Input.vi" Type="VI" URL="../Scalar Input.vi"/>
-				<Item Name="Scalar Inputs.vi" Type="VI" URL="../Scalar Inputs.vi"/>
-				<Item Name="Scalar Output.vi" Type="VI" URL="../Scalar Output.vi"/>
-				<Item Name="Scalar Outputs.vi" Type="VI" URL="../Scalar Outputs.vi"/>
-				<Item Name="Scalars.vi" Type="VI" URL="../Scalars.vi"/>
-				<Item Name="Speciality IO.vi" Type="VI" URL="../Speciality IO.vi"/>
-				<Item Name="Waveform Input.vi" Type="VI" URL="../Waveform Input.vi"/>
-				<Item Name="Waveform Inputs.vi" Type="VI" URL="../Waveform Inputs.vi"/>
-				<Item Name="Waveform Output.vi" Type="VI" URL="../Waveform Output.vi"/>
-				<Item Name="Waveform Outputs.vi" Type="VI" URL="../Waveform Outputs.vi"/>
-				<Item Name="Waveforms.vi" Type="VI" URL="../Waveforms.vi"/>
+				<Item Name="DMA Channel.vi" Type="VI" URL="../Extra Pages/DMA Channel.vi"/>
+				<Item Name="DMA Elements Remaining.vi" Type="VI" URL="../Extra Pages/DMA Elements Remaining.vi"/>
+				<Item Name="DMA Error.vi" Type="VI" URL="../Extra Pages/DMA Error.vi"/>
+				<Item Name="DMA Status Channels.vi" Type="VI" URL="../Extra Pages/DMA Status Channels.vi"/>
+				<Item Name="Scalar Bitpacked.vi" Type="VI" URL="../Extra Pages/Scalar Bitpacked.vi"/>
+				<Item Name="Scalar Input.vi" Type="VI" URL="../Extra Pages/Scalar Input.vi"/>
+				<Item Name="Scalar Inputs.vi" Type="VI" URL="../Extra Pages/Scalar Inputs.vi"/>
+				<Item Name="Scalar Output.vi" Type="VI" URL="../Extra Pages/Scalar Output.vi"/>
+				<Item Name="Scalar Outputs.vi" Type="VI" URL="../Extra Pages/Scalar Outputs.vi"/>
+				<Item Name="Scalars.vi" Type="VI" URL="../Extra Pages/Scalars.vi"/>
+				<Item Name="Speciality IO.vi" Type="VI" URL="../Extra Pages/Speciality IO.vi"/>
+				<Item Name="Waveform Input.vi" Type="VI" URL="../Extra Pages/Waveform Input.vi"/>
+				<Item Name="Waveform Inputs.vi" Type="VI" URL="../Extra Pages/Waveform Inputs.vi"/>
+				<Item Name="Waveform Output.vi" Type="VI" URL="../Extra Pages/Waveform Output.vi"/>
+				<Item Name="Waveform Outputs.vi" Type="VI" URL="../Extra Pages/Waveform Outputs.vi"/>
+				<Item Name="Waveforms.vi" Type="VI" URL="../Extra Pages/Waveforms.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
-				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../SubVIs/EnableDisable Main Page.vi"/>
-				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../ExportConfigurationToFile.vi"/>
-				<Item Name="Import DMA Channels RTM.vi" Type="VI" URL="../Import DMA Channels RTM.vi"/>
-				<Item Name="Switch Scalar Type.vi" Type="VI" URL="../SubVIs/Switch Scalar Type.vi"/>
+				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTMs/EnableDisable Main Page.vi"/>
+				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../RTMs/ExportConfigurationToFile.vi"/>
+				<Item Name="Import DMA Channels RTM.vi" Type="VI" URL="../RTMs/Import DMA Channels RTM.vi"/>
+				<Item Name="Switch Scalar Type.vi" Type="VI" URL="../RTMs/Switch Scalar Type.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
@@ -44,7 +44,7 @@
 			<Item Name="Convert Error Cluster to Table.vi" Type="VI" URL="../SubVIs/Convert Error Cluster to Table.vi"/>
 			<Item Name="Create DMA Channel.vi" Type="VI" URL="../SubVIs/Create DMA Channel.vi"/>
 			<Item Name="Create Workspace Ring Channel.vi" Type="VI" URL="../SubVIs/Create Workspace Ring Channel.vi"/>
-			<Item Name="Delete DMA Channels.vi" Type="VI" URL="../Delete DMA Channels.vi"/>
+			<Item Name="Delete DMA Channels.vi" Type="VI" URL="../SubVIs/Delete DMA Channels.vi"/>
 			<Item Name="Determine Listbox Values.vi" Type="VI" URL="../SubVIs/Determine Listbox Values.vi"/>
 			<Item Name="Enable Disable Add Remove buttons.vi" Type="VI" URL="../SubVIs/Enable Disable Add Remove buttons.vi"/>
 			<Item Name="Enum.ConvertToDescription.vi" Type="VI" URL="../SubVIs/Enum.ConvertToDescription.vi"/>
@@ -57,7 +57,7 @@
 			<Item Name="Get Write Data to VS Channel Refs.vi" Type="VI" URL="../SubVIs/Get Write Data to VS Channel Refs.vi"/>
 			<Item Name="Initialize Listbox.vi" Type="VI" URL="../SubVIs/Initialize Listbox.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
-			<Item Name="Load New Bitfile.vi" Type="VI" URL="../Load New Bitfile.vi"/>
+			<Item Name="Load New Bitfile.vi" Type="VI" URL="../SubVIs/Load New Bitfile.vi"/>
 			<Item Name="Parse FPGA Bitfile.vi" Type="VI" URL="../SubVIs/Parse FPGA Bitfile.vi"/>
 			<Item Name="Prompt User for Init Type.vi" Type="VI" URL="../SubVIs/Prompt User for Init Type.vi"/>
 			<Item Name="Remove FPGA Sections.vi" Type="VI" URL="../SubVIs/Remove FPGA Sections.vi"/>
@@ -67,9 +67,9 @@
 			<Item Name="Split Registers by Direction.vi" Type="VI" URL="../SubVIs/Split Registers by Direction.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
-			<Item Name="Channel Type.ctl" Type="VI" URL="../SubVIs/Channel Type.ctl"/>
-			<Item Name="Listbox Cluster.ctl" Type="VI" URL="../SubVIs/Listbox Cluster.ctl"/>
-			<Item Name="Scalar Type Refs.ctl" Type="VI" URL="../SubVIs/Scalar Type Refs.ctl"/>
+			<Item Name="Channel Type.ctl" Type="VI" URL="../Types/Channel Type.ctl"/>
+			<Item Name="Listbox Cluster.ctl" Type="VI" URL="../Types/Listbox Cluster.ctl"/>
+			<Item Name="Scalar Type Refs.ctl" Type="VI" URL="../Types/Scalar Type Refs.ctl"/>
 		</Item>
 	</Item>
 </Library>

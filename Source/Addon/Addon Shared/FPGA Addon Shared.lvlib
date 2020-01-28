@@ -5,27 +5,29 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Shared" Type="Folder">
-		<Item Name="Types" Type="Folder">
-			<Item Name="Compiled.DMASettings.ctl" Type="VI" URL="../Compiled.DMASettings.ctl"/>
-			<Item Name="Compiled.RegisterSettings.ctl" Type="VI" URL="../Compiled.RegisterSettings.ctl"/>
-			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Compiled.Settings.ctl"/>
-			<Item Name="Data Type.ctl" Type="VI" URL="../Data Type.ctl"/>
-			<Item Name="Delacing Scheme.ctl" Type="VI" URL="../Delacing Scheme.ctl"/>
-			<Item Name="DMA Acquisition Mode.ctl" Type="VI" URL="../DMA Acquisition Mode.ctl"/>
-			<Item Name="DMA Settings.ctl" Type="VI" URL="../DMA Settings.ctl"/>
-			<Item Name="FG Action.ctl" Type="VI" URL="../FG Action.ctl"/>
-			<Item Name="FPGA Settings.ctl" Type="VI" URL="../FPGA Settings.ctl"/>
-			<Item Name="Register Information.ctl" Type="VI" URL="../Register Information.ctl"/>
-			<Item Name="Scalar Settings.ctl" Type="VI" URL="../Scalar Settings.ctl"/>
-			<Item Name="Scalar Type.ctl" Type="VI" URL="../Scalar Type.ctl"/>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Available DMA FG.vi" Type="VI" URL="../SubVIs/Available DMA FG.vi"/>
+			<Item Name="Available Registers FG.vi" Type="VI" URL="../SubVIs/Available Registers FG.vi"/>
+			<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
+			<Item Name="DMA Settings.vi" Type="VI" URL="../SubVIs/DMA Settings.vi"/>
+			<Item Name="FPGA Settings.vi" Type="VI" URL="../SubVIs/FPGA Settings.vi"/>
+			<Item Name="Scalar Settings.vi" Type="VI" URL="../SubVIs/Scalar Settings.vi"/>
+			<Item Name="Upgrade Addon to Latest Version.vi" Type="VI" URL="../SubVIs/Upgrade Addon to Latest Version.vi"/>
 		</Item>
-		<Item Name="Available DMA FG.vi" Type="VI" URL="../Available DMA FG.vi"/>
-		<Item Name="Available Registers FG.vi" Type="VI" URL="../Available Registers FG.vi"/>
-		<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
-		<Item Name="DMA Information.ctl" Type="VI" URL="../DMA Information.ctl"/>
-		<Item Name="DMA Settings.vi" Type="VI" URL="../DMA Settings.vi"/>
-		<Item Name="FPGA Settings.vi" Type="VI" URL="../FPGA Settings.vi"/>
-		<Item Name="Scalar Settings.vi" Type="VI" URL="../Scalar Settings.vi"/>
-		<Item Name="Upgrade Addon to Latest Version.vi" Type="VI" URL="../Upgrade Addon to Latest Version.vi"/>
+		<Item Name="Types" Type="Folder">
+			<Item Name="Compiled.DMASettings.ctl" Type="VI" URL="../Types/Compiled.DMASettings.ctl"/>
+			<Item Name="Compiled.RegisterSettings.ctl" Type="VI" URL="../Types/Compiled.RegisterSettings.ctl"/>
+			<Item Name="Compiled.Settings.ctl" Type="VI" URL="../Types/Compiled.Settings.ctl"/>
+			<Item Name="Data Type.ctl" Type="VI" URL="../Types/Data Type.ctl"/>
+			<Item Name="Delacing Scheme.ctl" Type="VI" URL="../Types/Delacing Scheme.ctl"/>
+			<Item Name="DMA Acquisition Mode.ctl" Type="VI" URL="../Types/DMA Acquisition Mode.ctl"/>
+			<Item Name="DMA Information.ctl" Type="VI" URL="../Types/DMA Information.ctl"/>
+			<Item Name="DMA Settings.ctl" Type="VI" URL="../Types/DMA Settings.ctl"/>
+			<Item Name="FG Action.ctl" Type="VI" URL="../Types/FG Action.ctl"/>
+			<Item Name="FPGA Settings.ctl" Type="VI" URL="../Types/FPGA Settings.ctl"/>
+			<Item Name="Register Information.ctl" Type="VI" URL="../Types/Register Information.ctl"/>
+			<Item Name="Scalar Settings.ctl" Type="VI" URL="../Types/Scalar Settings.ctl"/>
+			<Item Name="Scalar Type.ctl" Type="VI" URL="../Types/Scalar Type.ctl"/>
+		</Item>
 	</Item>
 </Library>

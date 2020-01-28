@@ -5,8 +5,8 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Processes" Type="Folder">
-		<Item Name="Input DMA Engine.vi" Type="VI" URL="../SubVIs/Input DMA Engine.vi"/>
-		<Item Name="Output DMA Engine.vi" Type="VI" URL="../SubVIs/Output DMA Engine.vi"/>
+		<Item Name="Input DMA Engine.vi" Type="VI" URL="../Processes/Input DMA Engine.vi"/>
+		<Item Name="Output DMA Engine.vi" Type="VI" URL="../Processes/Output DMA Engine.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Close Scalar Refs.vi" Type="VI" URL="../SubVIs/Close Scalar Refs.vi"/>
