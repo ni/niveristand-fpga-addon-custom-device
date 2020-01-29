@@ -3,7 +3,7 @@ build_output_dir = 'Built'
 archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\fpga_addon'
 
 [projects.cd]
-path = 'Source\FPGA Addon Custom Device.lvproj'
+path = 'Source\FPGA Addon.lvproj'
 
 [projects.api]
 path = 'Source\FPGA Addon SysDef API.lvproj'
@@ -41,7 +41,7 @@ build_spec = 'System Definition API'
 [package]
 type = 'nipkg'
 name = 'fpga-addon-{veristand_version}'
-dev_xml_path = 'Source\Custom Device FPGA Addon.xml'
+dev_xml_path = 'Source\Addon\Custom Device FPGA Addon.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
 
 [[release.steps]]
