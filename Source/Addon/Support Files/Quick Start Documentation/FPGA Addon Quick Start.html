@@ -1,0 +1,1883 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="FPGA%20Addon%20Quick%20Start_files/filelist.xml">
+<link rel=Edit-Time-Data href="FPGA%20Addon%20Quick%20Start_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Daniel Eaton</o:Author>
+  <o:LastAuthor>Daniel Eaton</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>6</o:TotalTime>
+  <o:Created>2020-02-26T19:44:00Z</o:Created>
+  <o:LastSaved>2020-02-26T19:48:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>1046</o:Words>
+  <o:Characters>5966</o:Characters>
+  <o:Lines>49</o:Lines>
+  <o:Paragraphs>13</o:Paragraphs>
+  <o:CharactersWithSpaces>6999</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="FPGA%20Addon%20Quick%20Start_files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="FPGA%20Addon%20Quick%20Start_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:DontDisplayPageBoundaries/>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="376">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Link"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:"Segoe UI Light";
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073783931 1 0 415 0;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520084737 -1073683329 41 0 479 0;}
+@font-face
+	{font-family:"Segoe UI Semilight";
+	panose-1:2 11 4 2 4 2 4 2 2 3;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073683329 9 0 511 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+h1
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+h2
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+h3
+	{mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 3 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#954F72;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	mso-ansi-font-size:24.0pt;
+	mso-bidi-font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	mso-font-kerning:18.0pt;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:18.0pt;
+	mso-bidi-font-size:18.0pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-priority:9;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	mso-ansi-font-size:13.5pt;
+	mso-bidi-font-size:13.5pt;
+	font-family:"Times New Roman",serif;
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";
+	font-weight:bold;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:599728391;
+	mso-list-template-ids:1765727368;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:1581981139;
+	mso-list-template-ids:-650353050;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:1833762896;
+	mso-list-template-ids:1767431314;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin-top:0in;
+	mso-para-margin-right:0in;
+	mso-para-margin-bottom:8.0pt;
+	mso-para-margin-left:0in;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=EN-US link=blue vlink="#954F72" style='tab-interval:.5in'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:1'><span style='font-size:27.5pt;
+font-family:"Segoe UI Light",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#0072C6;mso-font-kerning:18.0pt'>&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;Overview<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>This add-on runs a FPGA <span class=SpellE>bitfile</span>
+without needing to implement the normal&nbsp;VeriStand FPGA template. It allows
+the transfer of basic scalar data types&nbsp;<span class=SpellE>inline</span>
+with <span class=SpellE>VeriStand's</span> primary control loop (PCL). It also
+adds support for reading/writing waveforms with FPGA DMA <span class=GramE>channels.&#8203;</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:1'><span style='font-size:27.5pt;
+font-family:"Segoe UI Light",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#0072C6;mso-font-kerning:18.0pt'>Repo
+Location<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><a
+href="https://github.com/NIVeriStandAdd-Ons/FPGA-Custom-Device" target="_blank"><span
+style='color:#663399;mso-no-proof:yes;text-decoration:none;text-underline:none'><!--[if gte vml 1]><v:shapetype
+ id="_x0000_t75" coordsize="21600,21600" o:spt="75" o:preferrelative="t"
+ path="m@4@5l@4@11@9@11@9@5xe" filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Picture_x0020_23" o:spid="_x0000_i1047" type="#_x0000_t75"
+ href="https://github.com/NIVeriStandAdd-Ons/FPGA-Custom-Device"
+ target="&quot;_blank&quot;" style='width:12pt;height:12pt;visibility:visible;
+ mso-wrap-style:square' o:button="t">
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image001.gif" o:title=""/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'><img
+border=0 width=16 height=16
+src="FPGA%20Addon%20Quick%20Start_files/image001.gif" v:shapes="Picture_x0020_23"></span><![endif]></span><span
+class=SpellE><span style='color:#663399'>NIVeriStandAdd-Ons</span></span><span
+style='color:#663399'>/FPGA-Custom-Device · GitHub</span></a>&#8203;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:1'><span style='font-size:27.5pt;
+font-family:"Segoe UI Light",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#0072C6;mso-font-kerning:18.0pt'>FPGA
+Specifics<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>To use the addon, first create an FPGA
+program. Use the provided FPGA IP (discussed below) or custom logic. Put items
+of interest to front panel controls and indicators. Put waveforms of interest
+to DMA channels.&nbsp;The only requirement to the FPGA code is an IRQ (address
+of 30) to control when the FPGA <span class=SpellE>bitfile</span> starts. This
+IRQ only needs to control when any DMA starts. Any other code can start
+whenever it makes sense. Below is an example showing DMA, controls, and
+indicators.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_22" o:spid="_x0000_i1046" type="#_x0000_t75" style='width:598.8pt;
+ height:7in;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image002.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=798 height=672
+src="FPGA%20Addon%20Quick%20Start_files/image024.jpg" v:shapes="Picture_x0020_22"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>&#8203;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:2'><span style='font-size:17.5pt;
+font-family:"Segoe UI Semilight",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:#0072C6'>Supported&nbsp;Datatypes<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Only certain datatypes are supported for DMA,
+controls, and indicators. If a data type is not listed, it will not show up in
+the addon.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:3'><span style='font-size:14.0pt;
+font-family:"Segoe UI Semilight",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:#262626'>&#8203;Scalar data types (control and indicators)<o:p></o:p></span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Bool<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>U8<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>I8<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>U16<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>I16<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>U32<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>I32<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>U64<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>I64<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>SGL<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>FXP +16.3<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>FXP +/-16.5<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>FXP +/-16.7<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>FXP +18.3<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>FXP +/-20.5<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>FXP +/-24.5<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>FXP +/-27.5<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>FXP +/-32.8<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>FXP +/-32.16<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>FXP +/-64.32<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Note: <span class=SpellE>Enum</span>&#8203;s
+are not supported. <span class=SpellE>Conve</span>&#8203;rt them to a U8, U16,
+or U32 control or indicator. Clusters are not supported. Even if the clusters
+are made up of&nbsp;supported types.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:3'><span style='font-size:11.5pt;
+font-family:"Segoe UI Semilight",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:#262626'>DMA data types<o:p></o:p></span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>U8<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>I8<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>U16<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>I16<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>U32<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>I32<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>U64<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>I64<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>SGL<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>FXP +/-32.8<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>FXP +/-32.16<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>FXP +/-64.32<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Note:&nbsp;The unsigned integer data types can
+be converted into a <span class=SpellE>bitpacked</span> Boolean array. This is
+discussed in detail below.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:3'><span class=SpellE><span
+style='font-size:11.5pt;font-family:"Segoe UI Semilight",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#262626'>Speciality</span></span><span
+style='font-size:11.5pt;font-family:"Segoe UI Semilight",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#262626'> IP<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>The addon comes with special IP for doing the
+following:<o:p></o:p></span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>PWM Generation (PWM.Generate.Digital.vi)<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Sinewave Generation (Sine.Generate.vi)<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Digital Static Generation (Static.Generate.Digital.vi)<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Analog PWM Measurement (PWM.Measure.Analog.vi)<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Digital PWM Measurement (PWM.Measure.Digital.vi)<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Digital Static Measurement (Static.Measure.Digital.vi)<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Digital Wheel Speed Sensor Simulation
+     (WSS.Generate.Digital.vi)<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>Quadrature Encoder Measurement
+     (QuadratureEncoder.Measure.Digital.vi)<o:p></o:p></span></li>
+</ul>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>This IP is located at:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>C:\Users\Public\Documents\National
+Instruments\NI VeriStand&nbsp;&lt;Year&gt;\Custom Devices\FPGA Addon\FPGA
+IP&#8203;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:2'><span style='font-size:17.5pt;
+font-family:"Segoe UI Semilight",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:#0072C6'>&#8203;FPGA Example Programs<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Examples of how to use the <span class=SpellE>speciality</span>
+IP, controls/indicators, and DMA are included in the source code in the Testing
+Folder. Here is an example of the <span class=SpellE>speciality</span> IP:<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_21" o:spid="_x0000_i1045" type="#_x0000_t75" style='width:636pt;
+ height:7in;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image003.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=848 height=672
+src="FPGA%20Addon%20Quick%20Start_files/image025.png" v:shapes="Picture_x0020_21"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:1'><span style='font-size:27.5pt;
+font-family:"Segoe UI Light",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#0072C6;mso-font-kerning:18.0pt'>Addon
+Specifics<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:2'><span style='font-size:17.5pt;
+font-family:"Segoe UI Semilight",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:#0072C6'>&#8203;&#8203;Addon Configuration<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Upon adding the addon, a&nbsp;configuration
+GUI will open. A previously exported addon configuration can&nbsp;be imported.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_20" o:spid="_x0000_i1044" type="#_x0000_t75" style='width:280.8pt;
+ height:204.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image004.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=374 height=273
+src="FPGA%20Addon%20Quick%20Start_files/image004.png" v:shapes="Picture_x0020_20"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>On the main page,&nbsp;set the&nbsp;path
+to&nbsp;&#8203;&#8203;&#8203;the desired <span class=SpellE><span class=GramE>bitfile</span></span><span
+class=GramE>.&#8203;</span>&#8203; Select the RIO device. The search button
+(magnifier glass icon) will detect the available FPGAs on the current
+Target/Controller.&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_19" o:spid="_x0000_i1043" type="#_x0000_t75" style='width:8in;
+ height:430.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image005.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
+src="FPGA%20Addon%20Quick%20Start_files/image026.jpg" v:shapes="Picture_x0020_19"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>&#8203;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Notice the <span class=GramE>built in</span>
+help. This help provides the details needed to use each <span class=GramE>section.&#8203;</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>When the <span class=SpellE>bitfile</span> is
+selected, the available DMA and scalar registers are discovered. To add these
+scalars and DMA to the configuration, go to the Scalars and Waveforms sections
+respectively.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_18" o:spid="_x0000_i1042" type="#_x0000_t75" style='width:8in;
+ height:430.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image006.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
+src="FPGA%20Addon%20Quick%20Start_files/image027.jpg" v:shapes="Picture_x0020_18"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Select the items and hit Add Selected. If an
+item doesn't show up, it is likely not a supported data type or the <span
+class=SpellE>bitfile</span> has not been&nbsp;re-compiled after&nbsp;changes.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Any scalar&nbsp;integer values can be
+converted to support Boolean <span class=SpellE>bitpacking</span>. However,
+this is <span class=SpellE>simething</span> that must be first&nbsp;programmed
+in the FPGA. It is also something that is not &quot;discoverable&quot; by the
+addon. <span class=GramE>Therefore</span> the user must configure the addon
+manually to match what is programmed in the FPGA.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>As an example, the FPGA program
+could&nbsp;take&nbsp;8 Boolean lines, build&nbsp;an array, and convert&nbsp;it
+to a number as follows.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_17" o:spid="_x0000_i1041" type="#_x0000_t75" style='width:143.4pt;
+ height:81.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image007.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=191 height=109
+src="FPGA%20Addon%20Quick%20Start_files/image007.png" v:shapes="Picture_x0020_17"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>This&nbsp;significantly improves performance.
+If this is <span class=GramE>implement</span> in the FPGA, manually find the
+relating&nbsp;indicator&nbsp;in the VeriStand <span class=SpellE>configuraiton</span>&nbsp;and
+select to enable <span class=SpellE>bitpacking</span>.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_16" o:spid="_x0000_i1040" type="#_x0000_t75" style='width:2in;
+ height:249.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image008.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=192 height=333
+src="FPGA%20Addon%20Quick%20Start_files/image028.jpg" v:shapes="Picture_x0020_16"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Once the channel is converted to a <span
+class=SpellE>bitpacking</span> section, enter in the number of channels being <span
+class=SpellE>bitpacked</span>.&nbsp;Then hit apply.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_15" o:spid="_x0000_i1039" type="#_x0000_t75" style='width:8in;
+ height:431.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image009.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=768 height=575
+src="FPGA%20Addon%20Quick%20Start_files/image029.png" v:shapes="Picture_x0020_15"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>This will add 8&nbsp;Boolean channels to the
+configuration. The user can then name the channels anything.&nbsp;Array index
+order will be maintained regardless of naming. The <span class=GramE>top most</span>
+channel is always index 0 while the bottom most channel is always the last
+index (7&nbsp;in this case).<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>When <span class=SpellE>speciality</span> IP
+is added, channels will be grouped together. Here is an example of an analog
+PWM IP core.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_14" o:spid="_x0000_i1038" type="#_x0000_t75" style='width:8in;
+ height:431.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image010.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=768 height=575
+src="FPGA%20Addon%20Quick%20Start_files/image030.jpg" v:shapes="Picture_x0020_14"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Notice the result (or <span class=SpellE>measurment</span>)
+in Inputs and the relating settings in Outputs.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Adding DMA and waveforms works in a very
+similar way.&nbsp;Go to the Waveform Inputs or Waveform Outputs section and add
+any desired DMA.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_13" o:spid="_x0000_i1037" type="#_x0000_t75" style='width:8in;
+ height:430.8pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image011.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
+src="FPGA%20Addon%20Quick%20Start_files/image031.jpg" v:shapes="Picture_x0020_13"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>&nbsp;&#8203;&#8203;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>The DMA is automatically
+&quot;discoverable&quot;' but the FPGA programming leading up to the DMA is
+not. Therefore, the user must manually tell the addon how the DMA is being used
+in the F&#8203;PGA program. Take this FPGA loop as an example:<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_12" o:spid="_x0000_i1036" type="#_x0000_t75" style='width:430.2pt;
+ height:203.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image012.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=574 height=271
+src="FPGA%20Addon%20Quick%20Start_files/image012.png" v:shapes="Picture_x0020_12"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>The DMA &quot;Medium&quot; has 16 channels
+written per loop iteration. Each loop iteration takes 10 microseconds. The
+writing is continuous.&nbsp;This data&nbsp;is&nbsp;interleaved.&nbsp;So, in the
+addon DMA configuration&nbsp;section,&nbsp;define the number of channels, mode,
+scheme, and&nbsp;expected sample period (acquisition rate). Hit apply.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_11" o:spid="_x0000_i1035" type="#_x0000_t75" style='width:8in;
+ height:430.2pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image013.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
+src="FPGA%20Addon%20Quick%20Start_files/image032.png" v:shapes="Picture_x0020_11"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>&#8203;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>&#8203;&#8203;Import DMA channel names for
+faster setup. There is an example of the expected CSV file included with the
+addon.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_10" o:spid="_x0000_i1034" type="#_x0000_t75" style='width:12in;
+ height:344.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image014.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=1152 height=459
+src="FPGA%20Addon%20Quick%20Start_files/image033.jpg" v:shapes="Picture_x0020_10"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>&#8203;For a DMA channel, continuous or finite
+acquisitions are supported.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444'>&#8203;<span
+style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_9"
+ o:spid="_x0000_i1033" type="#_x0000_t75" style='width:116.4pt;height:72.6pt;
+ visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image015.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=155 height=97
+src="FPGA%20Addon%20Quick%20Start_files/image015.png" v:shapes="Picture_x0020_9"><![endif]></span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Again, this setting should match what was
+programmed on the FPGA. If the FPGA was programmed as a continuous generation
+(FPGA to Host), setting a Triggered Finite mode would cause overflows.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>As with scalars, certain&nbsp;data types
+support <span class=SpellE>bitpacking</span>. With interleaved data, multiple
+channels are sampled at the same time (see &quot;Medium&quot; DMA example
+above) and <span class=SpellE>transfered</span> one right after another within
+a single loop iteration. Each channel is a data packet in the DMA. If there are
+8 channels, a single acquisition/loop iteration would have 8 data packets. In
+the&nbsp;case of <span class=SpellE>bitpacked</span>&#8203;, each data packet
+is a complete acquisition for a group of Boolean channels. The maximum number
+of channels is set by the data type. Below is an example of an FPGA
+program&nbsp;<span class=SpellE>bitpacketing</span> a&nbsp;DMA.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_8" o:spid="_x0000_i1032" type="#_x0000_t75" style='width:351pt;
+ height:201.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image016.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=468 height=269
+src="FPGA%20Addon%20Quick%20Start_files/image016.png" v:shapes="Picture_x0020_8"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>&#8203;Notice how there is no For Loop per
+single loop iteration.&nbsp;Notice how a single packet represents multiple
+channels.&nbsp;&#8203;In this case, select <span class=SpellE>Bitpacked</span>
+from the <span class=SpellE>Delacing</span> Scheme.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_7" o:spid="_x0000_i1031" type="#_x0000_t75" style='width:99.6pt;
+ height:65.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image017.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=133 height=87
+src="FPGA%20Addon%20Quick%20Start_files/image017.png" v:shapes="Picture_x0020_7"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:2'><span style='font-size:17.5pt;
+font-family:"Segoe UI Semilight",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:#0072C6'>Addon Execution<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Deploy the system definition. From within the
+user interface, drag and drop channels or groups of channels.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_6" o:spid="_x0000_i1030" type="#_x0000_t75" style='width:489pt;
+ height:6in;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image018.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=652 height=576
+src="FPGA%20Addon%20Quick%20Start_files/image034.jpg" v:shapes="Picture_x0020_6"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>&#8203;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Change required channels&nbsp;to controls,
+such as Trigger and anything in Settings.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_5" o:spid="_x0000_i1029" type="#_x0000_t75" style='width:315pt;
+ height:257.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image019.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=420 height=343
+src="FPGA%20Addon%20Quick%20Start_files/image019.png" v:shapes="Picture_x0020_5"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Certain channels can be added as Rings to show
+text. The Error Code channel supports&nbsp;<span class=GramE>this.&#8203;</span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_4" o:spid="_x0000_i1028" type="#_x0000_t75" style='width:12in;
+ height:362.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image020.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=1152 height=483
+src="FPGA%20Addon%20Quick%20Start_files/image035.jpg" v:shapes="Picture_x0020_4"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>&#8203;To <span class=SpellE>veiw</span>
+waveforms, open the Workspace.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_3" o:spid="_x0000_i1027" type="#_x0000_t75" style='width:285.6pt;
+ height:327.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image021.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=381 height=437
+src="FPGA%20Addon%20Quick%20Start_files/image021.png" v:shapes="Picture_x0020_3"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>Add a waveform plot and configure.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_2" o:spid="_x0000_i1026" type="#_x0000_t75" style='width:262.2pt;
+ height:227.4pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image022.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=350 height=303
+src="FPGA%20Addon%20Quick%20Start_files/image022.png" v:shapes="Picture_x0020_2"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:2'><span style='font-size:17.5pt;
+font-family:"Segoe UI Semilight",sans-serif;mso-fareast-font-family:"Times New Roman";
+color:#0072C6'>System Definition API<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>There is also a system definition API that
+allows the user to <span class=SpellE>programatically</span> create an instance
+of the addon&nbsp;from a previously exported configuration.&nbsp;This&nbsp;is
+installed at:<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>C:\Users\Public\Documents\National
+Instruments\NI VeriStand &lt;Year&gt;\Custom
+Devices\FPGA&nbsp;Addon\Windows\System Definition&nbsp;API<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>An example of using this API is as <span
+class=GramE>follows:&#8203;</span>&#8203;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_1" o:spid="_x0000_i1025" type="#_x0000_t75" style='width:12in;
+ height:171.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image023.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=1152 height=229
+src="FPGA%20Addon%20Quick%20Start_files/image036.jpg" v:shapes="Picture_x0020_1"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
