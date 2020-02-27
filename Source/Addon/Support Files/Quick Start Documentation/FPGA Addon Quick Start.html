@@ -23,15 +23,15 @@ w\:* {behavior:url(#default#VML);}
   <o:Author>Daniel Eaton</o:Author>
   <o:LastAuthor>Daniel Eaton</o:LastAuthor>
   <o:Revision>3</o:Revision>
-  <o:TotalTime>6</o:TotalTime>
-  <o:Created>2020-02-26T19:44:00Z</o:Created>
-  <o:LastSaved>2020-02-26T19:48:00Z</o:LastSaved>
+  <o:TotalTime>24</o:TotalTime>
+  <o:Created>2020-02-27T20:14:00Z</o:Created>
+  <o:LastSaved>2020-02-27T20:16:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>1046</o:Words>
-  <o:Characters>5966</o:Characters>
-  <o:Lines>49</o:Lines>
-  <o:Paragraphs>13</o:Paragraphs>
-  <o:CharactersWithSpaces>6999</o:CharactersWithSpaces>
+  <o:Words>1093</o:Words>
+  <o:Characters>6236</o:Characters>
+  <o:Lines>51</o:Lines>
+  <o:Paragraphs>14</o:Paragraphs>
+  <o:CharactersWithSpaces>7315</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -68,6 +68,7 @@ href="FPGA%20Addon%20Quick%20Start_files/colorschememapping.xml">
    <w:DontFlipMirrorIndents/>
    <w:OverrideTableStyleHps/>
   </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
   <m:mathPr>
    <m:mathFont m:val="Cambria Math"/>
    <m:brkBin m:val="before"/>
@@ -290,6 +291,8 @@ href="FPGA%20Addon%20Quick%20Start_files/colorschememapping.xml">
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="HTML Variable"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="annotation subject"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="No List"/>
@@ -382,8 +385,12 @@ href="FPGA%20Addon%20Quick%20Start_files/colorschememapping.xml">
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Table Web 2"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Balloon Text"/>
   <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
   <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
   <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
   <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
@@ -702,7 +709,7 @@ href="FPGA%20Addon%20Quick%20Start_files/colorschememapping.xml">
 	margin-right:0in;
 	margin-bottom:8.0pt;
 	margin-left:0in;
-	line-height:107%;
+	line-height:105%;
 	mso-pagination:widow-orphan;
 	font-size:11.0pt;
 	font-family:"Calibri",sans-serif;
@@ -731,7 +738,6 @@ h1
 	font-weight:bold;}
 h2
 	{mso-style-priority:9;
-	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-link:"Heading 2 Char";
 	mso-margin-top-alt:auto;
@@ -746,7 +752,6 @@ h2
 	font-weight:bold;}
 h3
 	{mso-style-priority:9;
-	mso-style-unhide:no;
 	mso-style-qformat:yes;
 	mso-style-link:"Heading 3 Char";
 	mso-margin-top-alt:auto;
@@ -826,6 +831,19 @@ span.Heading3Char
 	mso-hansi-font-family:"Times New Roman";
 	mso-bidi-font-family:"Times New Roman";
 	font-weight:bold;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
 span.SpellE
 	{mso-style-name:"";
 	mso-spl-e:yes;}
@@ -835,6 +853,9 @@ span.GramE
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
@@ -844,10 +865,6 @@ span.GramE
 	mso-hansi-theme-font:minor-latin;
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	margin-bottom:8.0pt;
-	line-height:107%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:1.0in 1.0in 1.0in 1.0in;
@@ -858,8 +875,8 @@ div.WordSection1
 	{page:WordSection1;}
  /* List Definitions */
  @list l0
-	{mso-list-id:599728391;
-	mso-list-template-ids:1765727368;}
+	{mso-list-id:469520216;
+	mso-list-template-ids:1336977304;}
 @list l0:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -934,8 +951,8 @@ div.WordSection1
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l1
-	{mso-list-id:1581981139;
-	mso-list-template-ids:-650353050;}
+	{mso-list-id:641350512;
+	mso-list-template-ids:-851929544;}
 @list l1:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -1010,8 +1027,8 @@ div.WordSection1
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l2
-	{mso-list-id:1833762896;
-	mso-list-template-ids:1767431314;}
+	{mso-list-id:659044503;
+	mso-list-template-ids:-1973803558;}
 @list l2:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -1085,6 +1102,386 @@ div.WordSection1
 	text-indent:-.25in;
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
+@list l3
+	{mso-list-id:970600787;
+	mso-list-template-ids:207622390;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4
+	{mso-list-id:1298490502;
+	mso-list-template-ids:1465157218;}
+@list l4:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l4:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l4:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l4:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5
+	{mso-list-id:1500274612;
+	mso-list-template-ids:2092891172;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l5:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l5:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l6
+	{mso-list-id:1515419314;
+	mso-list-template-ids:-738547790;}
+@list l6:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l6:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l6:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l6:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l6:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l6:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l6:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l6:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l6:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l7
+	{mso-list-id:1897087682;
+	mso-list-template-ids:-1572470656;}
+@list l7:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l7:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
+@list l7:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l7:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l7:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l7:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l7:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l7:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l7:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
 ol
 	{margin-bottom:0in;}
 ul
@@ -1102,13 +1499,10 @@ ul
 	mso-style-priority:99;
 	mso-style-parent:"";
 	mso-padding-alt:0in 5.4pt 0in 5.4pt;
-	mso-para-margin-top:0in;
-	mso-para-margin-right:0in;
-	mso-para-margin-bottom:8.0pt;
-	mso-para-margin-left:0in;
-	line-height:107%;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
 	mso-pagination:widow-orphan;
-	font-size:11.0pt;
+	font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
 	mso-ascii-font-family:Calibri;
 	mso-ascii-theme-font:minor-latin;
@@ -1130,7 +1524,7 @@ ul
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
 line-height:normal;mso-outline-level:1'><span style='font-size:27.5pt;
 font-family:"Segoe UI Light",sans-serif;mso-fareast-font-family:"Times New Roman";
-mso-bidi-font-family:"Times New Roman";color:#0072C6;mso-font-kerning:18.0pt'>&#8203;&#8203;&#8203;&#8203;&#8203;&#8203;Overview<o:p></o:p></span></p>
+mso-bidi-font-family:"Times New Roman";color:#0072C6;mso-font-kerning:18.0pt'>Overview<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
@@ -1170,16 +1564,37 @@ style='color:#663399;mso-no-proof:yes;text-decoration:none;text-underline:none'>
  </v:formulas>
  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
  <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="Picture_x0020_23" o:spid="_x0000_i1047" type="#_x0000_t75"
+</v:shapetype><v:shape id="Picture_x0020_48" o:spid="_x0000_i1048" type="#_x0000_t75"
  href="https://github.com/NIVeriStandAdd-Ons/FPGA-Custom-Device"
  target="&quot;_blank&quot;" style='width:12pt;height:12pt;visibility:visible;
  mso-wrap-style:square' o:button="t">
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image001.gif" o:title=""/>
 </v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout'><img
 border=0 width=16 height=16
-src="FPGA%20Addon%20Quick%20Start_files/image001.gif" v:shapes="Picture_x0020_23"></span><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image001.gif" v:shapes="Picture_x0020_48"></span><![endif]></span><span
 class=SpellE><span style='color:#663399'>NIVeriStandAdd-Ons</span></span><span
 style='color:#663399'>/FPGA-Custom-Device · GitHub</span></a>&#8203;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal;mso-outline-level:1'><span style='font-size:27.5pt;
+font-family:"Segoe UI Light",sans-serif;mso-fareast-font-family:"Times New Roman";
+mso-bidi-font-family:"Times New Roman";color:#0072C6;mso-font-kerning:18.0pt'>Requirements<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>These drivers must be installed on the
+deployment computer/target to function.<o:p></o:p></span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo5;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>&#8203;NI VeriStand 2019 or later&#8203;<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l0 level1 lfo5;tab-stops:list .5in'><span
+     style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+     "Times New Roman"'>NI RIO 19.0 or later&#8203;&#8203;<o:p></o:p></span></li>
+</ul>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
 line-height:normal;mso-outline-level:1'><span style='font-size:27.5pt;
@@ -1201,11 +1616,11 @@ indicators.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_22" o:spid="_x0000_i1046" type="#_x0000_t75" style='width:598.8pt;
- height:7in;visibility:visible;mso-wrap-style:square'>
+ id="Picture_x0020_47" o:spid="_x0000_i1047" type="#_x0000_t75" style='width:513pt;
+ height:6in;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image002.png" o:title=""/>
-</v:shape><![endif]--><![if !vml]><img border=0 width=798 height=672
-src="FPGA%20Addon%20Quick%20Start_files/image024.jpg" v:shapes="Picture_x0020_22"><![endif]></span><span
+</v:shape><![endif]--><![if !vml]><img border=0 width=684 height=576
+src="FPGA%20Addon%20Quick%20Start_files/image025.jpg" v:shapes="Picture_x0020_47"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>&#8203;<o:p></o:p></span></p>
 
@@ -1227,83 +1642,83 @@ color:#262626'>&#8203;Scalar data types (control and indicators)<o:p></o:p></spa
 
 <ul type=disc>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Bool<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>U8<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>I8<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>U16<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>I16<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>U32<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>I32<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>U64<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>I64<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>SGL<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>FXP +16.3<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>FXP +/-16.5<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>FXP +/-16.7<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>FXP +18.3<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>FXP +/-20.5<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>FXP +/-24.5<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>FXP +/-27.5<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>FXP +/-32.8<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>FXP +/-32.16<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l2 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l7 level1 lfo6;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>FXP +/-64.32<o:p></o:p></span></li>
 </ul>
@@ -1322,60 +1737,65 @@ color:#262626'>DMA data types<o:p></o:p></span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo7;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>U8<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo7;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>I8<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo7;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>U16<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo7;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>I16<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo7;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>U32<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo7;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>I32<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo7;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>U64<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo7;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>I64<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo7;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>SGL<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo7;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>FXP +/-32.8<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo7;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>FXP +/-32.16<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l1 level1 lfo2;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l1 level1 lfo7;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>FXP +/-64.32<o:p></o:p></span></li>
 </ul>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
-"Times New Roman";color:#444444'>Note:&nbsp;The unsigned integer data types can
-be converted into a <span class=SpellE>bitpacked</span> Boolean array. This is
+"Times New Roman";color:#444444'>The unsigned integer data types can be
+converted into a <span class=SpellE>bitpacked</span> Boolean array. This is
 discussed in detail below.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>NOTE: The embedded UI on Linux targets must be
+disabled or error -307556 will be <span class=GramE>returned.&#8203;</span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
 line-height:normal;mso-outline-level:3'><span class=SpellE><span
@@ -1391,36 +1811,36 @@ following:<o:p></o:p></span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l4 level1 lfo8;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>PWM Generation (PWM.Generate.Digital.vi)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l4 level1 lfo8;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Sinewave Generation (Sine.Generate.vi)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l4 level1 lfo8;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Digital Static Generation (Static.Generate.Digital.vi)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l4 level1 lfo8;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Analog PWM Measurement (PWM.Measure.Analog.vi)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l4 level1 lfo8;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Digital PWM Measurement (PWM.Measure.Digital.vi)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l4 level1 lfo8;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Digital Static Measurement (Static.Measure.Digital.vi)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l4 level1 lfo8;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Digital Wheel Speed Sensor Simulation
      (WSS.Generate.Digital.vi)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#444444;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l0 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l4 level1 lfo8;tab-stops:list .5in'><span
      style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
      "Times New Roman"'>Quadrature Encoder Measurement
      (QuadratureEncoder.Measure.Digital.vi)<o:p></o:p></span></li>
@@ -1450,11 +1870,11 @@ Folder. Here is an example of the <span class=SpellE>speciality</span> IP:<o:p><
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_21" o:spid="_x0000_i1045" type="#_x0000_t75" style='width:636pt;
- height:7in;visibility:visible;mso-wrap-style:square'>
+ id="Picture_x0020_46" o:spid="_x0000_i1046" type="#_x0000_t75" style='width:545.4pt;
+ height:6in;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image003.png" o:title=""/>
-</v:shape><![endif]--><![if !vml]><img border=0 width=848 height=672
-src="FPGA%20Addon%20Quick%20Start_files/image025.png" v:shapes="Picture_x0020_21"><![endif]></span><span
+</v:shape><![endif]--><![if !vml]><img border=0 width=727 height=576
+src="FPGA%20Addon%20Quick%20Start_files/image026.png" v:shapes="Picture_x0020_46"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1477,11 +1897,11 @@ GUI will open. A previously exported addon configuration can&nbsp;be imported.<o
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_20" o:spid="_x0000_i1044" type="#_x0000_t75" style='width:280.8pt;
+ id="Picture_x0020_45" o:spid="_x0000_i1045" type="#_x0000_t75" style='width:280.8pt;
  height:204.6pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image004.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=374 height=273
-src="FPGA%20Addon%20Quick%20Start_files/image004.png" v:shapes="Picture_x0020_20"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image004.png" v:shapes="Picture_x0020_45"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1496,11 +1916,11 @@ Target/Controller.&nbsp;<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_19" o:spid="_x0000_i1043" type="#_x0000_t75" style='width:8in;
+ id="Picture_x0020_44" o:spid="_x0000_i1044" type="#_x0000_t75" style='width:8in;
  height:430.8pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image005.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
-src="FPGA%20Addon%20Quick%20Start_files/image026.jpg" v:shapes="Picture_x0020_19"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image027.jpg" v:shapes="Picture_x0020_44"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>&#8203;<o:p></o:p></span></p>
 
@@ -1519,11 +1939,11 @@ respectively.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_18" o:spid="_x0000_i1042" type="#_x0000_t75" style='width:8in;
+ id="Picture_x0020_43" o:spid="_x0000_i1043" type="#_x0000_t75" style='width:8in;
  height:430.8pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image006.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
-src="FPGA%20Addon%20Quick%20Start_files/image027.jpg" v:shapes="Picture_x0020_18"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image028.jpg" v:shapes="Picture_x0020_43"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1551,11 +1971,11 @@ to a number as follows.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_17" o:spid="_x0000_i1041" type="#_x0000_t75" style='width:143.4pt;
+ id="Picture_x0020_42" o:spid="_x0000_i1042" type="#_x0000_t75" style='width:143.4pt;
  height:81.6pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image007.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=191 height=109
-src="FPGA%20Addon%20Quick%20Start_files/image007.png" v:shapes="Picture_x0020_17"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image007.png" v:shapes="Picture_x0020_42"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1569,11 +1989,11 @@ select to enable <span class=SpellE>bitpacking</span>.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_16" o:spid="_x0000_i1040" type="#_x0000_t75" style='width:2in;
- height:249.6pt;visibility:visible;mso-wrap-style:square'>
+ id="Picture_x0020_41" o:spid="_x0000_i1041" type="#_x0000_t75" style='width:191.4pt;
+ height:331.8pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image008.png" o:title=""/>
-</v:shape><![endif]--><![if !vml]><img border=0 width=192 height=333
-src="FPGA%20Addon%20Quick%20Start_files/image028.jpg" v:shapes="Picture_x0020_16"><![endif]></span><span
+</v:shape><![endif]--><![if !vml]><img border=0 width=255 height=442
+src="FPGA%20Addon%20Quick%20Start_files/image008.png" v:shapes="Picture_x0020_41"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1586,11 +2006,11 @@ class=SpellE>bitpacked</span>.&nbsp;Then hit apply.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_15" o:spid="_x0000_i1039" type="#_x0000_t75" style='width:8in;
+ id="Picture_x0020_40" o:spid="_x0000_i1040" type="#_x0000_t75" style='width:8in;
  height:431.4pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image009.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=768 height=575
-src="FPGA%20Addon%20Quick%20Start_files/image029.png" v:shapes="Picture_x0020_15"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image029.png" v:shapes="Picture_x0020_40"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1611,11 +2031,11 @@ PWM IP core.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_14" o:spid="_x0000_i1038" type="#_x0000_t75" style='width:8in;
+ id="Picture_x0020_39" o:spid="_x0000_i1039" type="#_x0000_t75" style='width:8in;
  height:431.4pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image010.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=768 height=575
-src="FPGA%20Addon%20Quick%20Start_files/image030.jpg" v:shapes="Picture_x0020_14"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image030.jpg" v:shapes="Picture_x0020_39"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1633,11 +2053,11 @@ any desired DMA.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_13" o:spid="_x0000_i1037" type="#_x0000_t75" style='width:8in;
+ id="Picture_x0020_38" o:spid="_x0000_i1038" type="#_x0000_t75" style='width:8in;
  height:430.8pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image011.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
-src="FPGA%20Addon%20Quick%20Start_files/image031.jpg" v:shapes="Picture_x0020_13"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image031.jpg" v:shapes="Picture_x0020_38"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>&nbsp;&#8203;&#8203;<o:p></o:p></span></p>
 
@@ -1651,11 +2071,11 @@ in the F&#8203;PGA program. Take this FPGA loop as an example:<o:p></o:p></span>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_12" o:spid="_x0000_i1036" type="#_x0000_t75" style='width:430.2pt;
+ id="Picture_x0020_37" o:spid="_x0000_i1037" type="#_x0000_t75" style='width:430.2pt;
  height:203.4pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image012.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=574 height=271
-src="FPGA%20Addon%20Quick%20Start_files/image012.png" v:shapes="Picture_x0020_12"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image012.png" v:shapes="Picture_x0020_37"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>&nbsp;<o:p></o:p></span></p>
 
@@ -1670,11 +2090,11 @@ scheme, and&nbsp;expected sample period (acquisition rate). Hit apply.<o:p></o:p
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_11" o:spid="_x0000_i1035" type="#_x0000_t75" style='width:8in;
+ id="Picture_x0020_36" o:spid="_x0000_i1036" type="#_x0000_t75" style='width:8in;
  height:430.2pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image013.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=768 height=574
-src="FPGA%20Addon%20Quick%20Start_files/image032.png" v:shapes="Picture_x0020_11"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image032.png" v:shapes="Picture_x0020_36"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>&#8203;<o:p></o:p></span></p>
 
@@ -1687,11 +2107,11 @@ addon.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_10" o:spid="_x0000_i1034" type="#_x0000_t75" style='width:12in;
+ id="Picture_x0020_35" o:spid="_x0000_i1035" type="#_x0000_t75" style='width:12in;
  height:344.4pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image014.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=1152 height=459
-src="FPGA%20Addon%20Quick%20Start_files/image033.jpg" v:shapes="Picture_x0020_10"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image033.jpg" v:shapes="Picture_x0020_35"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1703,12 +2123,12 @@ acquisitions are supported.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444'>&#8203;<span
-style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_9"
- o:spid="_x0000_i1033" type="#_x0000_t75" style='width:116.4pt;height:72.6pt;
+style='mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_34"
+ o:spid="_x0000_i1034" type="#_x0000_t75" style='width:116.4pt;height:72.6pt;
  visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image015.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=155 height=97
-src="FPGA%20Addon%20Quick%20Start_files/image015.png" v:shapes="Picture_x0020_9"><![endif]></span><o:p></o:p></span></p>
+src="FPGA%20Addon%20Quick%20Start_files/image015.png" v:shapes="Picture_x0020_34"><![endif]></span><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
@@ -1732,11 +2152,11 @@ program&nbsp;<span class=SpellE>bitpacketing</span> a&nbsp;DMA.<o:p></o:p></span
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_8" o:spid="_x0000_i1032" type="#_x0000_t75" style='width:351pt;
+ id="Picture_x0020_33" o:spid="_x0000_i1033" type="#_x0000_t75" style='width:351pt;
  height:201.6pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image016.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=468 height=269
-src="FPGA%20Addon%20Quick%20Start_files/image016.png" v:shapes="Picture_x0020_8"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image016.png" v:shapes="Picture_x0020_33"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>&nbsp;<o:p></o:p></span></p>
 
@@ -1750,13 +2170,29 @@ from the <span class=SpellE>Delacing</span> Scheme.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_7" o:spid="_x0000_i1031" type="#_x0000_t75" style='width:99.6pt;
+ id="Picture_x0020_32" o:spid="_x0000_i1032" type="#_x0000_t75" style='width:99.6pt;
  height:65.4pt;visibility:visible;mso-wrap-style:square'>
  <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image017.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=133 height=87
-src="FPGA%20Addon%20Quick%20Start_files/image017.png" v:shapes="Picture_x0020_7"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image017.png" v:shapes="Picture_x0020_32"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-bottom:7.5pt;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'>NOTE: The embedded UI on Linux targets must be
+disabled or error -307556 will be returned.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
+line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
+mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
+ id="Picture_x0020_31" o:spid="_x0000_i1031" type="#_x0000_t75" style='width:723pt;
+ height:339.6pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image018.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=964 height=453
+src="FPGA%20Addon%20Quick%20Start_files/image018.png" v:shapes="Picture_x0020_31"><![endif]></span><span
+style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
+"Times New Roman";color:#444444'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
 line-height:normal;mso-outline-level:2'><span style='font-size:17.5pt;
@@ -1771,11 +2207,11 @@ user interface, drag and drop channels or groups of channels.<o:p></o:p></span><
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_6" o:spid="_x0000_i1030" type="#_x0000_t75" style='width:489pt;
- height:6in;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image018.png" o:title=""/>
-</v:shape><![endif]--><![if !vml]><img border=0 width=652 height=576
-src="FPGA%20Addon%20Quick%20Start_files/image034.jpg" v:shapes="Picture_x0020_6"><![endif]></span><span
+ id="Picture_x0020_30" o:spid="_x0000_i1030" type="#_x0000_t75" style='width:591pt;
+ height:522pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image019.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=788 height=696
+src="FPGA%20Addon%20Quick%20Start_files/image019.png" v:shapes="Picture_x0020_30"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'>&#8203;<o:p></o:p></span></p>
 
@@ -1787,11 +2223,11 @@ such as Trigger and anything in Settings.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_5" o:spid="_x0000_i1029" type="#_x0000_t75" style='width:315pt;
+ id="Picture_x0020_29" o:spid="_x0000_i1029" type="#_x0000_t75" style='width:315pt;
  height:257.4pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image019.png" o:title=""/>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image020.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=420 height=343
-src="FPGA%20Addon%20Quick%20Start_files/image019.png" v:shapes="Picture_x0020_5"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image020.png" v:shapes="Picture_x0020_29"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1803,11 +2239,11 @@ text. The Error Code channel supports&nbsp;<span class=GramE>this.&#8203;</span>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_4" o:spid="_x0000_i1028" type="#_x0000_t75" style='width:12in;
+ id="Picture_x0020_28" o:spid="_x0000_i1028" type="#_x0000_t75" style='width:12in;
  height:362.4pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image020.png" o:title=""/>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image021.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=1152 height=483
-src="FPGA%20Addon%20Quick%20Start_files/image035.jpg" v:shapes="Picture_x0020_4"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image034.jpg" v:shapes="Picture_x0020_28"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1819,11 +2255,11 @@ waveforms, open the Workspace.<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_3" o:spid="_x0000_i1027" type="#_x0000_t75" style='width:285.6pt;
+ id="Picture_x0020_27" o:spid="_x0000_i1027" type="#_x0000_t75" style='width:285.6pt;
  height:327.6pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image021.png" o:title=""/>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image022.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=381 height=437
-src="FPGA%20Addon%20Quick%20Start_files/image021.png" v:shapes="Picture_x0020_3"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image022.png" v:shapes="Picture_x0020_27"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1834,11 +2270,11 @@ style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-famil
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_2" o:spid="_x0000_i1026" type="#_x0000_t75" style='width:262.2pt;
+ id="Picture_x0020_26" o:spid="_x0000_i1026" type="#_x0000_t75" style='width:262.2pt;
  height:227.4pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image022.png" o:title=""/>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image023.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=350 height=303
-src="FPGA%20Addon%20Quick%20Start_files/image022.png" v:shapes="Picture_x0020_2"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image023.png" v:shapes="Picture_x0020_26"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
@@ -1868,11 +2304,11 @@ class=GramE>follows:&#8203;</span>&#8203;<o:p></o:p></span></p>
 <p class=MsoNormal align=center style='margin-bottom:7.5pt;text-align:center;
 line-height:normal'><span style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;
 mso-fareast-font-family:"Times New Roman";color:#444444;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_1" o:spid="_x0000_i1025" type="#_x0000_t75" style='width:12in;
+ id="Picture_x0020_25" o:spid="_x0000_i1025" type="#_x0000_t75" style='width:12in;
  height:171.6pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image023.png" o:title=""/>
+ <v:imagedata src="FPGA%20Addon%20Quick%20Start_files/image024.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img border=0 width=1152 height=229
-src="FPGA%20Addon%20Quick%20Start_files/image036.jpg" v:shapes="Picture_x0020_1"><![endif]></span><span
+src="FPGA%20Addon%20Quick%20Start_files/image035.jpg" v:shapes="Picture_x0020_25"><![endif]></span><span
 style='font-size:10.0pt;font-family:"Segoe UI",sans-serif;mso-fareast-font-family:
 "Times New Roman";color:#444444'><o:p></o:p></span></p>
 
