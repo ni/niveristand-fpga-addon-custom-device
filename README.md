@@ -1,11 +1,19 @@
-FPGA-Custom-Device
+FPGA-Addon
 ===================
+
+### Description ###
 
 The FPGA addon allows a user to pull an existing FPGA bitfile into NI VeriStand with little or no modification. The FPGA bitfile does not need to meet the standard NI VeriStand FPGA framework (doesn't require two DMA channels or a XML descriptor file). It also provides support for streaming data over DMA to a VeriStand waveform. This is not supported by the standard NI VeriStand FPGA framework.
 
-### LabVIEW Version ###
+### Help ###
 
-LabVIEW 2019.
+Quick Start Documentation is at
+
+Built: C:\Users\Public\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\FPGA Addon\Windows\Quick Start Documentation
+
+Source: Source\Addon\Support Files\Quick Start Documentation
+
+Help is also included in most System Explorer sections.
 
 ### Built Availability ###
 
@@ -17,7 +25,7 @@ NI RIO 19.0 or later
 
 ### Quality, Limitations ###
 
-IP has been tested by developer on PXI 7831R. It meets VeriStand addon coding best practices. It is not currently widely used.
+IP has been tested by developer on PXI 7831R. It meets VeriStand addon coding best practices.
 
 IP limitations are as follows.
 Addon uses LabVIEW FPGA Advanced Session Resources. This requires an update to an RT INI file. This file must be updated and the RT target rebooted. The addon automatically updates the file for the user but it does not reboot the controller. Therefore, the first deployment will likely return an error. Reboot the controller after first deployment and everything should work fine after that.
@@ -28,9 +36,9 @@ Addon does not provide a way to synchronize data acquisition/generation with the
 
 Addon does not support providing timing for VeriStand (supported in the standard NI VeriStand FPGA framework).
 
-Addon only supports reading and writing FPGA indicators and controls with basic data types. 
+### Source Version ###
 
-Addon only supports reading and writing DMA of SGL data type.
+LabVIEW 2019
 
 ### Source Dependencies ###
 
