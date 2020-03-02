@@ -23,6 +23,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Addon" Type="Folder">
 			<Item Name="Support Files" Type="Folder">
+				<Item Name="Glyphs" Type="Folder" URL="../Addon/Support Files/Glyphs">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
+				</Item>
 				<Item Name="Help" Type="Folder" URL="../Addon/Support Files/Help">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
@@ -96,6 +99,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVFPGAAdvSessionResources.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/LVFPGA Adv Session Resources/LVFPGAAdvSessionResources.lvlib"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
 				<Item Name="MD5Checksum File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum File.vi"/>
 				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
@@ -186,10 +190,13 @@
 				<Property Name="Destination[5].destName" Type="Str">Quick Start Documentation</Property>
 				<Property Name="Destination[5].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Quick Start Documentation</Property>
 				<Property Name="Destination[5].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="DestinationCount" Type="Int">6</Property>
+				<Property Name="Destination[6].destName" Type="Str">Glyphs</Property>
+				<Property Name="Destination[6].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Glyphs</Property>
+				<Property Name="Destination[6].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">7</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{34E31627-8FE7-4636-B60F-A963FD598D17}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F1ADA3A6-4002-4A47-BD32-F25878CBF4E6}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -262,7 +269,14 @@
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Addon/Support Files/Quick Start Documentation</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">6</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Addon/Support Files/Glyphs</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>
@@ -483,12 +497,12 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/FPGA Addon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{40347456-3130-4631-A31F-8B2F0130D69C}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/FPGA Addon Engine Pharlap.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">73</Property>
+				<Property Name="Bld_version.build" Type="Int">74</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Pharlap/FPGA Addon Engine Pharlap.llb</Property>

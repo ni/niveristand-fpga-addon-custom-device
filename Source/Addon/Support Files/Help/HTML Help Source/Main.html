@@ -43,7 +43,8 @@
 <li>FXP +/-64.32
 </ul>
 The integer data types can be converted into a bitpacked Boolean array.</p>
-<p>It adds support for reading/writing waveforms with DMA
+<p>Enums are not supported. Convert them to a U8, U16, or U32 control or indicator. Clusters are not supported. Even if the clusters are made up of supported types. Items can be grouped by naming them on the FPGA with a (GroupName).(SignalName) format. Support for grouping can only be set on the initialization screen.</p>
+<p>The FPGA addon support for reading/writing waveforms with DMA
 <ul>
 <li>U8
 <li>I8
@@ -60,7 +61,7 @@ The integer data types can be converted into a bitpacked Boolean array.</p>
 </ul>
 The unsigned integer data types can be converted into a bitpacked Boolean array.</p>
 <p>NOTE: The embedded UI on Linux targets must be disabled or error -307556 will be returned.</p>
-<p>It also supports special FPGA cores (included in the addon folder) for:
+<p>The FPGA addon supports special FPGA cores (included in the addon folder) for:
 <ul>
 <li>PWM Generation (PWM.Generate.Digital.vi)
 <li>Sinewave Generation (Sine.Generate.vi)

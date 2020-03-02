@@ -270,6 +270,36 @@
     </Page>
     <Page>
       <Name>
+        <eng>Group Input</eng>
+        <loc>Group Input</loc>
+      </Name>
+      <GUID>88748f7d-ce11-4328-8f35-56fd574a40c1</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+		    <Path>Custom Devices\FPGA Addon\Windows\Glyphs\Group.png</Path>
+		  </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		    <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Scalar Inputs.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+    <Page>
+      <Name>
         <eng>Scalar Outputs</eng>
         <loc>Scalar Outputs</loc>
       </Name>
@@ -279,6 +309,36 @@
       <Glyph>
 			  <Type>To Application Data Dir</Type>
 			  <Path>System Explorer\Glyphs\ChnGroup.png</Path>
+		  </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		    <Path>Custom Devices\FPGA Addon\Windows\FPGA Addon Configuration.llb\Scalar Outputs.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Items</eng>
+            <loc>Delete Multiple Items</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Group Output</eng>
+        <loc>Group Output</loc>
+      </Name>
+      <GUID>58901a15-a42e-477a-af06-3ceeb84f52de</GUID>
+      <Glyph>
+        <Type>To Common Doc Dir</Type>
+		    <Path>Custom Devices\FPGA Addon\Windows\Glyphs\Group.png</Path>
 		  </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -680,8 +740,8 @@
       <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
       <GUID>8489bf21-57e3-4e68-bdd5-eadff573ec1e</GUID>
       <Glyph>
-        <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\default fpga category.png</Path>
+        <Type>To Common Doc Dir</Type>
+		  <Path>Custom Devices\FPGA Addon\Windows\Glyphs\Bitpacked.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -734,8 +794,8 @@
       <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
       <GUID>ebfc3e29-7579-49df-b828-0da2c3787b5f</GUID>
       <Glyph>
-        <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\default fpga category.png</Path>
+        <Type>To Common Doc Dir</Type>
+		  <Path>Custom Devices\FPGA Addon\Windows\Glyphs\Bitpacked.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -853,8 +913,8 @@
       <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
       <GUID>25832021-24b6-475a-aa84-f4ed7870ed99</GUID>
       <Glyph>
-        <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\default fpga category.png</Path>
+        <Type>To Common Doc Dir</Type>
+		  <Path>Custom Devices\FPGA Addon\Windows\Glyphs\IP Core.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
