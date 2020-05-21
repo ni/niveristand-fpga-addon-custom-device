@@ -20,8 +20,37 @@ build_spec = 'Configuration Release'
 
 [[build.steps]]
 name = 'Engine Libraries'
-type = 'lvBuildSpecAllTargets'
+type = 'lvBuildSpec'
 project = '{cd}'
+target = 'My Computer'
+build_spec = 'Engine Release'
+
+[[build.steps]]
+name = 'Engine Libraries'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'RT PXI Target - Pharlap'
+build_spec = 'Engine Release'
+
+[[build.steps]]
+name = 'Engine Libraries - Linux ARM'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'RT CompactRIO Target - Linux ARM'
+build_spec = 'Engine Release'
+
+[[build.steps]]
+name = 'Engine Libraries - Linux x64'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'RT CompactRIO Target - Linux x64'
+build_spec = 'Engine Release'
+
+[[build.steps]]
+name = 'Engine Libraries - VxWorks'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'RT CompactRIO Target - VxWorks'
 build_spec = 'Engine Release'
 
 [[build.steps]]
@@ -42,7 +71,7 @@ build_spec = 'System Definition API'
 type = 'nipkg'
 name = 'ni-fpga-addon-{veristand_version}'
 dev_xml_path = 'Source\Addon\Custom Device FPGA Addon.xml'
-install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices'
 
 [[release.steps]]
 name = 'Master Release'
