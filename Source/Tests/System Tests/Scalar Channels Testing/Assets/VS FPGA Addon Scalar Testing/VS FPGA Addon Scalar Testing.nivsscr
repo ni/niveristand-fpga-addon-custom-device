@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="CD2790F35F5F77CCC14020322E164BF47B7295E3FE0250A46FD0B93B3B2AF8FB31CACDEEA3A5B8A3276E9DB0CEC6C6D9B6D248A17E4DB3152D49DA49B7A24A13" Timestamp="1D635011B007789" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.3.0.49152" Version="6.3.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.0.0.49152" Version="8.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.0.0.49152" Version="8.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="VeriStand Core Components" Name="http://www.ni.com/VeriStand" OldestCompatibleVersion="7.0.0.49152" Version="7.0.0.49152" />
+		<ApplicationVersionInfo Build="7.2.0.2747" Name="VeriStand" Version="8.0.0.49956" />
+	</SourceModelFeatureSet>
+	<Screen Id="2" xmlns="http://www.ni.com/VeriStand">
+		<ScreenSurface Height="[float]1600" Id="1" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+			<ChannelSlider BaseName="[string]Slider" Channel="[string]Aliases/Scalar Outputs/SGL Output" Height="[float]150" Id="c0c3d80fabbb41ef91a988940c11f292" Label="[UIModel]aab0d5c791174e92bf2e2f08b3f39b08" Left="[float]203" MinHeight="[float]50" MinWidth="[float]50" Orientation="[SMOrientation]Vertical" Top="[float]136" ValueType="[Type]Double" />
+			<Label Height="[float]16" Id="aab0d5c791174e92bf2e2f08b3f39b08" LabelOwner="[UIModel]c0c3d80fabbb41ef91a988940c11f292" Left="[float]203" Text="[string]SGL Output" Top="[float]116" Width="[float]61" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelNumericText BaseName="[string]Numeric" Channel="[string]Aliases/Scalar Inputs/SGL Input" Height="[float]24" Id="1c1dd4701845458b9222f0fbbabeca8b" IsReadOnly="[bool]True" Label="[UIModel]eb6a5c3bb9094d21ac04faa97aa0c6a0" Left="[float]392" Top="[float]199" UnitAnnotation="[string]" ValueFormatter="[string]LV:G5" ValueType="[Type]Double" Width="[float]70" />
+			<Label Height="[float]16" Id="eb6a5c3bb9094d21ac04faa97aa0c6a0" LabelOwner="[UIModel]1c1dd4701845458b9222f0fbbabeca8b" Left="[float]392" Text="[string]SGL Input" Top="[float]179" Width="[float]51" xmlns="http://www.ni.com/PanelCommon" />
+		</ScreenSurface>
+	</Screen>
+</SourceFile>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="84193C5AD05E7D64F8B8582DBD577478CE7BCA4163027F744925F82E2927025EFEAAF91FAAA6114B06B3EE271BDB2C1546D584D3D5FB22C4DC2279B974848EE4" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.0.0.49152" Version="8.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="VeriStand Core Components" Name="http://www.ni.com/VeriStand" OldestCompatibleVersion="7.0.0.49152" Version="7.0.0.49152" />
+		<ApplicationVersionInfo Build="7.2.0.2747" Name="VeriStand" Version="8.0.0.49956" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="1" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="4" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Id="5" ModelDefinitionType="GatewayDefinition" Name="Gateway" Reparentable="False">
+				<GatewayDefinition xmlns="http://www.ni.com/VeriStand" />
+			</EmbeddedDefinitionReference>
+			<FileReference Bindings=".nivscf" Id="991d4c582b14b39bb3e9a93957c4ad4" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="VS FPGA Addon Scalar Testing.nivscf" StoragePath="VS FPGA Addon Scalar Testing.nivscf" />
+			<SourceFileReference Id="bfbcc855da4a417596d95e973dd036bb" ModelDefinitionType="{http://www.ni.com/VeriStand}Screen" Name="VS FPGA Addon Scalar Testing.nivsscr" StoragePath="VS FPGA Addon Scalar Testing.nivsscr" />
+			<FileReference Bindings=".nivsscreen" Id="8daff61410be46628ee4e8512ab935b5" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="VS FPGA Addon Scalar Testing.nivsscreen" StoragePath="VS FPGA Addon Scalar Testing.nivsscreen" />
+			<FileReference Bindings=".nivsproj" Id="45e8f9f8aed94f90832b3cd541943f5c" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="VS FPGA Addon Scalar Testing.nivsproj" StoragePath="VS FPGA Addon Scalar Testing.nivsproj" />
+			<SourceFileReference Bindings="EnvoyManager" Id="e0fc2fd70fd844d7a7cce8ad59e96e3a" ModelDefinitionType="{http://www.ni.com/VeriStand}SystemDefinition" Name="VS FPGA Addon Scalar Testing.nivssdf" StoragePath="VS FPGA Addon Scalar Testing.nivssdf" />
+			<EmbeddedDefinitionReference Id="d71e34ed5b6f41fd91602ab922ad964e" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
+				<SdfFilePath SdfPath="VS FPGA Addon Scalar Testing.nivssdf" xmlns="http://www.ni.com/VeriStand" />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>
