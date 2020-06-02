@@ -10,7 +10,7 @@
 				<String>VS FPGA Addon Scalar Testing</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.15</String>
+				<String>1.0.0.39</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -2357,6 +2357,96 @@
 					</Properties>
 					<Errors />
 				</Alias>
+				<Alias Name="BOOL Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Boolean out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="FXP16.3 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/FXP16.3 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I8 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/I8 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I16 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/I16 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I32 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/I32 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I64 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/I64 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U8 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/U8 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U16 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/U16 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U32 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/U32 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U64 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/U64 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
 			</Section>
 			<Section Name="Scalar Outputs" TypeGUID="A579F6FF-5680-1F22-249C-2C499E16CDB8">
 				<Description />
@@ -2367,6 +2457,96 @@
 					<Properties>
 						<Property Name="Referenced Channel">
 							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/SGL" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="BOOL Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/Boolean" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="FXP16.3 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/FXP16.3" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I8 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/I8" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I16 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/I16" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I32 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/I32" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I64 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/I64" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U8 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/U8" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U16 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/U16" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U32 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/U32" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U64 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/U64" />
 						</Property>
 					</Properties>
 					<Errors />
