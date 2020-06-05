@@ -2,6 +2,4 @@ Built
 *.aliases
 *.lvlps
 *.lvcodedb
-*.nivsprjcache
-*.nivssdfcache
-Source/Tests/System Tests/Scalar Channels Testing/Assets/VS FPGA Addon Scalar Testing/.cache/
+.cache/
