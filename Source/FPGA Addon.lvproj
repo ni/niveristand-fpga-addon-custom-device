@@ -42,6 +42,9 @@
 			<Item Name="FPGA Addon System Explorer.lvlib" Type="Library" URL="../Addon/Addon System Explorer/FPGA Addon System Explorer.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Item Name="FPGA Addon Test Class" Type="Folder">
+				<Item Name="FPGA Addon Test Class.lvclass" Type="LVClass" URL="../Tests/FPGA Addon Test Class/FPGA Addon Test Class.lvclass"/>
+			</Item>
 			<Item Name="System Tests" Type="Folder">
 				<Item Name="Scalar Channels Testing" Type="Folder">
 					<Item Name="Scalar Channels Testing.lvclass" Type="LVClass" URL="../Tests/System Tests/Scalar Channels Testing/Scalar Channels Testing/Scalar Channels Testing.lvclass"/>
