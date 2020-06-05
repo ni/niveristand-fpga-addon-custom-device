@@ -1,0 +1,2588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
+	<MD5Checksum />
+	<Version Major="2017" Minor="0" Fix="1" Build="0" />
+	<Content>Definition</Content>
+	<Root Name="VS FPGA Addon Scalar Testing" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+		<Description />
+		<Properties>
+			<Property Name="Name">
+				<String>VS FPGA Addon Scalar Testing</String>
+			</Property>
+			<Property Name="Version">
+				<String>1.0.0.39</String>
+			</Property>
+			<Property Name="Creator">
+				<String />
+			</Property>
+			<Property Name="Creation Date">
+				<Double>3600957293.3245616</Double>
+			</Property>
+		</Properties>
+		<Errors />
+		<TargetSections Name="Targets" TypeGUID="eb379619-68d7-4d81-be90-c0bc511cdc10">
+			<Description />
+			<Properties />
+			<Errors />
+			<Target Name="G-Ecosystem-cRIO" TypeGUID="775504BB-1485-13A6-56755DBF2C326980">
+				<Description />
+				<Properties>
+					<Property Name="OS">
+						<String>Linux_x64</String>
+					</Property>
+					<Property Name="IP Address">
+						<String>10.113.1.184</String>
+					</Property>
+					<Property Name="Control Loop Processor">
+						<I32>-2</I32>
+					</Property>
+					<Property Name="Secondary Control Loop Processor">
+						<I32>-2</I32>
+					</Property>
+					<Property Name="Stream Rate">
+						<I32>1</I32>
+					</Property>
+					<Property Name="DIO Rate">
+						<Double>100</Double>
+					</Property>
+					<Property Name="Streamed Channels">
+						<I32>512</I32>
+					</Property>
+					<Property Name="Filter DAQ Errors">
+						<Boolean>true</Boolean>
+					</Property>
+					<Property Name="Filter Watchdog Errors">
+						<Boolean>false</Boolean>
+					</Property>
+					<Property Name="Engine Rate">
+						<Double>100</Double>
+					</Property>
+					<Property Name="TL timeout">
+						<Double>120</Double>
+					</Property>
+					<Property Name="daq timeout">
+						<U32>1000</U32>
+					</Property>
+					<Property Name="TL sleep time">
+						<U32>0</U32>
+					</Property>
+					<Property Name="HS Port">
+						<I32>2040</I32>
+					</Property>
+					<Property Name="LS Port">
+						<I32>2050</I32>
+					</Property>
+					<Property Name="HS Port Timeout">
+						<I32>1000</I32>
+					</Property>
+					<Property Name="LS Port Timeout">
+						<I32>1000</I32>
+					</Property>
+					<Property Name="Deployment Group">
+						<I32>0</I32>
+					</Property>
+					<Property Name="Control Rate">
+						<Double>1</Double>
+					</Property>
+					<Property Name="Input Configuration">
+						<U32>0</U32>
+					</Property>
+					<Property Name="ts">
+						<U32>0</U32>
+					</Property>
+					<Property Name="Warmup Time [ms]">
+						<U32>2000</U32>
+					</Property>
+					<Property Name="Data Rate">
+						<Double>15</Double>
+					</Property>
+					<Property Name="FPGAScanInterfaceMode">
+						<U16>1</U16>
+					</Property>
+					<Property Name="Timing Source Settings">
+						<U16>0</U16>
+					</Property>
+					<Property Name="Username">
+						<String>admin</String>
+					</Property>
+				</Properties>
+				<Errors />
+				<Section Name="Hardware" TypeGUID="775504AB-1485-13A6-560018C1F4E3EEE1">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="Chassis" TypeGUID="03D3BACD-1485-13A6-56E99D97B7543BAF">
+						<Description />
+						<Properties>
+							<Property Name="Master type">
+								<U32>1</U32>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Timing and Sync" TypeGUID="03D3BAED-1485-13A6-56E20B50F6E06D94">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="DAQ" TypeGUID="77550612-1485-13A6-56570AB5032158E9">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="Waveform Tasks" TypeGUID="1D6B8779-A957-42D1-B074-82153DB7FF44">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="FPGA" TypeGUID="03D3B659-1485-13A6-5652D8A07328ECB7">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="NI-XNET" TypeGUID="6b693e6d-67b1-40b8-8108-4a4cc3147721">
+							<Description />
+							<Properties>
+								<Property Name="CD Status">
+									<U32>2</U32>
+								</Property>
+								<Property Name="Decimation">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Driver VI Exec Mode">
+									<U32>1</U32>
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="CAN" TypeGUID="6c5bb91f-0da7-407d-aefc-acbe49c768df">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="FlexRay" TypeGUID="e33fae90-03f1-4f76-b2f1-6eb8fcac2676">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="LIN" TypeGUID="c9c30728-42cb-4dc3-b054-b80e7a54e833">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="Data Sharing" TypeGUID="d56f3ac1-7b2c-422c-9d11-fd9cc7abf2a5">
+							<Description />
+							<Properties>
+								<Property Name="CD Status">
+									<U32>2</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+					</Section>
+					<Section Name="SLSC" TypeGUID="3ea8ee87-daf4-4abc-a6e6-9c54a9452824">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+				</Section>
+				<Section Name="Custom Devices" TypeGUID="03D3BB79-1485-13A6-5605EB7AFD7405AC">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="FPGA Addon" TypeGUID="e80a28c5-621d-4211-b584-b71df509dee0">
+						<Description />
+						<Properties>
+							<Property Name="CD Status">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Exec Mode">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Path_0">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\FPGA Addon\Linux_x64\FPGA Addon Engine Linux64.llb\RT Driver VI.vi">
+									<Version>3.1.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Linux_x64</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\FPGA Addon\Linux_32_ARM\FPGA Addon Engine LinuxARM.llb\RT Driver VI.vi">
+									<Version>3.1.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Linux_32_ARM</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_2">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\FPGA Addon\VxWorks\FPGA Addon Engine VxWorks.llb\RT Driver VI.vi">
+									<Version>3.1.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine VxWorks.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>VxWorks</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_3">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\FPGA Addon\Pharlap\FPGA Addon Engine Pharlap.llb\RT Driver VI.vi">
+									<Version>3.1.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>PharLap</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_4">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\FPGA Addon\Windows\FPGA Addon Engine Windows.llb\RT Driver VI.vi">
+									<Version>3.1.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine Windows.llb\RT Driver VI.vi</RTDestination>
+									<SupportedTarget>Windows</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Version">
+								<String>3.1.0</String>
+							</Property>
+							<Property Name="user.CD.FPGA.Bitfile">
+								<String>C:\Users\dstavila\Desktop\NI VeriStand FPGA Addon Fork\Source\Tests\System Tests\Scalar Channels Testing\Assets\LabVIEW cRIO FPGA Project\Bitfiles\cRIO Personality.lvbitx</String>
+							</Property>
+							<Property Name="user.CD.FPGA.Device">
+								<String>RIO0</String>
+							</Property>
+							<Property Name="user.CD.Group">
+								<Boolean>false</Boolean>
+							</Property>
+							<Property Name="user.CD.Bitfile">
+								<DependentFile Type="Absolute" Path="C:\Users\dstavila\Desktop\NI VeriStand FPGA Addon Fork\Source\Tests\System Tests\Scalar Channels Testing\Assets\LabVIEW cRIO FPGA Project\Bitfiles\cRIO Personality.lvbitx">
+									<Version>1.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\cRIO Personality.lvbitx</RTDestination>
+									<SupportedTarget>All</SupportedTarget>
+									<MD5>09d8df16a919703aca6f605055318fdd</MD5>
+								</DependentFile>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Scalars" TypeGUID="884b7050-623e-4f2c-925b-6b753ddf9d1a">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="Scalar Inputs" TypeGUID="45f50bc5-dab3-4e15-b99b-0f8c8c0fe0f0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Available Registers">
+										<Variant>
+											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+											<Data>AAASqxkAgAAAAAAFAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBTDURlZmF1bHQgVmFsdWUADABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAAvAAAABEJpdDAKGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAEQml0MQoZAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAAtCb29sZWFuIG91dAoZAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAAtGWFAxNi4zIG91dBkZAIAAAAAAAQBIQF8DEQAQAAAAAwAAAAEAAAABAAAAAAAAAAAAAAAQAAAAAwAAAAAAAP//AAAAAf////QAAAAAAAAAAQtGWFAxNi4zIG91dAABAAAAAAAAAAAAAAAAAAAAAAALRlhQMTYuNSBvdXQSGQCAAAAAAAEASEBfA1EAEAAAAAUAAQABAAAABf//////////AAAADwAAAAQAAAAAAAB//wAAAAH////2AAAAAAAAAAELRlhQMTYuNSBvdXQAAQAAAAAAAAAAAAAAAAAAAAAAC0ZYUDE2Ljcgb3V0FRkAgAAAAAABAEhAXwNRABAAAAAHAAEAAQAAAAf//////////wAAAA8AAAAGAAAAAAAAf/8AAAAB////+AAAAAAAAAABC0ZYUDE2Ljcgb3V0AAEAAAAAAAAAAAAAAAAAAAAAAAtGWFAxOC4zIG91dBoZAIAAAAAAAQBIQF8DEQASAAAAAwAAAAEAAAABAAAAAAAAAAAAAAASAAAAAwAAAAAAA///AAAAAf////IAAAAAAAAAAQtGWFAxOC4zIG91dAABAAAAAAAAAAAAAAAAAAAAAAALRlhQMjAuNSBvdXQWGQCAAAAAAAEASEBfA1EAFAAAAAUAAQABAAAABf//////////AAAAEwAAAAQAAAAAAAf//wAAAAH////yAAAAAAAAAAELRlhQMjAuNSBvdXQAAQAAAAAAAAAAAAAAAAAAAAAAC0ZYUDI0LjUgb3V0ERkAgAAAAAABAEhAXwNRABgAAAAFAAEAAQAAAAX//////////wAAABcAAAAEAAAAAAB///8AAAAB////7gAAAAAAAAABC0ZYUDI0LjUgb3V0AAEAAAAAAAAAAAAAAAAAAAAAAAtGWFAyNy41IG91dBcZAIAAAAAAAQBIQF8DUQAbAAAABQABAAEAAAAF//////////8AAAAaAAAABAAAAAAD////AAAAAf///+sAAAAAAAAAAQtGWFAyNy41IG91dAABAAAAAAAAAAAAAAAAAAAAAAAMRlhQMzIuMTYgb3V0GBkAgAAAAAABAEpAXwNRACAAAAAQAAEAAQAAABD//////////wAAAB8AAAAPAAAAAH////8AAAAB////8QAAAAAAAAABDEZYUDMyLjE2IG91dAAAAQAAAAAAAAAAAAAAAAAAAAAAC0ZYUDMyLjggb3V0ExkAgAAAAAABAEhAXwNRACAAAAAIAAEAAQAAAAj//////////wAAAB8AAAAHAAAAAH////8AAAAB////6QAAAAAAAAABC0ZYUDMyLjggb3V0AAEAAAAAAAAAAAAAAAAAAAAAAAxGWFA2NC4zMiBvdXQUGQCAAAAAAAEASkBfA1EAQAAAACAAAQABAAAAIP//////////AAAAPwAAAB9//////////wAAAAH////hAAAAAAAAAAEMRlhQNjQuMzIgb3V0AAABAAAAAAAAAAAAAAAAAAAAAAASR3JvdXAxLkJvb2xlYW4gb3V0ChkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAAEkdyb3VwMS5GWFAxNi4zIG91dBkZAIAAAAAAAQBQQF8DEQAQAAAAAwAAAAEAAAABAAAAAAAAAAAAAAAQAAAAAwAAAAAAAP//AAAAAf////QAAAAAAAAAARJHcm91cDEuRlhQMTYuMyBvdXQAAAEAAAAAAAAAAAAAAAAAAAAAABJHcm91cDEuRlhQMTYuNSBvdXQSGQCAAAAAAAEAUEBfA1EAEAAAAAUAAQABAAAABf//////////AAAADwAAAAQAAAAAAAB//wAAAAH////2AAAAAAAAAAESR3JvdXAxLkZYUDE2LjUgb3V0AAABAAAAAAAAAAAAAAAAAAAAAAASR3JvdXAxLkZYUDE2Ljcgb3V0FRkAgAAAAAABAFBAXwNRABAAAAAHAAEAAQAAAAf//////////wAAAA8AAAAGAAAAAAAAf/8AAAAB////+AAAAAAAAAABEkdyb3VwMS5GWFAxNi43IG91dAAAAQAAAAAAAAAAAAAAAAAAAAAAEkdyb3VwMS5GWFAxOC4zIG91dBoZAIAAAAAAAQBQQF8DEQASAAAAAwAAAAEAAAABAAAAAAAAAAAAAAASAAAAAwAAAAAAA///AAAAAf////IAAAAAAAAAARJHcm91cDEuRlhQMTguMyBvdXQAAAEAAAAAAAAAAAAAAAAAAAAAABJHcm91cDEuRlhQMjAuNSBvdXQWGQCAAAAAAAEAUEBfA1EAFAAAAAUAAQABAAAABf//////////AAAAEwAAAAQAAAAAAAf//wAAAAH////yAAAAAAAAAAESR3JvdXAxLkZYUDIwLjUgb3V0AAABAAAAAAAAAAAAAAAAAAAAAAASR3JvdXAxLkZYUDI0LjUgb3V0ERkAgAAAAAABAFBAXwNRABgAAAAFAAEAAQAAAAX//////////wAAABcAAAAEAAAAAAB///8AAAAB////7gAAAAAAAAABEkdyb3VwMS5GWFAyNC41IG91dAAAAQAAAAAAAAAAAAAAAAAAAAAAEkdyb3VwMS5GWFAyNy41IG91dBcZAIAAAAAAAQBQQF8DUQAbAAAABQABAAEAAAAF//////////8AAAAaAAAABAAAAAAD////AAAAAf///+sAAAAAAAAAARJHcm91cDEuRlhQMjcuNSBvdXQAAAEAAAAAAAAAAAAAAAAAAAAAABNHcm91cDEuRlhQMzIuMTYgb3V0GBkAgAAAAAABAFBAXwNRACAAAAAQAAEAAQAAABD//////////wAAAB8AAAAPAAAAAH////8AAAAB////8QAAAAAAAAABE0dyb3VwMS5GWFAzMi4xNiBvdXQAAQAAAAAAAAAAAAAAAAAAAAAAEkdyb3VwMS5GWFAzMi44IG91dBMZAIAAAAAAAQBQQF8DUQAgAAAACAABAAEAAAAI//////////8AAAAfAAAABwAAAAB/////AAAAAf///+kAAAAAAAAAARJHcm91cDEuRlhQMzIuOCBvdXQAAAEAAAAAAAAAAAAAAAAAAAAAABNHcm91cDEuRlhQNjQuMzIgb3V0FBkAgAAAAAABAFBAXwNRAEAAAAAgAAEAAQAAACD//////////wAAAD8AAAAff/////////8AAAAB////4QAAAAAAAAABE0dyb3VwMS5GWFA2NC4zMiBvdXQAAQAAAAAAAAAAAAAAAAAAAAAADkdyb3VwMS5JMTYgb3V0AhkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAADkdyb3VwMS5JMzIgb3V0AxkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAADkdyb3VwMS5JNjQgb3V0BBkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAADUdyb3VwMS5JOCBvdXQBGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAOR3JvdXAxLlNHTCBvdXQJGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAOR3JvdXAxLlUxNiBvdXQGGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAOR3JvdXAxLlUzMiBvdXQHGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAOR3JvdXAxLlU2NCBvdXQIGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAANR3JvdXAxLlU4IG91dAUZAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAAdJMTYgb3V0AhkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAAB0kzMiBvdXQDGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAHSTY0IG91dAQZAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAAZJOCBvdXQBGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAATTWVhc3VyZS5EaWdpdGFsLkNoMA4ZAIAAAAAABAATQAcADEFDVElWRSBUSUNLUwAAFUAHAA5JTkFDVElWRSBUSUNLUwAAD0AHAAlBQ1EgVElDS1MAaQDxAAAAAAAAAAIYU3BlY2lhbGl0eSBGUEdBIElPLmx2bGliI1BXTS5NZWFzdXJlLkRpZ2l0YWwuTWVhc3VyZW1lbnQuY3RsACRAUAADAAAAAQACE01lYXN1cmUuRGlnaXRhbC5DaDAAAQADAAAPoAAALuAAAAABAAAAAAAAABNNZWFzdXJlLkRpZ2l0YWwuQ2gxDhkAgAAAAAAEABNABwAMQUNUSVZFIFRJQ0tTAAAVQAcADklOQUNUSVZFIFRJQ0tTAAAPQAcACUFDUSBUSUNLUwBpAPEAAAAAAAAAAhhTcGVjaWFsaXR5IEZQR0EgSU8ubHZsaWIjUFdNLk1lYXN1cmUuRGlnaXRhbC5NZWFzdXJlbWVudC5jdGwAJEBQAAMAAAABAAITTWVhc3VyZS5EaWdpdGFsLkNoMQABAAMAAAAAAAAAAAAAAAAAAAAAAAAAE01lYXN1cmUuRGlnaXRhbC5DaDIbGQCAAAAAAAIACkAhBVNUQVRFAGgA8QAAAAAAAAACGFNwZWNpYWxpdHkgRlBHQSBJTy5sdmxpYiZTdGF0aWMuTWVhc3VyZS5EaWdpdGFsLk1lYXN1cmVtZW50LmN0bAAgQFAAAQAAE01lYXN1cmUuRGlnaXRhbC5DaDIAAQABAAAAAAAAAAATTWVhc3VyZS5EaWdpdGFsLkNoMxsZAIAAAAAAAgAKQCEFU1RBVEUAaADxAAAAAAAAAAIYU3BlY2lhbGl0eSBGUEdBIElPLmx2bGliJlN0YXRpYy5NZWFzdXJlLkRpZ2l0YWwuTWVhc3VyZW1lbnQuY3RsACBAUAABAAATTWVhc3VyZS5EaWdpdGFsLkNoMwABAAEAAAAAAAAAABdNZWFzdXJlbWVudC5EaWdpdGFsLkNoNSAZAIAAAAAAAgAPQAMACFBPU0lUSU9OAAB3APEAAAAAAAAAAhhTcGVjaWFsaXR5IEZQR0EgSU8ubHZsaWIxUXVhZHJhdHVyZUVuY29kZXIuTWVhc3VyZS5EaWdpdGFsLk1lYXN1cmVtZW50LmN0bAAkQFAAAQAAF01lYXN1cmVtZW50LkRpZ2l0YWwuQ2g1AAEAAQAAAAAAAAAAAAAAB1NHTCBvdXQJGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAHVTE2IG91dAYZAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAAdVMzIgb3V0BxkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAAB1U2NCBvdXQIGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAGVTggb3V0BRkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAAAA==</Data>
+										</Variant>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="Bit0" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Bit0</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Bit1" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Bit1</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Boolean out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Boolean out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP16.3 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP16.3 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP16.5 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP16.5 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP16.7 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP16.7 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP18.3 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP18.3 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP20.5 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP20.5 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP24.5 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP24.5 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP27.5 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP27.5 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP32.16 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP32.16 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP32.8 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP32.8 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP64.32 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP64.32 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.Boolean out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.Boolean out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP16.3 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP16.3 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP16.5 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP16.5 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP16.7 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP16.7 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP18.3 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP18.3 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP20.5 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP20.5 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP24.5 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP24.5 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP27.5 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP27.5 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP32.16 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP32.16 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP32.8 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP32.8 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP64.32 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP64.32 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.I16 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.I16 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.I32 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.I32 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.I64 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.I64 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.I8 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.I8 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.SGL out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.SGL out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.U16 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.U16 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.U32 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.U32 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.U64 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.U64 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.U8 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.U8 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="I16 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>I16 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="I32 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>I32 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="I64 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>I64 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="I8 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>I8 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="SGL out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>SGL out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="U16 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>U16 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="U32 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>U32 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="U64 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>U64 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="U8 out" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>U8 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Scalar Outputs" TypeGUID="7d46fed9-731a-4423-8f13-aa8ac2cd791c">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Available Registers">
+										<Variant>
+											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+											<Data>AAAXGRkAgAAAAAAFAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBTDURlZmF1bHQgVmFsdWUADABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAA1AAAAAUEKGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAABQgoZAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAAdCb29sZWFuChkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAAB0ZYUDE2LjMZGQCAAAAAAAEAREBfAxEAEAAAAAMAAAABAAAAAQAAAAAAAAAAAAAAEAAAAAMAAAAAAAD//wAAAAH////0AAAAAAAAAAEHRlhQMTYuMwABAAAAAAAAAAAAAAAAAAAAAAAHRlhQMTYuNRIZAIAAAAAAAQBEQF8DUQAQAAAABQABAAEAAAAF//////////8AAAAPAAAABAAAAAAAAH//AAAAAf////YAAAAAAAAAAQdGWFAxNi41AAEAAAAAAAAAAAAAAAAAAAAAAAdGWFAxNi43FRkAgAAAAAABAERAXwNRABAAAAAHAAEAAQAAAAf//////////wAAAA8AAAAGAAAAAAAAf/8AAAAB////+AAAAAAAAAABB0ZYUDE2LjcAAQAAAAAAAAAAAAAAAAAAAAAAB0ZYUDE4LjMaGQCAAAAAAAEAREBfAxEAEgAAAAMAAAABAAAAAQAAAAAAAAAAAAAAEgAAAAMAAAAAAAP//wAAAAH////yAAAAAAAAAAEHRlhQMTguMwABAAAAAAAAAAAAAAAAAAAAAAAHRlhQMjAuNRYZAIAAAAAAAQBEQF8DUQAUAAAABQABAAEAAAAF//////////8AAAATAAAABAAAAAAAB///AAAAAf////IAAAAAAAAAAQdGWFAyMC41AAEAAAAAAAAAAAAAAAAAAAAAAAdGWFAyNC41ERkAgAAAAAABAERAXwNRABgAAAAFAAEAAQAAAAX//////////wAAABcAAAAEAAAAAAB///8AAAAB////7gAAAAAAAAABB0ZYUDI0LjUAAQAAAAAAAAAAAAAAAAAAAAAAB0ZYUDI3LjUXGQCAAAAAAAEAREBfA1EAGwAAAAUAAQABAAAABf//////////AAAAGgAAAAQAAAAAA////wAAAAH////rAAAAAAAAAAEHRlhQMjcuNQABAAAAAAAAAAAAAAAAAAAAAAAIRlhQMzIuMTYYGQCAAAAAAAEARkBfA1EAIAAAABAAAQABAAAAEP//////////AAAAHwAAAA8AAAAAf////wAAAAH////xAAAAAAAAAAEIRlhQMzIuMTYAAAEAAAAAAAAAAAAAAAAAAAAAAAdGWFAzMi44ExkAgAAAAAABAERAXwNRACAAAAAIAAEAAQAAAAj//////////wAAAB8AAAAHAAAAAH////8AAAAB////6QAAAAAAAAABB0ZYUDMyLjgAAQAAAAAAAAAAAAAAAAAAAAAACEZYUDY0LjMyFBkAgAAAAAABAEZAXwNRAEAAAAAgAAEAAQAAACD//////////wAAAD8AAAAff/////////8AAAAB////4QAAAAAAAAABCEZYUDY0LjMyAAABAAAAAAAAAAAAAAAAAAAAAAAmR2VuZXJhdGUuRGlnaXRhbC5DaDAuSW50ZXJuYWwuU2V0dGluZ3MPGQCAAAAAAAQAEEAhC0FDVElWRSBFREdFABNABwAMQUNUSVZFIFRJQ0tTAAAVQAcADklOQUNUSVZFIFRJQ0tTAAB7APEAAAAAAAAAAhhTcGVjaWFsaXR5IEZQR0EgSU8ubHZsaWIhUFdNLkdlbmVyYXRlLkRpZ2l0YWwuU2V0dGluZ3MuY3RsADhAUAADAAAAAQACJkdlbmVyYXRlLkRpZ2l0YWwuQ2gwLkludGVybmFsLlNldHRpbmdzAAABAAMBAAAPoAAALuAAAAAAAAAAJkdlbmVyYXRlLkRpZ2l0YWwuQ2gxLkludGVybmFsLlNldHRpbmdzDxkAgAAAAAAEABBAIQtBQ1RJVkUgRURHRQATQAcADEFDVElWRSBUSUNLUwAAFUAHAA5JTkFDVElWRSBUSUNLUwAAewDxAAAAAAAAAAIYU3BlY2lhbGl0eSBGUEdBIElPLmx2bGliIVBXTS5HZW5lcmF0ZS5EaWdpdGFsLlNldHRpbmdzLmN0bAA4QFAAAwAAAAEAAiZHZW5lcmF0ZS5EaWdpdGFsLkNoMS5JbnRlcm5hbC5TZXR0aW5ncwAAAQADAAOThwABMS0AAAAAAAAAACZHZW5lcmF0ZS5EaWdpdGFsLkNoMi5JbnRlcm5hbC5TZXR0aW5ncxwZAIAAAAAAAwAQQCELQUNUSVZFIEVER0UADEAhBk9VVFBVVAAAfADxAAAAAAAAAAIYU3BlY2lhbGl0eSBGUEdBIElPLmx2bGliJFN0YXRpYy5HZW5lcmF0ZS5EaWdpdGFsLlNldHRpbmdzLmN0bAA2QFAAAgAAAAEmR2VuZXJhdGUuRGlnaXRhbC5DaDIuSW50ZXJuYWwuU2V0dGluZ3MAAAEAAgEAAAAAAAAAACZHZW5lcmF0ZS5EaWdpdGFsLkNoMy5JbnRlcm5hbC5TZXR0aW5ncxwZAIAAAAAAAwAQQCELQUNUSVZFIEVER0UADEAhBk9VVFBVVAAAfADxAAAAAAAAAAIYU3BlY2lhbGl0eSBGUEdBIElPLmx2bGliJFN0YXRpYy5HZW5lcmF0ZS5EaWdpdGFsLlNldHRpbmdzLmN0bAA2QFAAAgAAAAEmR2VuZXJhdGUuRGlnaXRhbC5DaDMuSW50ZXJuYWwuU2V0dGluZ3MAAAEAAgEAAAAAAAAAACFHZW5lcmF0ZS5EaWdpdGFsLkNoNC5XU1MuU2V0dGluZ3MeGQCAAAAAAAYAEEAhC0FDVElWRSBFREdFABNABwAMQUNUSVZFIFRJQ0tTAAAVQAcADklOQUNUSVZFIFRJQ0tTAAALQAUABERBVEEAABFABQALU0VOU09SIFRZUEUAeQDxAAAAAAAAAAIYU3BlY2lhbGl0eSBGUEdBIElPLmx2bGliIVdTUy5HZW5lcmF0ZS5EaWdpdGFsLlNldHRpbmdzLmN0bAA2QFAABQAAAAEAAgADAAQhR2VuZXJhdGUuRGlnaXRhbC5DaDQuV1NTLlNldHRpbmdzAAEABQEAAAAAAAAAAAAAAAAAAAAAAA5Hcm91cDEuQm9vbGVhbgoZAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAA5Hcm91cDEuRlhQMTYuMxkZAIAAAAAAAQBMQF8DEQAQAAAAAwAAAAEAAAABAAAAAAAAAAAAAAAQAAAAAwAAAAAAAP//AAAAAf////QAAAAAAAAAAQ5Hcm91cDEuRlhQMTYuMwAAAQAAAAAAAAAAAAAAAAAAAAAADkdyb3VwMS5GWFAxNi41EhkAgAAAAAABAExAXwNRABAAAAAFAAEAAQAAAAX//////////wAAAA8AAAAEAAAAAAAAf/8AAAAB////9gAAAAAAAAABDkdyb3VwMS5GWFAxNi41AAABAAAAAAAAAAAAAAAAAAAAAAAOR3JvdXAxLkZYUDE2LjcVGQCAAAAAAAEATEBfA1EAEAAAAAcAAQABAAAAB///////////AAAADwAAAAYAAAAAAAB//wAAAAH////4AAAAAAAAAAEOR3JvdXAxLkZYUDE2LjcAAAEAAAAAAAAAAAAAAAAAAAAAAA5Hcm91cDEuRlhQMTguMxoZAIAAAAAAAQBMQF8DEQASAAAAAwAAAAEAAAABAAAAAAAAAAAAAAASAAAAAwAAAAAAA///AAAAAf////IAAAAAAAAAAQ5Hcm91cDEuRlhQMTguMwAAAQAAAAAAAAAAAAAAAAAAAAAADkdyb3VwMS5GWFAyMC41FhkAgAAAAAABAExAXwNRABQAAAAFAAEAAQAAAAX//////////wAAABMAAAAEAAAAAAAH//8AAAAB////8gAAAAAAAAABDkdyb3VwMS5GWFAyMC41AAABAAAAAAAAAAAAAAAAAAAAAAAOR3JvdXAxLkZYUDI0LjURGQCAAAAAAAEATEBfA1EAGAAAAAUAAQABAAAABf//////////AAAAFwAAAAQAAAAAAH///wAAAAH////uAAAAAAAAAAEOR3JvdXAxLkZYUDI0LjUAAAEAAAAAAAAAAAAAAAAAAAAAAA5Hcm91cDEuRlhQMjcuNRcZAIAAAAAAAQBMQF8DUQAbAAAABQABAAEAAAAF//////////8AAAAaAAAABAAAAAAD////AAAAAf///+sAAAAAAAAAAQ5Hcm91cDEuRlhQMjcuNQAAAQAAAAAAAAAAAAAAAAAAAAAAD0dyb3VwMS5GWFAzMi4xNhgZAIAAAAAAAQBMQF8DUQAgAAAAEAABAAEAAAAQ//////////8AAAAfAAAADwAAAAB/////AAAAAf////EAAAAAAAAAAQ9Hcm91cDEuRlhQMzIuMTYAAQAAAAAAAAAAAAAAAAAAAAAADkdyb3VwMS5GWFAzMi44ExkAgAAAAAABAExAXwNRACAAAAAIAAEAAQAAAAj//////////wAAAB8AAAAHAAAAAH////8AAAAB////6QAAAAAAAAABDkdyb3VwMS5GWFAzMi44AAABAAAAAAAAAAAAAAAAAAAAAAAPR3JvdXAxLkZYUDY0LjMyFBkAgAAAAAABAExAXwNRAEAAAAAgAAEAAQAAACD//////////wAAAD8AAAAff/////////8AAAAB////4QAAAAAAAAABD0dyb3VwMS5GWFA2NC4zMgABAAAAAAAAAAAAAAAAAAAAAAAKR3JvdXAxLkkxNgIZAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAApHcm91cDEuSTMyAxkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAACkdyb3VwMS5JNjQEGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAJR3JvdXAxLkk4ARkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAACkdyb3VwMS5TR0wJGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAKR3JvdXAxLlUxNgYZAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAApHcm91cDEuVTMyBxkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAACkdyb3VwMS5VNjQIGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAJR3JvdXAxLlU4BRkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAAA0kxNgIZAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAANJMzIDGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAADSTY0BBkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAAAkk4ARkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAAHE1lYXN1cmUuRGlnaXRhbC5DaDAuU2V0dGluZ3MNGQCAAAAAAAMAEEAhC0FDVElWRSBFREdFAA1ABwAHVElNRU9VVABuAPEAAAAAAAAAAhhTcGVjaWFsaXR5IEZQR0EgSU8ubHZsaWIgUFdNLk1lYXN1cmUuRGlnaXRhbC5TZXR0aW5ncy5jdGwALEBQAAIAAAABHE1lYXN1cmUuRGlnaXRhbC5DaDAuU2V0dGluZ3MAAAEAAgECYloAAAAAAAAAABxNZWFzdXJlLkRpZ2l0YWwuQ2gxLlNldHRpbmdzDRkAgAAAAAADABBAIQtBQ1RJVkUgRURHRQANQAcAB1RJTUVPVVQAbgDxAAAAAAAAAAIYU3BlY2lhbGl0eSBGUEdBIElPLmx2bGliIFBXTS5NZWFzdXJlLkRpZ2l0YWwuU2V0dGluZ3MuY3RsACxAUAACAAAAARxNZWFzdXJlLkRpZ2l0YWwuQ2gxLlNldHRpbmdzAAABAAIAAmJaAAAAAAAAAAAlTWVhc3VyZS5EaWdpdGFsLkNoMi5JbnRlcm5hbC5TZXR0aW5ncx0ZAIAAAAAAAgAQQCELQUNUSVZFIEVER0UAdwDxAAAAAAAAAAIYU3BlY2lhbGl0eSBGUEdBIElPLmx2bGliI1N0YXRpYy5NZWFzdXJlLkRpZ2l0YWwuU2V0dGluZ3MuY3RsADJAUAABAAAlTWVhc3VyZS5EaWdpdGFsLkNoMi5JbnRlcm5hbC5TZXR0aW5ncwABAAEBAAAAAAAAACVNZWFzdXJlLkRpZ2l0YWwuQ2gzLkludGVybmFsLlNldHRpbmdzHRkAgAAAAAACABBAIQtBQ1RJVkUgRURHRQB3APEAAAAAAAAAAhhTcGVjaWFsaXR5IEZQR0EgSU8ubHZsaWIjU3RhdGljLk1lYXN1cmUuRGlnaXRhbC5TZXR0aW5ncy5jdGwAMkBQAAEAACVNZWFzdXJlLkRpZ2l0YWwuQ2gzLkludGVybmFsLlNldHRpbmdzAAEAAQEAAAAAAAAAKE1lYXN1cmUuRGlnaXRhbC5DaDUuUXVhZEVuY29kZXIuU2V0dGluZ3MfGQCAAAAAAAYAD0AFAAlESVJFQ1RJT04AEUADAAtSRVNFVCBWQUxVRQASQCENQSBSRVNFVCBTVEFURQASQCENQiBSRVNFVCBTVEFURQASQCENWiBSRVNFVCBTVEFURQCOAPEAAAAAAAAAAhhTcGVjaWFsaXR5IEZQR0EgSU8ubHZsaWIuUXVhZHJhdHVyZUVuY29kZXIuTWVhc3VyZS5EaWdpdGFsLlNldHRpbmdzLmN0bAA+QFAABQAAAAEAAgADAAQoTWVhc3VyZS5EaWdpdGFsLkNoNS5RdWFkRW5jb2Rlci5TZXR0aW5ncwAAAQAFAAAAAAABAQEAAAAAAAAAA1NHTAkZAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAANVMTYGGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAADVTMyBxkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAAA1U2NAgZAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAAJVOAUZAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAAFaChkAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAAAA==</Data>
+										</Variant>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="A" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>A</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="B" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>B</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Boolean" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Boolean</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP16.3" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP16.3</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP16.5" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP16.5</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP16.7" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP16.7</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP18.3" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP18.3</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP20.5" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP20.5</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP24.5" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP24.5</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP27.5" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP27.5</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP32.16" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP32.16</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP32.8" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP32.8</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP64.32" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP64.32</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.Boolean" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.Boolean</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP16.3" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP16.3</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP16.5" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP16.5</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP16.7" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP16.7</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP18.3" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP18.3</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP20.5" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP20.5</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP24.5" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP24.5</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP27.5" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP27.5</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP32.16" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP32.16</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP32.8" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP32.8</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP64.32" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP64.32</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.I16" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.I16</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.I32" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.I32</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.I64" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.I64</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.I8" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.I8</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.SGL" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.SGL</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.U16" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.U16</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.U32" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.U32</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.U64" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.U64</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.U8" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.U8</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="I16" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>I16</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="I32" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>I32</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="I64" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>I64</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="I8" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>I8</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="SGL" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>SGL</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="U16" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>U16</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="U32" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>U32</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="U64" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>U64</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="U8" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>U8</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Z" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Z</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+						</Section>
+						<Section Name="Waveforms" TypeGUID="5f75895a-bfdb-4cd8-9ef2-787e261eba38">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="Waveform Inputs" TypeGUID="165959cb-b691-43bd-9f8b-54fe62f4b534">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Available DMA">
+										<Variant>
+											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+											<Data>AAAB3RkAgAAAAAAEAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBQAAIAAAABB0NsdXN0ZXIAGkBAAAH/////AAINQXZhaWxhYmxlIERNQQABAAMAAAAAAAAAAA==</Data>
+										</Variant>
+									</Property>
+								</Properties>
+								<Errors />
+							</Section>
+							<Section Name="Waveform Outputs" TypeGUID="bc66db3e-ace6-4d58-add4-89e89e885df7">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Available DMA">
+										<Variant>
+											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+											<Data>AAAB3RkAgAAAAAAEAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBQAAIAAAABB0NsdXN0ZXIAGkBAAAH/////AAINQXZhaWxhYmxlIERNQQABAAMAAAAAAAAAAA==</Data>
+										</Variant>
+									</Property>
+								</Properties>
+								<Errors />
+							</Section>
+						</Section>
+					</Section>
+				</Section>
+				<Section Name="Simulation Models" TypeGUID="03D3B937-1485-13A6-5600F2871E269F9A">
+					<Description />
+					<Properties>
+						<Property Name="ParameterAccess">
+							<I32>1</I32>
+						</Property>
+					</Properties>
+					<Errors />
+					<Section Name="Models" TypeGUID="03D3B976-1485-13A6-5604255F981010CE">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+					<Section Name="Execution Order" TypeGUID="03D3B966-1485-13A6-569CFF8A449BF90A">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+				</Section>
+				<Section Name="User Channels" TypeGUID="03D3B6B7-1485-13A6-567BE1E1E0DF999A">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="Calculated Channels" TypeGUID="03D3B714-1485-13A6-56031C5F1CCB78A9">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="Stimulus" TypeGUID="03D3B7FF-1485-13A6-56B2328F9511AC8B">
+					<Description />
+					<Properties>
+						<Property Name="Max Steps">
+							<I32>128</I32>
+						</Property>
+						<Property Name="Max Gen Maps">
+							<I32>256</I32>
+						</Property>
+						<Property Name="Aux Buffer Size">
+							<I32>10000</I32>
+						</Property>
+						<Property Name="Analysis Buffer Size">
+							<I32>10000</I32>
+						</Property>
+						<Property Name="Analysis Result Size">
+							<I32>5000</I32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="Alarms" TypeGUID="03D3B782-1485-13A6-56F58B35B6CBA484">
+					<Description />
+					<Properties>
+						<Property Name="Alarm Rate">
+							<I32>1</I32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="Procedures" TypeGUID="03D3B7B1-1485-13A6-56649C7783203F22">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="XNET Databases" TypeGUID="def5630b-577f-4ae9-9682-5f8ee445ee21">
+					<Description />
+					<Properties>
+						<Property Name="CD Status">
+							<U32>2</U32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="System Channels" TypeGUID="03D3B753-1485-13A6-56B10ED0820CF410">
+					<Description />
+					<Properties />
+					<Errors />
+					<Channel Name="Actual Loop Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Hz" BitFields="1">
+						<Description>The execution rate of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Command Index" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Command Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The decimation of the Data Processing Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Time" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>The relative system time of the VeriStand Engine according to the iteration count and Delta T of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Alarm Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="DAQ Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Error Code" BitFields="3">
+						<Description>The last reported error code from a DAQmx function call. The value zero indicates no error has occurred.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Delta T" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>The period in seconds of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Compiler Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 1" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 2" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 3" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Resume Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 4" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 5" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 6" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Low Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Medium Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped High Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Low Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Medium Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped High Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="RT Engine Build" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>A value representing the build number of the NI VeriStand Engine</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Loop Duration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The duration of the Primary Control Loop in nanoseconds</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Loop Duration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The duration of the Data Processing Loop in nanoseconds</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Command" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="3">
+						<Description>Internally commands the RT system with the following numeric values:
+
+0: None
+1: Restart System
+2: Reset System
+3: Shut Down System
+4: Reboot System</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="None">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Restart System">
+										<Double>1</Double>
+									</Elem>
+									<Elem Key="Reset System">
+										<Double>2</Double>
+									</Elem>
+									<Elem Key="Shut Down System">
+										<Double>3</Double>
+									</Elem>
+									<Elem Key="Reboot System">
+										<Double>4</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Streamed Channel Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of channels that the VeriStand Engine is currently streaming to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Max Streamed Channels" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The maximum number of channels that the VeriStand Engine can stream to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Model Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the models have not completed their execution in time</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Clients" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Maximum GENs" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of stimulus profile generators instantiated by the system</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Generator Engine State" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="3">
+						<Description>The current state of the stimulus profile generator engine
+
+0: Idle
+1: Running
+2: Stopped
+3: Paused</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="Idle">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Running">
+										<Double>1</Double>
+									</Elem>
+									<Elem Key="Stopped">
+										<Double>2</Double>
+									</Elem>
+									<Elem Key="Paused">
+										<Double>3</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Watchdog Timer" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The amount of time in nanoseconds since the Watchdog Timer Loop last executed. The Watchdog Timer Loop is set to execute at a rate of 10Hz.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HS TCP Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the streaming data gets overwritten.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Host IP" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The 32-bit integer IP Address of the connected host. A zero value indicates no host is connected to the VeriStand Engine.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Trace Enabled Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether execution tracing is currently active on the RT Target.  Set to 1 to start tracing.  Set to 0 to stop tracing and send result to host (if no host is present it is logged to disk).  Set to -1 to stop tracing and write result to disk.</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="Stop and Write to Disk">
+										<Double>-1</Double>
+									</Elem>
+									<Elem Key="Stop and Send to Host">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Start Trace">
+										<Double>1</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Detailed Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether detailed execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="VI Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether VI execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Trace Buffer Size" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Bytes" BitFields="3">
+						<Description>Specifies the size in bytes of the execution trace buffer on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>250000</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Thread Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether thread execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Absolute Time" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>Returns the current date and time in seconds relative to 12:00 a.m., Friday, January 1, 1904, Universal Time [01-01-1904 00:00:00]. This value is coerced from a 128-bit value to double precision, which may impact resolution.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Time - Microseconds" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="usec" BitFields="1">
+						<Description>The relative system time in microseconds of the VeriStand Engine according to the iteration count and Delta T of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="ASAM XIL EESPort Trigger" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Trigger the next EES Error Set from the EES Error Configuration.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="ASAM XIL EESPort Trigger Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Count the number of EESPort Triggers.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 43" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 44" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Iterations" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Min Wait" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Actual Wait" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Failure Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The failure count of current analysis settings</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Analysis State" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The state of the analysis sub-system on the RT execution host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="TCP Data Packet Loss" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the VeriStand Engine fails to send a data packet to the host. A non-zero number can indicate data loss in logged data. The value is reset every time a Workspace connects to the VeriStand Engine.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop attempted to write to a waveform read session within the NI VeriStand engine and timed out.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL TCP Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop attempted to write to the TCP loop (for a host waveform stream session) and timed out.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Error Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop encountered an error.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Error Code" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The last error code encountered by the waveform processing loop.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Streamed Waveform Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of waveforms that the VeriStand Engine is currently streaming to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Iteration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The iteration count of the Primary Control Loop.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Last Late Iteration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The iteration count of the Primary Control Loop that last recorded a late count. If the Primary Control Loop has not recorded a late count, this value is -1.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 58" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 59" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Real-Time Sequence Command" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Internally commands the active real-time sequences with the following numeric values:
+
+0: None
+1: Stop All
+2: Abort All</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="None">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Stop All">
+										<Double>1</Double>
+									</Elem>
+									<Elem Key="Abort All">
+										<Double>2</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Real-Time Sequence Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of real-time sequences currently running.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 62" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 63" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 64" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 65" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 66" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 67" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 68" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 69" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 70" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 71" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 72" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 73" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 74" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 75" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 76" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 77" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 78" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 79" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 80" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 81" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 82" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 83" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 84" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 85" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 86" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 87" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 88" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 89" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 90" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 91" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="AO1 Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Loop Wakeup Status" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="1">
+						<Description>The wakeup status of the Primary Control Loop.
+
+0: Normal
+1: Aborted
+2: Asynchronous wakeup
+3: Timing source error
+4: Timed loop error
+5: Timeout</Description>
+						<Properties>
+							<Property Name="Value Table">
+								<Dictionary>
+									<Elem Key="Normal">
+										<Double>0</Double>
+									</Elem>
+									<Elem Key="Aborted">
+										<Double>1</Double>
+									</Elem>
+									<Elem Key="Asynchronous Wakeup">
+										<Double>2</Double>
+									</Elem>
+									<Elem Key="Timing Source Error">
+										<Double>3</Double>
+									</Elem>
+									<Elem Key="Timed Loop Error">
+										<Double>4</Double>
+									</Elem>
+									<Elem Key="Timeout">
+										<Double>5</Double>
+									</Elem>
+								</Dictionary>
+							</Property>
+						</Properties>
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HD Free Space" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP-LP Overwrite" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Primary Control Loop timed out writing channel data to the Data Processing Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Data Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Data Processing Loop timed out writing channel data to the Communication Send Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Primary Control Loop reported being late</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Data Processing Loop reported being late</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Log Status" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The state of the logging sub-system on the RT execution host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+				</Section>
+			</Target>
+		</TargetSections>
+		<Section Name="Aliases" TypeGUID="e11f4519-09e6-4fb0-99df-2967c4313d67">
+			<Description />
+			<Properties>
+				<Property Name="DoNotAllowUnmappedAliases">
+					<Boolean>true</Boolean>
+				</Property>
+			</Properties>
+			<Errors />
+			<Section Name="Scalar Inputs" TypeGUID="A579F6FF-5680-1F22-249C-2C499E16CDB8">
+				<Description />
+				<Properties />
+				<Errors />
+				<Alias Name="SGL Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/SGL out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="BOOL Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Boolean out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="FXP16.3 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/FXP16.3 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I8 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/I8 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I16 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/I16 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I32 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/I32 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I64 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/I64 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U8 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/U8 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U16 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/U16 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U32 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/U32 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U64 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/U64 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+			</Section>
+			<Section Name="Scalar Outputs" TypeGUID="A579F6FF-5680-1F22-249C-2C499E16CDB8">
+				<Description />
+				<Properties />
+				<Errors />
+				<Alias Name="SGL Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/SGL" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="BOOL Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/Boolean" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="FXP16.3 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/FXP16.3" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I8 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/I8" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I16 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/I16" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I32 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/I32" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="I64 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/I64" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U8 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/U8" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U16 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/U16" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U32 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/U32" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="U64 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/U64" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+			</Section>
+		</Section>
+		<Section Name="Scales" TypeGUID="032c8aec-ce5b-6d40-06c5-5703bbc7ccee">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="System Mappings" TypeGUID="5691ea13-4544-497e-9bda-cf69dc707663">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="Data Sharing Network" TypeGUID="8288dbb9-8c87-4fda-9c66-acec90c46c03">
+			<Description />
+			<Properties>
+				<Property Name="CD Status">
+					<U32>2</U32>
+				</Property>
+				<Property Name="DSN Dynamic Data Size">
+					<I32>30</I32>
+				</Property>
+			</Properties>
+			<Errors />
+		</Section>
+		<Section Name="System Initialization" TypeGUID="773b9311-3758-47fa-842f-b1c1960dabd0">
+			<Description />
+			<Properties>
+				<Property Name="Auto Start">
+					<Boolean>false</Boolean>
+				</Property>
+			</Properties>
+			<Errors />
+		</Section>
+	</Root>
+</Document>

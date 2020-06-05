@@ -1,3 +1,5 @@
 Built
 *.aliases
 *.lvlps
+*.lvcodedb
+.cache/
