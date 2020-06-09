@@ -10,7 +10,7 @@
 				<String>VS FPGA Addon DMA Testing</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.5</String>
+				<String>1.0.0.16</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -247,7 +247,7 @@
 								<String>3.1.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String />
+								<String>C:\Users\dstavila\Desktop\NI VeriStand FPGA CD Addon Fork\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\DMA Channels cRIO FPGA Project\Bitfiles\cRIO FPGA Personality.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO0</String>
@@ -255,8 +255,390 @@
 							<Property Name="user.CD.Group">
 								<Boolean>false</Boolean>
 							</Property>
+							<Property Name="user.CD.Bitfile">
+								<DependentFile Type="Absolute" Path="C:\Users\dstavila\Desktop\NI VeriStand FPGA CD Addon Fork\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\DMA Channels cRIO FPGA Project\Bitfiles\cRIO FPGA Personality.lvbitx">
+									<Version>1.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\cRIO FPGA Personality.lvbitx</RTDestination>
+									<SupportedTarget>All</SupportedTarget>
+									<MD5>44a13fce67e26fb1d4d0bf319a876171</MD5>
+								</DependentFile>
+							</Property>
 						</Properties>
 						<Errors />
+						<Section Name="Scalars" TypeGUID="884b7050-623e-4f2c-925b-6b753ddf9d1a">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="Scalar Inputs" TypeGUID="45f50bc5-dab3-4e15-b99b-0f8c8c0fe0f0">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Available Registers">
+										<Variant>
+											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+											<Data>AAACGBkAgAAAAAAFAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBTDURlZmF1bHQgVmFsdWUADABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAABAAAAB0VsZW1lbnQJGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAA</Data>
+										</Variant>
+									</Property>
+								</Properties>
+								<Errors />
+							</Section>
+							<Section Name="Scalar Outputs" TypeGUID="7d46fed9-731a-4423-8f13-aa8ac2cd791c">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Available Registers">
+										<Variant>
+											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+											<Data>AAAB7xkAgAAAAAAFAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBTDURlZmF1bHQgVmFsdWUADABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAAAAAAAAA==</Data>
+										</Variant>
+									</Property>
+								</Properties>
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="Waveforms" TypeGUID="5f75895a-bfdb-4cd8-9ef2-787e261eba38">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="Waveform Inputs" TypeGUID="165959cb-b691-43bd-9f8b-54fe62f4b534">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Available DMA">
+										<Variant>
+											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+											<Data>AAAB+RkAgAAAAAAEAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBQAAIAAAABB0NsdXN0ZXIAGkBAAAH/////AAINQXZhaWxhYmxlIERNQQABAAMAAAACAAAACU91dGdvaW5nMQkAAAAJT3V0Z29pbmcyCQAAAAA=</Data>
+										</Variant>
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Outgoing1" TypeGUID="fdfaa619-d09f-452b-8143-c1a261c13b7a">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Outgoing1</String>
+										</Property>
+										<Property Name="user.CD.DMA.NumberOfChans">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.DMA.DelacingScheme">
+											<U32>0</U32>
+										</Property>
+										<Property Name="user.CD.DMA.UpdateRate">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.DMA.dt">
+											<Double>0.0001</Double>
+										</Property>
+										<Property Name="user.CD.DMA.Mode">
+											<U32>0</U32>
+										</Property>
+										<Property Name="user.CD.DMA.NumberOfSamples">
+											<U32>10000</U32>
+										</Property>
+										<Property Name="user.CD.DMA.HostBuffer">
+											<U32>5</U32>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="Status Channels" TypeGUID="4e1a084b-2b8b-4128-8417-f0007d9ffe93">
+										<Description />
+										<Properties />
+										<Errors />
+										<Channel Name="Elements Remaining" TypeGUID="785497d1-fc1e-46c9-8feb-aa61f2850cff" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description />
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Error Code" TypeGUID="708ff167-b4eb-405e-bb0f-5c2fb305da21" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description />
+											<Properties>
+												<Property Name="Value Table">
+													<Dictionary>
+														<Elem Key="&lt;0&gt; No Error.">
+															<Double>0</Double>
+														</Elem>
+														<Elem Key="&lt;-61219&gt; The number of elements requested must be less than or equal to the number of unacquired elements left in the host memory DMA FIFO.">
+															<Double>-61219</Double>
+														</Elem>
+														<Elem Key="&lt;-61217&gt; A session cannot be closed or reset and a bitfile cannot be downloaded while DMA FIFO region references are outstanding for the specified session.">
+															<Double>-61217</Double>
+														</Elem>
+														<Elem Key="&lt;-61082&gt; The current target does not have sufficient DMA control line sets available.">
+															<Double>-61082</Double>
+														</Elem>
+														<Elem Key="&lt;-61081&gt; Insufficient DMA channels available on the current target.">
+															<Double>-61081</Double>
+														</Elem>
+														<Elem Key="&lt;-61077&gt; Terminated DMA FIFO.">
+															<Double>-61077</Double>
+														</Elem>
+														<Elem Key="&lt;-61076&gt; The DMA transfer did not complete within the timeout period.">
+															<Double>-61076</Double>
+														</Elem>
+														<Elem Key="&lt;-61075&gt; The DMA transfer was aborted and did not complete.">
+															<Double>-61075</Double>
+														</Elem>
+														<Elem Key="&lt;-61073&gt; The number of elements to read or write must be less than or equal to the depth of the host memory DMA FIFO.">
+															<Double>-61073</Double>
+														</Elem>
+														<Elem Key="&lt;-61071&gt; The selected DMA FIFO was not found in the bitfile or FPGA design or is out of sync with the bitfile.">
+															<Double>-61071</Double>
+														</Elem>
+														<Elem Key="&lt;-61053&gt; Insufficient DMA channels available.">
+															<Double>-61053</Double>
+														</Elem>
+														<Elem Key="&lt;-61051&gt; Multiple FIFOs using the same DMA channel.">
+															<Double>-61051</Double>
+														</Elem>
+														<Elem Key="&lt;-61048&gt; This target does not support DMA output from the host to the target.">
+															<Double>-61048</Double>
+														</Elem>
+													</Dictionary>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+									<Waveform Name="Outgoing1" TypeGUID="2afc1de4-b056-47bb-a2ad-eec5ad0d30b6" DataType="Double" Units="">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>Outgoing1</String>
+											</Property>
+										</Properties>
+										<Errors />
+									</Waveform>
+								</Section>
+								<Section Name="Outgoing2" TypeGUID="fdfaa619-d09f-452b-8143-c1a261c13b7a">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Outgoing2</String>
+										</Property>
+										<Property Name="user.CD.DMA.NumberOfChans">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.DMA.DelacingScheme">
+											<U32>0</U32>
+										</Property>
+										<Property Name="user.CD.DMA.UpdateRate">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.DMA.dt">
+											<Double>0.0001</Double>
+										</Property>
+										<Property Name="user.CD.DMA.Mode">
+											<U32>0</U32>
+										</Property>
+										<Property Name="user.CD.DMA.NumberOfSamples">
+											<U32>10000</U32>
+										</Property>
+										<Property Name="user.CD.DMA.HostBuffer">
+											<U32>5</U32>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="Status Channels" TypeGUID="4e1a084b-2b8b-4128-8417-f0007d9ffe93">
+										<Description />
+										<Properties />
+										<Errors />
+										<Channel Name="Elements Remaining" TypeGUID="785497d1-fc1e-46c9-8feb-aa61f2850cff" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description />
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Error Code" TypeGUID="708ff167-b4eb-405e-bb0f-5c2fb305da21" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description />
+											<Properties>
+												<Property Name="Value Table">
+													<Dictionary>
+														<Elem Key="&lt;0&gt; No Error.">
+															<Double>0</Double>
+														</Elem>
+														<Elem Key="&lt;-61219&gt; The number of elements requested must be less than or equal to the number of unacquired elements left in the host memory DMA FIFO.">
+															<Double>-61219</Double>
+														</Elem>
+														<Elem Key="&lt;-61217&gt; A session cannot be closed or reset and a bitfile cannot be downloaded while DMA FIFO region references are outstanding for the specified session.">
+															<Double>-61217</Double>
+														</Elem>
+														<Elem Key="&lt;-61082&gt; The current target does not have sufficient DMA control line sets available.">
+															<Double>-61082</Double>
+														</Elem>
+														<Elem Key="&lt;-61081&gt; Insufficient DMA channels available on the current target.">
+															<Double>-61081</Double>
+														</Elem>
+														<Elem Key="&lt;-61077&gt; Terminated DMA FIFO.">
+															<Double>-61077</Double>
+														</Elem>
+														<Elem Key="&lt;-61076&gt; The DMA transfer did not complete within the timeout period.">
+															<Double>-61076</Double>
+														</Elem>
+														<Elem Key="&lt;-61075&gt; The DMA transfer was aborted and did not complete.">
+															<Double>-61075</Double>
+														</Elem>
+														<Elem Key="&lt;-61073&gt; The number of elements to read or write must be less than or equal to the depth of the host memory DMA FIFO.">
+															<Double>-61073</Double>
+														</Elem>
+														<Elem Key="&lt;-61071&gt; The selected DMA FIFO was not found in the bitfile or FPGA design or is out of sync with the bitfile.">
+															<Double>-61071</Double>
+														</Elem>
+														<Elem Key="&lt;-61053&gt; Insufficient DMA channels available.">
+															<Double>-61053</Double>
+														</Elem>
+														<Elem Key="&lt;-61051&gt; Multiple FIFOs using the same DMA channel.">
+															<Double>-61051</Double>
+														</Elem>
+														<Elem Key="&lt;-61048&gt; This target does not support DMA output from the host to the target.">
+															<Double>-61048</Double>
+														</Elem>
+													</Dictionary>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+									<Waveform Name="Outgoing2" TypeGUID="2afc1de4-b056-47bb-a2ad-eec5ad0d30b6" DataType="Double" Units="">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>Outgoing2</String>
+											</Property>
+										</Properties>
+										<Errors />
+									</Waveform>
+								</Section>
+							</Section>
+							<Section Name="Waveform Outputs" TypeGUID="bc66db3e-ace6-4d58-add4-89e89e885df7">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Available DMA">
+										<Variant>
+											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+											<Data>AAAB6hkAgAAAAAAEAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBQAAIAAAABB0NsdXN0ZXIAGkBAAAH/////AAINQXZhaWxhYmxlIERNQQABAAMAAAABAAAACEluY29taW5nCQAAAAA=</Data>
+										</Variant>
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Incoming" TypeGUID="fdfaa619-d09f-452b-8143-c1a261c13b7a">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Incoming</String>
+										</Property>
+										<Property Name="user.CD.DMA.NumberOfChans">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.DMA.DelacingScheme">
+											<U32>0</U32>
+										</Property>
+										<Property Name="user.CD.DMA.UpdateRate">
+											<U32>1</U32>
+										</Property>
+										<Property Name="user.CD.DMA.dt">
+											<Double>0.0001</Double>
+										</Property>
+										<Property Name="user.CD.DMA.Mode">
+											<U32>0</U32>
+										</Property>
+										<Property Name="user.CD.DMA.NumberOfSamples">
+											<U32>10000</U32>
+										</Property>
+										<Property Name="user.CD.DMA.HostBuffer">
+											<U32>5</U32>
+										</Property>
+									</Properties>
+									<Errors />
+									<Section Name="Status Channels" TypeGUID="4e1a084b-2b8b-4128-8417-f0007d9ffe93">
+										<Description />
+										<Properties />
+										<Errors />
+										<Channel Name="Elements Remaining" TypeGUID="785497d1-fc1e-46c9-8feb-aa61f2850cff" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description />
+											<Properties />
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+										<Channel Name="Error Code" TypeGUID="708ff167-b4eb-405e-bb0f-5c2fb305da21" RowDim="1" ColDim="1" Units="" BitFields="1">
+											<Description />
+											<Properties>
+												<Property Name="Value Table">
+													<Dictionary>
+														<Elem Key="&lt;0&gt; No Error.">
+															<Double>0</Double>
+														</Elem>
+														<Elem Key="&lt;-61219&gt; The number of elements requested must be less than or equal to the number of unacquired elements left in the host memory DMA FIFO.">
+															<Double>-61219</Double>
+														</Elem>
+														<Elem Key="&lt;-61217&gt; A session cannot be closed or reset and a bitfile cannot be downloaded while DMA FIFO region references are outstanding for the specified session.">
+															<Double>-61217</Double>
+														</Elem>
+														<Elem Key="&lt;-61082&gt; The current target does not have sufficient DMA control line sets available.">
+															<Double>-61082</Double>
+														</Elem>
+														<Elem Key="&lt;-61081&gt; Insufficient DMA channels available on the current target.">
+															<Double>-61081</Double>
+														</Elem>
+														<Elem Key="&lt;-61077&gt; Terminated DMA FIFO.">
+															<Double>-61077</Double>
+														</Elem>
+														<Elem Key="&lt;-61076&gt; The DMA transfer did not complete within the timeout period.">
+															<Double>-61076</Double>
+														</Elem>
+														<Elem Key="&lt;-61075&gt; The DMA transfer was aborted and did not complete.">
+															<Double>-61075</Double>
+														</Elem>
+														<Elem Key="&lt;-61073&gt; The number of elements to read or write must be less than or equal to the depth of the host memory DMA FIFO.">
+															<Double>-61073</Double>
+														</Elem>
+														<Elem Key="&lt;-61071&gt; The selected DMA FIFO was not found in the bitfile or FPGA design or is out of sync with the bitfile.">
+															<Double>-61071</Double>
+														</Elem>
+														<Elem Key="&lt;-61053&gt; Insufficient DMA channels available.">
+															<Double>-61053</Double>
+														</Elem>
+														<Elem Key="&lt;-61051&gt; Multiple FIFOs using the same DMA channel.">
+															<Double>-61051</Double>
+														</Elem>
+														<Elem Key="&lt;-61048&gt; This target does not support DMA output from the host to the target.">
+															<Double>-61048</Double>
+														</Elem>
+													</Dictionary>
+												</Property>
+											</Properties>
+											<Errors />
+											<DefaultValue>
+												<Elem>0</Elem>
+											</DefaultValue>
+										</Channel>
+									</Section>
+									<Section Name="Incoming" TypeGUID="0c0ecc88-7768-47db-a589-856e32a93156">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>Incoming</String>
+											</Property>
+											<Property Name="user.CD.Source WFM">
+												<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Waveforms/Waveform Inputs/Outgoing1/Outgoing1" />
+											</Property>
+										</Properties>
+										<Errors />
+									</Section>
+								</Section>
+							</Section>
+						</Section>
 					</Section>
 				</Section>
 				<Section Name="Simulation Models" TypeGUID="03D3B937-1485-13A6-5600F2871E269F9A">
