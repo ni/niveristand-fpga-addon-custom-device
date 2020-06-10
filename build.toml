@@ -5,12 +5,6 @@ archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\f
 [projects.cd]
 path = 'Source\FPGA Addon.lvproj'
 
-[projects.api]
-path = 'Source\FPGA Addon SysDef API.lvproj'
-
-[projects.ip]
-path = 'Source\FPGA Addon FPGA IP.lvproj'
-
 [[build.steps]]
 name = 'Configuration Library'
 type = 'lvBuildSpec'
@@ -52,20 +46,6 @@ type = 'lvBuildSpecAllTargets'
 project = '{cd}'
 target = 'RT CompactRIO Target - VxWorks'
 build_spec = 'Engine Release'
-
-[[build.steps]]
-name = 'FPGA IP'
-type = 'lvBuildSpec'
-project = '{ip}'
-target = 'My Computer'
-build_spec = 'FPGA IP Distribution'
-
-[[build.steps]]
-name = 'SysDef API'
-type = 'lvBuildSpec'
-project = '{api}'
-target = 'My Computer'
-build_spec = 'System Definition API'
 
 [package]
 type = 'nipkg'
