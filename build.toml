@@ -1,6 +1,6 @@
 [archive]
 build_output_dir = 'Built'
-archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\fpga_addon'
+archive_location = '\\nirvana\Measurements\VeriStandAddons\fpga_addon_custom_device'
 
 [projects.cd]
 path = 'Source\FPGA Addon.lvproj'
