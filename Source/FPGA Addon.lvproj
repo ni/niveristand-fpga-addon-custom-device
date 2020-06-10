@@ -50,6 +50,11 @@
 					<Item Name="Scalar Channels Testing.lvclass" Type="LVClass" URL="../Tests/System Tests/Scalar Channels Testing/Scalar Channels Testing/Scalar Channels Testing.lvclass"/>
 				</Item>
 			</Item>
+			<Item Name="Unit Tests" Type="Folder">
+				<Item Name="Scalar Bitpacking Testing" Type="Folder">
+					<Item Name="Scalar Bitpacking Testing.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scalar Bitpacking Testing/Scalar Bitpacking Testing/Scalar Bitpacking Testing.lvclass"/>
+				</Item>
+			</Item>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utilities/Copy .LLB to NI VeriStand dir.vi"/>

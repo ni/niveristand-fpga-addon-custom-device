@@ -1,10 +1,10 @@
-Package: ni-fpga-addon-{veristand_version}
+Package: ni-fpga-addon-veristand-{veristand_version}-support
 Version: {nipkg_version}
-Architecture: windows_all
+Architecture: windows_x64
 Maintainer: National Instruments <support@ni.com>
 XB-Plugin: file
 Description:  This add-on allows a user to pull an existing FPGA bitfile into NI VeriStand with little or no modification.
-XB-Eula:  
+XB-Eula: eula-ni-standard
 Priority: standard
 Homepage: http://www.ni.com
 XB-LanguageSupport: en
@@ -12,9 +12,4 @@ XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {nipkg_version}
 XB-DisplayName: FPGA Addon for VeriStand {veristand_version}
-XB-Message: Copyright 2020 National Instruments
-  Licensed under the Apache License, Version 2.0 (the "License"); You may not use this file except in compliance with the License.
-  You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
-  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and limitations under the License.
-Depends: 
+Depends: {ni-veristand-{veristand_version}} (>= {labview_short_version}.0.0)
