@@ -49,6 +49,7 @@ build_spec = 'Engine Release'
 
 [package]
 type = 'nipkg'
+payload_dir = 'Built'
 name = 'ni-fpga-addon-{veristand_version}'
-dev_xml_path = 'Source\Addon\Custom Device FPGA Addon.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices'
+control_file = 'control'
