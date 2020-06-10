@@ -546,6 +546,7 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Scalar Bitpacking Testing.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scalar Bitpacking Testing/Scalar Bitpacking Testing/private/Scalar Bitpacking Testing.lvclass"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
