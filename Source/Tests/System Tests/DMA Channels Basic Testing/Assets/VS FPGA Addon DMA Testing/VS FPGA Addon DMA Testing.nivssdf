@@ -261,7 +261,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\cRIO FPGA Personality.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>44a13fce67e26fb1d4d0bf319a876171</MD5>
+									<MD5>8d418d647587740f6662ede659211728</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>

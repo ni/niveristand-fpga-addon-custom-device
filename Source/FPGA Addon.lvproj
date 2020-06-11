@@ -46,6 +46,9 @@
 				<Item Name="FPGA Addon Test Class.lvclass" Type="LVClass" URL="../Tests/FPGA Addon Test Class/FPGA Addon Test Class.lvclass"/>
 			</Item>
 			<Item Name="System Tests" Type="Folder">
+				<Item Name="DMA Channels Basic Testing" Type="Folder">
+					<Item Name="DMA Channels Basic Testing.lvclass" Type="LVClass" URL="../Tests/System Tests/DMA Channels Basic Testing/DMA Channels Basic Testing/DMA Channels Basic Testing.lvclass"/>
+				</Item>
 				<Item Name="Scalar Channels Testing" Type="Folder">
 					<Item Name="Scalar Channels Testing.lvclass" Type="LVClass" URL="../Tests/System Tests/Scalar Channels Testing/Scalar Channels Testing/Scalar Channels Testing.lvclass"/>
 				</Item>
@@ -284,6 +287,7 @@
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
 				<Item Name="NI_VS UI Single Node Browser.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/UI Controls/Single Node Browser/NI_VS UI Single Node Browser.lvlib"/>
+				<Item Name="NI_VS Waveform Streaming Interface.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/WaveformStreaming/NI_VS Waveform Streaming Interface.lvlib"/>
 				<Item Name="NI_VS Workspace ExecutionAPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Workspace/NI_VS Workspace ExecutionAPI.lvlib"/>
 				<Item Name="NI_XML.lvlib" Type="Library" URL="/&lt;vilib&gt;/xml/NI_XML.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
