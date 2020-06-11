@@ -96,6 +96,7 @@
 			<Item Name="Remove FPGA Sections.vi" Type="VI" URL="../SubVIs/Remove FPGA Sections.vi"/>
 			<Item Name="Remove Item.vi" Type="VI" URL="../SubVIs/Remove Item.vi"/>
 			<Item Name="Set Bitfile Object Name.vi" Type="VI" URL="../SubVIs/Set Bitfile Object Name.vi"/>
+			<Item Name="Set Bitpacked Channels.vi" Type="VI" URL="../SubVIs/Set Bitpacked Channels.vi"/>
 			<Item Name="Split DMA by Direction.vi" Type="VI" URL="../SubVIs/Split DMA by Direction.vi"/>
 			<Item Name="Split Registers by Direction.vi" Type="VI" URL="../SubVIs/Split Registers by Direction.vi"/>
 		</Item>
