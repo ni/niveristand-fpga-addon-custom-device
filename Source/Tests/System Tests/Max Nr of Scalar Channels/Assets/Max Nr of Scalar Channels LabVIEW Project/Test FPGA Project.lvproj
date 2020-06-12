@@ -96,7 +96,7 @@ AddOutputFilter chunkFilter
 			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
 			<Property Name="crio.Type" Type="Str">cRIO-9068</Property>
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="FPGA Target 2" Type="FPGA Target">
+			<Item Name="FPGA Target" Type="FPGA Target">
 				<Property Name="AutoRun" Type="Bool">false</Property>
 				<Property Name="configString.guid" Type="Str">{6154D3C3-6ABD-4A5C-9B25-DFBB94BFE014}resource=/Scan Clock;0;ReadMethodType=bool{756BC2FB-5879-486B-82CF-6C8FFE453EE7}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{C59659E3-BD8A-40C8-9448-92DECBFBF8D8}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{CA581A93-2502-427A-A975-ACAED863A8DD}resource=/Chassis Temperature;0;ReadMethodType=i16{E08B5442-E723-4716-8DF4-13E5EFEB6F67}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{F5AF58D6-B5EE-41D1-8E8F-17DC9F898266}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
 				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8</Property>
@@ -176,9 +176,10 @@ AddOutputFilter chunkFilter
 					<Item Name="Build Specifications" Type="Build"/>
 				</Item>
 				<Item Name="Max Nr of Scalar Channels Test.vi" Type="VI" URL="../Max Nr of Scalar Channels Test.vi">
-					<Property Name="BuildSpec" Type="Str">{35E6B58D-217F-4D6C-B4CB-D4D52E01CCD0}</Property>
+					<Property Name="BuildSpec" Type="Str">{B58DD6E9-9160-408B-84B2-D41DCDD574C9}</Property>
 					<Property Name="configString.guid" Type="Str">{6154D3C3-6ABD-4A5C-9B25-DFBB94BFE014}resource=/Scan Clock;0;ReadMethodType=bool{756BC2FB-5879-486B-82CF-6C8FFE453EE7}resource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8{C59659E3-BD8A-40C8-9448-92DECBFBF8D8}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{CA581A93-2502-427A-A975-ACAED863A8DD}resource=/Chassis Temperature;0;ReadMethodType=i16{E08B5442-E723-4716-8DF4-13E5EFEB6F67}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{F5AF58D6-B5EE-41D1-8E8F-17DC9F898266}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9068/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSCRIO_9068FPGA_TARGET_FAMILYZYNQTARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]Scan Clockresource=/Scan Clock;0;ReadMethodType=boolSleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolUSER FPGA LEDresource=/USER FPGA LED;0;ReadMethodType=u8;WriteMethodType=u8</Property>
+					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Dev\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Max Nr of Scalar Channels\Assets\Max Nr of Scalar Channels LabVIEW Project\FPGA Bitfiles\crio-9068_MaxNrOfScalarChannels.lvbitx</Property>
 				</Item>
 				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build">
@@ -186,7 +187,7 @@ AddOutputFilter chunkFilter
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
 						<Property Name="BuildSpecName" Type="Str">Max Nr of Scalar Channels Test</Property>
-						<Property Name="Comp.BitfileName" Type="Str">testfpgaproject_FPGATarget2_MaxNrofScalarCha_-prHlA8kb5k.lvbitx</Property>
+						<Property Name="Comp.BitfileName" Type="Str">crio-9068_MaxNrOfScalarChannels.lvbitx</Property>
 						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
 						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
 						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
@@ -210,13 +211,15 @@ AddOutputFilter chunkFilter
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Dev/niveristand-fpga-addon-custom-device/Source/Tests/System Tests/Max Nr of Scalar Channels/Assets/Max Nr of Scalar Channels LabVIEW Project/FPGA Bitfiles/crio-9068_MaxNrOfScalarChannels.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/crio-9068_MaxNrOfScalarChannels.lvbitx</Property>
 						<Property Name="ProjectPath" Type="Path">/C/Dev/niveristand-fpga-addon-custom-device/Source/Tests/System Tests/Max Nr of Scalar Channels/Assets/Max Nr of Scalar Channels LabVIEW Project/Test FPGA Project.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
 						<Property Name="SupportDownload" Type="Bool">true</Property>
 						<Property Name="SupportResourceEstimation" Type="Bool">false</Property>
-						<Property Name="TargetName" Type="Str">FPGA Target 2</Property>
-						<Property Name="TopLevelVI" Type="Ref">/cRIO-9068-01a2fa12/Chassis/FPGA Target 2/Max Nr of Scalar Channels Test.vi</Property>
+						<Property Name="TargetName" Type="Str">FPGA Target</Property>
+						<Property Name="TopLevelVI" Type="Ref">/cRIO-9068-01a2fa12/Chassis/FPGA Target/Max Nr of Scalar Channels Test.vi</Property>
 					</Item>
 				</Item>
 			</Item>

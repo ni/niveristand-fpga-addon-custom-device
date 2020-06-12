@@ -10,7 +10,7 @@
 				<String>Max Nr of Scalar Channels</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.8</String>
+				<String>1.0.0.11</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -244,7 +244,7 @@
 								<String>3.1.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>C:\Dev\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Max Nr of Scalar Channels\Assets\Max Nr of Scalar Channels LabVIEW Project\FPGA Bitfiles\testfpgaproject_FPGATarget2_MaxNrofScalarCha_-jcX-FK7Q5c.lvbitx</String>
+								<String>C:\Dev\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Max Nr of Scalar Channels\Assets\Max Nr of Scalar Channels LabVIEW Project\FPGA Bitfiles\crio-9068_MaxNrOfScalarChannels.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO0</String>
@@ -253,12 +253,12 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="C:\Dev\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Max Nr of Scalar Channels\Assets\Max Nr of Scalar Channels LabVIEW Project\FPGA Bitfiles\testfpgaproject_FPGATarget2_MaxNrofScalarCha_-jcX-FK7Q5c.lvbitx">
+								<DependentFile Type="Absolute" Path="C:\Dev\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Max Nr of Scalar Channels\Assets\Max Nr of Scalar Channels LabVIEW Project\FPGA Bitfiles\crio-9068_MaxNrOfScalarChannels.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\testfpgaproject_FPGATarget2_MaxNrofScalarCha_-jcX-FK7Q5c.lvbitx</RTDestination>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\crio-9068_MaxNrOfScalarChannels.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>e9496488654284df8cfb3dd11c3e36fa</MD5>
+									<MD5>40e1a0a538728a2c889777afa8ae0803</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>

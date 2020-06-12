@@ -47,7 +47,7 @@
 			</Item>
 			<Item Name="System Tests" Type="Folder">
 				<Item Name="Max Nr of Scalar Channels" Type="Folder">
-					<Item Name="Max Nr of Scalar Channels.lvclass" Type="LVClass" URL="../Tests/System Tests/Max Nr of Scalar Channels/Max Nr of Scalar Channels.lvclass"/>
+					<Item Name="Max Nr of Scalar Channels.lvclass" Type="LVClass" URL="../Tests/System Tests/Max Nr of Scalar Channels/Max Nr of Scalar Channels/Max Nr of Scalar Channels.lvclass"/>
 				</Item>
 				<Item Name="Scalar Channels Testing" Type="Folder">
 					<Item Name="Scalar Channels Testing.lvclass" Type="LVClass" URL="../Tests/System Tests/Scalar Channels Testing/Scalar Channels Testing/Scalar Channels Testing.lvclass"/>
@@ -55,7 +55,7 @@
 			</Item>
 			<Item Name="Unit Tests" Type="Folder">
 				<Item Name="Load And Parse Bitfile Testing" Type="Folder">
-					<Item Name="Load And Parse Bitfile Testing.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Load And Parse Bitfile Testing/Load And Parse Bitfile Testing.lvclass"/>
+					<Item Name="Load And Parse Bitfile Testing.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Load And Parse Bitfile Testing/Load And Parse Bitfile Testing/Load And Parse Bitfile Testing.lvclass"/>
 				</Item>
 				<Item Name="Scalar Bitpacking Testing" Type="Folder">
 					<Item Name="Scalar Bitpacking Testing.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scalar Bitpacking Testing/Scalar Bitpacking Testing/Scalar Bitpacking Testing.lvclass"/>
