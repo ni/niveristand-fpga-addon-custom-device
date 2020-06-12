@@ -10,7 +10,7 @@
 				<String>VS FPGA Addon DMA Testing</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.16</String>
+				<String>1.0.0.18</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -247,7 +247,7 @@
 								<String>3.1.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>C:\Users\dstavila\Desktop\NI VeriStand FPGA CD Addon Fork\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\DMA Channels cRIO FPGA Project\Bitfiles\cRIO FPGA Personality.lvbitx</String>
+								<String>C:\Users\dstavila\Desktop\FPGA Addon Custom Device Main\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\DMA Channels cRIO FPGA Project\Bitfiles\cRIO 9039 FPGA Personality.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO0</String>
@@ -256,10 +256,10 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="C:\Users\dstavila\Desktop\NI VeriStand FPGA CD Addon Fork\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\DMA Channels cRIO FPGA Project\Bitfiles\cRIO FPGA Personality.lvbitx">
+								<DependentFile Type="Absolute" Path="C:\Users\dstavila\Desktop\FPGA Addon Custom Device Main\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\DMA Channels cRIO FPGA Project\Bitfiles\cRIO 9039 FPGA Personality.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\cRIO FPGA Personality.lvbitx</RTDestination>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\cRIO 9039 FPGA Personality.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
 									<MD5>8d418d647587740f6662ede659211728</MD5>
 								</DependentFile>
