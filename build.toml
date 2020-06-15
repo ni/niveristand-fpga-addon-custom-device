@@ -1,9 +1,15 @@
 [archive]
 build_output_dir = 'Built'
-archive_location = '\\nirvana\Measurements\VeriStandAddons\fpga_addon_custom_device'
+archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\fpga_addon'
 
 [projects.cd]
 path = 'Source\FPGA Addon.lvproj'
+
+[projects.api]
+path = 'Source\FPGA Addon SysDef API.lvproj'
+
+[projects.ip]
+path = 'Source\FPGA Addon FPGA IP.lvproj'
 
 [[build.steps]]
 name = 'Configuration Library'
@@ -47,9 +53,22 @@ project = '{cd}'
 target = 'RT CompactRIO Target - VxWorks'
 build_spec = 'Engine Release'
 
+[[build.steps]]
+name = 'FPGA IP'
+type = 'lvBuildSpec'
+project = '{ip}'
+target = 'My Computer'
+build_spec = 'FPGA IP Distribution'
+
+[[build.steps]]
+name = 'SysDef API'
+type = 'lvBuildSpec'
+project = '{api}'
+target = 'My Computer'
+build_spec = 'System Definition API'
+
 [package]
 type = 'nipkg'
-payload_dir = 'Built'
 name = 'ni-fpga-addon-{veristand_version}'
+dev_xml_path = 'Source\Addon\Custom Device FPGA Addon.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices'
-control_file = 'control'

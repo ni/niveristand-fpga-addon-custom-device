@@ -46,16 +46,11 @@
 				<Item Name="FPGA Addon Test Class.lvclass" Type="LVClass" URL="../Tests/FPGA Addon Test Class/FPGA Addon Test Class.lvclass"/>
 			</Item>
 			<Item Name="System Tests" Type="Folder">
-				<Item Name="Max Nr of Scalar Channels" Type="Folder">
-					<Item Name="Max Nr of Scalar Channels.lvclass" Type="LVClass" URL="../Tests/System Tests/Max Nr of Scalar Channels/Max Nr of Scalar Channels/Max Nr of Scalar Channels.lvclass"/>
-				</Item>
 				<Item Name="Scalar Channels Testing" Type="Folder">
 					<Item Name="Scalar Channels Testing.lvclass" Type="LVClass" URL="../Tests/System Tests/Scalar Channels Testing/Scalar Channels Testing/Scalar Channels Testing.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="Unit Tests" Type="Folder">
-				<Item Name="Load And Parse Bitfile Testing" Type="Folder">
-					<Item Name="Load And Parse Bitfile Testing.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Load And Parse Bitfile Testing/Load And Parse Bitfile Testing/Load And Parse Bitfile Testing.lvclass"/>
 				<Item Name="DMA Channel Testing" Type="Folder">
 					<Item Name="DMA Channel Testing.lvclass" Type="LVClass" URL="../Tests/Unit Tests/DMA Channels Testing/DMA Channel Testing/DMA Channel Testing.lvclass"/>
 				</Item>
@@ -230,7 +225,6 @@
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="Error Handling Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Types/Error Handling Settings.ctl"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
@@ -340,6 +334,17 @@
 				<Item Name="NIVS Hardware Discovery.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Hardware Resource Discovery/NIVS Hardware Discovery.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="PackedMatrixToFlatVector.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/PackedMatrixToFlatVector.vi"/>
+				<Item Name="PWM.Generate.Digital.Convert.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Generate.Digital.Convert.Settings.ctl"/>
+				<Item Name="PWM.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Generate.Digital.Settings.ctl"/>
+				<Item Name="PWM.Measure.Analog.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Analog.Measurement.ctl"/>
+				<Item Name="PWM.Measure.Analog.Result.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Analog.Result.ctl"/>
+				<Item Name="PWM.Measure.Analog.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Analog.Settings.ctl"/>
+				<Item Name="PWM.Measure.Digital.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Digital.Measurement.ctl"/>
+				<Item Name="PWM.Measure.Digital.Result.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Digital.Result.ctl"/>
+				<Item Name="PWM.Measure.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Digital.Settings.ctl"/>
+				<Item Name="QuadratureEncoder.Measure.Digital.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/QuadratureEncoder.Measure.Digital.Measurement.ctl"/>
+				<Item Name="QuadratureEncoder.Measure.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/QuadratureEncoder.Measure.Digital.Settings.ctl"/>
+				<Item Name="QuadratureEncoder.Measure.Digital.Settings.Direction.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/QuadratureEncoder.Measure.Digital.Settings.Direction.ctl"/>
 				<Item Name="Random Number - Within Range__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Random Number - Within Range__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Refnum Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Refnum Subtype Enum__ogtk__jki_vi_tester.ctl"/>
@@ -435,6 +440,8 @@
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Sine.Generate.Convert.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/Sine.Generate.Convert.Settings.ctl"/>
+				<Item Name="Sine.Generate.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/Sine.Generate.Settings.ctl"/>
 				<Item Name="Sort 1D Array (CDB)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort 1D Array (CDB)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Sort 1D Array (CSG)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort 1D Array (CSG)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Sort 1D Array (CXT)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort 1D Array (CXT)__ogtk__jki_vi_tester.vi"/>
@@ -469,8 +476,10 @@
 				<Item Name="Sort 2D Array (U64)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort 2D Array (U64)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Sort Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort Array__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Speciality FPGA IO.lvlib"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
+				<Item Name="Static.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/Static.Generate.Digital.Settings.ctl"/>
+				<Item Name="Static.Measure.Digital.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/Static.Measure.Digital.Measurement.ctl"/>
+				<Item Name="Static.Measure.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/Static.Measure.Digital.Settings.ctl"/>
 				<Item Name="String to 1D Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/String to 1D Array__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Path Extension - 1D Array of Paths__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Strip Path Extension - 1D Array of Strings__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Path Extension - 1D Array of Strings__ogtk__jki_vi_tester.vi"/>
@@ -480,9 +489,6 @@
 				<Item Name="Strip Units__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Units__ogtk__jki_vi_tester.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
-				<Item Name="SysDef.Rename.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Rename.vi"/>
-				<Item Name="SysDef.Version.Get.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Version.Get.vi"/>
-				<Item Name="SysDef.Version.Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Version.Set.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -507,6 +513,9 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="WSS.Generate.Digital.Convert.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/WSS.Generate.Digital.Convert.Settings.ctl"/>
+				<Item Name="WSS.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/WSS.Generate.Digital.Settings.ctl"/>
+				<Item Name="WSS.Sensor.Type.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/WSS.Sensor.Type.ctl"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -835,7 +844,6 @@
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="Error Handling Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Types/Error Handling Settings.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
 				<Item Name="LVFPGAAdvSessionResources.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/LVFPGA Adv Session Resources/LVFPGAAdvSessionResources.lvlib"/>
@@ -847,9 +855,6 @@
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="SysDef.Rename.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Rename.vi"/>
-				<Item Name="SysDef.Version.Get.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Version.Get.vi"/>
-				<Item Name="SysDef.Version.Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Version.Set.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
@@ -858,6 +863,12 @@
 			</Item>
 			<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1030,7 +1041,6 @@
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="Error Handling Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Types/Error Handling Settings.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
 				<Item Name="LVFPGAAdvSessionResources.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/LVFPGA Adv Session Resources/LVFPGAAdvSessionResources.lvlib"/>
@@ -1042,9 +1052,6 @@
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="SysDef.Rename.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Rename.vi"/>
-				<Item Name="SysDef.Version.Get.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Version.Get.vi"/>
-				<Item Name="SysDef.Version.Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Version.Set.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
@@ -1053,6 +1060,12 @@
 			</Item>
 			<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1229,7 +1242,6 @@
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="Error Handling Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Types/Error Handling Settings.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
 				<Item Name="LVFPGAAdvSessionResources.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/LVFPGA Adv Session Resources/LVFPGAAdvSessionResources.lvlib"/>
@@ -1241,9 +1253,6 @@
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="SysDef.Rename.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Rename.vi"/>
-				<Item Name="SysDef.Version.Get.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Version.Get.vi"/>
-				<Item Name="SysDef.Version.Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Version.Set.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
@@ -1252,6 +1261,12 @@
 			</Item>
 			<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1427,7 +1442,6 @@
 				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="Error Handling Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API/Types/Error Handling Settings.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
 				<Item Name="LVFPGAAdvSessionResources.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/LVFPGA Adv Session Resources/LVFPGAAdvSessionResources.lvlib"/>
@@ -1439,9 +1453,6 @@
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="SysDef.Rename.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Rename.vi"/>
-				<Item Name="SysDef.Version.Get.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Version.Get.vi"/>
-				<Item Name="SysDef.Version.Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/SysDef.Version.Set.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
@@ -1450,6 +1461,12 @@
 			</Item>
 			<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NationalInstruments.VeriStand" Type="Document" URL="NationalInstruments.VeriStand">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemDefinitionAPI" Type="Document" URL="NationalInstruments.VeriStand.SystemDefinitionAPI">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
