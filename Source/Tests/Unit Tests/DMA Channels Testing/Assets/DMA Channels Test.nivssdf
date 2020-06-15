@@ -250,7 +250,7 @@
 								<String>3.1.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2019\FPGA\PXIe-7867R.lvbitx</String>
+								<String>D:\GitRepository\niveristand-fpga-addon-custom-device-1\Source\Tests\Unit Tests\DMA Channels Testing\Assets\PXIe-7867R.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO0</String>

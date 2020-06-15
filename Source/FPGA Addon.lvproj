@@ -336,8 +336,10 @@
 				<Item Name="PackedMatrixToFlatVector.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/PackedMatrixToFlatVector.vi"/>
 				<Item Name="PWM.Generate.Digital.Convert.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Generate.Digital.Convert.Settings.ctl"/>
 				<Item Name="PWM.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Generate.Digital.Settings.ctl"/>
+				<Item Name="PWM.Measure.Analog.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Analog.Measurement.ctl"/>
 				<Item Name="PWM.Measure.Analog.Result.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Analog.Result.ctl"/>
 				<Item Name="PWM.Measure.Analog.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Analog.Settings.ctl"/>
+				<Item Name="PWM.Measure.Digital.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Digital.Measurement.ctl"/>
 				<Item Name="PWM.Measure.Digital.Result.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Digital.Result.ctl"/>
 				<Item Name="PWM.Measure.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Digital.Settings.ctl"/>
 				<Item Name="QuadratureEncoder.Measure.Digital.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/QuadratureEncoder.Measure.Digital.Measurement.ctl"/>
@@ -547,7 +549,6 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../SubModules/FPGA-Addon-Speciality-IO/Source/Speciality FPGA IO.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
