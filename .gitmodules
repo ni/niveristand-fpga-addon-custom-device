@@ -1,0 +1,3 @@
+[submodule "Source/SubModules/FPGA-Addon-Speciality-IO"]
+	path = Source/SubModules/FPGA-Addon-Speciality-IO
+	url = https://github.com/NIVeriStandAdd-Ons/FPGA-Addon-Speciality-IO
