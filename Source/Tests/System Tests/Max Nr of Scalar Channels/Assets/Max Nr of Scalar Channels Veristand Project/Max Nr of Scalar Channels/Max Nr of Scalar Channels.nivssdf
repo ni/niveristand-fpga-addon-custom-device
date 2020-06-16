@@ -253,7 +253,7 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="C:\Users\dstavila\Desktop\FPGA Addon Custom Device Main\Source\Tests\System Tests\Max Nr of Scalar Channels\Assets\Max Nr of Scalar Channels LabVIEW Project\FPGA Bitfiles\crio-9068_MaxNrOfScalarChannels.lvbitx">
+								<DependentFile Type="Absolute" Path="C:\Dev\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Max Nr of Scalar Channels\Assets\Max Nr of Scalar Channels LabVIEW Project\FPGA Bitfiles\crio-9068_MaxNrOfScalarChannels.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\crio-9068_MaxNrOfScalarChannels.lvbitx</RTDestination>
