@@ -67,6 +67,7 @@
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Add Bitfile Dependancy.vi" Type="VI" URL="../SubVIs/Add Bitfile Dependancy.vi"/>
 			<Item Name="Add FPGA Sections.vi" Type="VI" URL="../SubVIs/Add FPGA Sections.vi"/>
 			<Item Name="Add Item.vi" Type="VI" URL="../SubVIs/Add Item.vi"/>
@@ -77,6 +78,7 @@
 			<Item Name="Create Read Channel.vi" Type="VI" URL="../SubVIs/Create Read Channel.vi"/>
 			<Item Name="Create Workspace Ring Channel.vi" Type="VI" URL="../SubVIs/Create Workspace Ring Channel.vi"/>
 			<Item Name="Create Write Channel.vi" Type="VI" URL="../SubVIs/Create Write Channel.vi"/>
+			<Item Name="Create Waveform Channel.vi" Type="VI" URL="../SubVIs/Create Waveform Channel.vi"/>
 			<Item Name="Delete DMA Channels.vi" Type="VI" URL="../SubVIs/Delete DMA Channels.vi"/>
 			<Item Name="Determine Listbox Values.vi" Type="VI" URL="../SubVIs/Determine Listbox Values.vi"/>
 			<Item Name="Enable Disable Add Remove buttons.vi" Type="VI" URL="../SubVIs/Enable Disable Add Remove buttons.vi"/>
