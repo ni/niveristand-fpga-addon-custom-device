@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="C2271B6E99C7C81AFFE4DE007D3B7660F8C387CC1C2B592992519E46A194D7ACFE6EBA53F7A41791403DF218257AED94312CC9F757507315AC17464B0232E9B2" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.0.0.49956" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.0.0.49152" Version="8.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.0.0.49956" FeatureSetName="VeriStand Core Components" Name="http://www.ni.com/VeriStand" OldestCompatibleVersion="7.0.0.49152" Version="7.0.0.49152" />
+		<ApplicationVersionInfo Build="7.2.0.2747" Name="VeriStand" Version="8.0.0.49956" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="1" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="4" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Id="5" ModelDefinitionType="GatewayDefinition" Name="Gateway" Reparentable="False">
+				<GatewayDefinition xmlns="http://www.ni.com/VeriStand" />
+			</EmbeddedDefinitionReference>
+			<FileReference Bindings=".nivscf" Id="4f3a45a8069747b780dd6591c8f09050" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Max Nr of Scalar Channels.nivscf" StoragePath="Max Nr of Scalar Channels.nivscf" />
+			<SourceFileReference Id="cbe28bae2ef8415e9af8bdd3ba8227c5" ModelDefinitionType="{http://www.ni.com/VeriStand}Screen" Name="Max Nr of Scalar Channels.nivsscr" StoragePath="Max Nr of Scalar Channels.nivsscr" />
+			<FileReference Bindings=".nivsscreen" Id="20a91f3b855642d18ec9a38de73edd07" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Max Nr of Scalar Channels.nivsscreen" StoragePath="Max Nr of Scalar Channels.nivsscreen" />
+			<FileReference Bindings=".nivsproj" Id="23d4469d39e94e4f813c84e6e001c090" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Max Nr of Scalar Channels.nivsproj" StoragePath="Max Nr of Scalar Channels.nivsproj" />
+			<SourceFileReference Bindings="EnvoyManager" Id="43b94e5106174857991301df9a4088f8" ModelDefinitionType="{http://www.ni.com/VeriStand}SystemDefinition" Name="Max Nr of Scalar Channels.nivssdf" StoragePath="Max Nr of Scalar Channels.nivssdf" />
+			<EmbeddedDefinitionReference Id="c5cd5fbe9a374f6a9cb54d56f05938fe" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
+				<SdfFilePath SdfPath="Max Nr of Scalar Channels.nivssdf" xmlns="http://www.ni.com/VeriStand" />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>
