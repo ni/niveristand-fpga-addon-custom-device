@@ -256,12 +256,12 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="C:\Users\dstavila\Desktop\NI VeriStand FPGA Addon Fork\Source\Tests\System Tests\Scalar Channels Testing\Assets\LabVIEW cRIO FPGA Project\Bitfiles\cRIO Personality.lvbitx">
+								<DependentFile Type="Absolute" Path="C:\Users\dstavila\Desktop\FPGA Addon Custom Device Main\Source\Tests\System Tests\Scalar Channels Testing\Assets\LabVIEW cRIO FPGA Project\Bitfiles\cRIO Personality.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\cRIO Personality.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>09d8df16a919703aca6f605055318fdd</MD5>
+									<MD5>6a3bc6c096024fb42279a6b1f2a47f0a</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
