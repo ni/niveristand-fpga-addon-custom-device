@@ -10,7 +10,7 @@
 				<String>Adding a Channel Item Test</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.11</String>
+				<String>1.0.0.13</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -1046,91 +1046,6 @@
 										</DefaultValue>
 									</Channel>
 								</Section>
-								<Section Name="Generate.Digital.Ch4.WSS.Settings" TypeGUID="25832021-24b6-475a-aa84-f4ed7870ed99">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>Generate.Digital.Ch4.WSS.Settings</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<Channel Name="SPEED" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="km/hr" BitFields="15">
-										<Description>Desired Wheel Speed</Description>
-										<Properties>
-											<Property Name="user.CD.Bitfile Object Name">
-												<String>SPEED</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="DATA" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="" BitFields="15">
-										<Description>Data transmitted from Sensor</Description>
-										<Properties>
-											<Property Name="user.CD.Bitfile Object Name">
-												<String>DATA</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="PPR" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="" BitFields="15">
-										<Description>Pulses per Revolution</Description>
-										<Properties>
-											<Property Name="user.CD.Bitfile Object Name">
-												<String>PPR</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>44</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="WD" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="mm" BitFields="15">
-										<Description>Wheel Diameter</Description>
-										<Properties>
-											<Property Name="user.CD.Bitfile Object Name">
-												<String>WD</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>786</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="TYPE" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="" BitFields="15">
-										<Description>Value = 0; Unidirectional
-Value = 1; Bosch Bidirectional
-Value = 2; Continental Bidirectional
-</Description>
-										<Properties>
-											<Property Name="Value Table">
-												<Dictionary>
-													<Elem Key="Unidirectional">
-														<Double>0</Double>
-													</Elem>
-													<Elem Key="Bosch Bidirectional">
-														<Double>1</Double>
-													</Elem>
-													<Elem Key="Continental Bidirectional">
-														<Double>2</Double>
-													</Elem>
-												</Dictionary>
-											</Property>
-											<Property Name="user.CD.Bitfile Object Name">
-												<String>TYPE</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-								</Section>
 								<Section Name="Measure.Analog.Ch6.Settings" TypeGUID="25832021-24b6-475a-aa84-f4ed7870ed99">
 									<Description />
 									<Properties>
@@ -1362,6 +1277,91 @@ Value = 1; Increment B Leads A
 										<Errors />
 										<DefaultValue>
 											<Elem>1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="Generate.Digital.Ch4.WSS.Settings" TypeGUID="25832021-24b6-475a-aa84-f4ed7870ed99">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Generate.Digital.Ch4.WSS.Settings</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="SPEED" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="km/hr" BitFields="15">
+										<Description>Desired Wheel Speed</Description>
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>SPEED</String>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="DATA" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="" BitFields="15">
+										<Description>Data transmitted from Sensor</Description>
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>DATA</String>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="PPR" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="" BitFields="15">
+										<Description>Pulses per Revolution</Description>
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>PPR</String>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>44</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="WD" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="mm" BitFields="15">
+										<Description>Wheel Diameter</Description>
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>WD</String>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>786</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="TYPE" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="" BitFields="15">
+										<Description>Value = 0; Unidirectional
+Value = 1; Bosch Bidirectional
+Value = 2; Continental Bidirectional
+</Description>
+										<Properties>
+											<Property Name="Value Table">
+												<Dictionary>
+													<Elem Key="Unidirectional">
+														<Double>0</Double>
+													</Elem>
+													<Elem Key="Bosch Bidirectional">
+														<Double>1</Double>
+													</Elem>
+													<Elem Key="Continental Bidirectional">
+														<Double>2</Double>
+													</Elem>
+												</Dictionary>
+											</Property>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>TYPE</String>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
 										</DefaultValue>
 									</Channel>
 								</Section>
@@ -2117,7 +2117,7 @@ Value = 1; Increment B Leads A
 							</Section>
 						</Section>
 					</Section>
-					<Section Name="FPGA Addon 1" TypeGUID="e80a28c5-621d-4211-b584-b71df509dee0">
+					<Section Name="FPGA Addon Scalars Grouped" TypeGUID="e80a28c5-621d-4211-b584-b71df509dee0">
 						<Description />
 						<Properties>
 							<Property Name="CD Status">
