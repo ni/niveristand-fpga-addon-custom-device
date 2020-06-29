@@ -111,6 +111,13 @@ This IP is located at:
 
 _C:\Users\Public\Documents\National Instruments\NI VeriStand **_Year_**\Custom Devices\FPGA Addon\FPGA IP​_ -> Location is to still be discussed. 
 
+---
+
+**Note**: **The FPGA Addon supports up to a total of 128 channels for controls, indicators and DMAs for a given FPGA bitfile.**
+
+---
+<br>
+
 ## Example Programs
 
 Examples of how to use the speciality IO, controls/indicators, and DMA are included in the source code in the _Testing Folder_. Here is an example of the speciality IO: -> Location of these examples still to be discussed
