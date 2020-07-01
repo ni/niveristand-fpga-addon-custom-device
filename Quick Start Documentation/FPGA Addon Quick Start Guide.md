@@ -1,16 +1,3 @@
-
-<style>
-    h1{
-        color:#87dfd6;
-    }
-    h2{
-        color:#01a9b4;
-    }
-</style>
-
-
-
-
 # Overview
 
 This add-on runs a FPGA bitfile without needing to implement the normal VeriStand FPGA template. It allows the transfer of basic scalar data types inline with VeriStand's primary control loop (PCL). It also adds support for reading/writing waveforms with FPGA DMA channels.​
@@ -27,7 +14,7 @@ This add-on runs a FPGA bitfile without needing to implement the normal VeriStan
 
 # Requirements
 
-These drivers must be installed on hte deployment computer/target to function:
+These drivers must be installed on the deployment computer/target to function:
 
 - NI VeriStand 2018 or later
 - NI RIO 18.0 or later
@@ -36,7 +23,7 @@ These drivers must be installed on hte deployment computer/target to function:
 
 # FPGA Specifics
 
-To use the addon, first create an FPGA program. Use the provided FPGA IP (discussed below) or custom logic. Put items of interest to front panel controls and indicators. Put waveforms of interest to DMA channels. __It is a requirement to the FPGA code to have an IRQ (address of 30) to control when the FPGA bitfile starts.__ This IRQ only needs to control when DMA read/write operations start. Any other code can start whenever it makes sense. Below is an example showing DMA, controls, and indicators.
+To use the addon, first create an FPGA VI. Use the provided FPGA IP (discussed below) or custom logic. Put items of interest to front panel controls and indicators. Put waveforms of interest to DMA channels. __It is a requirement to the FPGA code to have an IRQ (address of 30) to control when the FPGA bitfile starts.__ This IRQ only needs to control when DMA read/write operations start. Any other code can start whenever it makes sense. Below is an example showing DMA, controls, and indicators.
 
 
 ![Getting Started](./Images/image002.png)
@@ -164,13 +151,13 @@ Select the items and hit Add Selected. If an item doesn't show up, it is likely 
 
 ---
 
-Any scalar integer values can be converted to support Boolean bitpacking. However, this is simething that must be first programmed in the FPGA. It is also something that is not "discoverable" by the addon. Therefore the user must configure the addon manually to match what is programmed in the FPGA.
+Any scalar integer values can be converted to support Boolean bitpacking. However, this is something that must be first programmed in the FPGA. It is also something that is not "discoverable" by the addon. Therefore the user must configure the addon manually to match what is programmed in the FPGA.
 
 As an example, the FPGA program could take 8 Boolean lines, build an array, and convert it to a number as follows.
 
 ![Bitpacking](./Images/image007.png)
 
-This significantly improves performance. If this is implement in the FPGA, manually find the relating indicator in the VeriStand configuraiton and select to enable bitpacking.
+This significantly improves performance. If this is implemented in the FPGA, manually find the related indicator in the VeriStand configuration and select to enable bitpacking.
 
 ![Bitpacking2](./Images/image008.png)
 
@@ -249,7 +236,7 @@ Certain channels can be added as Rings to show text. The Error Code channel supp
 <br>
 
 
-​To veiw waveforms, open the Workspace.
+​To view waveforms, open the Workspace.
 
 ![Execution3](./Images/image022.png)
 
