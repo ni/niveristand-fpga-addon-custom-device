@@ -76,6 +76,7 @@
 			<Item Name="Create DMA Channel.vi" Type="VI" URL="../SubVIs/Create DMA Channel.vi"/>
 			<Item Name="Create Groups.vi" Type="VI" URL="../SubVIs/Create Groups.vi"/>
 			<Item Name="Create Read Channel.vi" Type="VI" URL="../SubVIs/Create Read Channel.vi"/>
+			<Item Name="Create Waveform Channel.vi" Type="VI" URL="../SubVIs/Create Waveform Channel.vi"/>
 			<Item Name="Create Workspace Ring Channel.vi" Type="VI" URL="../SubVIs/Create Workspace Ring Channel.vi"/>
 			<Item Name="Create Write Channel.vi" Type="VI" URL="../SubVIs/Create Write Channel.vi"/>
 			<Item Name="Delete DMA Channels.vi" Type="VI" URL="../SubVIs/Delete DMA Channels.vi"/>
