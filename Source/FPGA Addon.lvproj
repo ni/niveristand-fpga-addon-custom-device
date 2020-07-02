@@ -49,6 +49,9 @@
 				<Item Name="DMA Channels Basic Testing" Type="Folder">
 					<Item Name="DMA Channels Basic Testing.lvclass" Type="LVClass" URL="../Tests/System Tests/DMA Channels Basic Testing/DMA Channels Basic Testing/DMA Channels Basic Testing.lvclass"/>
 				</Item>
+				<Item Name="DMA Waveform Status Channel Testing" Type="Folder">
+					<Item Name="DMA Waveform Status Channel Testing.lvclass" Type="LVClass" URL="../Tests/System Tests/DMA Waveform Status Channel Testing/DMA Waveform Status Channel Testing/DMA Waveform Status Channel Testing.lvclass"/>
+				</Item>
 				<Item Name="Max Nr of Scalar Channels" Type="Folder">
 					<Item Name="Max Nr of Scalar Channels.lvclass" Type="LVClass" URL="../Tests/System Tests/Max Nr of Scalar Channels/Max Nr of Scalar Channels/Max Nr of Scalar Channels.lvclass"/>
 				</Item>
@@ -1301,7 +1304,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3C0A088C-FC56-4B53-9408-E63D219756B7}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/FPGA Addon Engine Linux64.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/FPGA Addon Engine Linux64.llb</Property>
