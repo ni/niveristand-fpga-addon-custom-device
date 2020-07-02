@@ -5,4 +5,4 @@
 def lvVersions = ['2019']
 
 diffPipeline(lvVersions[0])
-ni.vsbuild.PipelineExecutor.execute(this, 'veristand', lvVersions)
+ni.vsbuild.PipelineExecutor.execute(this, 'vs_cd_build', lvVersions)

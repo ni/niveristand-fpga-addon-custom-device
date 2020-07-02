@@ -32,8 +32,45 @@
 				<Item Name="Import File Formats" Type="Folder" URL="../Addon/Support Files/Import File Formats">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
-				<Item Name="Quick Start Documentation" Type="Folder" URL="../Addon/Support Files/Quick Start Documentation">
-					<Property Name="NI.DISK" Type="Bool">true</Property>
+				<Item Name="Quick Start Documentation" Type="Folder">
+					<Item Name="Images" Type="Folder">
+						<Item Name="image002.png" Type="Document" URL="../Quick Start Documentation/Images/image002.png"/>
+						<Item Name="image003.png" Type="Document" URL="../Quick Start Documentation/Images/image003.png"/>
+						<Item Name="image005.jpg" Type="Document" URL="../Quick Start Documentation/Images/image005.jpg"/>
+						<Item Name="image006.png" Type="Document" URL="../Quick Start Documentation/Images/image006.png"/>
+						<Item Name="image007.png" Type="Document" URL="../Quick Start Documentation/Images/image007.png"/>
+						<Item Name="image008.png" Type="Document" URL="../Quick Start Documentation/Images/image008.png"/>
+						<Item Name="image009.png" Type="Document" URL="../Quick Start Documentation/Images/image009.png"/>
+						<Item Name="image010.png" Type="Document" URL="../Quick Start Documentation/Images/image010.png"/>
+						<Item Name="image011.png" Type="Document" URL="../Quick Start Documentation/Images/image011.png"/>
+						<Item Name="image012.png" Type="Document" URL="../Quick Start Documentation/Images/image012.png"/>
+						<Item Name="image013.png" Type="Document" URL="../Quick Start Documentation/Images/image013.png"/>
+						<Item Name="image014.png" Type="Document" URL="../Quick Start Documentation/Images/image014.png"/>
+						<Item Name="image015.png" Type="Document" URL="../Quick Start Documentation/Images/image015.png"/>
+						<Item Name="image016.png" Type="Document" URL="../Quick Start Documentation/Images/image016.png"/>
+						<Item Name="image017.png" Type="Document" URL="../Quick Start Documentation/Images/image017.png"/>
+						<Item Name="image018.png" Type="Document" URL="../Quick Start Documentation/Images/image018.png"/>
+						<Item Name="image019.png" Type="Document" URL="../Quick Start Documentation/Images/image019.png"/>
+						<Item Name="image020.png" Type="Document" URL="../Quick Start Documentation/Images/image020.png"/>
+						<Item Name="image021.png" Type="Document" URL="../Quick Start Documentation/Images/image021.png"/>
+						<Item Name="image022.png" Type="Document" URL="../Quick Start Documentation/Images/image022.png"/>
+						<Item Name="image023.png" Type="Document" URL="../Quick Start Documentation/Images/image023.png"/>
+						<Item Name="image024.png" Type="Document" URL="../Quick Start Documentation/Images/image024.png"/>
+						<Item Name="image025.png" Type="Document" URL="../Quick Start Documentation/Images/image025.png"/>
+						<Item Name="image026.png" Type="Document" URL="../Quick Start Documentation/Images/image026.png"/>
+						<Item Name="image027.png" Type="Document" URL="../Quick Start Documentation/Images/image027.png"/>
+						<Item Name="image028.png" Type="Document" URL="../Quick Start Documentation/Images/image028.png"/>
+						<Item Name="image029.png" Type="Document" URL="../Quick Start Documentation/Images/image029.png"/>
+						<Item Name="image030.jpg" Type="Document" URL="../Quick Start Documentation/Images/image030.jpg"/>
+						<Item Name="image031.png" Type="Document" URL="../Quick Start Documentation/Images/image031.png"/>
+						<Item Name="image032.jpg" Type="Document" URL="../Quick Start Documentation/Images/image032.jpg"/>
+						<Item Name="image033.jpg" Type="Document" URL="../Quick Start Documentation/Images/image033.jpg"/>
+						<Item Name="image034.png" Type="Document" URL="../Quick Start Documentation/Images/image034.png"/>
+						<Item Name="image035.jpg" Type="Document" URL="../Quick Start Documentation/Images/image035.jpg"/>
+						<Item Name="image045.jpg" Type="Document" URL="../Quick Start Documentation/Images/image045.jpg"/>
+						<Item Name="image046.jpg" Type="Document" URL="../Quick Start Documentation/Images/image046.jpg"/>
+					</Item>
+					<Item Name="FPGA Addon Quick Start Guide.md" Type="Document" URL="../Quick Start Documentation/FPGA Addon Quick Start Guide.md"/>
 				</Item>
 			</Item>
 			<Item Name="Custom Device FPGA Addon.xml" Type="Document" URL="../Addon/Custom Device FPGA Addon.xml"/>
@@ -60,6 +97,9 @@
 				</Item>
 			</Item>
 			<Item Name="Unit Tests" Type="Folder">
+				<Item Name="Adding Channel Items" Type="Folder">
+					<Item Name="FPGA Addon Adding Channel Items Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Adding Channel Items/Adding Channel Items/FPGA Addon Adding Channel Items Unit Tests.lvclass"/>
+				</Item>
 				<Item Name="DMA Channels Testing" Type="Folder">
 					<Item Name="DMA Channel Testing.lvclass" Type="LVClass" URL="../Tests/Unit Tests/DMA Channels Testing/DMA Channel Testing/DMA Channel Testing.lvclass"/>
 				</Item>
@@ -347,15 +387,6 @@
 				<Item Name="NIVS Hardware Discovery.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Hardware Resource Discovery/NIVS Hardware Discovery.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="PackedMatrixToFlatVector.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/PackedMatrixToFlatVector.vi"/>
-				<Item Name="PWM.Generate.Digital.Convert.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Generate.Digital.Convert.Settings.ctl"/>
-				<Item Name="PWM.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Generate.Digital.Settings.ctl"/>
-				<Item Name="PWM.Measure.Analog.Result.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Analog.Result.ctl"/>
-				<Item Name="PWM.Measure.Analog.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Analog.Settings.ctl"/>
-				<Item Name="PWM.Measure.Digital.Result.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Digital.Result.ctl"/>
-				<Item Name="PWM.Measure.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/PWM.Measure.Digital.Settings.ctl"/>
-				<Item Name="QuadratureEncoder.Measure.Digital.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/QuadratureEncoder.Measure.Digital.Measurement.ctl"/>
-				<Item Name="QuadratureEncoder.Measure.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/QuadratureEncoder.Measure.Digital.Settings.ctl"/>
-				<Item Name="QuadratureEncoder.Measure.Digital.Settings.Direction.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/QuadratureEncoder.Measure.Digital.Settings.Direction.ctl"/>
 				<Item Name="Random Number - Within Range__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Random Number - Within Range__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="Refnum Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Refnum Subtype Enum__ogtk__jki_vi_tester.ctl"/>
@@ -451,8 +482,6 @@
 				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Sine.Generate.Convert.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/Sine.Generate.Convert.Settings.ctl"/>
-				<Item Name="Sine.Generate.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/Sine.Generate.Settings.ctl"/>
 				<Item Name="Sort 1D Array (CDB)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort 1D Array (CDB)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Sort 1D Array (CSG)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort 1D Array (CSG)__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Sort 1D Array (CXT)__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort 1D Array (CXT)__ogtk__jki_vi_tester.vi"/>
@@ -488,9 +517,6 @@
 				<Item Name="Sort Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Sort Array__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
-				<Item Name="Static.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/Static.Generate.Digital.Settings.ctl"/>
-				<Item Name="Static.Measure.Digital.Measurement.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/Static.Measure.Digital.Measurement.ctl"/>
-				<Item Name="Static.Measure.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/Static.Measure.Digital.Settings.ctl"/>
 				<Item Name="String to 1D Array__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/String to 1D Array__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Strip Path Extension - 1D Array of Paths__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Path Extension - 1D Array of Paths__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Strip Path Extension - 1D Array of Strings__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Strip Path Extension - 1D Array of Strings__ogtk__jki_vi_tester.vi"/>
@@ -524,9 +550,6 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="WSS.Generate.Digital.Convert.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/WSS.Generate.Digital.Convert.Settings.ctl"/>
-				<Item Name="WSS.Generate.Digital.Settings.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/WSS.Generate.Digital.Settings.ctl"/>
-				<Item Name="WSS.Sensor.Type.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/NI VeriStand Development Tools/NI Veristand FPGA Specialty IO/Types/WSS.Sensor.Type.ctl"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
