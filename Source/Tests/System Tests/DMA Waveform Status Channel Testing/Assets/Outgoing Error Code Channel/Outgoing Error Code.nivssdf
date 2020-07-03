@@ -10,7 +10,7 @@
 				<String>Outgoing Error Code</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.4</String>
+				<String>1.0.0.9</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -28,10 +28,10 @@
 				<Description />
 				<Properties>
 					<Property Name="OS">
-						<String>Linux_x64</String>
+						<String>PharLap</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>10.113.1.184</String>
+						<String>10.113.0.134</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -244,21 +244,21 @@
 								<String>3.1.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>D:\GitRepository\niveristand-fpga-addon-custom-device-1\Source\Tests\System Tests\DMA Error Code Channel Testing\Assets\ErrorChannelTestProject\FPGA Bitfiles\GenerateErrorCode_Outgoing.lvbitx</String>
+								<String>D:\GitRepository\niveristand-fpga-addon-custom-device-1\Source\Tests\System Tests\DMA Waveform Status Channel Testing\Assets\ErrorChannelTestProject\FPGA Bitfiles\GenerateErrorCode - Outgoing_7858.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
-								<String>RIO0</String>
+								<String>RIO1</String>
 							</Property>
 							<Property Name="user.CD.Group">
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="D:\GitRepository\niveristand-fpga-addon-custom-device-1\Source\Tests\System Tests\DMA Waveform Status Channel Testing\Assets\ErrorChannelTestProject\FPGA Bitfiles\GenerateErrorCode_Outgoing.lvbitx">
+								<DependentFile Type="Absolute" Path="D:\GitRepository\niveristand-fpga-addon-custom-device-1\Source\Tests\System Tests\DMA Waveform Status Channel Testing\Assets\ErrorChannelTestProject\FPGA Bitfiles\GenerateErrorCode - Outgoing_7858.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\GenerateErrorCode_Outgoing.lvbitx</RTDestination>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\GenerateErrorCode - Outgoing_7858.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>fc154ebac49376731c617e73ae7dc6cc</MD5>
+									<MD5>4f03b916f2f777db77772123f7464921</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
