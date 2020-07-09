@@ -3,14 +3,14 @@
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="1" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="VS FPGA Addon DMA Testing" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="VS FPGA Addon Interleaved Testing" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>VS FPGA Addon DMA Testing</String>
+				<String>VS FPGA Addon Interleaved Testing</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.18</String>
+				<String>1.0.0.10</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -97,7 +97,7 @@
 						<Double>15</Double>
 					</Property>
 					<Property Name="FPGAScanInterfaceMode">
-						<U16>1</U16>
+						<U16>0</U16>
 					</Property>
 					<Property Name="Timing Source Settings">
 						<U16>0</U16>
@@ -247,7 +247,7 @@
 								<String>3.1.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>C:\Users\dstavila\Desktop\FPGA Addon Custom Device Main\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\DMA Channels cRIO FPGA Project\Bitfiles\cRIO 9039 FPGA Personality.lvbitx</String>
+								<String>C:\Users\dstavila\Desktop\NI FPGA Addon SDFork\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\DMA Channels cRIO FPGA Project\Bitfiles\cRIO 9039 FPGA Personality.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO0</String>
@@ -256,12 +256,12 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="C:\Users\dstavila\Desktop\NI FPGA Addon SDFork\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\DMA Channels cRIO FPGA Project\Bitfiles\cRIO 9039 FPGA Personality.lvbitx">
+								<DependentFile Type="Absolute" Path="C:\Users\dstavila\Desktop\NI FPGA Addon SDFork\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\DMA Channels cRIO FPGA Project\Bitfiles\cRIO 9039 FPGA Personality.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\cRIO 9039 FPGA Personality.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>8d418d647587740f6662ede659211728</MD5>
+									<MD5>e457fe537ec5ec6c2dc82b9817814f2a</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
@@ -276,7 +276,7 @@
 									<Property Name="user.CD.Available Registers">
 										<Variant>
 											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAACGBkAgAAAAAAFAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBTDURlZmF1bHQgVmFsdWUADABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAABAAAAB0VsZW1lbnQJGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAA</Data>
+											<Data>AAAB7xkAgAAAAAAFAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBTDURlZmF1bHQgVmFsdWUADABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAAAAAAAAA==</Data>
 										</Variant>
 									</Property>
 								</Properties>
@@ -317,13 +317,13 @@
 											<String>Outgoing1</String>
 										</Property>
 										<Property Name="user.CD.DMA.NumberOfChans">
-											<U32>1</U32>
+											<U32>2</U32>
 										</Property>
 										<Property Name="user.CD.DMA.DelacingScheme">
 											<U32>0</U32>
 										</Property>
 										<Property Name="user.CD.DMA.UpdateRate">
-											<U32>1</U32>
+											<U32>5</U32>
 										</Property>
 										<Property Name="user.CD.DMA.dt">
 											<Double>0.0001</Double>
@@ -404,11 +404,20 @@
 											</DefaultValue>
 										</Channel>
 									</Section>
-									<Waveform Name="Outgoing1" TypeGUID="2afc1de4-b056-47bb-a2ad-eec5ad0d30b6" DataType="Double" Units="">
+									<Waveform Name="Outgoing1a" TypeGUID="2afc1de4-b056-47bb-a2ad-eec5ad0d30b6" DataType="Double" Units="">
 										<Description />
 										<Properties>
 											<Property Name="user.CD.Bitfile Object Name">
 												<String>Outgoing1</String>
+											</Property>
+										</Properties>
+										<Errors />
+									</Waveform>
+									<Waveform Name="Outgoing1b" TypeGUID="2afc1de4-b056-47bb-a2ad-eec5ad0d30b6" DataType="Double" Units="">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>Outgoing1 1</String>
 											</Property>
 										</Properties>
 										<Errors />
@@ -421,13 +430,13 @@
 											<String>Outgoing2</String>
 										</Property>
 										<Property Name="user.CD.DMA.NumberOfChans">
-											<U32>1</U32>
+											<U32>2</U32>
 										</Property>
 										<Property Name="user.CD.DMA.DelacingScheme">
 											<U32>0</U32>
 										</Property>
 										<Property Name="user.CD.DMA.UpdateRate">
-											<U32>1</U32>
+											<U32>5</U32>
 										</Property>
 										<Property Name="user.CD.DMA.dt">
 											<Double>0.0001</Double>
@@ -508,11 +517,20 @@
 											</DefaultValue>
 										</Channel>
 									</Section>
-									<Waveform Name="Outgoing2" TypeGUID="2afc1de4-b056-47bb-a2ad-eec5ad0d30b6" DataType="Double" Units="">
+									<Waveform Name="Outgoing2a" TypeGUID="2afc1de4-b056-47bb-a2ad-eec5ad0d30b6" DataType="Double" Units="">
 										<Description />
 										<Properties>
 											<Property Name="user.CD.Bitfile Object Name">
 												<String>Outgoing2</String>
+											</Property>
+										</Properties>
+										<Errors />
+									</Waveform>
+									<Waveform Name="Outgoing2b" TypeGUID="2afc1de4-b056-47bb-a2ad-eec5ad0d30b6" DataType="Double" Units="">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>Outgoing2 1</String>
 											</Property>
 										</Properties>
 										<Errors />
@@ -537,13 +555,13 @@
 											<String>Incoming</String>
 										</Property>
 										<Property Name="user.CD.DMA.NumberOfChans">
-											<U32>1</U32>
+											<U32>2</U32>
 										</Property>
 										<Property Name="user.CD.DMA.DelacingScheme">
 											<U32>0</U32>
 										</Property>
 										<Property Name="user.CD.DMA.UpdateRate">
-											<U32>1</U32>
+											<U32>5</U32>
 										</Property>
 										<Property Name="user.CD.DMA.dt">
 											<Double>0.0001</Double>
@@ -624,14 +642,26 @@
 											</DefaultValue>
 										</Channel>
 									</Section>
-									<Section Name="Incoming" TypeGUID="0c0ecc88-7768-47db-a589-856e32a93156">
+									<Section Name="Incoming1a" TypeGUID="0c0ecc88-7768-47db-a589-856e32a93156">
 										<Description />
 										<Properties>
 											<Property Name="user.CD.Bitfile Object Name">
 												<String>Incoming</String>
 											</Property>
 											<Property Name="user.CD.Source WFM">
-												<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Waveforms/Waveform Inputs/Outgoing1/Outgoing1" />
+												<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Waveforms/Waveform Inputs/Outgoing1/Outgoing1a" />
+											</Property>
+										</Properties>
+										<Errors />
+									</Section>
+									<Section Name="Incoming1b" TypeGUID="0c0ecc88-7768-47db-a589-856e32a93156">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>Incoming 1</String>
+											</Property>
+											<Property Name="user.CD.Source WFM">
+												<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Waveforms/Waveform Inputs/Outgoing1/Outgoing1b" />
 											</Property>
 										</Properties>
 										<Errors />
