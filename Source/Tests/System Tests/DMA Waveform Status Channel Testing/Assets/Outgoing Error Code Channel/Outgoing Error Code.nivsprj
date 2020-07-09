@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="392E9A6CD6643733A848667D96FB218FB54B0AF96719BFB2A1CD1A2491DD4C8A130379FEC4E13AA2A725BF323FB2F82FDF664D090AB9761A08527C01C9C87010" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.0.0.49152" Version="8.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="VeriStand Core Components" Name="http://www.ni.com/VeriStand" OldestCompatibleVersion="7.0.0.49152" Version="7.0.0.49152" />
+		<ApplicationVersionInfo Build="7.2.0.2747" Name="VeriStand" Version="8.0.0.49956" />
+	</SourceModelFeatureSet>
+	<Project xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="1" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+			<ProjectExplorer />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="4" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Id="5" ModelDefinitionType="GatewayDefinition" Name="Gateway" Reparentable="False">
+				<GatewayDefinition xmlns="http://www.ni.com/VeriStand" />
+			</EmbeddedDefinitionReference>
+			<FileReference Bindings=".nivscf" Id="3ccab6696d24496cbbf0eb562c2ac55c" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Outgoing Error Code.nivscf" StoragePath="Outgoing Error Code.nivscf" />
+			<SourceFileReference Id="2e0dfc6cc76c42cf814b8f276af4c42a" ModelDefinitionType="{http://www.ni.com/VeriStand}Screen" Name="Outgoing Error Code.nivsscr" StoragePath="Outgoing Error Code.nivsscr" />
+			<FileReference Bindings=".nivsscreen" Id="63214c6ba874e4f99bbdc81ca2cc12b" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Outgoing Error Code.nivsscreen" StoragePath="Outgoing Error Code.nivsscreen" />
+			<FileReference Bindings=".nivsproj" Id="28cbe031af64014813799b8dad020f0" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Outgoing Error Code.nivsproj" StoragePath="Outgoing Error Code.nivsproj" />
+			<SourceFileReference Bindings="EnvoyManager" Id="553a831576a942758086c7f3d2959d18" ModelDefinitionType="{http://www.ni.com/VeriStand}SystemDefinition" Name="Outgoing Error Code.nivssdf" StoragePath="Outgoing Error Code.nivssdf" />
+			<EmbeddedDefinitionReference Id="d1251b16cdc74d78ae1deec03e99ab07" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
+				<SdfFilePath SdfPath="Outgoing Error Code.nivssdf" xmlns="http://www.ni.com/VeriStand" />
+			</EmbeddedDefinitionReference>
+		</NameScopingEnvoy>
+	</Project>
+	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+</SourceFile>
