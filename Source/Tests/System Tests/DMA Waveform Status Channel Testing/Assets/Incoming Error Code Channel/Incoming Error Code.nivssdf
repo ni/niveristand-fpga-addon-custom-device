@@ -10,7 +10,7 @@
 				<String>Incoming Error Code</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.8</String>
+				<String>1.0.0.16</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -244,7 +244,7 @@
 								<String>3.1.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>D:\GitRepository\niveristand-fpga-addon-custom-device-1\Source\Tests\System Tests\DMA Waveform Status Channel Testing\Assets\ErrorChannelTestProject\FPGA Bitfiles\GenerateErrorCode - Incoming_7858.lvbitx</String>
+								<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Waveform Status Channel Testing\Assets\ErrorChannelTestProject\FPGA Bitfiles\GenerateErrorCode - Incoming_7858.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO1</String>
@@ -253,12 +253,12 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="D:\GitRepository\niveristand-fpga-addon-custom-device-1\Source\Tests\System Tests\DMA Waveform Status Channel Testing\Assets\ErrorChannelTestProject\FPGA Bitfiles\GenerateErrorCode - Incoming_7858.lvbitx">
+								<DependentFile Type="Absolute" Path="C:\Users\nitest\Desktop\FPGA Addon CD Main Fork\Source\Tests\System Tests\DMA Waveform Status Channel Testing\Assets\ErrorChannelTestProject\FPGA Bitfiles\GenerateErrorCode - Incoming_7858.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\GenerateErrorCode - Incoming_7858.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>10282d74ddf9aca3dc66f748335736cd</MD5>
+									<MD5>25c9e5c2dccb3c8499bdeec2d9d46eab</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
@@ -273,7 +273,7 @@
 									<Property Name="user.CD.Available Registers">
 										<Variant>
 											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAAB7xkAgAAAAAAFAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBTDURlZmF1bHQgVmFsdWUADABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAAAAAAAAA==</Data>
+											<Data>AAAB7xgAgAAAAAAFAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBTDURlZmF1bHQgVmFsdWUADABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAAAAAAAAA==</Data>
 										</Variant>
 									</Property>
 								</Properties>
@@ -285,7 +285,7 @@
 									<Property Name="user.CD.Available Registers">
 										<Variant>
 											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAACGBkAgAAAAAAFAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBTDURlZmF1bHQgVmFsdWUADABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAABAAAAB0Jvb2xlYW4KGQCAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAA</Data>
+											<Data>AAACGBgAgAAAAAAFAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBTDURlZmF1bHQgVmFsdWUADABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAABAAAAB0Jvb2xlYW4KGACAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAA</Data>
 										</Variant>
 									</Property>
 								</Properties>
@@ -302,7 +302,7 @@
 									<Property Name="user.CD.Available DMA">
 										<Variant>
 											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAAB6hkAgAAAAAAEAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBQAAIAAAABB0NsdXN0ZXIAGkBAAAH/////AAINQXZhaWxhYmxlIERNQQABAAMAAAABAAAACE91dGdvaW5nCQAAAAA=</Data>
+											<Data>AAAB6hgAgAAAAAAEAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBQAAIAAAABB0NsdXN0ZXIAGkBAAAH/////AAINQXZhaWxhYmxlIERNQQABAAMAAAABAAAACE91dGdvaW5nCQAAAAA=</Data>
 										</Variant>
 									</Property>
 								</Properties>
@@ -320,7 +320,7 @@
 											<U32>0</U32>
 										</Property>
 										<Property Name="user.CD.DMA.UpdateRate">
-											<U32>1</U32>
+											<U32>5</U32>
 										</Property>
 										<Property Name="user.CD.DMA.dt">
 											<Double>0.0001</Double>
@@ -418,7 +418,7 @@
 									<Property Name="user.CD.Available DMA">
 										<Variant>
 											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAAB6hkAgAAAAAAEAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBQAAIAAAABB0NsdXN0ZXIAGkBAAAH/////AAINQXZhaWxhYmxlIERNQQABAAMAAAABAAAACEluY29taW5nCQAAAAA=</Data>
+											<Data>AAAB6hgAgAAAAAAEAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBQAAIAAAABB0NsdXN0ZXIAGkBAAAH/////AAINQXZhaWxhYmxlIERNQQABAAMAAAABAAAACEluY29taW5nCQAAAAA=</Data>
 										</Variant>
 									</Property>
 								</Properties>
