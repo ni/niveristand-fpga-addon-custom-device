@@ -84,7 +84,7 @@
 							<Version />
 							<RTDestination />
 							<SupportedTarget />
-							<MD5>e03018bf6fe12d6e85e278bb28ee6ca2</MD5>
+							<MD5>dca30515ca3f0b728efbe535fa13db4b</MD5>
 						</DependentFile>
 					</Property>
 				</Properties>
@@ -192,20 +192,38 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="VS FPGA Addon DMA Testing.nivssdf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="VS FPGA Addon DMA Testing.nivssdf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\dstavila\Desktop\NI VeriStand FPGA CD Addon Fork\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\VS FPGA Addon DMA Testing\VS FPGA Addon DMA Testing.nivssdf</String>
+						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\VS FPGA Addon DMA Testing\VS FPGA Addon DMA Testing.nivssdf</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="VS FPGA Addon DMA Testing.nivsscreen" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="VS FPGA Addon DMA Testing.nivsscreen (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\dstavila\Desktop\NI VeriStand FPGA CD Addon Fork\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\VS FPGA Addon DMA Testing\VS FPGA Addon DMA Testing.nivsscreen</String>
+						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\VS FPGA Addon DMA Testing\VS FPGA Addon DMA Testing.nivsscreen</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="VS FPGA Addon DMA Testing.nivscf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\VS FPGA Addon DMA Testing\VS FPGA Addon DMA Testing.nivscf</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="FPGA Addon Engine Linux64.llb" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2018\Custom Devices\FPGA Addon\Linux_x64\FPGA Addon Engine Linux64.llb</String>
 					</Property>
 				</Properties>
 				<Errors />
@@ -214,16 +232,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\dstavila\Desktop\NI VeriStand FPGA CD Addon Fork\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\VS FPGA Addon DMA Testing\VS FPGA Addon DMA Testing.nivsprj</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="VS FPGA Addon DMA Testing.nivscf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>C:\Users\dstavila\Desktop\NI VeriStand FPGA CD Addon Fork\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\VS FPGA Addon DMA Testing\VS FPGA Addon DMA Testing.nivscf</String>
+						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Channels Basic Testing\Assets\VS FPGA Addon DMA Testing\VS FPGA Addon DMA Testing.nivsprj</String>
 					</Property>
 				</Properties>
 				<Errors />

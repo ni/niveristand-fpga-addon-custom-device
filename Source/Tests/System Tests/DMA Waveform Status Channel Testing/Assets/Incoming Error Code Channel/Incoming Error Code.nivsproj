@@ -84,7 +84,7 @@
 							<Version />
 							<RTDestination />
 							<SupportedTarget />
-							<MD5>e03018bf6fe12d6e85e278bb28ee6ca2</MD5>
+							<MD5>fa5ac1eca71e9c1d0f0fdb4acada11e4</MD5>
 						</DependentFile>
 					</Property>
 				</Properties>
@@ -192,20 +192,38 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="Incoming Error Code.nivssdf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Incoming Error Code.nivssdf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>D:\GitRepository\niveristand-fpga-addon-custom-device-1\Source\Tests\System Tests\DMA Error Code Channel Testing\Assets\Incoming Error Code Channel\Incoming Error Code\Incoming Error Code.nivssdf</String>
+						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Waveform Status Channel Testing\Assets\Incoming Error Code Channel\Incoming Error Code.nivssdf</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="Incoming Error Code.nivsscreen" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="Incoming Error Code.nivsscreen (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>D:\GitRepository\niveristand-fpga-addon-custom-device-1\Source\Tests\System Tests\DMA Error Code Channel Testing\Assets\Incoming Error Code Channel\Incoming Error Code\Incoming Error Code.nivsscreen</String>
+						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Waveform Status Channel Testing\Assets\Incoming Error Code Channel\Incoming Error Code.nivsscreen</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="Incoming Error Code.nivscf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Waveform Status Channel Testing\Assets\Incoming Error Code Channel\Incoming Error Code.nivscf</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="FPGA Addon Engine Linux64.llb" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2018\Custom Devices\FPGA Addon\Linux_x64\FPGA Addon Engine Linux64.llb</String>
 					</Property>
 				</Properties>
 				<Errors />
@@ -214,16 +232,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>D:\GitRepository\niveristand-fpga-addon-custom-device-1\Source\Tests\System Tests\DMA Error Code Channel Testing\Assets\Incoming Error Code Channel\Incoming Error Code\Incoming Error Code.nivsprj</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="Incoming Error Code.nivscf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>D:\GitRepository\niveristand-fpga-addon-custom-device-1\Source\Tests\System Tests\DMA Error Code Channel Testing\Assets\Incoming Error Code Channel\Incoming Error Code\Incoming Error Code.nivscf</String>
+						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Waveform Status Channel Testing\Assets\Incoming Error Code Channel\Incoming Error Code.nivsprj</String>
 					</Property>
 				</Properties>
 				<Errors />

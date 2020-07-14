@@ -84,7 +84,7 @@
 							<Version />
 							<RTDestination />
 							<SupportedTarget />
-							<MD5>e03018bf6fe12d6e85e278bb28ee6ca2</MD5>
+							<MD5>79ad2c65d40fc927a49d3ecdd127f198</MD5>
 						</DependentFile>
 					</Property>
 				</Properties>
@@ -192,20 +192,38 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="VS FPGA Addon Scalar Testing.nivssdf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="VS FPGA Addon Scalar Testing.nivssdf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\dstavila\Desktop\NI VeriStand FPGA Addon\Source\Tests\System Tests\Scalar Channels Testing\Assets\VS FPGA Addon Scalar Testing\VS FPGA Addon Scalar Testing.nivssdf</String>
+						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Fork\Source\Tests\System Tests\Scalar Channels Testing\Assets\VS FPGA Addon Scalar Testing\VS FPGA Addon Scalar Testing.nivssdf</String>
 					</Property>
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="VS FPGA Addon Scalar Testing.nivsscreen" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="VS FPGA Addon Scalar Testing.nivsscreen (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\dstavila\Desktop\NI VeriStand FPGA Addon\Source\Tests\System Tests\Scalar Channels Testing\Assets\VS FPGA Addon Scalar Testing\VS FPGA Addon Scalar Testing.nivsscreen</String>
+						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Fork\Source\Tests\System Tests\Scalar Channels Testing\Assets\VS FPGA Addon Scalar Testing\VS FPGA Addon Scalar Testing.nivsscreen</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="VS FPGA Addon Scalar Testing.nivscf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Fork\Source\Tests\System Tests\Scalar Channels Testing\Assets\VS FPGA Addon Scalar Testing\VS FPGA Addon Scalar Testing.nivscf</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="FPGA Addon Engine Linux64.llb" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\Public\Documents\National Instruments\NI VeriStand 2018\Custom Devices\FPGA Addon\Linux_x64\FPGA Addon Engine Linux64.llb</String>
 					</Property>
 				</Properties>
 				<Errors />
@@ -214,16 +232,7 @@
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\dstavila\Desktop\NI VeriStand FPGA Addon\Source\Tests\System Tests\Scalar Channels Testing\Assets\VS FPGA Addon Scalar Testing\VS FPGA Addon Scalar Testing.nivsprj</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="VS FPGA Addon Scalar Testing.nivscf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>C:\Users\dstavila\Desktop\NI VeriStand FPGA Addon\Source\Tests\System Tests\Scalar Channels Testing\Assets\VS FPGA Addon Scalar Testing\VS FPGA Addon Scalar Testing.nivscf</String>
+						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Fork\Source\Tests\System Tests\Scalar Channels Testing\Assets\VS FPGA Addon Scalar Testing\VS FPGA Addon Scalar Testing.nivsprj</String>
 					</Property>
 				</Properties>
 				<Errors />

@@ -1,29 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="E42B11D19CF1B7AC047A8F7736A7EBA9F8AA5987594C805BBCA440A8BD8464B6A8293B95CCE1053B8559F5FCC031009387DE8A5C3CED142CAE5DD51FC1F8261B" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="A4A3690DE8EA10E5F2AAB4883B1A825B" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
-		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.0.0.49152" Version="8.0.0.49152" />
-		<ParsableNamespace AssemblyFileVersion="8.0.2.51132" FeatureSetName="VeriStand Core Components" Name="http://www.ni.com/VeriStand" OldestCompatibleVersion="7.0.0.49152" Version="7.0.0.49152" />
-		<ApplicationVersionInfo Build="7.2.0.2747" Name="VeriStand" Version="8.0.0.49956" />
+		<ParsableNamespace AssemblyFileVersion="4.0.0.28259" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
+		<ParsableNamespace AssemblyFileVersion="4.0.0.28259" FeatureSetName="VeriStand UI Manager Core Components" MinimumParsableVersion="4.0.0.1" MinimumSemanticallyEquivalentVersion="4.0.0.1" Name="http://www.ni.com/UIManager.Design" Version="4.0.0.49153" />
+		<ApplicationVersionInfo Build="4.0.0.28259" Name="VeriStand.UIManager" Version="4.0.0.28259" />
 	</SourceModelFeatureSet>
 	<Project xmlns="http://www.ni.com/PlatformFramework">
-		<EnvoyManagerRootEnvoy Id="1" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
-		<EmbeddedDefinitionReference Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
+		<ProjectSettings Id="1" ModelDefinitionType="ProjectSettings" Name="ZProjectSettings" />
+		<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager,ProjectDefaultCopyPasteServiceOptOut,EmbeddedReference" Id="2" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectDataManager" Name="ProjectExplorer">
 			<ProjectExplorer />
-		</EmbeddedDefinitionReference>
-		<NameScopingEnvoy Id="4" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
-			<DefaultTarget />
-			<EmbeddedDefinitionReference Id="5" ModelDefinitionType="GatewayDefinition" Name="Gateway" Reparentable="False">
-				<GatewayDefinition xmlns="http://www.ni.com/VeriStand" />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,EmbeddedReference,NationalInstruments.ProjectExplorer.Modeling.ProjectInformationIcon" Id="11" ModelDefinitionType="NationalInstruments.ProjectExplorer.Modeling.ProjectInformationIcon" Name="ProjectInformationIcon">
+				<ProjectInformationIcon>
+					<p.StoragePath>"Documentation\\screen.png"</p.StoragePath>
+				</ProjectInformationIcon>
 			</EmbeddedDefinitionReference>
-			<FileReference Bindings=".nivscf" Id="72aa7d7297fa4f6d9cc605783168e40e" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="VS FPGA Addon Interleaved Testing.nivscf" StoragePath="VS FPGA Addon Interleaved Testing.nivscf" />
-			<SourceFileReference Id="21097f4c4ea46568894cb4d226e062e" ModelDefinitionType="{http://www.ni.com/VeriStand}Screen" Name="VS FPGA Addon Interleaved Testing.nivsscr" StoragePath="VS FPGA Addon Interleaved Testing.nivsscr" />
-			<FileReference Bindings=".nivsscreen" Id="17105dcae64042d7b302ccc2942121c0" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="VS FPGA Addon Interleaved Testing.nivsscreen" StoragePath="VS FPGA Addon Interleaved Testing.nivsscreen" />
-			<FileReference Bindings=".nivsproj" Id="e5423d59ce334c0da73a8849a62eda68" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="VS FPGA Addon Interleaved Testing.nivsproj" StoragePath="VS FPGA Addon Interleaved Testing.nivsproj" />
-			<SourceFileReference Bindings="EnvoyManager" Id="a503db441f4d425daeab429cc422b0e0" ModelDefinitionType="{http://www.ni.com/VeriStand}SystemDefinition" Name="VS FPGA Addon Interleaved Testing.nivssdf" StoragePath="VS FPGA Addon Interleaved Testing.nivssdf" />
-			<EmbeddedDefinitionReference Id="73c57551ec3e45ac99b3391f001222fa" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
-				<SdfFilePath SdfPath="VS FPGA Addon Interleaved Testing.nivssdf" xmlns="http://www.ni.com/VeriStand" />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Bindings="Envoy,DefinitionReference,DefaultTarget,EmbeddedReference,ScopingEnvoy,NameScopingEnvoy" Id="4" ModelDefinitionType="DefaultTarget" Name="DefaultTarget">
+			<DefaultTarget />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,GatewayDefinition,EmbeddedReference" Id="5" ModelDefinitionType="GatewayDefinition" Name="Gateway" Reparentable="False">
+				<GatewayDefinition IPAddress="localhost" xmlns="http://www.ni.com/UIManager.Design" />
+			</EmbeddedDefinitionReference>
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,SdfFilePath,EmbeddedReference" Id="6" ModelDefinitionType="SdfFilePath" Name="SdfPath" Reparentable="False">
+				<SdfFilePath SdfPath="VS FPGA Addon Interleaved Testing.nivssdf" xmlns="http://www.ni.com/UIManager.Design" />
+			</EmbeddedDefinitionReference>
+			<SourceFileReference Bindings="Envoy,DefinitionReference,NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel,SourceFileReference" Id="13" ModelDefinitionType="NationalInstruments.VeriStand.UIManager.Screen.SourceModel.ScreenModel" Name="VS\ FPGA\ Addon\ Interleaved\ Testing\.nivsscr" StoragePath="VS FPGA Addon Interleaved Testing.nivsscr" />
+			<EmbeddedDefinitionReference Bindings="Envoy,DefinitionReference,NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType,ProjectItemDragDropDefaultService,EmbeddedReference" Id="14" ModelDefinitionType="NationalInstruments.ProjectExplorer.ExternalFileSupport.Modeling.ExternalFileType" Name="VS\ FPGA\ Addon\ Interleaved\ Testing\.nivssdf">
+				<ExternalFile>
+					<p.StoragePath>VS FPGA Addon Interleaved Testing.nivssdf</p.StoragePath>
+				</ExternalFile>
 			</EmbeddedDefinitionReference>
 		</NameScopingEnvoy>
 	</Project>
-	<ProjectInformation xmlns="http://www.ni.com/PlatformFramework" />
+	<ProjectInformation ProjectIconFilename="screen.png" Title="VS FPGA Addon Interleaved Testing" xmlns="http://www.ni.com/PlatformFramework">
+		<p.Description></p.Description>
+	</ProjectInformation>
 </SourceFile>
