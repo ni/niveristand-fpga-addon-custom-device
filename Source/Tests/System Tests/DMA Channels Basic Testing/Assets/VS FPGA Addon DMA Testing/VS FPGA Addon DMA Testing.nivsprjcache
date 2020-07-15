@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="4.0.0.28283" FeatureSetName="Editor" MinimumParsableVersion="4.5.0.0" MinimumSemanticallyEquivalentVersion="4.5.0.0" Name="http://www.ni.com/PlatformFramework" Version="4.5.0.49153" />
+		<ApplicationVersionInfo Build="4.0.0.28283" Name="VeriStand.UIManager" Version="4.0.0.28283" />
+	</SourceModelFeatureSet>
+	<UserSettingsDefinition Envoy="1" Name=":ZProjectSettings">
+		<OpenDocumentManager Envoy="1" Target="Project" xmlns="http://www.ni.com/PlatformFramework">
+			<OpenDocument ActiveDocument="True" ActiveEditor="NationalInstruments.VeriStand.UIManager.Screen.Designer.NewScreenControl" Envoy="13" />
+		</OpenDocumentManager>
+	</UserSettingsDefinition>
+	<UserSettingsDefinition Envoy="13" Name=":DefaultTarget:VS\ FPGA\ Addon\ DMA\ Testing\.nivsscr">
+		<ScrollAndZoomSettingCache Envoy="13" Target="Envoy" xmlns="http://www.ni.com/PlatformFramework">
+			<ScrollAndZoomEditor EditorName="NewScreenControl" ScrollHorizontalOffset="0" ScrollVerticalOffset="0" Zoom="1" />
+		</ScrollAndZoomSettingCache>
+	</UserSettingsDefinition>
+</SourceFile>
