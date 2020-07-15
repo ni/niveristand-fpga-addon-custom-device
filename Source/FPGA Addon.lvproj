@@ -84,19 +84,16 @@
 			</Item>
 			<Item Name="System Tests" Type="Folder">
 				<Item Name="DMA Channels Basic Testing" Type="Folder">
-					<Item Name="DMA Channels Basic Testing.lvclass" Type="LVClass" URL="../Tests/System Tests/DMA Channels Basic Testing/DMA Channels Basic Testing/DMA Channels Basic Testing.lvclass"/>
+					<Item Name="FPGA Addon DMA Channels Basic System Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/DMA Channels Basic Testing/DMA Channels Basic Testing/FPGA Addon DMA Channels Basic System Tests.lvclass"/>
 				</Item>
 				<Item Name="DMA Channels Interleaved Testing" Type="Folder">
-					<Item Name="DMA Channels Interleaved Testing.lvclass" Type="LVClass" URL="../Tests/System Tests/DMA Channels Interleaved Testing/DMA Channels Interleaved Testing/DMA Channels Interleaved Testing.lvclass"/>
+					<Item Name="FPGA Addon DMA Channels Interleaved System Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/DMA Channels Interleaved Testing/DMA Channels Interleaved Testing/FPGA Addon DMA Channels Interleaved System Tests.lvclass"/>
 				</Item>
 				<Item Name="DMA Waveform Status Channel Testing" Type="Folder">
-					<Item Name="DMA Waveform Status Channel Testing.lvclass" Type="LVClass" URL="../Tests/System Tests/DMA Waveform Status Channel Testing/DMA Waveform Status Channel Testing/DMA Waveform Status Channel Testing.lvclass"/>
-				</Item>
-				<Item Name="Max Nr of Scalar Channels" Type="Folder">
-					<Item Name="Max Nr of Scalar Channels.lvclass" Type="LVClass" URL="../Tests/System Tests/Max Nr of Scalar Channels/Max Nr of Scalar Channels/Max Nr of Scalar Channels.lvclass"/>
+					<Item Name="FPGA Addon DMA Waveform Status Channel System Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/DMA Waveform Status Channel Testing/DMA Waveform Status Channel Testing/FPGA Addon DMA Waveform Status Channel System Tests.lvclass"/>
 				</Item>
 				<Item Name="Scalar Channels Testing" Type="Folder">
-					<Item Name="Scalar Channels Testing.lvclass" Type="LVClass" URL="../Tests/System Tests/Scalar Channels Testing/Scalar Channels Testing/Scalar Channels Testing.lvclass"/>
+					<Item Name="FPGA Addon Scalar Channels System Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Scalar Channels Testing/Scalar Channels Testing/FPGA Addon Scalar Channels System Tests.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="Unit Tests" Type="Folder">
@@ -104,13 +101,13 @@
 					<Item Name="FPGA Addon Adding Channel Items Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Adding Channel Items/Adding Channel Items/FPGA Addon Adding Channel Items Unit Tests.lvclass"/>
 				</Item>
 				<Item Name="DMA Channels Testing" Type="Folder">
-					<Item Name="DMA Channel Testing.lvclass" Type="LVClass" URL="../Tests/Unit Tests/DMA Channels Testing/DMA Channel Testing/DMA Channel Testing.lvclass"/>
+					<Item Name="FPGA Addon DMA Channel Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/DMA Channels Testing/DMA Channel Testing/FPGA Addon DMA Channel Unit Tests.lvclass"/>
 				</Item>
 				<Item Name="Load And Parse Bitfile Testing" Type="Folder">
-					<Item Name="Load And Parse Bitfile Testing.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Load And Parse Bitfile Testing/Load And Parse Bitfile Testing/Load And Parse Bitfile Testing.lvclass"/>
+					<Item Name="FPGA Addon Load And Parse Bitfile Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Load And Parse Bitfile Testing/Load And Parse Bitfile Testing/FPGA Addon Load And Parse Bitfile Unit Tests.lvclass"/>
 				</Item>
 				<Item Name="Scalar Bitpacking Testing" Type="Folder">
-					<Item Name="Scalar Bitpacking Testing.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scalar Bitpacking Testing/Scalar Bitpacking Testing/Scalar Bitpacking Testing.lvclass"/>
+					<Item Name="FPGA Addon Scalar Bitpacking Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scalar Bitpacking Testing/Scalar Bitpacking Testing/FPGA Addon Scalar Bitpacking Unit Tests.lvclass"/>
 				</Item>
 			</Item>
 		</Item>
