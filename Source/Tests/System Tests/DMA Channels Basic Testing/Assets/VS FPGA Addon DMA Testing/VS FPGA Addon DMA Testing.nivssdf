@@ -10,7 +10,7 @@
 				<String>VS FPGA Addon DMA Testing</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.27</String>
+				<String>1.0.0.29</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -24,7 +24,7 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Target Name="GEcosystemPharLap" TypeGUID="775504BB-1485-13A6-56755DBF2C326980">
+			<Target Name="Controller" TypeGUID="775504BB-1485-13A6-56755DBF2C326980">
 				<Description />
 				<Properties>
 					<Property Name="OS">
@@ -261,7 +261,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\PXIe7858 Personality.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>7ff74080a8fbee0db9054b9426faed20</MD5>
+									<MD5>17050b3fdead707430ad0637d9b5cf37</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
@@ -631,7 +631,7 @@
 												<String>Incoming</String>
 											</Property>
 											<Property Name="user.CD.Source WFM">
-												<DependentNode Path="Targets/GEcosystemPharLap/Custom Devices/FPGA Addon/Waveforms/Waveform Inputs/Outgoing1/Outgoing1" />
+												<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Waveforms/Waveform Inputs/Outgoing1/Outgoing1" />
 											</Property>
 										</Properties>
 										<Errors />
