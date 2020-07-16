@@ -10,7 +10,7 @@
 				<String>VS FPGA Addon Interleaved Testing</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.18</String>
+				<String>1.0.0.25</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -24,14 +24,14 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Target Name="G-Ecosystem-cRIO" TypeGUID="775504BB-1485-13A6-56755DBF2C326980">
+			<Target Name="GEcosystemPharLap" TypeGUID="775504BB-1485-13A6-56755DBF2C326980">
 				<Description />
 				<Properties>
 					<Property Name="OS">
-						<String>Linux_x64</String>
+						<String>PharLap</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>10.113.1.184</String>
+						<String>10.113.0.134</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -247,21 +247,21 @@
 								<String>3.1.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\DMA Channels cRIO FPGA Project\Bitfiles\cRIO 9039 FPGA Personality.lvbitx</String>
+								<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\DMA Channels FPGA Project\Bitfiles\PXIe7858 Personality.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
-								<String>RIO0</String>
+								<String>RIO1</String>
 							</Property>
 							<Property Name="user.CD.Group">
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="C:\Users\nitest\Desktop\FPGA Addon CD Main Fork\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\DMA Channels cRIO FPGA Project\Bitfiles\cRIO 9039 FPGA Personality.lvbitx">
+								<DependentFile Type="Absolute" Path="C:\Users\nitest\Desktop\NI VS FPGA Addon CD Fork\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\DMA Channels FPGA Project\Bitfiles\PXIe7858 Personality.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\cRIO 9039 FPGA Personality.lvbitx</RTDestination>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\PXIe7858 Personality.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>e457fe537ec5ec6c2dc82b9817814f2a</MD5>
+									<MD5>7b1a5d2be3a11e37d61f951ae3abbf33</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
@@ -649,7 +649,7 @@
 												<String>Incoming</String>
 											</Property>
 											<Property Name="user.CD.Source WFM">
-												<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Waveforms/Waveform Inputs/Outgoing1/Outgoing1a" />
+												<DependentNode Path="Targets/GEcosystemPharLap/Custom Devices/FPGA Addon/Waveforms/Waveform Inputs/Outgoing1/Outgoing1a" />
 											</Property>
 										</Properties>
 										<Errors />
@@ -661,7 +661,7 @@
 												<String>Incoming 1</String>
 											</Property>
 											<Property Name="user.CD.Source WFM">
-												<DependentNode Path="Targets/G-Ecosystem-cRIO/Custom Devices/FPGA Addon/Waveforms/Waveform Inputs/Outgoing1/Outgoing1b" />
+												<DependentNode Path="Targets/GEcosystemPharLap/Custom Devices/FPGA Addon/Waveforms/Waveform Inputs/Outgoing1/Outgoing1b" />
 											</Property>
 										</Properties>
 										<Errors />

@@ -176,6 +176,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
+		<Item Name="Generate Waveform Path.vi" Type="VI" URL="../protected/Generate Waveform Path.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"/!!!!!Q!;1$$`````%6&gt;B&gt;G6G&lt;X*N)&amp;"B&gt;'AA4X6U!"2!-0````],6'&amp;S:W6U)%ZB&lt;75!'!$Q!!)!!!!"!A!!#!!!#1!!!AA!!!!!!1!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+		</Item>
 	</Item>
 	<Item Name="Get SysDef Root Node IDs (SubVI).vi" Type="VI" URL="../protected/Get SysDef Root Node IDs (SubVI).vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+A!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"6!#!!05G^P&gt;#"/&lt;W2F351A4X6U!"Z!1!!"`````Q!&amp;%&amp;*P&lt;X1A4G^E:5F%=S"0&gt;81!!.B!=!!9!!!!!1!!!,B/982J&lt;WZB&lt;%FO=X2S&gt;7VF&lt;H2T,F:F=GF4&gt;'&amp;O:#Z4?8.U:7V%:7:J&lt;GFU;7^O16"*,F.Z=X2F&lt;52F:GFO;82J&lt;WYM)%ZB&gt;'FP&lt;G&amp;M37ZT&gt;(*V&lt;76O&gt;(-O6G6S;6.U97ZE,F.Z=X2F&lt;52F:GFO;82J&lt;WZ"5%EM)&amp;:F=H.J&lt;WY^-#YQ,D!O-#QA1X6M&gt;(6S:4VO:86U=G&amp;M,#"1&gt;7*M;7.,:8F5&lt;WNF&lt;DVB.G1W/4"D-TAQ:'&amp;B-T!Y%6.Z=U2F:C"3:7:O&gt;7UA4X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!W%"Q!"A!!!!"!!!!O%ZB&gt;'FP&lt;G&amp;M37ZT&gt;(*V&lt;76O&gt;(-O6G6S;6.U97ZE,F.Z=X2F&lt;52F:GFO;82J&lt;WZ"5%EO5XFT&gt;'6N2'6G;7ZJ&gt;'FP&lt;CQA4G&amp;U;7^O97R*&lt;H.U=H6N:7ZU=SZ7:8*J5X2B&lt;G1O5XFT&gt;'6N2'6G;7ZJ&gt;'FP&lt;E&amp;133QA6G6S=WFP&lt;DUQ,D!O-#YQ,#"$&gt;7RU&gt;8*F07ZF&gt;82S97QM)&amp;"V9GRJ9UNF?62P;W6O07%W:$9Z-'-T/$"E97%T-$A15XFT2'6G)&amp;*F:GZV&lt;3"*&lt;A!!6!$Q!!Q!!Q!%!!9!"Q!%!!1!"!!%!!A!"!!%!!E$!!"Y!!!.#!!!!!!!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!A!!!!!!1!+!!!!!!</Property>

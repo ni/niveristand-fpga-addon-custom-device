@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
 	<Property Name="CCSymbols" Type="Str">OFFLINE,FALSE;</Property>
-	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -104,7 +104,7 @@
 					<Item Name="FPGA Addon DMA Channel Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/DMA Channels Testing/DMA Channel Testing/FPGA Addon DMA Channel Unit Tests.lvclass"/>
 				</Item>
 				<Item Name="Generic Tests" Type="Folder">
-					<Item Name="FPGA Addon Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Generic Tests/FPGA Addon Unit Tests.lvclass"/>
+					<Item Name="FPGA Addon Generic Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Generic Tests/FPGA Addon Generic Tests.lvclass"/>
 				</Item>
 				<Item Name="Load And Parse Bitfile Testing" Type="Folder">
 					<Item Name="FPGA Addon Load And Parse Bitfile Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Load And Parse Bitfile Testing/Load And Parse Bitfile Testing/FPGA Addon Load And Parse Bitfile Unit Tests.lvclass"/>
