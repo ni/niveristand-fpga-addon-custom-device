@@ -256,7 +256,7 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="C:\Users\nitest\Desktop\NI VS FPGA Addon CD Fork\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\DMA Channels FPGA Project\Bitfiles\PXIe7858 Personality.lvbitx">
+								<DependentFile Type="Absolute" Path="C:\Users\nitest\Git\NI VS FPGA Addon CD Fork\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\DMA Channels FPGA Project\Bitfiles\PXIe7858 Personality.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\PXIe7858 Personality.lvbitx</RTDestination>

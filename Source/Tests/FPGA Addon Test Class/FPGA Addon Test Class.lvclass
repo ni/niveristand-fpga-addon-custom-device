@@ -34,7 +34,7 @@
 </Property>
 	<Property Name="NI.LVClass.IsTransferClass" Type="Bool">false</Property>
 	<Property Name="NI.LVClass.LowestCompatibleVersion" Type="Str">1.0.0.0</Property>
-	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"Y!!!!!2F7:8*J5X2B&lt;G25:8.U1W&amp;T:3ZM&gt;G.M98.T5&amp;2)-!!!!&amp;)!!!!&amp;"TRW;7RJ9DY#4EE74EEA6F-A1U1A6'6T&gt;'FO:S"5&lt;W^M=R&amp;7:8*J5X2B&lt;G25:8.U1W&amp;T:2F7:8*J5X2B&lt;G25:8.U1W&amp;T:3ZM&gt;G.M98.T!!!!!!</Property>
+	<Property Name="NI.LVClass.ParentClassLinkInfo" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#$!!!!!2F7:8*J5X2B&lt;G25:8.U1W&amp;T:3ZM&gt;G.M98.T5&amp;2)-!!!!&amp;U!!1!)!!!!!!!H&lt;GFW:8*J=X2B&lt;G1N9X6T&gt;'^N,72F&gt;GFD:3VU:8.U;7ZH,82P&lt;WRT%6:F=GF4&gt;'&amp;O:&amp;2F=X2$98.F'6:F=GF4&gt;'&amp;O:&amp;2F=X2$98.F,GRW9WRB=X-!!!!!</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="FPGA Addon Test Class.ctl" Type="Class Private Data" URL="FPGA Addon Test Class.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -177,13 +177,13 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 		<Item Name="Generate Waveform Path.vi" Type="VI" URL="../protected/Generate Waveform Path.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"/!!!!!Q!;1$$`````%6&gt;B&gt;G6G&lt;X*N)&amp;"B&gt;'AA4X6U!"2!-0````],6'&amp;S:W6U)%ZB&lt;75!'!$Q!!)!!!!"!A!!#!!!#1!!!AA!!!!!!1!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"U!!!!"!!;1$$`````%6&gt;B&gt;G6G&lt;X*N)&amp;"B&gt;'AA4X6U!#"!-0````]75G6M982J&gt;G5A6W&amp;W:7:P=GUA5'&amp;U;!!!&amp;%!Q`````QN598*H:81A4G&amp;N:1!?!0!!!Q!!!!%!!A)!!"!!!!U"!!%+!!!##!!!!!!"!!-!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 		</Item>
 	</Item>
 	<Item Name="Get SysDef Root Node IDs (SubVI).vi" Type="VI" URL="../protected/Get SysDef Root Node IDs (SubVI).vi">
