@@ -253,7 +253,7 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="C:\Users\nitest\Desktop\FPGA Addon CD Main Fork\Source\Tests\System Tests\DMA Waveform Status Channel Testing\Assets\ErrorChannelTestProject\FPGA Bitfiles\GenerateErrorCode - Outgoing_7858.lvbitx">
+								<DependentFile Type="Absolute" Path="C:\Users\nitest\Desktop\NI VS FPGA Addon CD Fork\Source\Tests\System Tests\DMA Waveform Status Channel Testing\Assets\ErrorChannelTestProject\FPGA Bitfiles\GenerateErrorCode - Outgoing_7858.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\GenerateErrorCode - Outgoing_7858.lvbitx</RTDestination>

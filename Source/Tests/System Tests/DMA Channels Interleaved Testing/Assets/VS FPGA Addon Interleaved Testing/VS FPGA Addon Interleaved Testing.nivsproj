@@ -192,33 +192,6 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Section Name="VS FPGA Addon Interleaved Testing.nivssdf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\VS FPGA Addon Interleaved Testing\VS FPGA Addon Interleaved Testing.nivssdf</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="VS FPGA Addon Interleaved Testing.nivsscreen (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\VS FPGA Addon Interleaved Testing\VS FPGA Addon Interleaved Testing.nivsscreen</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
-			<Section Name="VS FPGA Addon Interleaved Testing.nivscf (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
-				<Description />
-				<Properties>
-					<Property Name="Path">
-						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\VS FPGA Addon Interleaved Testing\VS FPGA Addon Interleaved Testing.nivscf</String>
-					</Property>
-				</Properties>
-				<Errors />
-			</Section>
 			<Section Name="FPGA Addon Engine Linux64.llb" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
@@ -228,11 +201,38 @@
 				</Properties>
 				<Errors />
 			</Section>
-			<Section Name="VS FPGA Addon Interleaved Testing.nivsprj" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+			<Section Name="VS FPGA Addon Interleaved Testing.nivssdf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
 				<Description />
 				<Properties>
 					<Property Name="Path">
-						<String>C:\Users\nitest\Desktop\VS FPGA Addon CD Master LV2018\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\VS FPGA Addon Interleaved Testing\VS FPGA Addon Interleaved Testing.nivsprj</String>
+						<String>C:\Users\nitest\Desktop\NI VS FPGA Addon CD Fork\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\VS FPGA Addon Interleaved Testing\VS FPGA Addon Interleaved Testing.nivssdf</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="VS FPGA Addon Interleaved Testing.nivsscreen" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\nitest\Desktop\NI VS FPGA Addon CD Fork\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\VS FPGA Addon Interleaved Testing\VS FPGA Addon Interleaved Testing.nivsscreen</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="VS FPGA Addon Interleaved Testing.nivsprj (1)" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\nitest\Desktop\NI VS FPGA Addon CD Fork\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\VS FPGA Addon Interleaved Testing\VS FPGA Addon Interleaved Testing.nivsprj</String>
+					</Property>
+				</Properties>
+				<Errors />
+			</Section>
+			<Section Name="VS FPGA Addon Interleaved Testing.nivscf" TypeGUID="369b9797-43bd-4cdf-8352-81032feed666">
+				<Description />
+				<Properties>
+					<Property Name="Path">
+						<String>C:\Users\nitest\Desktop\NI VS FPGA Addon CD Fork\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\VS FPGA Addon Interleaved Testing\VS FPGA Addon Interleaved Testing.nivscf</String>
 					</Property>
 				</Properties>
 				<Errors />
