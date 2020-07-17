@@ -10,7 +10,7 @@
 				<String>VS FPGA Addon Interleaved Testing</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.25</String>
+				<String>1.0.0.26</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -24,7 +24,7 @@
 			<Description />
 			<Properties />
 			<Errors />
-			<Target Name="GEcosystemPharLap" TypeGUID="775504BB-1485-13A6-56755DBF2C326980">
+			<Target Name="Controller" TypeGUID="775504BB-1485-13A6-56755DBF2C326980">
 				<Description />
 				<Properties>
 					<Property Name="OS">
@@ -256,12 +256,12 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="C:\Users\nitest\Desktop\NI VS FPGA Addon CD Fork\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\DMA Channels FPGA Project\Bitfiles\PXIe7858 Personality.lvbitx">
+								<DependentFile Type="Absolute" Path="C:\Users\nitest\Git\NI VS FPGA Addon CD Fork\Source\Tests\System Tests\DMA Channels Interleaved Testing\Assets\DMA Channels FPGA Project\Bitfiles\PXIe7858 Personality.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\PXIe7858 Personality.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>7b1a5d2be3a11e37d61f951ae3abbf33</MD5>
+									<MD5>aee8abffd6eeebfc32537a1863f3aab6</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
@@ -649,7 +649,7 @@
 												<String>Incoming</String>
 											</Property>
 											<Property Name="user.CD.Source WFM">
-												<DependentNode Path="Targets/GEcosystemPharLap/Custom Devices/FPGA Addon/Waveforms/Waveform Inputs/Outgoing1/Outgoing1a" />
+												<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Waveforms/Waveform Inputs/Outgoing1/Outgoing1a" />
 											</Property>
 										</Properties>
 										<Errors />
@@ -661,7 +661,7 @@
 												<String>Incoming 1</String>
 											</Property>
 											<Property Name="user.CD.Source WFM">
-												<DependentNode Path="Targets/GEcosystemPharLap/Custom Devices/FPGA Addon/Waveforms/Waveform Inputs/Outgoing1/Outgoing1b" />
+												<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Waveforms/Waveform Inputs/Outgoing1/Outgoing1b" />
 											</Property>
 										</Properties>
 										<Errors />
