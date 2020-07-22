@@ -1,7 +1,7 @@
 Package: ni-fpga-addon-veristand-{veristand_version}-support
 Version: {nipkg_version}
 Architecture: windows_x64
-Maintainer: National Instruments <support@ni.com>
+Maintainer: NI <support@ni.com>
 XB-Plugin: file
 Description:  This add-on allows a user to pull an existing FPGA bitfile into NI VeriStand with little or no modification.
 XB-Eula: eula-ni-standard
