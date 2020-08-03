@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 <XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
   <AddMenu>
-    <eng>FPGA Addon</eng>
-    <loc>FPGA Addon</loc>
+    <eng>National Instruments::FPGA Addon</eng>
+    <loc>National Instruments::FPGA Addon</loc>
   </AddMenu>
   <Version>3.1.1</Version>
   <Type>Inline HW Interface</Type>
