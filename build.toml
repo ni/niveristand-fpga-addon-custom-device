@@ -2,8 +2,18 @@
 build_output_dir = 'Built'
 archive_location = '\\nirvana\Measurements\VeriStandAddons\fpga_addon_custom_device'
 
+[projects.sysdefapi]
+path = 'Source\FPGA Addon System Definition API.lvproj'
+
 [projects.cd]
 path = 'Source\FPGA Addon.lvproj'
+
+[[build.steps]]
+name = 'System Definition API'
+type = 'lvBuildSpec'
+project = '{sysdefapi}'
+target = 'My Computer'
+build_spec = 'System Definition API'
 
 [[build.steps]]
 name = 'Configuration Library'
