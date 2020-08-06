@@ -18,11 +18,11 @@ LabVIEW 2018
 
 ### Running the add-on
 
-- NI RIO >= 19.0
+- NI RIO >= 18.0
 
 ### Source
 
-- NI RIO >= 19.0
+- NI RIO >= 18.0
 - [LabVIEW FPGA Advanced Session Resources](https://decibel.ni.com/content/docs/DOC-35574)
 - OpenG LabVIEW Data Library >= 4.2.0.21
 - [VeriStand Addon Inline Async API](https://github.com/ni/niveristand-custom-device-inline-async-api)
