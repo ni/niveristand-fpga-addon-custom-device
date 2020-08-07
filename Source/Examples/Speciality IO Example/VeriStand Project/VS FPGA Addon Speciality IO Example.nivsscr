@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="242083423CC5C11302176AD6CFC0817A" Timestamp="1D65ABAA1E93A06" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.1.0.52304" FeatureSetName="Configuration Based Software Core" Name="http://www.ni.com/ConfigurationBasedSoftware.Core" OldestCompatibleVersion="6.0.0.1" Version="6.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.52304" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="6.1.0.3" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.52304" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.52304" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.1.0.7" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.1.0.52304" FeatureSetName="VeriStand UI Manager Screen" Name="http://www.ni.com/VeriStand.UIManager.ScreenModel" OldestCompatibleVersion="4.8.0.2" Version="4.8.0.49152" />
+		<ApplicationVersionInfo Build="6.1.0.52304" Name="VeriStand.UIManager" Version="6.1.0.52304" />
+	</SourceModelFeatureSet>
+	<Screen Id="2" Version="6.0.0.0" xmlns="http://www.ni.com/VeriStand.UIManager.ScreenModel">
+		<ScreenSurface Height="[float]1600" Id="1" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]2000" xmlns="http://www.ni.com/ConfigurationBasedSoftware.Core">
+			<ChannelKnob BaseName="[string]Knob" Channel="[string]Aliases/Scalar Outputs/FXP16.3 Output" Height="[float]219" Id="3" Label="[UIModel]4" Left="[float]137" MinHeight="[float]90" MinWidth="[float]90" ScaleArc="[ArcSweep]210,-240" TabIndex="[int]1" Top="[float]122" Value="[double]3.7733962635553531" ValueType="[Type]Double" Width="[float]219" />
+			<Label Height="[float]16" Id="4" LabelOwner="[UIModel]3" Left="[float]137" TabIndex="[int]1" Text="[string]FXP16.3 Output" Top="[float]102" Width="[float]83" xmlns="http://www.ni.com/PanelCommon" />
+			<ChannelGauge BaseName="[string]Gauge" Channel="[string]Targets/GEcosystemPharLap/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/FXP16.3 out" Height="[float]170" Id="5" InteractionMode="[NumericPointerInteractionModes]EditRange" Label="[UIModel]6" Left="[float]446" MinHeight="[float]125" MinWidth="[float]125" TabIndex="[int]3" Top="[float]146" ValueType="[Type]Double" Width="[float]170" />
+			<Label Height="[float]16" Id="6" LabelOwner="[UIModel]5" Left="[float]446" TabIndex="[int]3" Text="[string]FXP16.3 out" Top="[float]126" Width="[float]63" xmlns="http://www.ni.com/PanelCommon" />
+		</ScreenSurface>
+	</Screen>
+</SourceFile>
