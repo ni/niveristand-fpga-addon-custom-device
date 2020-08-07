@@ -96,7 +96,7 @@ The addon comes with special IP for doing the following:
 
 This IP is located at:
 
-_C:\Users\Public\Documents\National Instruments\NI VeriStand **_Year_**\Custom Devices\FPGA Addon\FPGA IP​_ -> Location is to still be discussed. 
+[Github](https://github.com/ni/niveristand-fpga-addon-speciality-io)
 
 ---
 
