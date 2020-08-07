@@ -245,18 +245,7 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="RT Host.vi" Type="VI" URL="../RT Host.vi"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
-				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
-			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Search 1D Array (SGL)__ogtk.vi" Type="VI" URL="../../../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/user.lib/_OpenG.lib/array/array.llb/Search 1D Array (SGL)__ogtk.vi"/>
-			<Item Name="Search Array__ogtk.vi" Type="VI" URL="../../../../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2019/user.lib/_OpenG.lib/array/array.llb/Search Array__ogtk.vi"/>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>

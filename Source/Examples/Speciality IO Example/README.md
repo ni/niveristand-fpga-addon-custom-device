@@ -3,7 +3,8 @@
 ## 1) The project used to generate a bitfile for the FPGA Addon Custom device
    - Namely, the Speciality IO FPGA.lvproj ;
    - The bitfile is generated for a cRIO-9039 target;
-   - Users can add a different target in the project and use the Speciality IO Example.vi to generate a bitfile for another target;
+   - Users can add a different target in the project and use the Speciality IO Example.vi to generate a bitfile for another target;  
+   - For more information about FPGA Speciality IO, visit the official repo: https://github.com/ni/niveristand-fpga-addon-speciality-io  
    
 ## 2) The Veristand project that has the System Definition that contains the FPGA Addon Custom Device with the previously mentioned bitfile
    - Namely, the VS FPGA Addon Speciality IO Example.nivsproj 

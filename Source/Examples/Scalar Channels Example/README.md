@@ -1,12 +1,12 @@
 # **The Scalar Channels Example contains 3 sections:**
 
 ## 1) The project used to generate a bitfile for the FPGA Addon Custom device
-   - Namely, the Scalar Channels FPGA.lvproj (in the Assets folder);
+   - Namely, the Scalar Channels FPGA.lvproj;  
    - The bitfile is generated for a PXIe-7858R target;
    - Users can add a different target in the project and use the FPGA Personality.vi to generate a bitfile for another target;
    
 ## 2) The Veristand project that has the System Definition that contains the FPGA Addon Custom Device with the previously mentioned bitfile
-   - Namely, the Veristand FPGA Addon Scalar Example.nivsproj (in the Assets folder)
+   - Namely, the Veristand FPGA Addon Scalar Example.nivsproj  
    - The Controller is setup with a Windows OS;
    - The FPGA Addon is pointed to a remote RIO resource (rio://10.113.0.134/RIO1 ) to access the PXIe-7858R target;
    - Users can modify the System Definition and load their generated bitfile (mentioned at section 1), aswell as change the rio resource;
@@ -27,9 +27,9 @@
    - THIS IRQ ONLY NEEDS TO CONTROL WHEN DMA READ/WRITE OPERATIONS START; 
    - Any other code can start whenever it makes sense;
 
-#### **Note2:** The example below contains scalar controls, and indicators 
+#### **Note2:** The example below contains scalar controls and indicators 
    
-![Scalar Channels Example](./Assets/LabVIEW FPGA Project/Scalar Channels Example.png)
+![Scalar Channels Example](./LabVIEW FPGA Project/Scalar Channels Example.png)
 
 ### 3) Open the Veristand FPGA Addon Scalar Example.nivsproj;  
 ### 4) Open the System Definition and go to the FPGA Addon Custom Device;  
