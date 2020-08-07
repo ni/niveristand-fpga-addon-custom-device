@@ -99,18 +99,25 @@ This IP is located at:
 [Github](https://github.com/ni/niveristand-fpga-addon-speciality-io)
 
 ---
-
-**Note**: **The FPGA Addon supports up to a total of 128 channels for controls, indicators and DMAs for a given FPGA bitfile.**
-
----
 <br>
 
 ## Example Programs
 
-Examples of how to use the speciality IO, controls/indicators, and DMA are included in the source code in the _Testing Folder_. Here is an example of the speciality IO: -> Location of these examples still to be discussed
+Examples of how to use the speciality IO, controls/indicators, and DMA are included in the source code in the _Examples Folder_:
+- _Examples/DMA Channels Interleaved Example_; 
+- _Examples/Scalar Channels Example_; 
+- _Examples/Speciality IO Example_;    
 
+Below are the FPGA VIs used to generate the bitfiles: 
+
+Specialty IO Example:
 ![Specialty IO Example](./Images/image025.png)
 
+DMA Channels Example:
+![DMA Channels Example](../Examples/DMA%20Channels%20Interleaved%20Example/LabVIEW%20FPGA%20Project/DMA%20Channels%20Example.png)
+
+Scalar Channels Example:
+![Scalar Channels Example](../Examples/Scalar%20Channels%20Example/LabVIEW%20FPGA%20Project/Scalar%20Channels%20Example.png)
 ---
 <br>
 <br>
