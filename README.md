@@ -8,7 +8,7 @@ The add-on does not provide a way to synchronize data acquisition/generation wit
 ### Quick Start Documentation is at
 
 - Built: C:\Users\Public\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\FPGA Addon\Windows\Quick Start Documentation
-- Source: Source\Addon\Support Files\Quick Start Documentation
+- Source: Source\Quick Start Documentation
 
 ## LabVIEW Version
 
