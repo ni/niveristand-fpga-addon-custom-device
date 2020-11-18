@@ -17,6 +17,9 @@
 		<Item Name="FPGA Addon" Type="Folder">
 			<Item Name="dir.mnu" Type="Document" URL="../dir.mnu"/>
 		</Item>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="dir.mnu" Type="Document" URL="../Public/Utilities/dir.mnu"/>
+		</Item>
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Import Bitfile Scalars (Instances)" Type="Folder">
@@ -34,12 +37,16 @@
 			<Item Name="Set RIO Resource.vi" Type="VI" URL="../Public/Bitfile Resources/Set RIO Resource.vi"/>
 		</Item>
 		<Item Name="Custom Device" Type="Folder">
+			<Item Name="Clear Scalar Channels.vi" Type="VI" URL="../Public/Custom Device/Clear Scalar Channels.vi"/>
 			<Item Name="Create FPGA Addon.vi" Type="VI" URL="../Public/Custom Device/Create FPGA Addon.vi"/>
 			<Item Name="Delete FPGA Addon.vi" Type="VI" URL="../Public/Custom Device/Delete FPGA Addon.vi"/>
 			<Item Name="Export Addon Configuration.vi" Type="VI" URL="../Public/Custom Device/Export Addon Configuration.vi"/>
-			<Item Name="Find FPGA Addon Custom Devices.vi" Type="VI" URL="../Public/Custom Device/Find FPGA Addon Custom Devices.vi"/>
-			<Item Name="Find FPGA Addon.vi" Type="VI" URL="../Public/Custom Device/Find FPGA Addon.vi"/>
 			<Item Name="Import Addon Configuration.vi" Type="VI" URL="../Public/Custom Device/Import Addon Configuration.vi"/>
+		</Item>
+		<Item Name="Utilities" Type="Folder">
+			<Item Name="Find FPGA Addon Custom Devices.vi" Type="VI" URL="../Public/Utilities/Find FPGA Addon Custom Devices.vi"/>
+			<Item Name="Find FPGA Addon.vi" Type="VI" URL="../Public/Utilities/Find FPGA Addon.vi"/>
+			<Item Name="Open System Definition.vi" Type="VI" URL="../Public/Utilities/Open System Definition.vi"/>
 		</Item>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
