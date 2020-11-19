@@ -23,8 +23,8 @@
 	</Item>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Import Bitfile Scalars (Instances)" Type="Folder">
-			<Item Name="Import Scalars (all).vi" Type="VI" URL="../Private/Import Bitfile Scalars (Instances)/Import Scalars (all).vi"/>
-			<Item Name="Import Scalars (by label).vi" Type="VI" URL="../Private/Import Bitfile Scalars (Instances)/Import Scalars (by label).vi"/>
+			<Item Name="Import Scalars - all.vi" Type="VI" URL="../Private/Import Bitfile Scalars (Instances)/Import Scalars - all.vi"/>
+			<Item Name="Import Scalars - by label.vi" Type="VI" URL="../Private/Import Bitfile Scalars (Instances)/Import Scalars - by label.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
