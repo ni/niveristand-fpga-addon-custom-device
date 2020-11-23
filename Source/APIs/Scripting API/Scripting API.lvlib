@@ -26,6 +26,9 @@
 			<Item Name="Import Scalars - all.vi" Type="VI" URL="../Private/Import Bitfile Scalars (Instances)/Import Scalars - all.vi"/>
 			<Item Name="Import Scalars - by label.vi" Type="VI" URL="../Private/Import Bitfile Scalars (Instances)/Import Scalars - by label.vi"/>
 		</Item>
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="IsValid FPGA Addon" Type="VI" URL="../Private/IsValid FPGA Addon"/>
+		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Item Name="Bitfile Resources" Type="Folder">
@@ -46,7 +49,6 @@
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Find FPGA Addon Custom Devices.vi" Type="VI" URL="../Public/Utilities/Find FPGA Addon Custom Devices.vi"/>
 			<Item Name="Find FPGA Addon.vi" Type="VI" URL="../Public/Utilities/Find FPGA Addon.vi"/>
-			<Item Name="Open System Definition.vi" Type="VI" URL="../Public/Utilities/Open System Definition.vi"/>
 		</Item>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
