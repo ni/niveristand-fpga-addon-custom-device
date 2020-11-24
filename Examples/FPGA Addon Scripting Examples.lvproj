@@ -18,6 +18,7 @@
 		<Item Name="Example 3.vi" Type="VI" URL="../Example 3.vi"/>
 		<Item Name="Example 4 (Create FPGA Addon).vi" Type="VI" URL="../Example 4 (Create FPGA Addon).vi"/>
 		<Item Name="Example 5 (Find FPGA Addon).vi" Type="VI" URL="../Example 5 (Find FPGA Addon).vi"/>
+		<Item Name="Example 5 (Get FPGA Scalars).vi" Type="VI" URL="../Example 5 (Get FPGA Scalars).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -31,6 +32,7 @@
 					</Item>
 					<Item Name="Private" Type="Folder">
 						<Item Name="SubVIs" Type="Folder">
+							<Item Name="Get Section Scalars.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/APIs/Scripting API/Private/Get Section Scalars.vi"/>
 							<Item Name="IsValid FPGA Addon.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/APIs/Scripting API/Private/IsValid FPGA Addon.vi"/>
 						</Item>
 					</Item>
@@ -70,12 +72,59 @@
 					<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 					<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 					<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/express/express shared/ex_CorrectErrorChain.vi"/>
+					<Item Name="Fifo_DMA_Config.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/FIFO/Fifo_Types/Fifo_DMA_Config.ctl"/>
 					<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
+					<Item Name="FPGA Addon System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/Addon/Addon System Explorer/FPGA Addon System Explorer.lvlib"/>
 					<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/Utility/libraryn.llb/Get File Extension.vi"/>
+					<Item Name="Get Header from TD__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get Header from TD__ogtk.vi"/>
+					<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
+					<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/picture/picture.llb/imagedata.ctl"/>
 					<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/NI/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
+					<Item Name="LVFixedPointRepBitsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/fxp/LVFixedPointRepBitsTypeDef.ctl"/>
+					<Item Name="LVFixedPointRepRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/fxp/LVFixedPointRepRangeTypeDef.ctl"/>
+					<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
+					<Item Name="MD5Checksum File.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/Utility/MD5Checksum.llb/MD5Checksum File.vi"/>
+					<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
+					<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 					<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/Utility/lvfile.llb/NI_FileType.lvlib"/>
 					<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+					<Item Name="niFpgaBitfileGet_ViInfo.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Bitfile/Public/niFpgaBitfileGet_ViInfo.vi"/>
+					<Item Name="niFpgaBitfileReadAction.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Bitfile/niFpgaBitfileReadAction.ctl"/>
+					<Item Name="niFpgaBitfileStructure.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Bitfile/niFpgaBitfileStructure.ctl"/>
+					<Item Name="niFpgaBitfileStructure_Bitfile.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Bitfile/niFpgaBitfileStructure_Bitfile.ctl"/>
+					<Item Name="niFpgaBitfileStructure_Project.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Bitfile/niFpgaBitfileStructure_Project.ctl"/>
+					<Item Name="niFpgaBitfileStructure_VI.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Bitfile/niFpgaBitfileStructure_VI.ctl"/>
+					<Item Name="niFpgaCreateFxpVariantTypeFromAttributes.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Utilities/Variants/niFpgaCreateFxpVariantTypeFromAttributes.vi"/>
+					<Item Name="niFpgaDataTypeControl.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/DataTransferAndStorage/Container/Common/niFpgaDataTypeControl.ctl"/>
+					<Item Name="niFpgaDmaChannelImplementation.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/ClientSDK/Core/ModuleGeneration/CommunicationInterfaceUtility/niFpgaDmaChannelImplementation.ctl"/>
+					<Item Name="niFpgaDmaChannelVisibilityFilter.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/ClientSDK/Host Interface/DMA/public/niFpgaDmaChannelVisibilityFilter.ctl"/>
+					<Item Name="niFpgaGenCallStack.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/errors/niFpgaGenCallStack.vi"/>
+					<Item Name="niFpgaGetSinkWriteWindowName.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/resource/RVI/CommunicationInterface/Utilities/niFpgaGetSinkWriteWindowName.vi"/>
+					<Item Name="niFpgaReadBitfileXml_Core.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Bitfile/niFpgaReadBitfileXml_Core.vi"/>
+					<Item Name="niLvFpgaGetDmaChannelInfoFromXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/resource/RVI/compilationResultUtilities/niLvFpgaGetDmaChannelInfoFromXML.vi"/>
+					<Item Name="niLvFpgaReportInternalErrorWithAdditionalInfo.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/errors/niLvFpgaReportInternalErrorWithAdditionalInfo.vi"/>
+					<Item Name="nirviClusterElementControl.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Bitfile/nirviClusterElementControl.ctl"/>
+					<Item Name="nirviControlStructure.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Bitfile/nirviControlStructure.ctl"/>
+					<Item Name="nirviFillInErrorInfo.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/errors/nirviFillInErrorInfo.vi"/>
+					<Item Name="nirviMechanicalAction.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Bitfile/nirviMechanicalAction.ctl"/>
+					<Item Name="nirviSubControlStructure.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Bitfile/nirviSubControlStructure.ctl"/>
+					<Item Name="nirviTypdefDescription.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Bitfile/nirviTypdefDescription.ctl"/>
+					<Item Name="nirviXML_Element.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Utilities/XML/nirviXML_Element.ctl"/>
+					<Item Name="nirviXML_FindTag.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Utilities/XML/nirviXML_FindTag.vi"/>
+					<Item Name="nirviXML_GetChildren.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Utilities/XML/nirviXML_GetChildren.vi"/>
+					<Item Name="nirviXML_GetNameAttribute.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Utilities/XML/nirviXML_GetNameAttribute.vi"/>
+					<Item Name="nirviXML_GetValue_Boolean.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Utilities/XML/nirviXML_GetValue_Boolean.vi"/>
+					<Item Name="nirviXML_GetValue_Double.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Utilities/XML/nirviXML_GetValue_Double.vi"/>
+					<Item Name="nirviXML_GetValue_I32.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Utilities/XML/nirviXML_GetValue_I32.vi"/>
+					<Item Name="nirviXML_GetValue_String.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Utilities/XML/nirviXML_GetValue_String.vi"/>
+					<Item Name="nirviXML_GetValue_U32.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Utilities/XML/nirviXML_GetValue_U32.vi"/>
+					<Item Name="nirviXML_GetValueWithName.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Utilities/XML/nirviXML_GetValueWithName.vi"/>
+					<Item Name="nirviXML_TagType.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/rvi/Utilities/XML/nirviXML_TagType.ctl"/>
+					<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/Submodules/Source/Speciality FPGA IO.lvlib"/>
 					<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+					<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
+					<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
+					<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 					<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/Utility/VariantDataType/VariantType.lvlib"/>
 				</Item>
 			</Item>

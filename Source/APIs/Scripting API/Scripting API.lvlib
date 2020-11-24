@@ -15,6 +15,7 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Get Section Scalars.vi" Type="VI" URL="../Private/Get Section Scalars.vi"/>
 			<Item Name="IsValid FPGA Addon.vi" Type="VI" URL="../Private/IsValid FPGA Addon.vi"/>
 		</Item>
 	</Item>
