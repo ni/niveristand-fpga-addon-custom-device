@@ -80,6 +80,7 @@
 		</Item>
 		<Item Name="APIs" Type="Folder">
 			<Item Name="Scripting API" Type="Folder">
+				<Item Name="dir.mnu" Type="Document" URL="../APIs/Scripting API/dir.mnu"/>
 				<Item Name="Scripting API.lvlib" Type="Library" URL="../APIs/Scripting API/Scripting API.lvlib"/>
 			</Item>
 		</Item>
@@ -366,6 +367,7 @@
 				<Item Name="Get Array Element TDEnum__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Array Element TDEnum__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Data Name from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Data Name from TD__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Data Name__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Data Name__ogtk__jki_vi_tester.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 				<Item Name="Get Header from TD__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Header from TD__ogtk__jki_vi_tester.vi"/>
 				<Item Name="Get Last PString__ogtk__jki_vi_tester.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Get Last PString__ogtk__jki_vi_tester.vi"/>
@@ -848,62 +850,49 @@
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
-			<Item Name="Scripting API" Type="Source Distribution">
+			<Item Name="Packed Scripting API" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{46B0A079-ED1D-42D5-8F64-EA15A3F0D3F4}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Scripting API</Property>
-				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
-				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
-				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/18.0</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">/C/Users/nitest/Documents/LabVIEW Data/2018(32-bit)/ExtraVILib</Property>
-				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
-				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
-				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../built/Scripting API</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{26BF977C-CDBF-4B33-A82F-0032B170EED5}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Packed Scripting API</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../built/Packed Scripting API</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy Scripting .LLB to LV Addons dir.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{514AF6CE-7C48-4021-842A-5CADA9C29141}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{E9671E71-2243-4A1D-B875-5C40438CA38C}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../built/Scripting API</Property>
+				<Property Name="Destination[0].destName" Type="Str">Scripting API.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">../built/Packed Scripting API/Scripting API.lvlibp</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../built/Scripting API/data</Property>
-				<Property Name="Destination[2].destName" Type="Str">Dependencies Directory Shared</Property>
-				<Property Name="Destination[2].path" Type="Path">../built/Scripting API/Dependencies Directory/FPGA Addon Shared</Property>
-				<Property Name="Destination[3].destName" Type="Str">Dependencies Directory VILib</Property>
-				<Property Name="Destination[3].path" Type="Path">../built/Scripting API/Dependencies Directory/VILib.llb</Property>
-				<Property Name="Destination[3].type" Type="Str">LLB</Property>
-				<Property Name="Destination[4].destName" Type="Str">Dependencies Directory PackedLibs</Property>
-				<Property Name="Destination[4].path" Type="Path">../built/Scripting API/Dependencies Directory/PackedLibs</Property>
-				<Property Name="DestinationCount" Type="Int">5</Property>
-				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[0].Container.applyPrefix" Type="Bool">true</Property>
-				<Property Name="Source[0].Container.depDestIndex" Type="Int">4</Property>
-				<Property Name="Source[0].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{32F84A46-54D8-4DB7-A289-03F0393107A6}</Property>
-				<Property Name="Source[0].newName" Type="Str">FPGA_Addon_</Property>
+				<Property Name="Destination[1].path" Type="Path">../built/Packed Scripting API</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3B69E7BE-9D59-40C3-A1FC-BA9CDF146257}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/APIs/Scripting API/Scripting API.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
+				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Addon/FPGA Addon Shared.lvlib</Property>
-				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[2].type" Type="Str">Library</Property>
-				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Addon/FPGA Addon Shared.lvlib/Shared</Property>
-				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/APIs/Scripting API/dir.mnu</Property>
+				<Property Name="Source[2].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Packed Scripting API</Property>
+				<Property Name="TgtF_internalName" Type="Str">Packed Scripting API</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
+				<Property Name="TgtF_productName" Type="Str">Packed Scripting API</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{C09F5FA0-B4F8-443C-A083-899FECD678F8}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Scripting API.lvlibp</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>

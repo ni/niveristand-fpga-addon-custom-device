@@ -8,30 +8,23 @@
 
 </Property>
 	<Item Name="Palettes" Type="Folder">
-		<Item Name="Bitfile Resources" Type="Folder">
-			<Item Name="dir.mnu" Type="Document" URL="../Public/Bitfile Resources/dir.mnu"/>
-		</Item>
-		<Item Name="Custom Device" Type="Folder">
-			<Item Name="dir.mnu" Type="Document" URL="../Public/Custom Device/dir.mnu"/>
-		</Item>
-		<Item Name="FPGA Addon" Type="Folder">
-			<Item Name="dir.mnu" Type="Document" URL="../dir.mnu"/>
-		</Item>
-		<Item Name="Utilities" Type="Folder">
-			<Item Name="dir.mnu" Type="Document" URL="../Public/Utilities/dir.mnu"/>
-		</Item>
+		<Item Name="Bitfile Resources_palette.mnu" Type="Document" URL="../Public/Bitfile Resources/Bitfile Resources_palette.mnu"/>
+		<Item Name="Custom Device_palette.mnu" Type="Document" URL="../Public/Custom Device/Custom Device_palette.mnu"/>
+		<Item Name="Utilities_palette.mnu" Type="Document" URL="../Public/Utilities/Utilities_palette.mnu"/>
 	</Item>
 	<Item Name="Private" Type="Folder">
-		<Item Name="Import Bitfile Scalars (Instances)" Type="Folder">
-			<Item Name="Import Scalars - all.vi" Type="VI" URL="../Private/Import Bitfile Scalars (Instances)/Import Scalars - all.vi"/>
-			<Item Name="Import Scalars - by label.vi" Type="VI" URL="../Private/Import Bitfile Scalars (Instances)/Import Scalars - by label.vi"/>
-		</Item>
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="IsValid FPGA Addon" Type="VI" URL="../Private/IsValid FPGA Addon"/>
+			<Item Name="IsValid FPGA Addon.vi" Type="VI" URL="../Private/IsValid FPGA Addon.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Bitfile Resources" Type="Folder">
+			<Item Name="Import Bitfile Scalars (Instances)" Type="Folder">
+				<Item Name="Import Scalars - all.vi" Type="VI" URL="../Public/Bitfile Resources/Import Bitfile Scalars (Instances)/Import Scalars - all.vi"/>
+				<Item Name="Import Scalars - by label.vi" Type="VI" URL="../Public/Bitfile Resources/Import Bitfile Scalars (Instances)/Import Scalars - by label.vi"/>
+			</Item>
 			<Item Name="Get Bitfile Scalars.vi" Type="VI" URL="../Public/Bitfile Resources/Get Bitfile Scalars.vi"/>
 			<Item Name="Get FPGA Bitfile.vi" Type="VI" URL="../Public/Bitfile Resources/Get FPGA Bitfile.vi"/>
 			<Item Name="Get RIO Resource.vi" Type="VI" URL="../Public/Bitfile Resources/Get RIO Resource.vi"/>
@@ -52,6 +45,7 @@
 		</Item>
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Input Scalar Data.ctl" Type="VI" URL="../TypeDefs/Input Scalar Data.ctl"/>
 		<Item Name="Output Scalar Data.ctl" Type="VI" URL="../TypeDefs/Output Scalar Data.ctl"/>
 	</Item>
