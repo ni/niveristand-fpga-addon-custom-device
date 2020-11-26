@@ -15,6 +15,11 @@
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Add Scalar to Group.vi" Type="VI" URL="../Private/Add Scalar to Group.vi"/>
+			<Item Name="Add Scalar to Section.vi" Type="VI" URL="../Private/Add Scalar to Section.vi"/>
+			<Item Name="Create Section Group.vi" Type="VI" URL="../Private/Create Section Group.vi"/>
+			<Item Name="Find Scalar Group.vi" Type="VI" URL="../Private/Find Scalar Group.vi"/>
+			<Item Name="Find Scalar in Section.vi" Type="VI" URL="../Private/Find Scalar in Section.vi"/>
 			<Item Name="Get Section Bitfile Objects.vi" Type="VI" URL="../Private/Get Section Bitfile Objects.vi"/>
 			<Item Name="Get Section Scalars.vi" Type="VI" URL="../Private/Get Section Scalars.vi"/>
 			<Item Name="IsValid FPGA Addon.vi" Type="VI" URL="../Private/IsValid FPGA Addon.vi"/>
@@ -48,7 +53,9 @@
 	</Item>
 	<Item Name="TypeDefs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Group Scalar Data.ctl" Type="VI" URL="../TypeDefs/Group Scalar Data.ctl"/>
 		<Item Name="Input Scalar Data.ctl" Type="VI" URL="../TypeDefs/Input Scalar Data.ctl"/>
 		<Item Name="Output Scalar Data.ctl" Type="VI" URL="../TypeDefs/Output Scalar Data.ctl"/>
+		<Item Name="Section Scalar Data.ctl" Type="VI" URL="../TypeDefs/Section Scalar Data.ctl"/>
 	</Item>
 </Library>
