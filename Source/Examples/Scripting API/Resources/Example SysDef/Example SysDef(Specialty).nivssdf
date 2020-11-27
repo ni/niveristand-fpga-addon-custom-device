@@ -3,14 +3,14 @@
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="1" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Example SysDef" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="Example SysDef(Specialty)" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Example SysDef</String>
+				<String>Example SysDef(Specialty)</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.5</String>
+				<String>1.0.0.9</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -241,7 +241,7 @@
 								<String>3.1.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>C:\Users\nitest\Git\NI VS FPGA Addon Fork\Examples\Resources\Example SysDef\Bitfiles\cRIO9039 FPGA Personality(Scalars).lvbitx</String>
+								<String>C:\Users\nitest\Git\NI VS FPGA Addon Fork\Source\Examples\Scripting API\Resources\Example SysDef\Bitfiles\cRIO9039 FPGA Personality(Specialty).lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO0</String>
@@ -250,12 +250,12 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Relative" Path="Bitfiles\cRIO9039 FPGA Personality(Scalars).lvbitx">
+								<DependentFile Type="Relative" Path="Bitfiles\cRIO9039 FPGA Personality(Specialty).lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\cRIO9039 FPGA Personality(Scalars).lvbitx</RTDestination>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\cRIO9039 FPGA Personality(Specialty).lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>98f7ed2b6c52681143697049005eb9f5</MD5>
+									<MD5>6ce9e35f4d289ec2ec4840bdcc7e06d1</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
@@ -270,12 +270,33 @@
 									<Property Name="user.CD.Available Registers">
 										<Variant>
 											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAACdhgAgAAAAAAFAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBTDURlZmF1bHQgVmFsdWUADABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAADAAAACk91dHB1dC5JMTYCGACAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAKT3V0cHV0LkkzMgMYAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAA1PdXRwdXQuc2luZ2xlCRgAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAAAA==</Data>
+											<Data>AAAE3RgAgAAAAAAFAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBTDURlZmF1bHQgVmFsdWUADABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAAFAAAACk91dHB1dC5JMTYCGACAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAAAAAKT3V0cHV0LkkzMgMYAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAB1PdXRwdXQuUFdNIEFuYWxvZyBNZWFzdXJlbWVudAwYAIAAAAAABgATQAcADEFDVElWRSBUSUNLUwAAFUAHAA5JTkFDVElWRSBUSUNLUwAAD0AHAAlBQ1EgVElDS1MATEBfA1EAIAAAAAgAAQABAAAACP//////////AAAAHwAAAAcAAAAAf////wAAAAH////pAAAAAAAAAAEOQUNUSVZFIFZPTFRBR0UAAE5AXwNRACAAAAAIAAEAAQAAAAj//////////wAAAB8AAAAHAAAAAH////8AAAAB////6QAAAAAAAAABEElOQUNUSVZFIFZPTFRBR0UAAHYA8QAAAAAAAAACGFNwZWNpYWxpdHkgRlBHQSBJTy5sdmxpYiJQV00uTWVhc3VyZS5BbmFsb2cuTWVhc3VyZW1lbnQuY3RsADJAUAAFAAAAAQACAAMABB1PdXRwdXQuUFdNIEFuYWxvZyBNZWFzdXJlbWVudAABAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACVPdXRwdXQuUXVhZHJhdHVyZSBFbmNvZGVyIE1lYXN1cmVtZW50IBgAgAAAAAACAA9AAwAIUE9TSVRJT04AAIUA8QAAAAAAAAACGFNwZWNpYWxpdHkgRlBHQSBJTy5sdmxpYjFRdWFkcmF0dXJlRW5jb2Rlci5NZWFzdXJlLkRpZ2l0YWwuTWVhc3VyZW1lbnQuY3RsADJAUAABAAAlT3V0cHV0LlF1YWRyYXR1cmUgRW5jb2RlciBNZWFzdXJlbWVudAABAAEAAAAAAAAAAAAAAA1PdXRwdXQuc2luZ2xlCRgAgAAAAAABAAUACgAAAQAAAAAAAAAAAAAAAAAAAAAAAA==</Data>
 										</Variant>
 									</Property>
 								</Properties>
 								<Errors />
-								<Channel Name="Output.I16" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+								<Section Name="Voltage" TypeGUID="25832021-24b6-475a-aa84-f4ed7870ed99">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Output.Quadrature Encoder Measurement</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="POSITION" TypeGUID="4b03cffd-e469-431a-ba96-aca85ece66af" RowDim="1" ColDim="1" Units="Counts" BitFields="13">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>POSITION</String>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Channel Name="Pressure" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
@@ -299,18 +320,6 @@
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
-								<Channel Name="Output.single" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>Output.single</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
 							</Section>
 							<Section Name="Scalar Outputs" TypeGUID="7d46fed9-731a-4423-8f13-aa8ac2cd791c">
 								<Description />
@@ -323,31 +332,7 @@
 									</Property>
 								</Properties>
 								<Errors />
-								<Channel Name="Input.I16" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>Input.I16</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="Input.I32" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>Input.I32</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="Input.single" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+								<Channel Name="On" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
