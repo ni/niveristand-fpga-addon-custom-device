@@ -30,8 +30,8 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Bitfile Resources" Type="Folder">
 			<Item Name="Import Bitfile Scalars (Instances)" Type="Folder">
-				<Item Name="Import Scalars - all.vi" Type="VI" URL="../Public/Bitfile Resources/Import Bitfile Scalars (Instances)/Import Scalars - all.vi"/>
-				<Item Name="Import Scalars - by label.vi" Type="VI" URL="../Public/Bitfile Resources/Import Bitfile Scalars (Instances)/Import Scalars - by label.vi"/>
+				<Item Name="Import Scalars - All.vi" Type="VI" URL="../Public/Bitfile Resources/Import Bitfile Scalars (Instances)/Import Scalars - All.vi"/>
+				<Item Name="Import Scalars - By Label.vi" Type="VI" URL="../Public/Bitfile Resources/Import Bitfile Scalars (Instances)/Import Scalars - By Label.vi"/>
 			</Item>
 			<Item Name="Get Bitfile Scalars.vi" Type="VI" URL="../Public/Bitfile Resources/Get Bitfile Scalars.vi"/>
 			<Item Name="Get FPGA Bitfile.vi" Type="VI" URL="../Public/Bitfile Resources/Get FPGA Bitfile.vi"/>
@@ -43,8 +43,8 @@
 		<Item Name="Custom Device" Type="Folder">
 			<Item Name="Create FPGA Addon.vi" Type="VI" URL="../Public/Custom Device/Create FPGA Addon.vi"/>
 			<Item Name="Delete FPGA Addon.vi" Type="VI" URL="../Public/Custom Device/Delete FPGA Addon.vi"/>
-			<Item Name="Export Addon Configuration.vi" Type="VI" URL="../Public/Custom Device/Export Addon Configuration.vi"/>
-			<Item Name="Import Addon Configuration.vi" Type="VI" URL="../Public/Custom Device/Import Addon Configuration.vi"/>
+			<Item Name="Export FPGA Addon Configuration.vi" Type="VI" URL="../Public/Custom Device/Export FPGA Addon Configuration.vi"/>
+			<Item Name="Import FPGA Addon Configuration.vi" Type="VI" URL="../Public/Custom Device/Import FPGA Addon Configuration.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Find FPGA Addon Custom Devices.vi" Type="VI" URL="../Public/Utilities/Find FPGA Addon Custom Devices.vi"/>
