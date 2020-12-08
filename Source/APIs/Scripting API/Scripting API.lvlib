@@ -17,6 +17,7 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Add Scalar to Group.vi" Type="VI" URL="../Private/Add Scalar to Group.vi"/>
 			<Item Name="Add Scalar to Section.vi" Type="VI" URL="../Private/Add Scalar to Section.vi"/>
+			<Item Name="Clear Scalar Channels.vi" Type="VI" URL="../Private/Clear Scalar Channels.vi"/>
 			<Item Name="Create Section Group.vi" Type="VI" URL="../Private/Create Section Group.vi"/>
 			<Item Name="Find Scalar Group.vi" Type="VI" URL="../Private/Find Scalar Group.vi"/>
 			<Item Name="Find Scalar in Section.vi" Type="VI" URL="../Private/Find Scalar in Section.vi"/>
@@ -40,7 +41,6 @@
 			<Item Name="Set RIO Resource.vi" Type="VI" URL="../Public/Bitfile Resources/Set RIO Resource.vi"/>
 		</Item>
 		<Item Name="Custom Device" Type="Folder">
-			<Item Name="Clear Scalar Channels.vi" Type="VI" URL="../Public/Custom Device/Clear Scalar Channels.vi"/>
 			<Item Name="Create FPGA Addon.vi" Type="VI" URL="../Public/Custom Device/Create FPGA Addon.vi"/>
 			<Item Name="Delete FPGA Addon.vi" Type="VI" URL="../Public/Custom Device/Delete FPGA Addon.vi"/>
 			<Item Name="Export Addon Configuration.vi" Type="VI" URL="../Public/Custom Device/Export Addon Configuration.vi"/>
