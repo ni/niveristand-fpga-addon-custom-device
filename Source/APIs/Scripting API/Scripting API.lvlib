@@ -47,7 +47,7 @@
 			<Item Name="Import FPGA Addon Configuration.vi" Type="VI" URL="../Public/Custom Device/Import FPGA Addon Configuration.vi"/>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
-			<Item Name="Find FPGA Addon Custom Devices.vi" Type="VI" URL="../Public/Utilities/Find FPGA Addon Custom Devices.vi"/>
+			<Item Name="Find All FPGA Addon Custom Devices.vi" Type="VI" URL="../Public/Utilities/Find All FPGA Addon Custom Devices.vi"/>
 			<Item Name="Find FPGA Addon.vi" Type="VI" URL="../Public/Utilities/Find FPGA Addon.vi"/>
 		</Item>
 	</Item>
