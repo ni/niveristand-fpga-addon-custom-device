@@ -96,6 +96,8 @@
 			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
 			<Item Name="Parse FPGA Bitfile.vi" Type="VI" URL="../SubVIs/Parse FPGA Bitfile.vi"/>
 			<Item Name="Prompt User for Init Type.vi" Type="VI" URL="../SubVIs/Prompt User for Init Type.vi"/>
+			<Item Name="Refresh Scalar Channels.vi" Type="VI" URL="../SubVIs/Refresh Scalar Channels.vi"/>
+			<Item Name="Refresh Waveform Channels.vi" Type="VI" URL="../SubVIs/Refresh Waveform Channels.vi"/>
 			<Item Name="Reload Bitfile.vi" Type="VI" URL="../SubVIs/Reload Bitfile.vi"/>
 			<Item Name="Remove FPGA Sections.vi" Type="VI" URL="../SubVIs/Remove FPGA Sections.vi"/>
 			<Item Name="Remove Invalid DMAs.vi" Type="VI" URL="../SubVIs/Remove Invalid DMAs.vi"/>
