@@ -9,6 +9,14 @@ path = 'Source\FPGA Addon System Definition API.lvproj'
 path = 'Source\FPGA Addon.lvproj'
 
 [[build.steps]]
+name = 'Packed Scripting API'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Packed Scripting API'
+dependency_target = 'Windows'
+
+[[build.steps]]
 name = 'System Definition API'
 type = 'lvBuildSpec'
 project = '{sysdefapi}'
@@ -57,9 +65,16 @@ project = '{cd}'
 target = 'RT CompactRIO Target - VxWorks'
 build_spec = 'Engine Release'
 
-[package]
+[[package]]
 type = 'nipkg'
-payload_dir = 'Built'
-name = 'ni-fpga-addon-{veristand_version}'
-install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices'
+payload_dir = 'Built\FPGA Addon'
+install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}\Custom Devices\FPGA Addon'
 control_file = 'control'
+package_output_dir = 'Built'
+
+[[package]]
+type = 'nipkg'
+payload_dir = 'Built\Packed Scripting API'
+install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\FPGA Addon'
+control_file = 'control_scripting_api'
+package_output_dir = 'Built'
