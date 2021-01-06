@@ -118,6 +118,9 @@
 				<Item Name="Scalar Bitpacking Testing" Type="Folder">
 					<Item Name="FPGA Addon Scalar Bitpacking Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scalar Bitpacking Testing/Scalar Bitpacking Testing/FPGA Addon Scalar Bitpacking Unit Tests.lvclass"/>
 				</Item>
+				<Item Name="Scripting API Unit Tests" Type="Folder">
+					<Item Name="FPGA Addon Scripting API Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API Testing/Scripting API Unit Tests/FPGA Addon Scripting API Unit Tests.lvclass"/>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
