@@ -71,6 +71,8 @@
 			<Item Name="Add FPGA Sections.vi" Type="VI" URL="../SubVIs/Add FPGA Sections.vi"/>
 			<Item Name="Add Item.vi" Type="VI" URL="../SubVIs/Add Item.vi"/>
 			<Item Name="Apply DMA Configuration.vi" Type="VI" URL="../SubVIs/Apply DMA Configuration.vi"/>
+			<Item Name="Build DMA Channel Dictionary.vi" Type="VI" URL="../SubVIs/Build DMA Channel Dictionary.vi"/>
+			<Item Name="Build Scalar Channel Dictionary.vi" Type="VI" URL="../SubVIs/Build Scalar Channel Dictionary.vi"/>
 			<Item Name="Compile Scalars.vi" Type="VI" URL="../SubVIs/Compile Scalars.vi"/>
 			<Item Name="Convert Error Cluster to Table.vi" Type="VI" URL="../SubVIs/Convert Error Cluster to Table.vi"/>
 			<Item Name="Create DMA Channel.vi" Type="VI" URL="../SubVIs/Create DMA Channel.vi"/>
@@ -84,9 +86,12 @@
 			<Item Name="Enable Disable Add Remove buttons.vi" Type="VI" URL="../SubVIs/Enable Disable Add Remove buttons.vi"/>
 			<Item Name="Enum.ConvertToDescription.vi" Type="VI" URL="../SubVIs/Enum.ConvertToDescription.vi"/>
 			<Item Name="Get Bitfile Object Name.vi" Type="VI" URL="../SubVIs/Get Bitfile Object Name.vi"/>
+			<Item Name="Get Child Items.vi" Type="VI" URL="../SubVIs/Get Child Items.vi"/>
 			<Item Name="Get Cluster Element Names.vi" Type="VI" URL="../SubVIs/Get Cluster Element Names.vi"/>
+			<Item Name="Get Group Scalar GUID.vi" Type="VI" URL="../SubVIs/Get Group Scalar GUID.vi"/>
 			<Item Name="Get Input DMA Refs.vi" Type="VI" URL="../SubVIs/Get Input DMA Refs.vi"/>
-			<Item Name="Get Invalid DMA configurations.vi" Type="VI" URL="../SubVIs/Get Invalid DMA configurations.vi"/>
+			<Item Name="Get Invalid DMA Configuration.vi" Type="VI" URL="../SubVIs/Get Invalid DMA Configuration.vi"/>
+			<Item Name="Get Invalid Group Scalar Channels.vi" Type="VI" URL="../SubVIs/Get Invalid Group Scalar Channels.vi"/>
 			<Item Name="Get Invalid Scalar Data Channels.vi" Type="VI" URL="../SubVIs/Get Invalid Scalar Data Channels.vi"/>
 			<Item Name="Get Output DMA Refs.vi" Type="VI" URL="../SubVIs/Get Output DMA Refs.vi"/>
 			<Item Name="Get Parent and DMA Type.vi" Type="VI" URL="../SubVIs/Get Parent and DMA Type.vi"/>
@@ -108,6 +113,7 @@
 			<Item Name="Set Bitpacked Channels.vi" Type="VI" URL="../SubVIs/Set Bitpacked Channels.vi"/>
 			<Item Name="Split DMA by Direction.vi" Type="VI" URL="../SubVIs/Split DMA by Direction.vi"/>
 			<Item Name="Split Registers by Direction.vi" Type="VI" URL="../SubVIs/Split Registers by Direction.vi"/>
+			<Item Name="Update Scalar Channel Properties.vi" Type="VI" URL="../SubVIs/Update Scalar Channel Properties.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Channel Type.ctl" Type="VI" URL="../Types/Channel Type.ctl"/>
