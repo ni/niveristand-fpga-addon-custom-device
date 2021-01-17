@@ -85,16 +85,17 @@
 			<Item Name="Determine Listbox Values.vi" Type="VI" URL="../SubVIs/Determine Listbox Values.vi"/>
 			<Item Name="Enable Disable Add Remove buttons.vi" Type="VI" URL="../SubVIs/Enable Disable Add Remove buttons.vi"/>
 			<Item Name="Enum.ConvertToDescription.vi" Type="VI" URL="../SubVIs/Enum.ConvertToDescription.vi"/>
+			<Item Name="Get Active Section Scalars.vi" Type="VI" URL="../SubVIs/Get Active Section Scalars.vi"/>
 			<Item Name="Get Bitfile Object Name.vi" Type="VI" URL="../SubVIs/Get Bitfile Object Name.vi"/>
 			<Item Name="Get Child Items.vi" Type="VI" URL="../SubVIs/Get Child Items.vi"/>
 			<Item Name="Get Cluster Element Names.vi" Type="VI" URL="../SubVIs/Get Cluster Element Names.vi"/>
-			<Item Name="Get Group Scalar GUID.vi" Type="VI" URL="../SubVIs/Get Group Scalar GUID.vi"/>
 			<Item Name="Get Input DMA Refs.vi" Type="VI" URL="../SubVIs/Get Input DMA Refs.vi"/>
 			<Item Name="Get Invalid DMA Configuration.vi" Type="VI" URL="../SubVIs/Get Invalid DMA Configuration.vi"/>
 			<Item Name="Get Invalid Group Scalar Channels.vi" Type="VI" URL="../SubVIs/Get Invalid Group Scalar Channels.vi"/>
 			<Item Name="Get Invalid Scalar Data Channels.vi" Type="VI" URL="../SubVIs/Get Invalid Scalar Data Channels.vi"/>
 			<Item Name="Get Output DMA Refs.vi" Type="VI" URL="../SubVIs/Get Output DMA Refs.vi"/>
 			<Item Name="Get Parent and DMA Type.vi" Type="VI" URL="../SubVIs/Get Parent and DMA Type.vi"/>
+			<Item Name="Get Scalar Bitfile Objects.vi" Type="VI" URL="../SubVIs/Get Scalar Bitfile Objects.vi"/>
 			<Item Name="Get Scalar Datatypes and Refs.vi" Type="VI" URL="../SubVIs/Get Scalar Datatypes and Refs.vi"/>
 			<Item Name="Get Write Data to VS Channel Refs.vi" Type="VI" URL="../SubVIs/Get Write Data to VS Channel Refs.vi"/>
 			<Item Name="Initialize Listbox.vi" Type="VI" URL="../SubVIs/Initialize Listbox.vi"/>
@@ -114,10 +115,12 @@
 			<Item Name="Split DMA by Direction.vi" Type="VI" URL="../SubVIs/Split DMA by Direction.vi"/>
 			<Item Name="Split Registers by Direction.vi" Type="VI" URL="../SubVIs/Split Registers by Direction.vi"/>
 			<Item Name="Update Scalar Channel Properties.vi" Type="VI" URL="../SubVIs/Update Scalar Channel Properties.vi"/>
+			<Item Name="Update Scalar Channels.vi" Type="VI" URL="../SubVIs/Update Scalar Channels.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Channel Type.ctl" Type="VI" URL="../Types/Channel Type.ctl"/>
 			<Item Name="Listbox Cluster.ctl" Type="VI" URL="../Types/Listbox Cluster.ctl"/>
+			<Item Name="Output Scalar.ctl" Type="VI" URL="../Types/Output Scalar.ctl"/>
 			<Item Name="Refresh Bitfile.ctl" Type="VI" URL="../Types/Refresh Bitfile.ctl"/>
 			<Item Name="Scalar Type Refs.ctl" Type="VI" URL="../Types/Scalar Type Refs.ctl"/>
 		</Item>
