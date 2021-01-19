@@ -91,7 +91,6 @@
 			<Item Name="Get Cluster Element Names.vi" Type="VI" URL="../SubVIs/Get Cluster Element Names.vi"/>
 			<Item Name="Get Input DMA Refs.vi" Type="VI" URL="../SubVIs/Get Input DMA Refs.vi"/>
 			<Item Name="Get Invalid DMA Configuration.vi" Type="VI" URL="../SubVIs/Get Invalid DMA Configuration.vi"/>
-			<Item Name="Get Invalid Group Scalar Channels.vi" Type="VI" URL="../SubVIs/Get Invalid Group Scalar Channels.vi"/>
 			<Item Name="Get Invalid Scalar Data Channels.vi" Type="VI" URL="../SubVIs/Get Invalid Scalar Data Channels.vi"/>
 			<Item Name="Get Output DMA Refs.vi" Type="VI" URL="../SubVIs/Get Output DMA Refs.vi"/>
 			<Item Name="Get Parent and DMA Type.vi" Type="VI" URL="../SubVIs/Get Parent and DMA Type.vi"/>
@@ -100,6 +99,7 @@
 			<Item Name="Get Write Data to VS Channel Refs.vi" Type="VI" URL="../SubVIs/Get Write Data to VS Channel Refs.vi"/>
 			<Item Name="Initialize Listbox.vi" Type="VI" URL="../SubVIs/Initialize Listbox.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
+			<Item Name="Load New Bitfile.vi" Type="VI" URL="../SubVIs/Load New Bitfile.vi"/>
 			<Item Name="Parse FPGA Bitfile.vi" Type="VI" URL="../SubVIs/Parse FPGA Bitfile.vi"/>
 			<Item Name="Prompt User for Init Type.vi" Type="VI" URL="../SubVIs/Prompt User for Init Type.vi"/>
 			<Item Name="Refresh Scalar Channels.vi" Type="VI" URL="../SubVIs/Refresh Scalar Channels.vi"/>
@@ -116,6 +116,7 @@
 			<Item Name="Split Registers by Direction.vi" Type="VI" URL="../SubVIs/Split Registers by Direction.vi"/>
 			<Item Name="Update Scalar Channel Properties.vi" Type="VI" URL="../SubVIs/Update Scalar Channel Properties.vi"/>
 			<Item Name="Update Scalar Channels.vi" Type="VI" URL="../SubVIs/Update Scalar Channels.vi"/>
+			<Item Name="Validate Scalar Bitpacked Channel.vi" Type="VI" URL="../SubVIs/Validate Scalar Bitpacked Channel.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="Channel Type.ctl" Type="VI" URL="../Types/Channel Type.ctl"/>
