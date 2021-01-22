@@ -96,7 +96,6 @@
 			<Item Name="Get Scalar Bitfile Objects.vi" Type="VI" URL="../SubVIs/Get Scalar Bitfile Objects.vi"/>
 			<Item Name="Get Scalar Datatypes and Refs.vi" Type="VI" URL="../SubVIs/Get Scalar Datatypes and Refs.vi"/>
 			<Item Name="Get Write Data to VS Channel Refs.vi" Type="VI" URL="../SubVIs/Get Write Data to VS Channel Refs.vi"/>
-			<Item Name="Initialize Listbox.vi" Type="VI" URL="../SubVIs/Initialize Listbox.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
 			<Item Name="Load New Bitfile.vi" Type="VI" URL="../SubVIs/Load New Bitfile.vi"/>
 			<Item Name="Parse FPGA Bitfile.vi" Type="VI" URL="../SubVIs/Parse FPGA Bitfile.vi"/>
@@ -115,6 +114,7 @@
 			<Item Name="Split Registers by Direction.vi" Type="VI" URL="../SubVIs/Split Registers by Direction.vi"/>
 			<Item Name="Update Scalar Channel Properties.vi" Type="VI" URL="../SubVIs/Update Scalar Channel Properties.vi"/>
 			<Item Name="Update Scalar Channels.vi" Type="VI" URL="../SubVIs/Update Scalar Channels.vi"/>
+			<Item Name="Update UI.vi" Type="VI" URL="../SubVIs/Update UI.vi"/>
 			<Item Name="Validate Scalar Bitpacked Channel.vi" Type="VI" URL="../SubVIs/Validate Scalar Bitpacked Channel.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
@@ -122,7 +122,7 @@
 			<Item Name="Listbox Cluster.ctl" Type="VI" URL="../Types/Listbox Cluster.ctl"/>
 			<Item Name="Output Scalar.ctl" Type="VI" URL="../Types/Output Scalar.ctl"/>
 			<Item Name="Refresh Bitfile.ctl" Type="VI" URL="../Types/Refresh Bitfile.ctl"/>
-			<Item Name="Scalar Type Refs.ctl" Type="VI" URL="../Types/Scalar Type Refs.ctl"/>
+			<Item Name="SE UI Cluster.ctl" Type="VI" URL="../Types/SE UI Cluster.ctl"/>
 		</Item>
 	</Item>
 </Library>
