@@ -10,7 +10,7 @@
 				<String>Example SysDef</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.16</String>
+				<String>1.0.0.17</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -244,7 +244,7 @@
 								<String>3.1.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>C:\Users\nitest\Desktop\TD_Bitfiles\1_DMA Write_1_DMA_Read.lvbitx</String>
+								<String>D:\GitBranches\niveristand-fpga-addon-custom-device-1\Source\Tests\Unit Tests\Bitfile Reload Testing\Assets\test_Bitfile Reload_DMA\TestBitfile1.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO0</String>
@@ -253,12 +253,12 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="C:\Users\nitest\Desktop\TD_Bitfiles\1_DMA Write_1_DMA_Read.lvbitx">
+								<DependentFile Type="Relative" Path="TestBitfile1.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\1_DMA Write_1_DMA_Read.lvbitx</RTDestination>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\TestBitfile1.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>812e028a6b2685ada06fa4c854b885df</MD5>
+									<MD5>e567e37ef34e217e037e5f864bafb151</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
@@ -302,16 +302,16 @@
 									<Property Name="user.CD.Available DMA">
 										<Variant>
 											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAAB5hgAgAAAAAAEAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBQAAIAAAABB0NsdXN0ZXIAGkBAAAH/////AAINQXZhaWxhYmxlIERNQQABAAMAAAABAAAABERNQTICAAAAAA==</Data>
+											<Data>AAAB8RgAgAAAAAAEAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBQAAIAAAABB0NsdXN0ZXIAGkBAAAH/////AAINQXZhaWxhYmxlIERNQQABAAMAAAABAAAAD1RhcmdldFRvSG9zdERNQQIAAAAA</Data>
 										</Variant>
 									</Property>
 								</Properties>
 								<Errors />
-								<Section Name="DMA2" TypeGUID="fdfaa619-d09f-452b-8143-c1a261c13b7a">
+								<Section Name="TargetToHostDMA" TypeGUID="fdfaa619-d09f-452b-8143-c1a261c13b7a">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
-											<String>DMA2</String>
+											<String>TargetToHostDMA</String>
 										</Property>
 									</Properties>
 									<Errors />
@@ -388,16 +388,16 @@
 									<Property Name="user.CD.Available DMA">
 										<Variant>
 											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAAB5hgAgAAAAAAEAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBQAAIAAAABB0NsdXN0ZXIAGkBAAAH/////AAINQXZhaWxhYmxlIERNQQABAAMAAAABAAAABERNQTECAAAAAA==</Data>
+											<Data>AAAB8RgAgAAAAAAEAA5AMP////8ETmFtZQABj0AVACIGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQKRlhQKy8tMjQuNQpGWFArLy0xNi41CkZYUCsvLTMyLjgLRlhQKy8tNjQuMzIKRlhQKy8tMTYuNwpGWFArLy0yMC41CkZYUCsvLTI3LjULRlhQKy8tMzIuMTYIRlhQKzE2LjMIRlhQKzE4LjMRRGlnaXRhbCBTdGF0aWMgSW4SRGlnaXRhbCBTdGF0aWMgT3V0GkRpZ2l0YWwgU3RhdGljIEluIFNldHRpbmdzD0RpZ2l0YWwgV1NTIE91dBVRdWFkIEVuY29kZXIgU2V0dGluZ3MPUXVhZCBFbmNvZGVyIEluBUdyb3VwAAlEYXRhIFR5cGUAEkBQAAIAAAABB0NsdXN0ZXIAGkBAAAH/////AAINQXZhaWxhYmxlIERNQQABAAMAAAABAAAAD0hvc3RUb1RhcmdldERNQQIAAAAA</Data>
 										</Variant>
 									</Property>
 								</Properties>
 								<Errors />
-								<Section Name="DMA1" TypeGUID="fdfaa619-d09f-452b-8143-c1a261c13b7a">
+								<Section Name="HostToTargetDMA" TypeGUID="fdfaa619-d09f-452b-8143-c1a261c13b7a">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
-											<String>DMA1</String>
+											<String>HostToTargetDMA</String>
 										</Property>
 									</Properties>
 									<Errors />
