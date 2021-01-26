@@ -73,6 +73,8 @@
 			<Item Name="Apply DMA Configuration.vi" Type="VI" URL="../SubVIs/Apply DMA Configuration.vi"/>
 			<Item Name="Build DMA Channel Dictionary.vi" Type="VI" URL="../SubVIs/Build DMA Channel Dictionary.vi"/>
 			<Item Name="Build Scalar Channel Dictionary.vi" Type="VI" URL="../SubVIs/Build Scalar Channel Dictionary.vi"/>
+			<Item Name="Build Scalar Channel.vi" Type="VI" URL="../SubVIs/Build Scalar Channel.vi"/>
+			<Item Name="Build Scalar Group Channels.vi" Type="VI" URL="../SubVIs/Build Scalar Group Channels.vi"/>
 			<Item Name="Compile Scalars.vi" Type="VI" URL="../SubVIs/Compile Scalars.vi"/>
 			<Item Name="Convert Error Cluster to Table.vi" Type="VI" URL="../SubVIs/Convert Error Cluster to Table.vi"/>
 			<Item Name="Create DMA Channel.vi" Type="VI" URL="../SubVIs/Create DMA Channel.vi"/>
@@ -87,6 +89,7 @@
 			<Item Name="Enum.ConvertToDescription.vi" Type="VI" URL="../SubVIs/Enum.ConvertToDescription.vi"/>
 			<Item Name="Get Active Section Scalars.vi" Type="VI" URL="../SubVIs/Get Active Section Scalars.vi"/>
 			<Item Name="Get Bitfile Object Name.vi" Type="VI" URL="../SubVIs/Get Bitfile Object Name.vi"/>
+			<Item Name="Get Bitfile Object Ref.vi" Type="VI" URL="../SubVIs/Get Bitfile Object Ref.vi"/>
 			<Item Name="Get Cluster Element Names.vi" Type="VI" URL="../SubVIs/Get Cluster Element Names.vi"/>
 			<Item Name="Get Input DMA Refs.vi" Type="VI" URL="../SubVIs/Get Input DMA Refs.vi"/>
 			<Item Name="Get Invalid DMA Configuration.vi" Type="VI" URL="../SubVIs/Get Invalid DMA Configuration.vi"/>
@@ -95,6 +98,7 @@
 			<Item Name="Get Parent and DMA Type.vi" Type="VI" URL="../SubVIs/Get Parent and DMA Type.vi"/>
 			<Item Name="Get Scalar Bitfile Objects.vi" Type="VI" URL="../SubVIs/Get Scalar Bitfile Objects.vi"/>
 			<Item Name="Get Scalar Datatypes and Refs.vi" Type="VI" URL="../SubVIs/Get Scalar Datatypes and Refs.vi"/>
+			<Item Name="Get Valid Item Ref.vi" Type="VI" URL="../SubVIs/Get Valid Item Ref.vi"/>
 			<Item Name="Get Write Data to VS Channel Refs.vi" Type="VI" URL="../SubVIs/Get Write Data to VS Channel Refs.vi"/>
 			<Item Name="Initialize Listbox.vi" Type="VI" URL="../SubVIs/Initialize Listbox.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
