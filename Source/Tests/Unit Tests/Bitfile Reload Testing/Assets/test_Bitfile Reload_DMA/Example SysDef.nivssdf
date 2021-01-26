@@ -10,7 +10,7 @@
 				<String>Example SysDef</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.17</String>
+				<String>1.0.0.18</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -399,6 +399,27 @@
 										<Property Name="user.CD.Bitfile Object Name">
 											<String>HostToTargetDMA</String>
 										</Property>
+										<Property Name="user.CD.DMA.NumberOfChans">
+											<U32>10</U32>
+										</Property>
+										<Property Name="user.CD.DMA.DelacingScheme">
+											<U32>0</U32>
+										</Property>
+										<Property Name="user.CD.DMA.UpdateRate">
+											<U32>10</U32>
+										</Property>
+										<Property Name="user.CD.DMA.dt">
+											<Double>0.00015</Double>
+										</Property>
+										<Property Name="user.CD.DMA.Mode">
+											<U32>0</U32>
+										</Property>
+										<Property Name="user.CD.DMA.NumberOfSamples">
+											<U32>10000</U32>
+										</Property>
+										<Property Name="user.CD.DMA.HostBuffer">
+											<U32>1</U32>
+										</Property>
 									</Properties>
 									<Errors />
 									<Section Name="Status Channels" TypeGUID="4e1a084b-2b8b-4128-8417-f0007d9ffe93">
@@ -465,6 +486,96 @@
 												<Elem>0</Elem>
 											</DefaultValue>
 										</Channel>
+									</Section>
+									<Section Name="HostToTargetDMA" TypeGUID="0c0ecc88-7768-47db-a589-856e32a93156">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>HostToTargetDMA</String>
+											</Property>
+										</Properties>
+										<Errors />
+									</Section>
+									<Section Name="HostToTargetDMA 1" TypeGUID="0c0ecc88-7768-47db-a589-856e32a93156">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>HostToTargetDMA 1</String>
+											</Property>
+										</Properties>
+										<Errors />
+									</Section>
+									<Section Name="HostToTargetDMA 2" TypeGUID="0c0ecc88-7768-47db-a589-856e32a93156">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>HostToTargetDMA 2</String>
+											</Property>
+										</Properties>
+										<Errors />
+									</Section>
+									<Section Name="HostToTargetDMA 3" TypeGUID="0c0ecc88-7768-47db-a589-856e32a93156">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>HostToTargetDMA 3</String>
+											</Property>
+										</Properties>
+										<Errors />
+									</Section>
+									<Section Name="HostToTargetDMA 4" TypeGUID="0c0ecc88-7768-47db-a589-856e32a93156">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>HostToTargetDMA 4</String>
+											</Property>
+										</Properties>
+										<Errors />
+									</Section>
+									<Section Name="HostToTargetDMA 5" TypeGUID="0c0ecc88-7768-47db-a589-856e32a93156">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>HostToTargetDMA 5</String>
+											</Property>
+										</Properties>
+										<Errors />
+									</Section>
+									<Section Name="HostToTargetDMA 6" TypeGUID="0c0ecc88-7768-47db-a589-856e32a93156">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>HostToTargetDMA 6</String>
+											</Property>
+										</Properties>
+										<Errors />
+									</Section>
+									<Section Name="HostToTargetDMA 7" TypeGUID="0c0ecc88-7768-47db-a589-856e32a93156">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>HostToTargetDMA 7</String>
+											</Property>
+										</Properties>
+										<Errors />
+									</Section>
+									<Section Name="HostToTargetDMA 8" TypeGUID="0c0ecc88-7768-47db-a589-856e32a93156">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>HostToTargetDMA 8</String>
+											</Property>
+										</Properties>
+										<Errors />
+									</Section>
+									<Section Name="HostToTargetDMA 9" TypeGUID="0c0ecc88-7768-47db-a589-856e32a93156">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>HostToTargetDMA 9</String>
+											</Property>
+										</Properties>
+										<Errors />
 									</Section>
 								</Section>
 							</Section>
