@@ -73,8 +73,6 @@
 			<Item Name="Apply DMA Configuration.vi" Type="VI" URL="../SubVIs/Apply DMA Configuration.vi"/>
 			<Item Name="Build DMA Channel Dictionary.vi" Type="VI" URL="../SubVIs/Build DMA Channel Dictionary.vi"/>
 			<Item Name="Build Scalar Channel Dictionary.vi" Type="VI" URL="../SubVIs/Build Scalar Channel Dictionary.vi"/>
-			<Item Name="Build Scalar Channel.vi" Type="VI" URL="../SubVIs/Build Scalar Channel.vi"/>
-			<Item Name="Build Scalar Group Channels.vi" Type="VI" URL="../SubVIs/Build Scalar Group Channels.vi"/>
 			<Item Name="Compile Scalars.vi" Type="VI" URL="../SubVIs/Compile Scalars.vi"/>
 			<Item Name="Convert Error Cluster to Table.vi" Type="VI" URL="../SubVIs/Convert Error Cluster to Table.vi"/>
 			<Item Name="Create DMA Channel.vi" Type="VI" URL="../SubVIs/Create DMA Channel.vi"/>
@@ -87,6 +85,7 @@
 			<Item Name="Determine Listbox Values.vi" Type="VI" URL="../SubVIs/Determine Listbox Values.vi"/>
 			<Item Name="Enable Disable Add Remove buttons.vi" Type="VI" URL="../SubVIs/Enable Disable Add Remove buttons.vi"/>
 			<Item Name="Enum.ConvertToDescription.vi" Type="VI" URL="../SubVIs/Enum.ConvertToDescription.vi"/>
+			<Item Name="Find Valid Item Ref.vi" Type="VI" URL="../SubVIs/Find Valid Item Ref.vi"/>
 			<Item Name="Get Active Section Scalars.vi" Type="VI" URL="../SubVIs/Get Active Section Scalars.vi"/>
 			<Item Name="Get Bitfile Object Name.vi" Type="VI" URL="../SubVIs/Get Bitfile Object Name.vi"/>
 			<Item Name="Get Bitfile Object Ref.vi" Type="VI" URL="../SubVIs/Get Bitfile Object Ref.vi"/>
@@ -98,7 +97,6 @@
 			<Item Name="Get Parent and DMA Type.vi" Type="VI" URL="../SubVIs/Get Parent and DMA Type.vi"/>
 			<Item Name="Get Scalar Bitfile Objects.vi" Type="VI" URL="../SubVIs/Get Scalar Bitfile Objects.vi"/>
 			<Item Name="Get Scalar Datatypes and Refs.vi" Type="VI" URL="../SubVIs/Get Scalar Datatypes and Refs.vi"/>
-			<Item Name="Get Valid Item Ref.vi" Type="VI" URL="../SubVIs/Get Valid Item Ref.vi"/>
 			<Item Name="Get Write Data to VS Channel Refs.vi" Type="VI" URL="../SubVIs/Get Write Data to VS Channel Refs.vi"/>
 			<Item Name="Initialize Listbox.vi" Type="VI" URL="../SubVIs/Initialize Listbox.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../SubVIs/Load Help File.vi"/>
@@ -115,6 +113,8 @@
 			<Item Name="Save Parsed Configuration.vi" Type="VI" URL="../SubVIs/Save Parsed Configuration.vi"/>
 			<Item Name="Set Bitfile Object Name.vi" Type="VI" URL="../SubVIs/Set Bitfile Object Name.vi"/>
 			<Item Name="Set Bitpacked Channels.vi" Type="VI" URL="../SubVIs/Set Bitpacked Channels.vi"/>
+			<Item Name="Set Group Scalar Channel Data.vi" Type="VI" URL="../SubVIs/Set Group Scalar Channel Data.vi"/>
+			<Item Name="Set Scalar Channel Data.vi" Type="VI" URL="../SubVIs/Set Scalar Channel Data.vi"/>
 			<Item Name="Split DMA by Direction.vi" Type="VI" URL="../SubVIs/Split DMA by Direction.vi"/>
 			<Item Name="Split Registers by Direction.vi" Type="VI" URL="../SubVIs/Split Registers by Direction.vi"/>
 			<Item Name="Update Scalar Channel Properties.vi" Type="VI" URL="../SubVIs/Update Scalar Channel Properties.vi"/>
