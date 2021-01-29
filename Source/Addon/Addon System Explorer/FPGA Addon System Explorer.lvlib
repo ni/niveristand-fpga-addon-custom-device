@@ -88,7 +88,6 @@
 			<Item Name="Find Valid Item Ref.vi" Type="VI" URL="../SubVIs/Find Valid Item Ref.vi"/>
 			<Item Name="Get Active Section Scalars.vi" Type="VI" URL="../SubVIs/Get Active Section Scalars.vi"/>
 			<Item Name="Get Bitfile Object Name.vi" Type="VI" URL="../SubVIs/Get Bitfile Object Name.vi"/>
-			<Item Name="Get Bitfile Object Ref.vi" Type="VI" URL="../SubVIs/Get Bitfile Object Ref.vi"/>
 			<Item Name="Get Cluster Element Names.vi" Type="VI" URL="../SubVIs/Get Cluster Element Names.vi"/>
 			<Item Name="Get Input DMA Refs.vi" Type="VI" URL="../SubVIs/Get Input DMA Refs.vi"/>
 			<Item Name="Get Invalid DMA Configuration.vi" Type="VI" URL="../SubVIs/Get Invalid DMA Configuration.vi"/>
