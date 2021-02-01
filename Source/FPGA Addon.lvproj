@@ -107,7 +107,7 @@
 					<Item Name="FPGA Addon Adding Channel Items Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Adding Channel Items/Adding Channel Items/FPGA Addon Adding Channel Items Unit Tests.lvclass"/>
 				</Item>
 				<Item Name="Bitfile Reload Unit Tests" Type="Folder">
-					<Item Name="Bitfile Reload Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Bitfile Reload Testing/Bitfile Reload Unit Tests/Bitfile Reload Unit Tests.lvclass"/>
+					<Item Name="FPGA Addon Bitfile Reload Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Bitfile Reload Testing/Bitfile Reload Unit Tests/FPGA Addon Bitfile Reload Unit Tests.lvclass"/>
 				</Item>
 				<Item Name="DMA Channels Testing" Type="Folder">
 					<Item Name="FPGA Addon DMA Channel Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/DMA Channels Testing/DMA Channel Testing/FPGA Addon DMA Channel Unit Tests.lvclass"/>
@@ -625,6 +625,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../Submodules/Source/Speciality FPGA IO.lvlib"/>
