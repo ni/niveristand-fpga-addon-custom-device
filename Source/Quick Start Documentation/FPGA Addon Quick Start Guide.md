@@ -454,4 +454,42 @@ The contained API is described as follows:
 
 <br><br>
 
-## API Examples
+## Example Usage for Scripting API
+
+The examples are built using the compiled version of the scripting API - this means that to be able to run the examples, you need to either have the FPGA Addon Scripting API installed via NPM package, or compiled locally from the project source code and moved to the appropriate location in vi.lib (this is handled automatically in the Scripting API build specification, via post-action). The examples are located in the following directory: "**_repo location_**\Source\Examples\Scripting API Examples"
+
+<br>
+
+### Example 1
+
+<br>
+
+Create an FPGA addon custom device, import a stored configuration from .dat file and get the imported addon properties.
+
+![Example 1](./Images/example1.png)
+
+
+### Example 2
+
+<br>
+
+Find an existing FPGA addon custom device and export it's configuration to a .dat file.
+
+![Example 2](./Images/example2.png)
+
+
+### Example 3
+
+<br>
+
+Create a new FPGA addon, set a new bitfile, set the RIO resource and import all of the scalar registers from the bitfile.
+
+![Example 3](./Images/example3.png)
+
+### Example 4
+
+<br>
+
+Create a new FPGA addon, set a new bitfile, set the RIO resource and import selectively scalar registers from the bitfile.
+
+![Example 4](./Images/example4.png)
