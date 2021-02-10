@@ -448,7 +448,7 @@ The contained API is described as follows:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Import scalars - by label](./Images/import_scalars_by_label.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If an FPGA bitfile was configured, imports the specified control and indicator registers. The function operates only on scalar objects.  For each control or indicator, a channel will be created within the target FPGA addon, under their respective section (Scalar Inputs or Scalar Outputs). By default (i.e. if the "SysDef Name" field for a given scalar is empty) the channel names will correspond to the control and indicator labels within the bitfile.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If an FPGA bitfile was configured, imports the specified control and indicator registers. The function operates only on scalar objects.  For each control or indicator, a channel will be created within the target FPGA addon, under their respective section (Scalar Inputs or Scalar Outputs). By default (i.e. if the "SysDef Name" field for a given scalar is empty) the channel names will correspond to the control and indicator labels within the bitfile. Both the "Bitfile Name" and the "Sysdef Name" values must be unique, otherwise this VI will return an error.
 
 ---
 
