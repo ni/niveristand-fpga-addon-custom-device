@@ -305,158 +305,65 @@ Use the following image as an example of the API:​​
 
 <br>
 
-Users can add flexibility and reusability to their systems by creating and configuring system definitions through the Scripting API. The API is grouped in 3 palettes:
+Use the Scripting API to create flexible and reusable system definition files. The API is grouped into the **Custom Device**, **Bitfile Resources**, and **Utilities** palettes.  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Main palette](./Images/main_palette.png)
 
-with: 
+## Custom Device Palette
 
-- Custom Device palette
-<br><br>
+Access the Custom Device palette for VIs that allow you to retrieve and modify bitfile resources.  
+
+<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Custom Device palette](./Images/custom_device_palette.png)
 
+| VI  | Description |
+|-------|-------------|
+| Create FPGA Addon <br> ![Create FPGA addon](./Images/create_FPGA_addon.png) | Creates an FPGA addon within the provided system definition target and returns a corresponding reference number. The FPGA addon name must be unique. Otherwise, the VI returns an error.   |
+| Import FPGA Addon Configuration <br> ![Import FPGA addon configuration](./Images/import_fpga_addon_configuration.png)  | Imports and applies the FPGA addon configuration to the system definition target. The provided path must lead to a valid *.dat file*. Otherwise, the VI returns an error.  |
+| Delete FPGA Addon <br> ![Delete FPGA addon](./Images/delete_FPGA_addon.png) | Deletes an FPGA addon based on the provided reference number.  |
+| Export FPGA Addon Configuration <br> ![Export FPGA addon configuration](./Images/export_fpga_addon_configuration.png) | Exports the configuration of the FPGA addon target to the specified *.dat* file. If a file already exists at the provided path, the file will be overwritten. |
 
-- Bitfile Resources palette
-<br><br>
+## Bitfile Resources palette
+
+Access the Bitfile Resources palette for VIs that allow you to view and modify FPGA bitfiles.  
+
+<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Bitfile Resources palette](./Images/bitfile_resources_palette.png)
 
-- Utilities palette
-<br><br>
+| VI  | Description |
+|-------|-------------|
+| Get RIO Resource <br> ![Get RIO resource](./Images/get_RIO_resource.png) | Returns the hardware RIO resource configured for the FPGA addon target.  |
+| Get FPGA Bitfile <br> ![Get FPGA bitfile](./Images/get_fpga_bitfile.png) | Returns the path of the configured bitfile for the provided FPGA addon. |
+| Import Bitfile Scalars | Conducts import operations for the control and indicator registers contained in the configured FPGA addon target’s bitfile. <br><br> This VI has two polymorphic instances. **All** and **By Label**.  |
+| Import Scalars – All <br> ![Import scalars - all](./Images/import_scalars_all.png) | Imports all control and indicator registers within a configured FPGA bitfile. This function operates only on scalar objects. <br><br> For each control or indicator, a channel will be created within the FPGA addon target under **Scalar Inputs** or **Scalar Outputs**. The channel names correspond to the control and indicator labels within the bitfile. |
+| Import Scalars - By Label <br> ![Import scalars - by label](./Images/import_scalars_by_label.png) | Imports specified control and indicator registers within a configured FPGA bitfile. This function operates only on scalar objects. <br><br> For each control or indicator, a channel is created within the FPGA addon target under **Scalar Inputs** and **Scalar Outputs**. If the scalar’s **SysDef Name** is not specified, the channel names are set to the control and indicator labels within the bitfile.  |
+| Set RIO Resource <br> ![Set RIO resource](./Images/set_RIO_resource.png) | Sets the hardware RIO resource for the FPGA addon.  |
+| Set FPGA Bitfile <br> ![Set FPGA bitfile](./Images/set_fpga_bitfile.png) | Loads and configures the FPGA addon with the FPGA bitfile specified by **FPGA bitfile path**. |
+| Get Bitfile Scalars <br> ![Get bitfile scalars](./Images/get_bitfile_scalars.png) | Returns a data array containing information on the control and indicator registers within a configured FPGA bitfile. <br><br> The function also determines if a given control or indicator was already imported as a channel within the FPGA addon target. |
+
+## Utilities palette
+
+Access the **Utilities** palette for VIs to locate FPGA addons in a system definition.
+
+<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Utilities palette](./Images/utilities_palette.png)
 
----
 
-<br><br>
-The contained API is described as follows:
+| VI  | Description |
+|-------|-------------|
+| Find FPGA Addon <br> ![Find FPGA addon](./Images/find_FPGA_addon.png) | Determines if an FPGA addon with the provided name exists within the specified system definition target. If the FPGA addon is present, the VI will return its reference number. |
+| Find FPGA Addons <br> ![Find FPGA addons](./Images/find_FPGA_addons.png) | Searches the specified system definition target for FPGA addons. If FPGA addons are found, this VI will return an array of custom device reference numbers. |
 
----
-
-
-- Create FPGA addon custom device
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Create FPGA addon](./Images/create_FPGA_addon.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Creates an FPGA addon custom device within the provided System Definition Target. The FPGA addon name must be unique, otherwise the VI will return an error. The VI returns the reference of the created custom device.
-
----
 <br>
 
-- Find FPGA addon custom device
+## Examples of Scripting API
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Find FPGA addon](./Images/find_FPGA_addon.png)
+For examples of LabVIEW code that implement the scripting API, refer to the "&lt;repo location&gt;\Source\Examples\Scripting API Examples" directory.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Checks if an FPGA addon custom device, with the provided name exists within the specified system definition target. If an FPGA addon custom device exists, this VI will return it's reference.
-
----
-<br>
-
-- Find FPGA addon custom devices
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Find FPGA addons](./Images/find_FPGA_addons.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Searches the specified system definition target for FPGA addon custom devices. If found, this VI will return an array of custom device references.
-
----
-<br>
-
-- Delete FPGA addon custom device
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Delete FPGA addon](./Images/delete_FPGA_addon.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deletes the FPGA addon custom device with the provided reference.
-
----
-<br>
-
-- Import FPGA addon configuration
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Import FPGA addon configuration](./Images/import_fpga_addon_configuration.png) 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Imports and applies the FPGA addon configuration to the target custom device. The wired path must lead t to a valid ".dat" file, othewise this VI will return an error.
-
----
-<br>
-
-- Export FPGA addon configuration
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Export FPGA addon configuration](./Images/export_fpga_addon_configuration.png) 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Exports the configuration of the target FPGA addon custom device to the specified ".dat" file.  If a file already exists at the provided path, the file will be overriden.
-
----
-<br>
-
-- Get RIO resource
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Get RIO resource](./Images/get_RIO_resource.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Returns the hardware RIO resource configured for the target FPGA addon custom device.
-
----
-<br>
-
-- Set RIO resource
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Set RIO resource](./Images/set_RIO_resource.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sets the hardware RIO resource for the FPGA addon custom device
-
----
-<br>
-
-- Get FPGA bitfile
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Get FPGA bitfile](./Images/get_fpga_bitfile.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This VI returns the path of the bitfile that was configured for the provided FPGA addon custom device.
-
----
-<br>
-
-- Set FPGA bitfile
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Set FPGA bitfile](./Images/set_fpga_bitfile.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This VI loads and configures the FPGA addon custom device with the FPGA bitfile specified by the "FPGA bitfile path" input.
-
----
-<br>
-
-- Get bitfile scalars
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Get bitfile scalars](./Images/get_bitfile_scalars.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If an FPGA bitfile was already configured, this VI returns a data array containing information about the available control and indicator registers within the bitfile. The function checks as well wether a given control or indicator was already imported (and exists as a channel) within the target FPGA addon custom device.
-
----
-<br>
-
-- Import bitfile scalars
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Handles typical import operations, for the control and indicator registers contained in the bitfile configured for the target FPGA addon custom device. It has two polymorphic instances:
-
-- Import scalars - all 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Import scalars - all](./Images/import_scalars_all.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If an FPGA bitfile was configured, imports all of the control and indicator registers contained within. The function operates only on scalar objects.  For each control or indicator, a channel will be created within the target FPGA addon, under their respective section (Scalar Inputs or Scalar Outputs). The channel names will correspond to the control and indicator labels within the bitfile.
-
-- Import scalars - by label 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Import scalars - by label](./Images/import_scalars_by_label.png)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If an FPGA bitfile was configured, imports the specified control and indicator registers. The function operates only on scalar objects.  For each control or indicator, a channel will be created within the target FPGA addon, under their respective section (Scalar Inputs or Scalar Outputs). By default (i.e. if the "SysDef Name" field for a given scalar is empty) the channel names will correspond to the control and indicator labels within the bitfile.
-
----
-
-<br><br>
-
-## Example Usage for Scripting API
-
-The examples are built using the compiled version of the scripting API - this means that to be able to run the examples, you need to either have the FPGA Addon Scripting API installed via NPM package, or compiled locally from the project source code and moved to the appropriate location in vi.lib (this is handled automatically in the Scripting API build specification, via post-action). The examples are located in the following directory: "**_repo location_**\Source\Examples\Scripting API Examples"
+These examples are built using the compiled version of the FPGA Addon Scripting API. To run the examples, you need to install the complied scripting API through NI Package Manager. You can also compile the API locally from the project source code and move it to the appropriate location in *vi.lib*. The API is automatically moved by the build specification through a post-action.
 
 <br>
 
@@ -464,7 +371,7 @@ The examples are built using the compiled version of the scripting API - this me
 
 <br>
 
-Create an FPGA addon custom device, import a stored configuration from .dat file and get the imported addon properties.
+Create an FPGA addon custom device, import a stored configuration from *.dat* file, and return the imported addon properties.
 
 ![Example 1](./Images/example1.png)
 
@@ -473,7 +380,7 @@ Create an FPGA addon custom device, import a stored configuration from .dat file
 
 <br>
 
-Find an existing FPGA addon custom device and export it's configuration to a .dat file.
+Find an existing FPGA addon custom device and export its configuration to a *.dat* file.
 
 ![Example 2](./Images/example2.png)
 
@@ -482,7 +389,7 @@ Find an existing FPGA addon custom device and export it's configuration to a .da
 
 <br>
 
-Create a new FPGA addon, set a new bitfile, set the RIO resource and import all of the scalar registers from the bitfile.
+Create a new FPGA addon, set a new bitfile, set the RIO resource, and import all scalar registers from the bitfile.
 
 ![Example 3](./Images/example3.png)
 
@@ -490,6 +397,6 @@ Create a new FPGA addon, set a new bitfile, set the RIO resource and import all 
 
 <br>
 
-Create a new FPGA addon, set a new bitfile, set the RIO resource and import selectively scalar registers from the bitfile.
+Create a new FPGA addon, set a new bitfile, set the RIO resource, and selectively import scalar registers from the bitfile.
 
 ![Example 4](./Images/example4.png)

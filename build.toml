@@ -8,6 +8,17 @@ path = 'Source\FPGA Addon System Definition API.lvproj'
 [projects.cd]
 path = 'Source\FPGA Addon.lvproj'
 
+[projects.api_examples]
+path = 'Source\Examples\Scripting API Examples\FPGA Addon Scripting Examples.lvproj'
+
+[[build.steps]]
+name = 'Packed Scripting API'
+type = 'lvBuildSpec'
+project = '{api_examples}'
+target = 'My Computer'
+build_spec = 'Scripting Examples'
+dependency_target = 'Windows'
+
 [[build.steps]]
 name = 'Packed Scripting API'
 type = 'lvBuildSpec'
@@ -77,4 +88,11 @@ type = 'nipkg'
 payload_dir = 'Built\Packed Scripting API'
 install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\FPGA Addon'
 control_file = 'control_scripting_api'
+package_output_dir = 'Built'
+
+[[package]]
+type = 'nipkg'
+payload_dir = 'Built\Scripting Examples'
+install_destination = 'ni-paths-LV{veristand_version}DIR\examples\NI VeriStand Custom Devices\FPGA Addon'
+control_file = 'control_scripting_examples'
 package_output_dir = 'Built'
