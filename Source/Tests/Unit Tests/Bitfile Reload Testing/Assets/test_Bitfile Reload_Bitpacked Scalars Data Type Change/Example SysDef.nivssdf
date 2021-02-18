@@ -10,7 +10,7 @@
 				<String>Example SysDef</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.18</String>
+				<String>1.0.0.20</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -244,7 +244,7 @@
 								<String>3.1.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>D:\GitBranches\niveristand-fpga-addon-custom-device-1\Source\Tests\Unit Tests\Bitfile Reload Testing\Assets\test_Bitfile Reload_Bitpacked Scalars Data Type Change\TestBitfile2.lvbitx</String>
+								<String>D:\GitBranches\niveristand-fpga-addon-custom-device-1\Source\Tests\Unit Tests\Bitfile Reload Testing\Assets\test_Bitfile Reload_Bitpacked Scalars Data Type Change\TestBitfile1.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO0</String>
@@ -253,12 +253,12 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Relative" Path="TestBitfile2.lvbitx">
+								<DependentFile Type="Relative" Path="TestBitfile1.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\TestBitfile2.lvbitx</RTDestination>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\TestBitfile1.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>8be248877fb43ce9900d340bc5352c13</MD5>
+									<MD5>1229c4cf3feb0fafb43cfc624b8a43e4</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
@@ -278,18 +278,58 @@
 									</Property>
 								</Properties>
 								<Errors />
-								<Channel Name="Inputs.RPM" TypeGUID="9bd0c044-925c-4d1d-a44e-de3c4043858c" RowDim="1" ColDim="1" Units="" BitFields="13">
+								<Section Name="Inputs.RPM" TypeGUID="8489bf21-57e3-4e68-bdd5-eadff573ec1e">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
-											<String>Inputs.RPM</String>
+											<BinaryString>SW5wdXRzLlJQTQ==</BinaryString>
+										</Property>
+										<Property Name="user.CD.Scalar.NumberOfChans">
+											<U32>5</U32>
 										</Property>
 									</Properties>
 									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
+									<Channel Name="Inputs.RPM" TypeGUID="4b03cffd-e469-431a-ba96-aca85ece66af" RowDim="1" ColDim="1" Units="" BitFields="13">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Inputs.RPM 1" TypeGUID="4b03cffd-e469-431a-ba96-aca85ece66af" RowDim="1" ColDim="1" Units="" BitFields="13">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Inputs.RPM 2" TypeGUID="4b03cffd-e469-431a-ba96-aca85ece66af" RowDim="1" ColDim="1" Units="" BitFields="13">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Inputs.RPM 3" TypeGUID="4b03cffd-e469-431a-ba96-aca85ece66af" RowDim="1" ColDim="1" Units="" BitFields="13">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Inputs.RPM 4" TypeGUID="4b03cffd-e469-431a-ba96-aca85ece66af" RowDim="1" ColDim="1" Units="" BitFields="13">
+										<Description />
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
 							</Section>
 							<Section Name="Scalar Outputs" TypeGUID="7d46fed9-731a-4423-8f13-aa8ac2cd791c">
 								<Description />
@@ -302,18 +342,78 @@
 									</Property>
 								</Properties>
 								<Errors />
-								<Channel Name="Outputs.Value" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+								<Section Name="Outputs.Value" TypeGUID="ebfc3e29-7579-49df-b828-0da2c3787b5f">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
-											<String>Outputs.Value</String>
+											<BinaryString>T3V0cHV0cy5WYWx1ZQ==</BinaryString>
+										</Property>
+										<Property Name="user.CD.Scalar.NumberOfChans">
+											<U32>5</U32>
 										</Property>
 									</Properties>
 									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
+									<Channel Name="Outputs.Value" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="" BitFields="15">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>Outputs.Value</String>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Outputs.Value 1" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="" BitFields="15">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>Outputs.Value 1</String>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Outputs.Value 2" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="" BitFields="15">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>Outputs.Value 2</String>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Outputs.Value 3" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="" BitFields="15">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>Outputs.Value 3</String>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Outputs.Value 4" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="" BitFields="15">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>Outputs.Value 4</String>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
 							</Section>
 						</Section>
 						<Section Name="Waveforms" TypeGUID="5f75895a-bfdb-4cd8-9ef2-787e261eba38">

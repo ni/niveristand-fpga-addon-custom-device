@@ -630,10 +630,13 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Open System Definition.vi" Type="VI" URL="../Tests/System Tests/Bitfile Reload Testing/Bitfile Reload Testing/private/Open System Definition.vi"/>
+			<Item Name="Save System Definition.vi" Type="VI" URL="../Tests/System Tests/Bitfile Reload Testing/Bitfile Reload Testing/private/Save System Definition.vi"/>
 			<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../Submodules/Source/Speciality FPGA IO.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Update bitfile.vi" Type="VI" URL="../Tests/System Tests/Bitfile Reload Testing/Bitfile Reload Testing/private/Update bitfile.vi"/>
 			<Item Name="VeriStandTestCase.lvclass" Type="LVClass" URL="../../../niveristand-custom-device-testing-tools/VeriStandTestCase/VeriStandTestCase.lvclass"/>
 			<Item Name="VeriStandTestUtilities.lvlib" Type="Library" URL="../../../niveristand-custom-device-testing-tools/VeriStandTestUtilities/VeriStandTestUtilities.lvlib"/>
 		</Item>
