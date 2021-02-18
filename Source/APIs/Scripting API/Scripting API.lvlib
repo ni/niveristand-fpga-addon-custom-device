@@ -36,8 +36,8 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Bitfile Resources" Type="Folder">
 			<Item Name="Import Bitfile Scalars (Instances)" Type="Folder">
-				<Item Name="Import Scalars - all.vi" Type="VI" URL="../Public/Bitfile Resources/Import Bitfile Scalars (Instances)/Import Scalars - all.vi"/>
-				<Item Name="Import Scalars - by label.vi" Type="VI" URL="../Public/Bitfile Resources/Import Bitfile Scalars (Instances)/Import Scalars - by label.vi"/>
+				<Item Name="Import Scalars - All.vi" Type="VI" URL="../Public/Bitfile Resources/Import Bitfile Scalars (Instances)/Import Scalars - All.vi"/>
+				<Item Name="Import Scalars - By Label.vi" Type="VI" URL="../Public/Bitfile Resources/Import Bitfile Scalars (Instances)/Import Scalars - By Label.vi"/>
 			</Item>
 			<Item Name="Get Bitfile Scalars.vi" Type="VI" URL="../Public/Bitfile Resources/Get Bitfile Scalars.vi"/>
 			<Item Name="Get FPGA Bitfile.vi" Type="VI" URL="../Public/Bitfile Resources/Get FPGA Bitfile.vi"/>
