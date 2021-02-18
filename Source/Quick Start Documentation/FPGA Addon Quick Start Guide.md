@@ -307,7 +307,7 @@ Use the following image as an example of the API:​​
 
 Use the Scripting API to create flexible and reusable system definition files. The API is grouped into the **Custom Device**, **Bitfile Resources**, and **Utilities** palettes.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Main palette](./Images/main_palette.png)
+&nbsp;&nbsp;![Main palette](./Images/main_palette.png)
 
 ## Custom Device Palette
 
@@ -315,7 +315,7 @@ Access the Custom Device palette for VIs that allow you to retrieve and modify b
 
 <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Custom Device palette](./Images/custom_device_palette.png)
+&nbsp;&nbsp;![Custom Device palette](./Images/custom_device_palette.png)
 
 | VI  | Description |
 |-------|-------------|
@@ -330,7 +330,7 @@ Access the Bitfile Resources palette for VIs that allow you to view and modify F
 
 <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Bitfile Resources palette](./Images/bitfile_resources_palette.png)
+&nbsp;&nbsp;![Bitfile Resources palette](./Images/bitfile_resources_palette.png)
 
 | VI  | Description |
 |-------|-------------|
@@ -349,7 +349,7 @@ Access the **Utilities** palette for VIs to locate FPGA addons in a system defin
 
 <br>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![Utilities palette](./Images/utilities_palette.png)
+&nbsp;&nbsp;![Utilities palette](./Images/utilities_palette.png)
 
 
 | VI  | Description |
