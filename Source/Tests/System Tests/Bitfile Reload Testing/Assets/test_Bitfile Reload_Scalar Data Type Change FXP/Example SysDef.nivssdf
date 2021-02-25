@@ -10,7 +10,7 @@
 				<String>Example SysDef</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.27</String>
+				<String>1.0.0.35</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -28,10 +28,10 @@
 				<Description />
 				<Properties>
 					<Property Name="OS">
-						<String>PharLap</String>
+						<String>Windows</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>GEcoPharLap18sp1</String>
+						<String>localhost</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -244,7 +244,7 @@
 								<String>3.1.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>D:\GitBranches\niveristand-fpga-addon-custom-device-1\Source\Tests\System Tests\Bitfile Reload Testing\Assets\test_Bitfile Reload_Scalar Data Type Change\TestBitfile1.lvbitx</String>
+								<String>D:\GitBranches\niveristand-fpga-addon-custom-device-1\Source\Tests\System Tests\Bitfile Reload Testing\Assets\test_Bitfile Reload_Scalar Data Type Change FXP\TestBitfile1.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO0</String>
@@ -258,7 +258,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\TestBitfile1.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>fa990b5433892fdc01b84ffff1390d9e</MD5>
+									<MD5>af567b8e9e2b7bcefd4dcba169cc17f6</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
@@ -273,7 +273,7 @@
 									<Property Name="user.CD.Available Registers">
 										<Variant>
 											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAACgxgAgAAAAAAFAA5AMP////8ETmFtZQABwQDxAAAAAAAAAAIXRlBHQSBBZGRvbiBTaGFyZWQubHZsaWINRGF0YSBUeXBlLmN0bAGTQBUAIgY8TnVsbD4CSTgDSTE2A0kzMgNJNjQCVTgDVTE2A1UzMgNVNjQDU0dMB0Jvb2xlYW4WQW5hbG9nIFBXTSBJbiBTZXR0aW5ncw1BbmFsb2cgUFdNIEluF0RpZ2l0YWwgUFdNIEluIFNldHRpbmdzDkRpZ2l0YWwgUFdNIEluD0RpZ2l0YWwgUFdNIE91dAhTaW5lIE91dApGWFArLy0yNC41CkZYUCsvLTE2LjUKRlhQKy8tMzIuOAtGWFArLy02NC4zMgpGWFArLy0xNi43CkZYUCsvLTIwLjUKRlhQKy8tMjcuNQtGWFArLy0zMi4xNghGWFArMTYuMwhGWFArMTguMxFEaWdpdGFsIFN0YXRpYyBJbhJEaWdpdGFsIFN0YXRpYyBPdXQaRGlnaXRhbCBTdGF0aWMgSW4gU2V0dGluZ3MPRGlnaXRhbCBXU1MgT3V0FVF1YWQgRW5jb2RlciBTZXR0aW5ncw9RdWFkIEVuY29kZXIgSW4FR3JvdXAACURhdGEgVHlwZQASQFMNRGVmYXVsdCBWYWx1ZQBJAPEAAAAAAAAAAhdGUEdBIEFkZG9uIFNoYXJlZC5sdmxpYhhSZWdpc3RlciBJbmZvcm1hdGlvbi5jdGwAEABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAABAAAAA1JQTQkYAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</Data>
+											<Data>AAACvhgAgAAAAAAFAA5AMP////8ETmFtZQABwQDxAAAAAAAAAAIXRlBHQSBBZGRvbiBTaGFyZWQubHZsaWINRGF0YSBUeXBlLmN0bAGTQBUAIgY8TnVsbD4CSTgDSTE2A0kzMgNJNjQCVTgDVTE2A1UzMgNVNjQDU0dMB0Jvb2xlYW4WQW5hbG9nIFBXTSBJbiBTZXR0aW5ncw1BbmFsb2cgUFdNIEluF0RpZ2l0YWwgUFdNIEluIFNldHRpbmdzDkRpZ2l0YWwgUFdNIEluD0RpZ2l0YWwgUFdNIE91dAhTaW5lIE91dApGWFArLy0yNC41CkZYUCsvLTE2LjUKRlhQKy8tMzIuOAtGWFArLy02NC4zMgpGWFArLy0xNi43CkZYUCsvLTIwLjUKRlhQKy8tMjcuNQtGWFArLy0zMi4xNghGWFArMTYuMwhGWFArMTguMxFEaWdpdGFsIFN0YXRpYyBJbhJEaWdpdGFsIFN0YXRpYyBPdXQaRGlnaXRhbCBTdGF0aWMgSW4gU2V0dGluZ3MPRGlnaXRhbCBXU1MgT3V0FVF1YWQgRW5jb2RlciBTZXR0aW5ncw9RdWFkIEVuY29kZXIgSW4FR3JvdXAACURhdGEgVHlwZQASQFMNRGVmYXVsdCBWYWx1ZQBJAPEAAAAAAAAAAhdGUEdBIEFkZG9uIFNoYXJlZC5sdmxpYhhSZWdpc3RlciBJbmZvcm1hdGlvbi5jdGwAEABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAABAAAAA1JQTRIYAIAAAAAAAQBAQF8DUQAQAAAABQABAAEAAAAF//////////8AAAAPAAAABAAAAAAAAH//AAAAAf////YAAAAAAAAAAQNSUE0AAQAAAAAAAAAAAAAAAAAAAAAAAA==</Data>
 										</Variant>
 									</Property>
 								</Properties>
@@ -297,7 +297,7 @@
 									<Property Name="user.CD.Available Registers">
 										<Variant>
 											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAAChRgAgAAAAAAFAA5AMP////8ETmFtZQABwQDxAAAAAAAAAAIXRlBHQSBBZGRvbiBTaGFyZWQubHZsaWINRGF0YSBUeXBlLmN0bAGTQBUAIgY8TnVsbD4CSTgDSTE2A0kzMgNJNjQCVTgDVTE2A1UzMgNVNjQDU0dMB0Jvb2xlYW4WQW5hbG9nIFBXTSBJbiBTZXR0aW5ncw1BbmFsb2cgUFdNIEluF0RpZ2l0YWwgUFdNIEluIFNldHRpbmdzDkRpZ2l0YWwgUFdNIEluD0RpZ2l0YWwgUFdNIE91dAhTaW5lIE91dApGWFArLy0yNC41CkZYUCsvLTE2LjUKRlhQKy8tMzIuOAtGWFArLy02NC4zMgpGWFArLy0xNi43CkZYUCsvLTIwLjUKRlhQKy8tMjcuNQtGWFArLy0zMi4xNghGWFArMTYuMwhGWFArMTguMxFEaWdpdGFsIFN0YXRpYyBJbhJEaWdpdGFsIFN0YXRpYyBPdXQaRGlnaXRhbCBTdGF0aWMgSW4gU2V0dGluZ3MPRGlnaXRhbCBXU1MgT3V0FVF1YWQgRW5jb2RlciBTZXR0aW5ncw9RdWFkIEVuY29kZXIgSW4FR3JvdXAACURhdGEgVHlwZQASQFMNRGVmYXVsdCBWYWx1ZQBJAPEAAAAAAAAAAhdGUEdBIEFkZG9uIFNoYXJlZC5sdmxpYhhSZWdpc3RlciBJbmZvcm1hdGlvbi5jdGwAEABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAABAAAABVZBTFVFCRgAgAAAAAABAAUACgAAAQAAQI9H64AAAAAAAAAAAAAAAA==</Data>
+											<Data>AAACwhgAgAAAAAAFAA5AMP////8ETmFtZQABwQDxAAAAAAAAAAIXRlBHQSBBZGRvbiBTaGFyZWQubHZsaWINRGF0YSBUeXBlLmN0bAGTQBUAIgY8TnVsbD4CSTgDSTE2A0kzMgNJNjQCVTgDVTE2A1UzMgNVNjQDU0dMB0Jvb2xlYW4WQW5hbG9nIFBXTSBJbiBTZXR0aW5ncw1BbmFsb2cgUFdNIEluF0RpZ2l0YWwgUFdNIEluIFNldHRpbmdzDkRpZ2l0YWwgUFdNIEluD0RpZ2l0YWwgUFdNIE91dAhTaW5lIE91dApGWFArLy0yNC41CkZYUCsvLTE2LjUKRlhQKy8tMzIuOAtGWFArLy02NC4zMgpGWFArLy0xNi43CkZYUCsvLTIwLjUKRlhQKy8tMjcuNQtGWFArLy0zMi4xNghGWFArMTYuMwhGWFArMTguMxFEaWdpdGFsIFN0YXRpYyBJbhJEaWdpdGFsIFN0YXRpYyBPdXQaRGlnaXRhbCBTdGF0aWMgSW4gU2V0dGluZ3MPRGlnaXRhbCBXU1MgT3V0FVF1YWQgRW5jb2RlciBTZXR0aW5ncw9RdWFkIEVuY29kZXIgSW4FR3JvdXAACURhdGEgVHlwZQASQFMNRGVmYXVsdCBWYWx1ZQBJAPEAAAAAAAAAAhdGUEdBIEFkZG9uIFNoYXJlZC5sdmxpYhhSZWdpc3RlciBJbmZvcm1hdGlvbi5jdGwAEABQAAMAAAABAAIAIEBAAAH/////AAMTQXZhaWxhYmxlIFJlZ2lzdGVycwABAAQAAAABAAAABVZBTFVFEhgAgAAAAAABAEJAXwNRABAAAAAFAAEAAQAAAAX//////////wAAAA8AAAAEAAAAAAAAf/8AAAAB////9gAAAAAAAAABBVZBTFVFAAEAAAAAAAAAAHwAAAAAAAAAAAA=</Data>
 										</Variant>
 									</Property>
 								</Properties>

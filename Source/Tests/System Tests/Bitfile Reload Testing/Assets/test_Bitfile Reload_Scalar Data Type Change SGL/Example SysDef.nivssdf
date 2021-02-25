@@ -10,7 +10,7 @@
 				<String>Example SysDef</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.27</String>
+				<String>1.0.0.30</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -244,7 +244,7 @@
 								<String>3.1.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>D:\GitBranches\niveristand-fpga-addon-custom-device-1\Source\Tests\System Tests\Bitfile Reload Testing\Assets\test_Bitfile Reload_Scalar Data Type Change\TestBitfile1.lvbitx</String>
+								<String>D:\GitBranches\niveristand-fpga-addon-custom-device-1\Source\Tests\System Tests\Bitfile Reload Testing\Assets\test_Bitfile Reload_Scalar Data Type Change SGL\TestBitfile1.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO0</String>
@@ -258,7 +258,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\TestBitfile1.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>fa990b5433892fdc01b84ffff1390d9e</MD5>
+									<MD5>fbed9ca50598dc8b774336035fceaa1e</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
