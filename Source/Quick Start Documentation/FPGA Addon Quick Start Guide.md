@@ -319,10 +319,10 @@ Access the Custom Device palette for VIs that allow you to retrieve and modify b
 
 | VI  | Description |
 |-------|-------------|
-| Create FPGA Addon <br> ![Create FPGA addon](./Images/create_FPGA_addon.png) | Creates an FPGA addon within the provided system definition target and returns a corresponding reference number. The FPGA addon name must be unique. Otherwise, the VI returns an error.   |
-| Import FPGA Addon Configuration <br> ![Import FPGA addon configuration](./Images/import_fpga_addon_configuration.png)  | Imports and applies the FPGA addon configuration to the system definition target. The provided path must lead to a valid *.dat file*. Otherwise, the VI returns an error.  |
-| Delete FPGA Addon <br> ![Delete FPGA addon](./Images/delete_FPGA_addon.png) | Deletes an FPGA addon based on the provided reference number.  |
-| Export FPGA Addon Configuration <br> ![Export FPGA addon configuration](./Images/export_fpga_addon_configuration.png) | Exports the configuration of the FPGA addon target to the specified *.dat* file. If a file already exists at the provided path, the file will be overwritten. |
+| Create FPGA Addon <br> ![Create FPGA addon](./Images/create_FPGA_addon.PNG) | Creates an FPGA addon within the provided system definition target and returns a corresponding reference number. The FPGA addon name must be unique. Otherwise, the VI returns an error.   |
+| Import FPGA Addon Configuration <br> ![Import FPGA addon configuration](./Images/import_fpga_addon_configuration.PNG)  | Imports and applies the FPGA addon configuration to the system definition target. The provided path must lead to a valid *.dat file*. Otherwise, the VI returns an error.  |
+| Delete FPGA Addon <br> ![Delete FPGA addon](./Images/delete_FPGA_addon.PNG) | Deletes an FPGA addon based on the provided reference number.  |
+| Export FPGA Addon Configuration <br> ![Export FPGA addon configuration](./Images/export_fpga_addon_configuration.PNG) | Exports the configuration of the FPGA addon target to the specified *.dat* file. If a file already exists at the provided path, the file will be overwritten. |
 
 ## Bitfile Resources palette
 
@@ -349,13 +349,13 @@ Access the **Utilities** palette for VIs to locate FPGA addons in a system defin
 
 <br>
 
-&nbsp;&nbsp;![Utilities palette](./Images/utilities_palette.png)
+&nbsp;&nbsp;![Utilities palette](./Images/utilities_palette.PNG)
 
 
 | VI  | Description |
 |-------|-------------|
-| Find FPGA Addon <br> ![Find FPGA addon](./Images/find_FPGA_addon.png) | Determines if an FPGA addon with the provided name exists within the specified system definition target. If the FPGA addon is present, the VI will return its reference number. |
-| Find FPGA Addons <br> ![Find FPGA addons](./Images/find_FPGA_addons.png) | Searches the specified system definition target for FPGA addons. If FPGA addons are found, this VI will return an array of custom device reference numbers. |
+| Find FPGA Addon <br> ![Find FPGA addon](./Images/find_FPGA_addon.PNG) | Determines if an FPGA addon with the provided name exists within the specified system definition target. If the FPGA addon is present, the VI will return its reference number. |
+| Find FPGA Addons <br> ![Find FPGA addons](./Images/find_FPGA_addons.PNG) | Searches the specified system definition target for FPGA addons. If FPGA addons are found, this VI will return an array of custom device reference numbers. |
 
 <br>
 
@@ -373,7 +373,7 @@ These examples are built using the compiled version of the FPGA Addon Scripting 
 
 Create an FPGA addon custom device, import a stored configuration from *.dat* file, and return the imported addon properties.
 
-![Example 1](./Images/example1.png)
+![Example 1](./Images/example1.PNG)
 
 
 ### Example 2
@@ -382,7 +382,7 @@ Create an FPGA addon custom device, import a stored configuration from *.dat* fi
 
 Find an existing FPGA addon custom device and export its configuration to a *.dat* file.
 
-![Example 2](./Images/example2.png)
+![Example 2](./Images/example2.PNG)
 
 
 ### Example 3
@@ -391,7 +391,7 @@ Find an existing FPGA addon custom device and export its configuration to a *.da
 
 Create a new FPGA addon, set a new bitfile, set the RIO resource, and import all scalar registers from the bitfile.
 
-![Example 3](./Images/example3.png)
+![Example 3](./Images/example3.PNG)
 
 ### Example 4
 
@@ -399,4 +399,4 @@ Create a new FPGA addon, set a new bitfile, set the RIO resource, and import all
 
 Create a new FPGA addon, set a new bitfile, set the RIO resource, and selectively import scalar registers from the bitfile.
 
-![Example 4](./Images/example4.png)
+![Example 4](./Images/example4.PNG)
