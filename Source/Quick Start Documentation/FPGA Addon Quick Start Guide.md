@@ -349,7 +349,7 @@ Access the **Utilities** palette for VIs to locate FPGA addons in a system defin
 
 <br>
 
-&nbsp;&nbsp;![Utilities palette](./Images/utilities_palette.PNG)
+&nbsp;&nbsp;![Utilities palette](./Images/utilities_palette.png)
 
 
 | VI  | Description |
