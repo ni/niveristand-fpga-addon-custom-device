@@ -334,7 +334,7 @@ Access the Bitfile Resources palette for VIs that allow you to view and modify F
 
 | VI  | Description |
 |-------|-------------|
-| Get RIO Resource <br> ![Get RIO resource](./Images/get_RIO_resource.png) | Returns the hardware RIO resource configured for the FPGA addon target.  |
+| Get RIO Resource <br> ![Get RIO resource](./Images/get_RIO.png) | Returns the hardware RIO resource configured for the FPGA addon target.  |
 | Get FPGA Bitfile <br> ![Get FPGA bitfile](./Images/get_fpga_bitfile.png) | Returns the path of the configured bitfile for the provided FPGA addon. |
 | Import Bitfile Scalars | Conducts import operations for the control and indicator registers contained in the configured FPGA addon target’s bitfile. <br><br> This VI has two polymorphic instances. **All** and **By Label**.  |
 | Import Scalars – All <br> ![Import scalars - all](./Images/import_scalars_all.png) | Imports all control and indicator registers within a configured FPGA bitfile. This function operates only on scalar objects. <br><br> For each control or indicator, a channel will be created within the FPGA addon target under **Scalar Inputs** or **Scalar Outputs**. The channel names correspond to the control and indicator labels within the bitfile. |
