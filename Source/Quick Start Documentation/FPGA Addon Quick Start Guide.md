@@ -354,8 +354,8 @@ Access the **Utilities** palette for VIs to locate FPGA addons in a system defin
 
 | VI  | Description |
 |-------|-------------|
-| Find FPGA Addon <br> ![Find FPGA addon](./Images/find_FPGA_addon.png) | Determines if an FPGA addon with the provided name exists within the specified system definition target. If the FPGA addon is present, the VI will return its reference number. |
-| Find FPGA Addons <br> ![Find FPGA addons](./Images/find_FPGA_addons.PNG) | Searches the specified system definition target for FPGA addons. If FPGA addons are found, this VI will return an array of custom device reference numbers. |
+| Find FPGA Addon <br> ![Find FPGA addon](./Images/find_fpga_addon.PNG) | Determines if an FPGA addon with the provided name exists within the specified system definition target. If the FPGA addon is present, the VI will return its reference number. |
+| Find FPGA Addons <br> ![Find FPGA addons](./Images/find_fpga_addons.PNG) | Searches the specified system definition target for FPGA addons. If FPGA addons are found, this VI will return an array of custom device reference numbers. |
 
 <br>
 
