@@ -319,9 +319,9 @@ Access the Custom Device palette for VIs that allow you to retrieve and modify b
 
 | VI  | Description |
 |-------|-------------|
-| Create FPGA Addon <br> ![Create FPGA addon](./Images/create_FPGA_addon.PNG) | Creates an FPGA addon within the provided system definition target and returns a corresponding reference number. The FPGA addon name must be unique. Otherwise, the VI returns an error.   |
+| Create FPGA Addon <br> ![Create FPGA addon](./Images/create_FPGA_addon.png) | Creates an FPGA addon within the provided system definition target and returns a corresponding reference number. The FPGA addon name must be unique. Otherwise, the VI returns an error.   |
 | Import FPGA Addon Configuration <br> ![Import FPGA addon configuration](./Images/import_fpga_addon_configuration.PNG)  | Imports and applies the FPGA addon configuration to the system definition target. The provided path must lead to a valid *.dat file*. Otherwise, the VI returns an error.  |
-| Delete FPGA Addon <br> ![Delete FPGA addon](./Images/delete_FPGA_addon.PNG) | Deletes an FPGA addon based on the provided reference number.  |
+| Delete FPGA Addon <br> ![Delete FPGA addon](./Images/delete_FPGA_addon.png) | Deletes an FPGA addon based on the provided reference number.  |
 | Export FPGA Addon Configuration <br> ![Export FPGA addon configuration](./Images/export_fpga_addon_configuration.PNG) | Exports the configuration of the FPGA addon target to the specified *.dat* file. If a file already exists at the provided path, the file will be overwritten. |
 
 ## Bitfile Resources palette
