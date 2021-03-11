@@ -115,6 +115,7 @@
 			<Item Name="Set Scalar Channel Data.vi" Type="VI" URL="../SubVIs/Set Scalar Channel Data.vi"/>
 			<Item Name="Split DMA by Direction.vi" Type="VI" URL="../SubVIs/Split DMA by Direction.vi"/>
 			<Item Name="Split Registers by Direction.vi" Type="VI" URL="../SubVIs/Split Registers by Direction.vi"/>
+			<Item Name="Update Scalar Channel GUID.vi" Type="VI" URL="../SubVIs/Update Scalar Channel GUID.vi"/>
 			<Item Name="Update Scalar Channel Properties.vi" Type="VI" URL="../SubVIs/Update Scalar Channel Properties.vi"/>
 			<Item Name="Update Scalar Channels.vi" Type="VI" URL="../SubVIs/Update Scalar Channels.vi"/>
 			<Item Name="Update UI.vi" Type="VI" URL="../SubVIs/Update UI.vi"/>
