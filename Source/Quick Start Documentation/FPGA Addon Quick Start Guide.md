@@ -320,9 +320,9 @@ Access the Custom Device palette for VIs that allow you to retrieve and modify b
 | VI  | Description |
 |-------|-------------|
 | Create FPGA Addon <br> ![Create FPGA addon](./Images/create_FPGA_addon.png) | Creates an FPGA addon within the provided system definition target and returns a corresponding reference number. The FPGA addon name must be unique. Otherwise, the VI returns an error.   |
-| Import FPGA Addon Configuration <br> ![Import FPGA addon configuration](./Images/import_fpga_addon_configuration.png)  | Imports and applies the FPGA addon configuration to the system definition target. The provided path must lead to a valid *.dat file*. Otherwise, the VI returns an error.  |
+| Import FPGA Addon Configuration <br> ![Import FPGA addon configuration](./Images/import_fpga_addon_configuration.PNG)  | Imports and applies the FPGA addon configuration to the system definition target. The provided path must lead to a valid *.dat file*. Otherwise, the VI returns an error.  |
 | Delete FPGA Addon <br> ![Delete FPGA addon](./Images/delete_FPGA_addon.png) | Deletes an FPGA addon based on the provided reference number.  |
-| Export FPGA Addon Configuration <br> ![Export FPGA addon configuration](./Images/export_fpga_addon_configuration.png) | Exports the configuration of the FPGA addon target to the specified *.dat* file. If a file already exists at the provided path, the file will be overwritten. |
+| Export FPGA Addon Configuration <br> ![Export FPGA addon configuration](./Images/export_fpga_addon_configuration.PNG) | Exports the configuration of the FPGA addon target to the specified *.dat* file. If a file already exists at the provided path, the file will be overwritten. |
 
 ## Bitfile Resources palette
 
@@ -334,14 +334,14 @@ Access the Bitfile Resources palette for VIs that allow you to view and modify F
 
 | VI  | Description |
 |-------|-------------|
-| Get RIO Resource <br> ![Get RIO resource](./Images/get_RIO_resource.png) | Returns the hardware RIO resource configured for the FPGA addon target.  |
-| Get FPGA Bitfile <br> ![Get FPGA bitfile](./Images/get_fpga_bitfile.png) | Returns the path of the configured bitfile for the provided FPGA addon. |
+| Get RIO Resource <br> ![Get RIO resource](./Images/RIO.PNG) | Returns the hardware RIO resource configured for the FPGA addon target.  |
+| Get FPGA Bitfile <br> ![Get FPGA bitfile](./Images/get_fpga_bitfile.PNG)| Returns the path of the configured bitfile for the provided FPGA addon. |
 | Import Bitfile Scalars | Conducts import operations for the control and indicator registers contained in the configured FPGA addon target’s bitfile. <br><br> This VI has two polymorphic instances. **All** and **By Label**.  |
-| Import Scalars – All <br> ![Import scalars - all](./Images/import_scalars_all.png) | Imports all control and indicator registers within a configured FPGA bitfile. This function operates only on scalar objects. <br><br> For each control or indicator, a channel will be created within the FPGA addon target under **Scalar Inputs** or **Scalar Outputs**. The channel names correspond to the control and indicator labels within the bitfile. |
-| Import Scalars - By Label <br> ![Import scalars - by label](./Images/import_scalars_by_label.png) | Imports specified control and indicator registers within a configured FPGA bitfile. This function operates only on scalar objects. <br><br> For each control or indicator, a channel is created within the FPGA addon target under **Scalar Inputs** and **Scalar Outputs**. If the scalar’s **SysDef Name** is not specified, the channel names are set to the control and indicator labels within the bitfile.  |
-| Set RIO Resource <br> ![Set RIO resource](./Images/set_RIO_resource.png) | Sets the hardware RIO resource for the FPGA addon.  |
-| Set FPGA Bitfile <br> ![Set FPGA bitfile](./Images/set_fpga_bitfile.png) | Loads and configures the FPGA addon with the FPGA bitfile specified by **FPGA bitfile path**. |
-| Get Bitfile Scalars <br> ![Get bitfile scalars](./Images/get_bitfile_scalars.png) | Returns a data array containing information on the control and indicator registers within a configured FPGA bitfile. <br><br> The function also determines if a given control or indicator was already imported as a channel within the FPGA addon target. |
+| Import Scalars – All <br> ![Import scalars - all](./Images/import_scalars_all.PNG) | Imports all control and indicator registers within a configured FPGA bitfile. This function operates only on scalar objects. <br><br> For each control or indicator, a channel will be created within the FPGA addon target under **Scalar Inputs** or **Scalar Outputs**. The channel names correspond to the control and indicator labels within the bitfile. |
+| Import Scalars - By Label <br> ![Import scalars - by label](./Images/import_scalars_by_label.PNG) | Imports specified control and indicator registers within a configured FPGA bitfile. This function operates only on scalar objects. <br><br> For each control or indicator, a channel is created within the FPGA addon target under **Scalar Inputs** and **Scalar Outputs**. If the scalar’s **SysDef Name** is not specified, the channel names are set to the control and indicator labels within the bitfile.  |
+| Set RIO Resource <br> ![Set RIO resource](./Images/set_RIO_resource.PNG) | Sets the hardware RIO resource for the FPGA addon.  |
+| Set FPGA Bitfile <br> ![Set FPGA bitfile](./Images/set_fpga_bitfile.PNG) | Loads and configures the FPGA addon with the FPGA bitfile specified by **FPGA bitfile path**. |
+| Get Bitfile Scalars <br> ![Get bitfile scalars](./Images/get_bitfile_scalars.PNG) | Returns a data array containing information on the control and indicator registers within a configured FPGA bitfile. <br><br> The function also determines if a given control or indicator was already imported as a channel within the FPGA addon target. |
 
 ## Utilities palette
 
@@ -354,8 +354,8 @@ Access the **Utilities** palette for VIs to locate FPGA addons in a system defin
 
 | VI  | Description |
 |-------|-------------|
-| Find FPGA Addon <br> ![Find FPGA addon](./Images/find_FPGA_addon.png) | Determines if an FPGA addon with the provided name exists within the specified system definition target. If the FPGA addon is present, the VI will return its reference number. |
-| Find FPGA Addons <br> ![Find FPGA addons](./Images/find_FPGA_addons.png) | Searches the specified system definition target for FPGA addons. If FPGA addons are found, this VI will return an array of custom device reference numbers. |
+| Find FPGA Addon <br> ![Find FPGA addon](./Images/find_fpga_addon.PNG) | Determines if an FPGA addon with the provided name exists within the specified system definition target. If the FPGA addon is present, the VI will return its reference number. |
+| Find FPGA Addons <br> ![Find FPGA addons](./Images/find_fpga_addons.PNG) | Searches the specified system definition target for FPGA addons. If FPGA addons are found, this VI will return an array of custom device reference numbers. |
 
 <br>
 
@@ -373,7 +373,7 @@ These examples are built using the compiled version of the FPGA Addon Scripting 
 
 Create an FPGA addon custom device, import a stored configuration from *.dat* file, and return the imported addon properties.
 
-![Example 1](./Images/example1.png)
+![Example 1](./Images/example1.PNG)
 
 
 ### Example 2
@@ -382,7 +382,7 @@ Create an FPGA addon custom device, import a stored configuration from *.dat* fi
 
 Find an existing FPGA addon custom device and export its configuration to a *.dat* file.
 
-![Example 2](./Images/example2.png)
+![Example 2](./Images/example2.PNG)
 
 
 ### Example 3
@@ -391,7 +391,7 @@ Find an existing FPGA addon custom device and export its configuration to a *.da
 
 Create a new FPGA addon, set a new bitfile, set the RIO resource, and import all scalar registers from the bitfile.
 
-![Example 3](./Images/example3.png)
+![Example 3](./Images/example3.PNG)
 
 ### Example 4
 
@@ -399,4 +399,4 @@ Create a new FPGA addon, set a new bitfile, set the RIO resource, and import all
 
 Create a new FPGA addon, set a new bitfile, set the RIO resource, and selectively import scalar registers from the bitfile.
 
-![Example 4](./Images/example4.png)
+![Example 4](./Images/example4.PNG)
