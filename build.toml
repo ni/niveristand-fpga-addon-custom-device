@@ -14,14 +14,6 @@ path = 'Source\Examples\Scripting API Examples\FPGA Addon Scripting Examples.lvp
 [[build.steps]]
 name = 'Packed Scripting API'
 type = 'lvBuildSpec'
-project = '{api_examples}'
-target = 'My Computer'
-build_spec = 'Scripting Examples'
-dependency_target = 'Windows'
-
-[[build.steps]]
-name = 'Packed Scripting API'
-type = 'lvBuildSpec'
 project = '{cd}'
 target = 'My Computer'
 build_spec = 'Packed Scripting API'
@@ -75,6 +67,14 @@ type = 'lvBuildSpecAllTargets'
 project = '{cd}'
 target = 'RT CompactRIO Target - VxWorks'
 build_spec = 'Engine Release'
+
+[[build.steps]]
+name = 'Scripting Examples'
+type = 'lvBuildSpec'
+project = '{api_examples}'
+target = 'My Computer'
+build_spec = 'Scripting Examples'
+dependency_target = 'Windows'
 
 [[package]]
 type = 'nipkg'
