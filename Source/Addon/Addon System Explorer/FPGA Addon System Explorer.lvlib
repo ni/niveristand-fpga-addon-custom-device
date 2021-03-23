@@ -92,6 +92,7 @@
 			<Item Name="Get Input DMA Refs.vi" Type="VI" URL="../SubVIs/Get Input DMA Refs.vi"/>
 			<Item Name="Get Invalid DMA Configuration.vi" Type="VI" URL="../SubVIs/Get Invalid DMA Configuration.vi"/>
 			<Item Name="Get Invalid Scalar Data Channels.vi" Type="VI" URL="../SubVIs/Get Invalid Scalar Data Channels.vi"/>
+			<Item Name="Get Item Data.vi" Type="VI" URL="../SubVIs/Get Item Data.vi"/>
 			<Item Name="Get Output DMA Refs.vi" Type="VI" URL="../SubVIs/Get Output DMA Refs.vi"/>
 			<Item Name="Get Parent and DMA Type.vi" Type="VI" URL="../SubVIs/Get Parent and DMA Type.vi"/>
 			<Item Name="Get Scalar Bitfile Objects.vi" Type="VI" URL="../SubVIs/Get Scalar Bitfile Objects.vi"/>
@@ -112,7 +113,6 @@
 			<Item Name="Set Bitfile Object Name.vi" Type="VI" URL="../SubVIs/Set Bitfile Object Name.vi"/>
 			<Item Name="Set Bitpacked Channels.vi" Type="VI" URL="../SubVIs/Set Bitpacked Channels.vi"/>
 			<Item Name="Set Group Scalar Channel Data.vi" Type="VI" URL="../SubVIs/Set Group Scalar Channel Data.vi"/>
-			<Item Name="Set Scalar Channel Data.vi" Type="VI" URL="../SubVIs/Set Scalar Channel Data.vi"/>
 			<Item Name="Split DMA by Direction.vi" Type="VI" URL="../SubVIs/Split DMA by Direction.vi"/>
 			<Item Name="Split Registers by Direction.vi" Type="VI" URL="../SubVIs/Split Registers by Direction.vi"/>
 			<Item Name="Update Scalar Channel GUID.vi" Type="VI" URL="../SubVIs/Update Scalar Channel GUID.vi"/>
