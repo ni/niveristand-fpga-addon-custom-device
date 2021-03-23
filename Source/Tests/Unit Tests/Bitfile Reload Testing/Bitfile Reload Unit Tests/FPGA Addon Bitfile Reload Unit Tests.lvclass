@@ -89,6 +89,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342714386</Property>
 		</Item>
+		<Item Name="Speciality IO Channel Names.vi" Type="VI" URL="../helpers/Speciality IO Channel Names.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!0J!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!Z!-0````]%4G&amp;N:1!!(E"!!!(`````!!529WBB&lt;GZF&lt;#"O97VF=S"P&gt;81!7!$R!!!!!!!!!!)81X6T&gt;'^N)%2F&gt;GFD:3""5%EO&lt;(:M;7);1X6T&gt;'^N)%2F&gt;GFD:3"*&gt;'6N)&amp;*F:CZD&gt;'Q!(5!)!"*'5%&gt;")%&amp;E:'^O)(*F:C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E!Q`````QR#;82G;7RF)%ZB&lt;75!!"R!-0````]45XFT2'6G)%.I97ZO:7QA4G&amp;N:1!/1#%)37VQ&lt;X*U:71!!=%!]1!!!!!!!!!#&amp;U:12U%A172E&lt;WYA5WBB=G6E,GRW&lt;'FC$52B&gt;'%A6(FQ:3ZD&gt;'Q"EU!6!#)'0%ZV&lt;'Q_!EEY!UER.A.*-T)$349U!F5Y!V5R.A.6-T)$649U!V.(4!&gt;#&lt;W^M:7&amp;O&amp;E&amp;O97RP:S"16UUA37YA5W6U&gt;'FO:X-.17ZB&lt;'^H)&amp;"843"*&lt;B&gt;%;7&gt;J&gt;'&amp;M)&amp;"843"*&lt;C"4:82U;7ZH=QZ%;7&gt;J&gt;'&amp;M)&amp;"843"*&lt;A^%;7&gt;J&gt;'&amp;M)&amp;"843"0&gt;81)5WFO:3"0&gt;81+2FB1+S]N-D1O.1J'7&amp;!L,SUR.CYV#E:95#MP,4-S,DA,2FB1+S]N.D1O-T)+2FB1+S]N-49O.QJ'7&amp;!L,SUS-#YV#E:95#MP,4)X,D5,2FB1+S]N-T)O-49)2FB1+T%W,D-)2FB1+T%Y,D-22'FH;82B&lt;#"4&gt;'&amp;U;7-A37Y32'FH;82B&lt;#"4&gt;'&amp;U;7-A4X6U'E2J:WFU97QA5X2B&gt;'FD)%FO)&amp;.F&gt;(2J&lt;G&gt;T$U2J:WFU97QA6V.4)%^V&gt;"62&gt;7&amp;E)%6O9W^E:8)A5W6U&gt;'FO:X-0586B:#"&amp;&lt;G.P:'6S)%FO"5&gt;S&lt;X6Q!!F%982B)&amp;2Z='5!51$RX%`T(!!!!!)45W.S;8"U;7ZH)%&amp;133ZM&gt;GRJ9B:0&gt;82Q&gt;81A5W.B&lt;'&amp;S)%2B&gt;'%O9X2M!"Z!5!!%!!E!#A!,!!Q+9WBB&lt;GZF&lt;#"J&lt;A!!6A$R!!!!!!!!!!)81X6T&gt;'^N)%2F&gt;GFD:3""5%EO&lt;(:M;7);1X6T&gt;'^N)%2F&gt;GFD:3"*&gt;'6N)&amp;*F:CZD&gt;'Q!'U!)!"&amp;'5%&gt;")%&amp;E:'^O)(*F:C"J&lt;A"5!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!U!$A-!!(A!!!E!!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!)!!!!#!!!!!!"!!]!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074536978</Property>
+		</Item>
 	</Item>
 	<Item Name="tests" Type="Folder">
 		<Item Name="test_Bitfile Reload_Scalars.vi" Type="VI" URL="../tests/test_Bitfile Reload_Scalars.vi">
@@ -102,6 +111,33 @@
 		</Item>
 		<Item Name="test_Bitfile Reload_Scalars Data Type Change.vi" Type="VI" URL="../tests/test_Bitfile Reload_Scalars Data Type Change.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!O,%:12U%A172E&lt;WYA1GFU:GFM:3"3:7RP971A67ZJ&gt;#"5:8.U=SZM&gt;G.M98.T!!!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%2!=!!?!!!O,%:12U%A172E&lt;WYA1GFU:GFM:3"3:7RP971A67ZJ&gt;#"5:8.U=SZM&gt;G.M98.T!!!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777218</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+		</Item>
+		<Item Name="test_Bitfile Reload_Speciality IO.vi" Type="VI" URL="../tests/test_Bitfile Reload_Speciality IO.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!O,%:12U%A172E&lt;WYA1GFU:GFM:3"3:7RP971A67ZJ&gt;#"5:8.U=SZM&gt;G.M98.T!!!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%2!=!!?!!!O,%:12U%A172E&lt;WYA1GFU:GFM:3"3:7RP971A67ZJ&gt;#"5:8.U=SZM&gt;G.M98.T!!!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777218</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+		</Item>
+		<Item Name="test_Bitfile Reload_Speciality IO Data Type Change.vi" Type="VI" URL="../tests/test_Bitfile Reload_Speciality IO Data Type Change.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!O,%:12U%A172E&lt;WYA1GFU:GFM:3"3:7RP971A67ZJ&gt;#"5:8.U=SZM&gt;G.M98.T!!!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%2!=!!?!!!O,%:12U%A172E&lt;WYA1GFU:GFM:3"3:7RP971A67ZJ&gt;#"5:8.U=SZM&gt;G.M98.T!!!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
+		</Item>
+		<Item Name="test_Bitfile Reload_Simple Scalar to Speciality IO Data type Change.vi" Type="VI" URL="../tests/test_Bitfile Reload_Simple Scalar to Speciality IO Data type Change.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;5!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%:!=!!?!!!O,%:12U%A172E&lt;WYA1GFU:GFM:3"3:7RP971A67ZJ&gt;#"5:8.U=SZM&gt;G.M98.T!!!-6'6T&gt;%.B=W5A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%2!=!!?!!!O,%:12U%A172E&lt;WYA1GFU:GFM:3"3:7RP971A67ZJ&gt;#"5:8.U=SZM&gt;G.M98.T!!!,6'6T&gt;%.B=W5A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!*!!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777218</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
