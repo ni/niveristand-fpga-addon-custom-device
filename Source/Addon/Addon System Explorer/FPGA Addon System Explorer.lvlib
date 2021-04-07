@@ -67,12 +67,13 @@
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Add Bitfile Dependancy.vi" Type="VI" URL="../SubVIs/Add Bitfile Dependancy.vi"/>
+			<Item Name="Add Bitfile Dependency.vi" Type="VI" URL="../SubVIs/Add Bitfile Dependency.vi"/>
 			<Item Name="Add FPGA Sections.vi" Type="VI" URL="../SubVIs/Add FPGA Sections.vi"/>
 			<Item Name="Add Item.vi" Type="VI" URL="../SubVIs/Add Item.vi"/>
 			<Item Name="Apply DMA Configuration.vi" Type="VI" URL="../SubVIs/Apply DMA Configuration.vi"/>
 			<Item Name="Build DMA Channel Dictionary.vi" Type="VI" URL="../SubVIs/Build DMA Channel Dictionary.vi"/>
 			<Item Name="Build Scalar Channel Dictionary.vi" Type="VI" URL="../SubVIs/Build Scalar Channel Dictionary.vi"/>
+			<Item Name="Check Bitfile Register Names.vi" Type="VI" URL="../SubVIs/Check Bitfile Register Names.vi"/>
 			<Item Name="Compile Scalars.vi" Type="VI" URL="../SubVIs/Compile Scalars.vi"/>
 			<Item Name="Convert Error Cluster to Table.vi" Type="VI" URL="../SubVIs/Convert Error Cluster to Table.vi"/>
 			<Item Name="Create DMA Channel.vi" Type="VI" URL="../SubVIs/Create DMA Channel.vi"/>
