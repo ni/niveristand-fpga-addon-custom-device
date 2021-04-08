@@ -4,4 +4,24 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">402685952</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Read Methods" Type="Folder">
+		<Item Name="Read Analog PWM In.vi" Type="VI" URL="../Read Methods/Read Analog PWM In.vi"/>
+		<Item Name="Read Digital PWM In.vi" Type="VI" URL="../Read Methods/Read Digital PWM In.vi"/>
+		<Item Name="Read Digital Static In.vi" Type="VI" URL="../Read Methods/Read Digital Static In.vi"/>
+		<Item Name="Read Quad Encoder In.vi" Type="VI" URL="../Read Methods/Read Quad Encoder In.vi"/>
+		<Item Name="Read Speciality IO.vi" Type="VI" URL="../Read Methods/Read Speciality IO.vi"/>
+	</Item>
+	<Item Name="SubVIs" Type="Folder"/>
+	<Item Name="Types" Type="Folder"/>
+	<Item Name="Write Methods" Type="Folder">
+		<Item Name="Write Analog PWM In Settings.vi" Type="VI" URL="../Write Methods/Write Analog PWM In Settings.vi"/>
+		<Item Name="Write Digital PWM In Settings.vi" Type="VI" URL="../Write Methods/Write Digital PWM In Settings.vi"/>
+		<Item Name="Write Digital PWM Out.vi" Type="VI" URL="../Write Methods/Write Digital PWM Out.vi"/>
+		<Item Name="Write Digital Static In Settings.vi" Type="VI" URL="../Write Methods/Write Digital Static In Settings.vi"/>
+		<Item Name="Write Digital Static Out.vi" Type="VI" URL="../Write Methods/Write Digital Static Out.vi"/>
+		<Item Name="Write Digital WSS Out.vi" Type="VI" URL="../Write Methods/Write Digital WSS Out.vi"/>
+		<Item Name="Write Quad Encoder Settings.vi" Type="VI" URL="../Write Methods/Write Quad Encoder Settings.vi"/>
+		<Item Name="Write Sine Out.vi" Type="VI" URL="../Write Methods/Write Sine Out.vi"/>
+		<Item Name="Write Speciality IO.vi" Type="VI" URL="../Write Methods/Write Speciality IO.vi"/>
+	</Item>
 </Library>
