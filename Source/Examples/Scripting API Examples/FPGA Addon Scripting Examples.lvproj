@@ -39,10 +39,10 @@
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Utilities/Post-Build Action.vi"/>
 		</Item>
-		<Item Name="Example 1.vi" Type="VI" URL="../Example 1.vi"/>
-		<Item Name="Example 2.vi" Type="VI" URL="../Example 2.vi"/>
-		<Item Name="Example 3.vi" Type="VI" URL="../Example 3.vi"/>
-		<Item Name="Example 4.vi" Type="VI" URL="../Example 4.vi"/>
+		<Item Name="Example 1 - Create and Configure FPGA Addon.vi" Type="VI" URL="../Example 1 - Create and Configure FPGA Addon.vi"/>
+		<Item Name="Example 2 - Find and Export FPGA Addon Configuration.vi" Type="VI" URL="../Example 2 - Find and Export FPGA Addon Configuration.vi"/>
+		<Item Name="Example 3 - Create FPGA Addon and Import Scalars.vi" Type="VI" URL="../Example 3 - Create FPGA Addon and Import Scalars.vi"/>
+		<Item Name="Example 4 - Create FPGA Addon and Selectively Import Scalars.vi" Type="VI" URL="../Example 4 - Create FPGA Addon and Selectively Import Scalars.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -203,11 +203,13 @@
 				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Post-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F4D6879A-D4C8-49D0-8377-DACCAB19FB75}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built</Property>
@@ -223,22 +225,22 @@
 				<Property Name="Destination[3].path" Type="Path">../Built/SubVIs</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8F1C1301-CE29-40E3-9E8C-C126D509171F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{04815EC6-A2A5-4CA7-A2ED-152CD8C46F88}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Example 1.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Example 1 - Create and Configure FPGA Addon.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Example 2.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Example 2 - Find and Export FPGA Addon Configuration.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Example 3.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Example 3 - Create FPGA Addon and Import Scalars.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Example 4.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Example 4 - Create FPGA Addon and Selectively Import Scalars.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>

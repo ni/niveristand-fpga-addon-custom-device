@@ -367,7 +367,7 @@ These examples are built using the compiled version of the FPGA Addon Scripting 
 
 <br>
 
-### Example 1
+### Example 1 - Create and Configure FPGA Addon
 
 <br>
 
@@ -376,7 +376,7 @@ Create an FPGA addon custom device, import a stored configuration from *.dat* fi
 ![Example 1](./Images/example1.PNG)
 
 
-### Example 2
+### Example 2 - Find and Export FPGA Addon Configuration
 
 <br>
 
@@ -385,7 +385,7 @@ Find an existing FPGA addon custom device and export its configuration to a *.da
 ![Example 2](./Images/example2.PNG)
 
 
-### Example 3
+### Example 3 - Create FPGA Addon and Import Scalars
 
 <br>
 
@@ -393,7 +393,7 @@ Create a new FPGA addon, set a new bitfile, set the RIO resource, and import all
 
 ![Example 3](./Images/example3.PNG)
 
-### Example 4
+### Example 4 - Create FPGA Addon and Selectively Import Scalars
 
 <br>
 
