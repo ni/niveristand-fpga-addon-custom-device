@@ -17,7 +17,6 @@
 			<Item Name="Error 6004.vi" Type="VI" URL="../Error Handling/Error 6004.vi"/>
 			<Item Name="Error 6005.vi" Type="VI" URL="../Error Handling/Error 6005.vi"/>
 			<Item Name="Error 6006.vi" Type="VI" URL="../Error Handling/Error 6006.vi"/>
-			<Item Name="Error 6007.vi" Type="VI" URL="../Error Handling/Error 6007.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Check Cluster Configuration Store.vi" Type="VI" URL="../SubVIs/Check Cluster Configuration Store.vi"/>
