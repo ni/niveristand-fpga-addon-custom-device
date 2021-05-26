@@ -1,6 +1,6 @@
 # Overview
 
-Use the FPGA Add-on to run an FPGA bitfile without implementing the normal VeriStand FPGA template. The add-on allows the transfer of basic scalar data types inline with VeriStand's primary control loop (PCL). It also supports reading and writing waveforms with FPGA DMA channels.​
+Use the FPGA Addon to run an FPGA bitfile without implementing the normal VeriStand FPGA template. The add-on allows the transfer of basic scalar data types inline with VeriStand's primary control loop (PCL). It also supports reading and writing waveforms with FPGA DMA channels.​
 
 <br>
 <br>
@@ -14,7 +14,7 @@ Use the FPGA Add-on to run an FPGA bitfile without implementing the normal VeriS
 
 # Requirements
 
-To run the add-on, the following drivers are required on the deployment computer or target:
+To run the addon, the following drivers are required on the deployment computer or target:
 
 - VeriStand 2018 or later
 - NI RIO 18.0 or later
@@ -51,16 +51,9 @@ The following image is an example of DMA, controls, and indicators.
 - I32
 - I64
 - SGL
-- FXP +16.3
-- FXP +/-16.5
-- FXP +/-16.7
-- FXP +18.3
-- FXP +/-20.5
-- FXP +/-24.5
-- FXP +/-27.5
-- FXP +/-32.8
-- FXP +/-32.16
-- FXP +/-64.32
+- FXP
+
+**Note:** FPGA Addon supports all FXP datatypes up to 64 bits.
 
 The following table displays unsupported datatypes and workarounds for to how make them usable.
 
