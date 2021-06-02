@@ -32,7 +32,7 @@ To run the FPGA Addon Custom Device, you will need to install the following:
 
 Install the following dependencies to check the source code, modify the add-on, or build the FPGA Addon Custom Device locally.
 - NI RIO 18.0 or later
-- OpenG LabVIEW Data Library >= 4.2.0.21
+- OpenG LabVIEW Data Library 4.2.0.21 or later
 - [LabVIEW FPGA Advanced Session Resources](https://decibel.ni.com/content/docs/DOC-35574)
 - [NI VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
 - [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
