@@ -21,10 +21,10 @@
 				<Item Name="Example FPGA Addon Config.dat" Type="Document" URL="../Resources/Create an FPGA Addon and selectively import scalars/Example FPGA Addon Config.dat"/>
 				<Item Name="Example SysDef(Specialty).nivssdf" Type="Document" URL="../Resources/Create an FPGA Addon and selectively import scalars/Example SysDef(Specialty).nivssdf"/>
 			</Item>
-			<Item Name="Create and configure an FPGA Addon" Type="Folder">
-				<Item Name="cRIO9039 FPGA Personality(Specialty).lvbitx" Type="Document" URL="../Resources/Create and configure an FPGA Addon/cRIO9039 FPGA Personality(Specialty).lvbitx"/>
-				<Item Name="Example FPGA Addon Config.dat" Type="Document" URL="../Resources/Create and configure an FPGA Addon/Example FPGA Addon Config.dat"/>
-				<Item Name="Example SysDef(Specialty).nivssdf" Type="Document" URL="../Resources/Create and configure an FPGA Addon/Example SysDef(Specialty).nivssdf"/>
+			<Item Name="Create and import an FPGA Addon configuration" Type="Folder">
+				<Item Name="cRIO9039 FPGA Personality(Specialty).lvbitx" Type="Document" URL="../Resources/Create and import an FPGA Addon configuration/cRIO9039 FPGA Personality(Specialty).lvbitx"/>
+				<Item Name="Example FPGA Addon Config.dat" Type="Document" URL="../Resources/Create and import an FPGA Addon configuration/Example FPGA Addon Config.dat"/>
+				<Item Name="Example SysDef(Specialty).nivssdf" Type="Document" URL="../Resources/Create and import an FPGA Addon configuration/Example SysDef(Specialty).nivssdf"/>
 			</Item>
 			<Item Name="Find and export an FPGA Addon configuration" Type="Folder">
 				<Item Name="cRIO9039 FPGA Personality(Specialty).lvbitx" Type="Document" URL="../Resources/Find and export an FPGA Addon configuration/cRIO9039 FPGA Personality(Specialty).lvbitx"/>
@@ -41,8 +41,8 @@
 		</Item>
 		<Item Name="Create an FPGA Addon and import scalars.vi" Type="VI" URL="../Create an FPGA Addon and import scalars.vi"/>
 		<Item Name="Create an FPGA Addon and selectively import scalars.vi" Type="VI" URL="../Create an FPGA Addon and selectively import scalars.vi"/>
-		<Item Name="Create and configure an FPGA Addon.vi" Type="VI" URL="../Create and configure an FPGA Addon.vi"/>
-		<Item Name="Find and export an FPGA Addon Configuration.vi" Type="VI" URL="../Find and export an FPGA Addon Configuration.vi"/>
+		<Item Name="Create and import an FPGA Addon configuration.vi" Type="VI" URL="../Create and import an FPGA Addon configuration.vi"/>
+		<Item Name="Find and export an FPGA Addon configuration.vi" Type="VI" URL="../Find and export an FPGA Addon configuration.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -230,11 +230,11 @@
 				<Property Name="Source[0].itemID" Type="Str">{04815EC6-A2A5-4CA7-A2ED-152CD8C46F88}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Create and configure an FPGA Addon.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Create and import an FPGA Addon configuration.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Find and export an FPGA Addon Configuration.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Find and export an FPGA Addon configuration.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
