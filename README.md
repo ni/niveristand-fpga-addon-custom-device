@@ -26,6 +26,7 @@ The FPGA Addon Custom Device source code is in LabVIEW 2018.
 ### Running the add-on
 
 To run the FPGA Addon Custom Device, you will need to install the following:
+- VeriStand 2018 or later
 - NI RIO 18.0 or later
 
 ### Source
