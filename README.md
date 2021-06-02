@@ -19,7 +19,7 @@ The following table displays locations where you can access quick start document
 
 ## LabVIEW Version
 
-The FPGA Addon Custom Device source is in LabVIEW 2018.
+The FPGA Addon Custom Device source code is in LabVIEW 2018.
 
 ## Dependencies
 
