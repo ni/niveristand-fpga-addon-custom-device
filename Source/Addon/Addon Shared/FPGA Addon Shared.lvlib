@@ -42,6 +42,7 @@
 			<Item Name="DMA Settings.vi" Type="VI" URL="../SubVIs/DMA Settings.vi"/>
 			<Item Name="FPGA Settings.vi" Type="VI" URL="../SubVIs/FPGA Settings.vi"/>
 			<Item Name="Scalar Settings.vi" Type="VI" URL="../SubVIs/Scalar Settings.vi"/>
+			<Item Name="Update Register Values - 321.vi" Type="VI" URL="../SubVIs/Update Register Values - 321.vi"/>
 			<Item Name="Upgrade Addon to Latest Version.vi" Type="VI" URL="../SubVIs/Upgrade Addon to Latest Version.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
