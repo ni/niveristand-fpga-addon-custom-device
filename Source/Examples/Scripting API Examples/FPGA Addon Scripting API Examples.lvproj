@@ -11,6 +11,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Images" Type="Folder">
+			<Item Name="CreateAndImportAnFpgaAddonConfiguration.JPG" Type="Document" URL="../Images/CreateAndImportAnFpgaAddonConfiguration.JPG"/>
+			<Item Name="CreateAnFpgaAddonAndImportScalars.JPG" Type="Document" URL="../Images/CreateAnFpgaAddonAndImportScalars.JPG"/>
+			<Item Name="CreateAnFpgaAddonAndSelectivelyImportScalars.JPG" Type="Document" URL="../Images/CreateAnFpgaAddonAndSelectivelyImportScalars.JPG"/>
+			<Item Name="FindAndExportAnFpgaAddonConfiguration.JPG" Type="Document" URL="../Images/FindAndExportAnFpgaAddonConfiguration.JPG"/>
+		</Item>
 		<Item Name="Resources" Type="Folder">
 			<Item Name="Create an FPGA Addon and import scalars" Type="Folder">
 				<Item Name="cRIO9039 FPGA Personality(Specialty).lvbitx" Type="Document" URL="../Resources/Create an FPGA Addon and import scalars/cRIO9039 FPGA Personality(Specialty).lvbitx"/>
@@ -43,7 +49,7 @@
 		<Item Name="Create and import an FPGA Addon configuration.vi" Type="VI" URL="../Create and import an FPGA Addon configuration.vi"/>
 		<Item Name="Create an FPGA Addon and import scalars.vi" Type="VI" URL="../Create an FPGA Addon and import scalars.vi"/>
 		<Item Name="Create an FPGA Addon and selectively import scalars.vi" Type="VI" URL="../Create an FPGA Addon and selectively import scalars.vi"/>
-		<Item Name="Find and export an FPGA Addon configuration.vi" Type="VI" URL="../Find and export an FPGA Addon configuration.vi"/>
+		<Item Name="Find and export an FPGA Addon Configuration.vi" Type="VI" URL="../Find and export an FPGA Addon Configuration.vi"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -228,15 +234,18 @@
 				<Property Name="Destination[3].destName" Type="Str">SubVIs Directory</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/SubVIs</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A1C29C18-6231-4A49-9FCF-BE815130EEC2}</Property>
+				<Property Name="Destination[4].destName" Type="Str">Images</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Images</Property>
+				<Property Name="Destination[4].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E49A6C8B-84A1-4B38-9BAF-0AB49EAB5313}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Create and import an FPGA Addon configuration.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Find and export an FPGA Addon configuration.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Find and export an FPGA Addon Configuration.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
@@ -264,7 +273,14 @@
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/README.md</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="Source[8].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Images</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>
 		</Item>
 	</Item>
