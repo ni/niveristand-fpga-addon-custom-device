@@ -37,7 +37,7 @@ The VI executes the following steps:
 ![Create an FPGA Addon and import scalars](./Images/CreateAnFpgaAddonAndImportScalars.JPG)
 
 The VI executes the following steps:
-1. Opens the `Resources\Create an FPGA Addon and import scalars\Example SysDef(Specialty).nivssdf` System Definition.
+   1. Opens the `Resources\Create an FPGA Addon and import scalars\Example SysDef(Specialty).nivssdf` System Definition.
    1. Selects the first target.
    1. Creates an FPGA Addon under the selected target.
    1. Sets a bitfile.
