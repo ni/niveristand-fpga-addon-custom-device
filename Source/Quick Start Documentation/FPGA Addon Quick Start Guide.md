@@ -123,6 +123,7 @@ DMA Channels Example:
 
 Scalar Channels Example:
 ![Scalar Channels Example](../Examples/Scalar%20Channels%20Example/LabVIEW%20FPGA%20Project/Scalar%20Channels%20Example.png)
+
 ---
 <br>
 <br>
@@ -332,6 +333,6 @@ Access the **Utilities** palette for VIs to locate FPGA addons in a system defin
 
 ## Examples
 
-For examples of LabVIEW code that implement the scripting API, refer to the "&lt;repo location&gt;\Source\Examples\Scripting API Examples" directory.
+For examples of LabVIEW code that implement the scripting API, refer to the ["&lt;repo location&gt;\Source\Examples\Scripting API Examples"](https://github.com/ni/niveristand-fpga-addon-custom-device/blob/review-examples/Source/Examples/Scripting%20API%20Examples/README.md).
 
 These examples are built using the compiled version of the FPGA Addon Scripting API. To run the examples, you need to install the complied scripting API through NI Package Manager. You can also compile the API locally from the project source code and move it to the appropriate location in *vi.lib*. The API is automatically moved by the build specification through a post-action.
