@@ -269,8 +269,6 @@ Add a waveform plot and configure.
 
 ![Execution4](./Images/image023.png)
 
----
-
 **Note:** The embedded UI on Linux targets must be disabled or error _-307556_ will be returned.​
 <br>
 ![Notification](./Images/image018.png)
