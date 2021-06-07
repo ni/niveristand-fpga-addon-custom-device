@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -39,10 +40,11 @@
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Utilities/Post-Build Action.vi"/>
 		</Item>
+		<Item Name="Create and import an FPGA Addon configuration.vi" Type="VI" URL="../Create and import an FPGA Addon configuration.vi"/>
 		<Item Name="Create an FPGA Addon and import scalars.vi" Type="VI" URL="../Create an FPGA Addon and import scalars.vi"/>
 		<Item Name="Create an FPGA Addon and selectively import scalars.vi" Type="VI" URL="../Create an FPGA Addon and selectively import scalars.vi"/>
-		<Item Name="Create and import an FPGA Addon configuration.vi" Type="VI" URL="../Create and import an FPGA Addon configuration.vi"/>
 		<Item Name="Find and export an FPGA Addon configuration.vi" Type="VI" URL="../Find and export an FPGA Addon configuration.vi"/>
+		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -227,7 +229,7 @@
 				<Property Name="Destination[3].path" Type="Path">../Built/SubVIs</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{04815EC6-A2A5-4CA7-A2ED-152CD8C46F88}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A1C29C18-6231-4A49-9FCF-BE815130EEC2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Create and import an FPGA Addon configuration.vi</Property>
@@ -259,7 +261,10 @@
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/SubVIs</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/README.md</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
 		</Item>
 	</Item>

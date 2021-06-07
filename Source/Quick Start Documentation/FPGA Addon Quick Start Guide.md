@@ -108,7 +108,7 @@ This IP is located at:
 
 ## Example Programs
 
-Examples of how to use the speciality IO, controls/indicators, and DMA are included in the examples folder of the source code:
+Examples of how to use the Speciality IO, controls/indicators, and DMA are included in the examples folder of the source code:
 - _Examples/DMA Channels Interleaved Example_;
 - _Examples/Scalar Channels Example_;
 - _Examples/Speciality IO Example_;    
@@ -269,28 +269,6 @@ Add a waveform plot and configure.
 ![Execution4](./Images/image023.png)
 
 ---
-<br>
-
-
-# System Definition API
-
-You can use the system definition API to programatically create an instance of the addon from a previously exported configuration. This is installed at:
-
-_C:\Users\Public\Documents\National Instruments\NI VeriStand [Year]\Custom Devices\FPGA Addon\Windows\System Definition API_
-
-Use the following image as an example of the API:​​
-
-![Execution5](./Images/image046.jpg)
-
----
-<br>
-
-
-**Note:** The embedded UI on Linux targets must be disabled or error _-307556_ will be returned.​
-<br>
-![Notification](./Images/image018.png)
-
----
 
 <br><br>
 
@@ -352,44 +330,8 @@ Access the **Utilities** palette for VIs to locate FPGA addons in a system defin
 
 <br>
 
-## Examples of Scripting API
+## Examples
 
 For examples of LabVIEW code that implement the scripting API, refer to the "&lt;repo location&gt;\Source\Examples\Scripting API Examples" directory.
 
 These examples are built using the compiled version of the FPGA Addon Scripting API. To run the examples, you need to install the complied scripting API through NI Package Manager. You can also compile the API locally from the project source code and move it to the appropriate location in *vi.lib*. The API is automatically moved by the build specification through a post-action.
-
-<br>
-
-### Example 1 - Create and Configure FPGA Addon
-
-<br>
-
-Create an FPGA addon custom device, import a stored configuration from *.dat* file, and return the imported addon properties.
-
-![Example 1](./Images/example1.PNG)
-
-
-### Example 2 - Find and Export FPGA Addon Configuration
-
-<br>
-
-Find an existing FPGA addon custom device and export its configuration to a *.dat* file.
-
-![Example 2](./Images/example2.PNG)
-
-
-### Example 3 - Create FPGA Addon and Import Scalars
-
-<br>
-
-Create a new FPGA addon, set a new bitfile, set the RIO resource, and import all scalar registers from the bitfile.
-
-![Example 3](./Images/example3.PNG)
-
-### Example 4 - Create FPGA Addon and Selectively Import Scalars
-
-<br>
-
-Create a new FPGA addon, set a new bitfile, set the RIO resource, and selectively import scalar registers from the bitfile.
-
-![Example 4](./Images/example4.PNG)
