@@ -3,14 +3,14 @@
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="1" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Analog PWM In" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="Quad Encoder In" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Analog PWM In</String>
+				<String>Quad Encoder In</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.7</String>
+				<String>1.0.0.14</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -31,7 +31,7 @@
 						<String>Windows</String>
 					</Property>
 					<Property Name="IP Address">
-						<String />
+						<String>localhost</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -97,6 +97,9 @@
 						<Double>15</Double>
 					</Property>
 					<Property Name="FPGAScanInterfaceMode">
+						<U16>0</U16>
+					</Property>
+					<Property Name="Timing Source Settings">
 						<U16>0</U16>
 					</Property>
 				</Properties>
@@ -241,7 +244,7 @@
 								<String>3.2.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO System Tests\FPGA Bitfiles\Analog PWM In.lvbitx</String>
+								<String>D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO System Tests\FPGA Bitfiles\Quad Encoder In.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO0</String>
@@ -250,12 +253,12 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO System Tests\FPGA Bitfiles\Analog PWM In.lvbitx">
+								<DependentFile Type="Absolute" Path="D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO System Tests\FPGA Bitfiles\Quad Encoder In.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\Analog PWM In.lvbitx</RTDestination>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\Quad Encoder In.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>454802afcddb9ebb7ec45bd01c60a5cd</MD5>
+									<MD5>44134f69718d96c05ea02964ed69ae79</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
@@ -270,84 +273,24 @@
 									<Property Name="user.CD.Available Registers">
 										<Variant>
 											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAADjhgAgAAAAAAGAA5AMP////8ETmFtZQABk0AVACMGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQDRlhQCkZYUCsvLTI0LjUKRlhQKy8tMTYuNQpGWFArLy0zMi44C0ZYUCsvLTY0LjMyCkZYUCsvLTE2LjcKRlhQKy8tMjAuNQpGWFArLy0yNy41C0ZYUCsvLTMyLjE2CEZYUCsxNi4zCEZYUCsxOC4zEURpZ2l0YWwgU3RhdGljIEluEkRpZ2l0YWwgU3RhdGljIE91dBpEaWdpdGFsIFN0YXRpYyBJbiBTZXR0aW5ncw9EaWdpdGFsIFdTUyBPdXQVUXVhZCBFbmNvZGVyIFNldHRpbmdzD1F1YWQgRW5jb2RlciBJbgVHcm91cAAJRGF0YSBUeXBlABJAUw1EZWZhdWx0IFZhbHVlABBAUwpBdHRyaWJ1dGVzAAAOAFAABAAAAAEAAgADACBAQAAB/////wAEE0F2YWlsYWJsZSBSZWdpc3RlcnMAAQAFAAAAAQAAAA1BbmFsb2cgUFdNIEluDBgAgAAAAAAGABNABwAMQUNUSVZFIFRJQ0tTAAAVQAcADklOQUNUSVZFIFRJQ0tTAAAPQAcACUFDUSBUSUNLUwBMQF8DUQAgAAAACAABAAEAAAAI//////////8AAAAfAAAABwAAAAB/////AAAAAf///+kAAAAAAAAAAQ5BQ1RJVkUgVk9MVEFHRQAATkBfA1EAIAAAAAgAAQABAAAACP//////////AAAAHwAAAAcAAAAAf////wAAAAH////pAAAAAAAAAAEQSU5BQ1RJVkUgVk9MVEFHRQAAZgDxAAAAAAAAAAIYU3BlY2lhbGl0eSBGUEdBIElPLmx2bGliIlBXTS5NZWFzdXJlLkFuYWxvZy5NZWFzdXJlbWVudC5jdGwAIkBQAAUAAAABAAIAAwAEDUFuYWxvZyBQV00gSW4AAQAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAIAAAAAAAQAEAAAAAQAAAAAAAAAAAAA=</Data>
+											<Data>AAACvxgAgAAAAAAGAA5AMP////8ETmFtZQABk0AVACMGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQDRlhQCkZYUCsvLTI0LjUKRlhQKy8tMTYuNQpGWFArLy0zMi44C0ZYUCsvLTY0LjMyCkZYUCsvLTE2LjcKRlhQKy8tMjAuNQpGWFArLy0yNy41C0ZYUCsvLTMyLjE2CEZYUCsxNi4zCEZYUCsxOC4zEURpZ2l0YWwgU3RhdGljIEluEkRpZ2l0YWwgU3RhdGljIE91dBpEaWdpdGFsIFN0YXRpYyBJbiBTZXR0aW5ncw9EaWdpdGFsIFdTUyBPdXQVUXVhZCBFbmNvZGVyIFNldHRpbmdzD1F1YWQgRW5jb2RlciBJbgVHcm91cAAJRGF0YSBUeXBlABJAUw1EZWZhdWx0IFZhbHVlABBAUwpBdHRyaWJ1dGVzAAAOAFAABAAAAAEAAgADACBAQAAB/////wAEE0F2YWlsYWJsZSBSZWdpc3RlcnMAAQAFAAAAAQAAAA9RdWFkIEVuY29kZXIgSW4hGACAAAAAAAIAD0ADAAhQT1NJVElPTgAAbwDxAAAAAAAAAAIYU3BlY2lhbGl0eSBGUEdBIElPLmx2bGliMVF1YWRyYXR1cmVFbmNvZGVyLk1lYXN1cmUuRGlnaXRhbC5NZWFzdXJlbWVudC5jdGwAHEBQAAEAAA9RdWFkIEVuY29kZXIgSW4AAQABAAAAAAAAAAAYAIAAAAAAAQAEAAAAAQAAAAAAAAAAAAA=</Data>
 										</Variant>
 									</Property>
 								</Properties>
 								<Errors />
-								<Section Name="Analog PWM In" TypeGUID="25832021-24b6-475a-aa84-f4ed7870ed99">
+								<Section Name="Quad Encoder In" TypeGUID="25832021-24b6-475a-aa84-f4ed7870ed99">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
-											<String>Analog PWM In</String>
+											<String>Quad Encoder In</String>
 										</Property>
 									</Properties>
 									<Errors />
-									<Channel Name="FREQ" TypeGUID="4b03cffd-e469-431a-ba96-aca85ece66af" RowDim="1" ColDim="1" Units="Hz" BitFields="13">
+									<Channel Name="POSITION" TypeGUID="4b03cffd-e469-431a-ba96-aca85ece66af" RowDim="1" ColDim="1" Units="Counts" BitFields="13">
 										<Description />
 										<Properties>
 											<Property Name="user.CD.Bitfile Object Name">
-												<String>FREQ</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="PERIOD" TypeGUID="4b03cffd-e469-431a-ba96-aca85ece66af" RowDim="1" ColDim="1" Units="Sec" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Bitfile Object Name">
-												<String>PERIOD</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="DC" TypeGUID="4b03cffd-e469-431a-ba96-aca85ece66af" RowDim="1" ColDim="1" Units="%" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Bitfile Object Name">
-												<String>DC</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="ACTIVE TIME" TypeGUID="4b03cffd-e469-431a-ba96-aca85ece66af" RowDim="1" ColDim="1" Units="Sec" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Bitfile Object Name">
-												<String>ACTIVE TIME</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="ACTIVE VOLTAGE" TypeGUID="4b03cffd-e469-431a-ba96-aca85ece66af" RowDim="1" ColDim="1" Units="V" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Bitfile Object Name">
-												<String>ACTIVE VOLTAGE</String>
-											</Property>
-										</Properties>
-										<Errors />
-										<DefaultValue>
-											<Elem>0</Elem>
-										</DefaultValue>
-									</Channel>
-									<Channel Name="INACTIVE VOLTAGE" TypeGUID="4b03cffd-e469-431a-ba96-aca85ece66af" RowDim="1" ColDim="1" Units="V" BitFields="13">
-										<Description />
-										<Properties>
-											<Property Name="user.CD.Bitfile Object Name">
-												<String>INACTIVE VOLTAGE</String>
+												<String>POSITION</String>
 											</Property>
 										</Properties>
 										<Errors />
@@ -363,64 +306,16 @@
 									<Property Name="user.CD.Available Registers">
 										<Variant>
 											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAAFgBgAgAAAAAAGAA5AMP////8ETmFtZQABk0AVACMGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQDRlhQCkZYUCsvLTI0LjUKRlhQKy8tMTYuNQpGWFArLy0zMi44C0ZYUCsvLTY0LjMyCkZYUCsvLTE2LjcKRlhQKy8tMjAuNQpGWFArLy0yNy41C0ZYUCsvLTMyLjE2CEZYUCsxNi4zCEZYUCsxOC4zEURpZ2l0YWwgU3RhdGljIEluEkRpZ2l0YWwgU3RhdGljIE91dBpEaWdpdGFsIFN0YXRpYyBJbiBTZXR0aW5ncw9EaWdpdGFsIFdTUyBPdXQVUXVhZCBFbmNvZGVyIFNldHRpbmdzD1F1YWQgRW5jb2RlciBJbgVHcm91cAAJRGF0YSBUeXBlABJAUw1EZWZhdWx0IFZhbHVlABBAUwpBdHRyaWJ1dGVzAAAOAFAABAAAAAEAAgADACBAQAAB/////wAEE0F2YWlsYWJsZSBSZWdpc3RlcnMAAQAFAAAABQAAAAlBQ1EgVElDS1MHGACAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAYAIAAAAAAAQAEAAAAAQAAAAAAAAAAAAxBQ1RJVkUgVElDS1MHGACAAAAAAAEABQAKAAABAAAAAAAAAAAAAAAAAAAYAIAAAAAAAQAEAAAAAQAAAAAAAAAAAA5BQ1RJVkUgVk9MVEFHRREYAIAAAAAAAQBMQF8DUQAgAAAACAABAAEAAAAI//////////8AAAAfAAAABwAAAAB/////AAAAAf///+kAAAAAAAAAAQ5BQ1RJVkUgVk9MVEFHRQAAAQAAAAAAAAAAAAAAAAAAGACAAAAAAAkADEAhBlNpZ25lZAAAEUAHAAtXb3JkIExlbmd0aAAZQAMAE0ludGVnZXIgV29yZCBMZW5ndGgAIEBQAAMAAAABAAISRlhQIFJlcHJlc2VudGF0aW9uAAAPQAoACVJhbmdlIE1pbgAPQAoACVJhbmdlIE1heAALQAoABURlbHRhABZAUAADAAQABQAGCUZYUCBSYW5nZQAcQFAAAgADAAcRRlhQIENvbmZpZ3VyYXRpb24AAQAIAQAAACAAAAAIwGAAAAAAAABAX////8AAAD5wAAAAAAAAAAAAAAAAAA5JTkFDVElWRSBUSUNLUwcYAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAABgAgAAAAAABAAQAAAABAAAAAAAAAAAAEElOQUNUSVZFIFZPTFRBR0URGACAAAAAAAEATkBfA1EAIAAAAAgAAQABAAAACP//////////AAAAHwAAAAcAAAAAf////wAAAAH////pAAAAAAAAAAEQSU5BQ1RJVkUgVk9MVEFHRQAAAQAAAAAAAAAAAAAAAAAAGACAAAAAAAkADEAhBlNpZ25lZAAAEUAHAAtXb3JkIExlbmd0aAAZQAMAE0ludGVnZXIgV29yZCBMZW5ndGgAIEBQAAMAAAABAAISRlhQIFJlcHJlc2VudGF0aW9uAAAPQAoACVJhbmdlIE1pbgAPQAoACVJhbmdlIE1heAALQAoABURlbHRhABZAUAADAAQABQAGCUZYUCBSYW5nZQAcQFAAAgADAAcRRlhQIENvbmZpZ3VyYXRpb24AAQAIAQAAACAAAAAIwGAAAAAAAABAX////8AAAD5wAAAAAAAAAAAAAAAAAAA=</Data>
+											<Data>AAACQxgAgAAAAAAGAA5AMP////8ETmFtZQABk0AVACMGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQDRlhQCkZYUCsvLTI0LjUKRlhQKy8tMTYuNQpGWFArLy0zMi44C0ZYUCsvLTY0LjMyCkZYUCsvLTE2LjcKRlhQKy8tMjAuNQpGWFArLy0yNy41C0ZYUCsvLTMyLjE2CEZYUCsxNi4zCEZYUCsxOC4zEURpZ2l0YWwgU3RhdGljIEluEkRpZ2l0YWwgU3RhdGljIE91dBpEaWdpdGFsIFN0YXRpYyBJbiBTZXR0aW5ncw9EaWdpdGFsIFdTUyBPdXQVUXVhZCBFbmNvZGVyIFNldHRpbmdzD1F1YWQgRW5jb2RlciBJbgVHcm91cAAJRGF0YSBUeXBlABJAUw1EZWZhdWx0IFZhbHVlABBAUwpBdHRyaWJ1dGVzAAAOAFAABAAAAAEAAgADACBAQAAB/////wAEE0F2YWlsYWJsZSBSZWdpc3RlcnMAAQAFAAAAAQAAAAhQT1NJVElPTgMYAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAABgAgAAAAAABAAQAAAABAAAAAAAAAAAAAA==</Data>
 										</Variant>
 									</Property>
 								</Properties>
 								<Errors />
-								<Channel Name="ACTIVE TICKS" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
+								<Channel Name="POSITION" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
-											<String>ACTIVE TICKS</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="ACTIVE VOLTAGE" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>ACTIVE VOLTAGE</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="INACTIVE TICKS" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>INACTIVE TICKS</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="INACTIVE VOLTAGE" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>INACTIVE VOLTAGE</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="ACQ TICKS" TypeGUID="625afbbf-e929-46eb-93d1-fe7033ba1e7b" RowDim="1" ColDim="1" Units="" BitFields="15">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>ACQ TICKS</String>
+											<String>POSITION</String>
 										</Property>
 									</Properties>
 									<Errors />
@@ -1463,56 +1358,11 @@
 				<Description />
 				<Properties />
 				<Errors />
-				<Alias Name="Analog PWM In_FREQ" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="Quad Encoder In_POSITION" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Analog PWM In/FREQ" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="Analog PWM In_PERIOD" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Analog PWM In/PERIOD" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="Analog PWM In_DC" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Analog PWM In/DC" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="Analog PWM In_ACTIVE TIME" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Analog PWM In/ACTIVE TIME" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="Analog PWM In_ACTIVE VOLTAGE" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Analog PWM In/ACTIVE VOLTAGE" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="Analog PWM In_INACTIVE VOLTAGE" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Analog PWM In/INACTIVE VOLTAGE" />
+							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Quad Encoder In/POSITION" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -1522,47 +1372,11 @@
 				<Description />
 				<Properties />
 				<Errors />
-				<Alias Name="ACQ TICKS" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="POSITION" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/ACQ TICKS" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="ACTIVE TICKS" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/ACTIVE TICKS" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="ACTIVE VOLTAGE" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/ACTIVE VOLTAGE" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="INACTIVE TICKS" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/INACTIVE TICKS" />
-						</Property>
-					</Properties>
-					<Errors />
-				</Alias>
-				<Alias Name="INACTIVE VOLTAGE" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
-					<Description />
-					<Properties>
-						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/INACTIVE VOLTAGE" />
+							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/POSITION" />
 						</Property>
 					</Properties>
 					<Errors />

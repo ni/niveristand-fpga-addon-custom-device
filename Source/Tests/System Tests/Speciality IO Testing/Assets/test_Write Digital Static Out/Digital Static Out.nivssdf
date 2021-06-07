@@ -3,14 +3,14 @@
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="1" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Digital Static In" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="Digital Static Out" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Digital Static In</String>
+				<String>Digital Static Out</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.12</String>
+				<String>1.0.0.13</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -244,7 +244,7 @@
 								<String>3.2.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO System Tests\FPGA Bitfiles\Digital Static In.lvbitx</String>
+								<String>D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO System Tests\FPGA Bitfiles\Digital Static Out.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO0</String>
@@ -253,12 +253,12 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO System Tests\FPGA Bitfiles\Digital Static In.lvbitx">
+								<DependentFile Type="Absolute" Path="D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO System Tests\FPGA Bitfiles\Digital Static Out.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\Digital Static In.lvbitx</RTDestination>
+									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\Digital Static Out.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>ee0dbfab645818533ee1b86a62c72952</MD5>
+									<MD5>c3e7a3139022928d5ac9102bd37cbb51</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
@@ -273,24 +273,72 @@
 									<Property Name="user.CD.Available Registers">
 										<Variant>
 											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAACsBgAgAAAAAAGAA5AMP////8ETmFtZQABk0AVACMGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQDRlhQCkZYUCsvLTI0LjUKRlhQKy8tMTYuNQpGWFArLy0zMi44C0ZYUCsvLTY0LjMyCkZYUCsvLTE2LjcKRlhQKy8tMjAuNQpGWFArLy0yNy41C0ZYUCsvLTMyLjE2CEZYUCsxNi4zCEZYUCsxOC4zEURpZ2l0YWwgU3RhdGljIEluEkRpZ2l0YWwgU3RhdGljIE91dBpEaWdpdGFsIFN0YXRpYyBJbiBTZXR0aW5ncw9EaWdpdGFsIFdTUyBPdXQVUXVhZCBFbmNvZGVyIFNldHRpbmdzD1F1YWQgRW5jb2RlciBJbgVHcm91cAAJRGF0YSBUeXBlABJAUw1EZWZhdWx0IFZhbHVlABBAUwpBdHRyaWJ1dGVzAAAOAFAABAAAAAEAAgADACBAQAAB/////wAEE0F2YWlsYWJsZSBSZWdpc3RlcnMAAQAFAAAAAQAAABFEaWdpdGFsIFN0YXRpYyBJbhwYAIAAAAAAAgAKQCEFU1RBVEUAZgDxAAAAAAAAAAIYU3BlY2lhbGl0eSBGUEdBIElPLmx2bGliJlN0YXRpYy5NZWFzdXJlLkRpZ2l0YWwuTWVhc3VyZW1lbnQuY3RsAB5AUAABAAARRGlnaXRhbCBTdGF0aWMgSW4AAQABAAAAAAAYAIAAAAAAAQAEAAAAAQAAAAAAAAAAAAA=</Data>
+											<Data>AAACghgAgAAAAAAGAA5AMP////8ETmFtZQABk0AVACMGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQDRlhQCkZYUCsvLTI0LjUKRlhQKy8tMTYuNQpGWFArLy0zMi44C0ZYUCsvLTY0LjMyCkZYUCsvLTE2LjcKRlhQKy8tMjAuNQpGWFArLy0yNy41C0ZYUCsvLTMyLjE2CEZYUCsxNi4zCEZYUCsxOC4zEURpZ2l0YWwgU3RhdGljIEluEkRpZ2l0YWwgU3RhdGljIE91dBpEaWdpdGFsIFN0YXRpYyBJbiBTZXR0aW5ncw9EaWdpdGFsIFdTUyBPdXQVUXVhZCBFbmNvZGVyIFNldHRpbmdzD1F1YWQgRW5jb2RlciBJbgVHcm91cAAJRGF0YSBUeXBlABJAUw1EZWZhdWx0IFZhbHVlABBAUwpBdHRyaWJ1dGVzAAAOAFAABAAAAAEAAgADACBAQAAB/////wAEE0F2YWlsYWJsZSBSZWdpc3RlcnMAAQAFAAAAAgAAAAtBQ1RJVkUgRURHRQoYAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAABgAgAAAAAABAAQAAAABAAAAAAAAAAAABk9VVFBVVAoYAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAABgAgAAAAAABAAQAAAABAAAAAAAAAAAAAA==</Data>
 										</Variant>
 									</Property>
 								</Properties>
 								<Errors />
-								<Section Name="Digital Static In" TypeGUID="25832021-24b6-475a-aa84-f4ed7870ed99">
+								<Channel Name="ACTIVE EDGE" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
 									<Description />
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
-											<String>Digital Static In</String>
+											<String>ACTIVE EDGE</String>
 										</Property>
 									</Properties>
 									<Errors />
-									<Channel Name="STATE" TypeGUID="4b03cffd-e469-431a-ba96-aca85ece66af" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="OUTPUT" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>OUTPUT</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+							<Section Name="Scalar Outputs" TypeGUID="7d46fed9-731a-4423-8f13-aa8ac2cd791c">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Available Registers">
+										<Variant>
+											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+											<Data>AAACxhgAgAAAAAAGAA5AMP////8ETmFtZQABk0AVACMGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQDRlhQCkZYUCsvLTI0LjUKRlhQKy8tMTYuNQpGWFArLy0zMi44C0ZYUCsvLTY0LjMyCkZYUCsvLTE2LjcKRlhQKy8tMjAuNQpGWFArLy0yNy41C0ZYUCsvLTMyLjE2CEZYUCsxNi4zCEZYUCsxOC4zEURpZ2l0YWwgU3RhdGljIEluEkRpZ2l0YWwgU3RhdGljIE91dBpEaWdpdGFsIFN0YXRpYyBJbiBTZXR0aW5ncw9EaWdpdGFsIFdTUyBPdXQVUXVhZCBFbmNvZGVyIFNldHRpbmdzD1F1YWQgRW5jb2RlciBJbgVHcm91cAAJRGF0YSBUeXBlABJAUw1EZWZhdWx0IFZhbHVlABBAUwpBdHRyaWJ1dGVzAAAOAFAABAAAAAEAAgADACBAQAAB/////wAEE0F2YWlsYWJsZSBSZWdpc3RlcnMAAQAFAAAAAQAAABJEaWdpdGFsIFN0YXRpYyBPdXQdGACAAAAAAAMAEEAhC0FDVElWRSBFREdFAAxAIQZPVVRQVVQAAGgA8QAAAAAAAAACGFNwZWNpYWxpdHkgRlBHQSBJTy5sdmxpYiRTdGF0aWMuR2VuZXJhdGUuRGlnaXRhbC5TZXR0aW5ncy5jdGwAIkBQAAIAAAABEkRpZ2l0YWwgU3RhdGljIE91dAAAAQACAAAAAAAAGACAAAAAAAEABAAAAAEAAAAAAAAAAAAA</Data>
+										</Variant>
+									</Property>
+								</Properties>
+								<Errors />
+								<Section Name="Digital Static Out" TypeGUID="25832021-24b6-475a-aa84-f4ed7870ed99">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Digital Static Out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="ACTIVE EDGE" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="" BitFields="15">
 										<Description />
 										<Properties>
 											<Property Name="user.CD.Bitfile Object Name">
-												<String>STATE</String>
+												<String>ACTIVE EDGE</String>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="OUTPUT" TypeGUID="6db3f02b-654f-4ed6-bd84-80bb5242a557" RowDim="1" ColDim="1" Units="" BitFields="15">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.Bitfile Object Name">
+												<String>OUTPUT</String>
 											</Property>
 										</Properties>
 										<Errors />
@@ -299,30 +347,6 @@
 										</DefaultValue>
 									</Channel>
 								</Section>
-							</Section>
-							<Section Name="Scalar Outputs" TypeGUID="7d46fed9-731a-4423-8f13-aa8ac2cd791c">
-								<Description />
-								<Properties>
-									<Property Name="user.CD.Available Registers">
-										<Variant>
-											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-											<Data>AAACQBgAgAAAAAAGAA5AMP////8ETmFtZQABk0AVACMGPE51bGw+Akk4A0kxNgNJMzIDSTY0AlU4A1UxNgNVMzIDVTY0A1NHTAdCb29sZWFuFkFuYWxvZyBQV00gSW4gU2V0dGluZ3MNQW5hbG9nIFBXTSBJbhdEaWdpdGFsIFBXTSBJbiBTZXR0aW5ncw5EaWdpdGFsIFBXTSBJbg9EaWdpdGFsIFBXTSBPdXQIU2luZSBPdXQDRlhQCkZYUCsvLTI0LjUKRlhQKy8tMTYuNQpGWFArLy0zMi44C0ZYUCsvLTY0LjMyCkZYUCsvLTE2LjcKRlhQKy8tMjAuNQpGWFArLy0yNy41C0ZYUCsvLTMyLjE2CEZYUCsxNi4zCEZYUCsxOC4zEURpZ2l0YWwgU3RhdGljIEluEkRpZ2l0YWwgU3RhdGljIE91dBpEaWdpdGFsIFN0YXRpYyBJbiBTZXR0aW5ncw9EaWdpdGFsIFdTUyBPdXQVUXVhZCBFbmNvZGVyIFNldHRpbmdzD1F1YWQgRW5jb2RlciBJbgVHcm91cAAJRGF0YSBUeXBlABJAUw1EZWZhdWx0IFZhbHVlABBAUwpBdHRyaWJ1dGVzAAAOAFAABAAAAAEAAgADACBAQAAB/////wAEE0F2YWlsYWJsZSBSZWdpc3RlcnMAAQAFAAAAAQAAAAVTVEFURQoYAIAAAAAAAQAFAAoAAAEAAAAAAAAAAAAAAAAAABgAgAAAAAABAAQAAAABAAAAAAAAAAAAAA==</Data>
-										</Variant>
-									</Property>
-								</Properties>
-								<Errors />
-								<Channel Name="STATE" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>STATE</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
 							</Section>
 						</Section>
 						<Section Name="Waveforms" TypeGUID="5f75895a-bfdb-4cd8-9ef2-787e261eba38">
@@ -1358,11 +1382,20 @@
 				<Description />
 				<Properties />
 				<Errors />
-				<Alias Name="Digital Static In_STATE" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="ACTIVE EDGE" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/Digital Static In/STATE" />
+							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/ACTIVE EDGE" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="OUTPUT" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/OUTPUT" />
 						</Property>
 					</Properties>
 					<Errors />
@@ -1372,11 +1405,20 @@
 				<Description />
 				<Properties />
 				<Errors />
-				<Alias Name="STATE" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+				<Alias Name="Digital Static Out_ACTIVE EDGE" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
 					<Description />
 					<Properties>
 						<Property Name="Referenced Channel">
-							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/STATE" />
+							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/Digital Static Out/ACTIVE EDGE" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="Digital Static Out_OUTPUT" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/Digital Static Out/OUTPUT" />
 						</Property>
 					</Properties>
 					<Errors />
