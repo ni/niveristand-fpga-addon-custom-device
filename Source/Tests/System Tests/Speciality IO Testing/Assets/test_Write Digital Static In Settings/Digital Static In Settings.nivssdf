@@ -3,14 +3,14 @@
 	<MD5Checksum />
 	<Version Major="2017" Minor="0" Fix="1" Build="0" />
 	<Content>Definition</Content>
-	<Root Name="Digital Static In" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+	<Root Name="Digital Static In Settings" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
 		<Properties>
 			<Property Name="Name">
-				<String>Digital Static In</String>
+				<String>Digital Static In Settings</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.12</String>
+				<String>1.0.0.13</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -247,7 +247,7 @@
 								<String>D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO System Tests\FPGA Bitfiles\Digital Static In Settings.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
-								<String>RIO0</String>
+								<String>RIO1</String>
 							</Property>
 							<Property Name="user.CD.Group">
 								<Boolean>false</Boolean>

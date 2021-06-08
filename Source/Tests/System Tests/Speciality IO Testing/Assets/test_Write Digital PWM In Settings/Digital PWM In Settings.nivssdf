@@ -10,7 +10,7 @@
 				<String>Digital PWM In Settings</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.12</String>
+				<String>1.0.0.13</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -31,7 +31,7 @@
 						<String>Windows</String>
 					</Property>
 					<Property Name="IP Address">
-						<String />
+						<String>localhost</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -97,6 +97,9 @@
 						<Double>15</Double>
 					</Property>
 					<Property Name="FPGAScanInterfaceMode">
+						<U16>0</U16>
+					</Property>
+					<Property Name="Timing Source Settings">
 						<U16>0</U16>
 					</Property>
 				</Properties>
@@ -244,7 +247,7 @@
 								<String>D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO System Tests\FPGA Bitfiles\Digital PWM In Settings.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
-								<String>RIO0</String>
+								<String>RIO1</String>
 							</Property>
 							<Property Name="user.CD.Group">
 								<Boolean>false</Boolean>

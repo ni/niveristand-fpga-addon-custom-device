@@ -10,7 +10,7 @@
 				<String>Digital Static In</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.12</String>
+				<String>1.0.0.13</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -247,7 +247,7 @@
 								<String>D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO System Tests\FPGA Bitfiles\Digital Static In.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
-								<String>RIO0</String>
+								<String>RIO1</String>
 							</Property>
 							<Property Name="user.CD.Group">
 								<Boolean>false</Boolean>
