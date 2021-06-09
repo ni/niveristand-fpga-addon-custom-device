@@ -10,7 +10,7 @@
 				<String>Digital PWM In Settings</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.13</String>
+				<String>1.0.0.14</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -244,7 +244,7 @@
 								<String>3.2.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO System Tests\FPGA Bitfiles\Digital PWM In Settings.lvbitx</String>
+								<String>D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO LVFPGA Proj\FPGA Bitfiles\Digital PWM In Settings.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO1</String>
@@ -253,12 +253,12 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Absolute" Path="D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO System Tests\FPGA Bitfiles\Digital PWM In Settings.lvbitx">
+								<DependentFile Type="Absolute" Path="D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO LVFPGA Proj\FPGA Bitfiles\Digital PWM In Settings.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\Digital PWM In Settings.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>f0c192d5a5c5b6cbbdde64d237113cf8</MD5>
+									<MD5>0d69ffb4a310ad53ad96c6bf47766190</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
