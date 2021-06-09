@@ -26,7 +26,7 @@ The VI executes the following steps:
    1. Opens the `Resources\Create and import an FPGA Addon configuration\Example SysDef(Specialty).nivssdf` System Definition.
    1. Selects the first target.
    1. Creates an FPGA Addon under the selected target.
-   1. Import a configuration file.
+   1. Imports a configuration file.
    1. Gets FPGA Addon information.
    1. If the boolean case selector is true, then the System Definition will be updated with the new settings.
 

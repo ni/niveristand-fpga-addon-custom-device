@@ -33,11 +33,15 @@ You can generate a bitfile for your specific target from the LabVIEW project.
 11. Save and Deploy the system definition.
 
 ## Exemple details
-### `LabVIEW FPGA Project\Speciality IO FPGA.lvproj` is a LabVIEW project used to generate a bitfile for the FPGA Addon.
+### LabVIEW FPGA Project
+
+`LabVIEW FPGA Project\Speciality IO FPGA.lvproj` is a LabVIEW project used to generate a bitfile for the FPGA Addon.
 - In the current configuration, the bitfile is generated for a cRIO-9039 target.
 - A different target can be added to the project and the `Speciality IO Example.vi` can be used to generate a compatible bitfile for the new target.
 - For more details regarding FPGA Speciality IO, visit [niveristand-fpga-addon-speciality-io](https://github.com/ni/niveristand-fpga-addon-speciality-io) official repository.
    
-### `VeriStand Project\VS FPGA Addon Speciality IO Example.nivsproj` is a VeriStand project that contains a configured FPGA Addon using the bitfile generated from `LabVIEW FPGA Project\Speciality IO FPGA.lvproj`.
+### VeriStand Project
+
+`VeriStand Project\VS FPGA Addon Speciality IO Example.nivsproj` is a VeriStand project that contains a configured FPGA Addon using the bitfile generated from `LabVIEW FPGA Project\Speciality IO FPGA.lvproj`.
 - Target Operating System is Windows.
 - *RIO Device* is: *rio://10.113.1.184/RIO0* to access the cRIO-9039 target.

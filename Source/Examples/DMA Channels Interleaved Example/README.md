@@ -31,14 +31,20 @@ You can generate a bitfile for your specific target from the LabVIEW project.
 12. The *Valid Measurements?* indicator should be True and the *Waveform* Graph should be populated with data.
 
 ## Exemple details
-### `LabVIEW FPGA Project\DMA Channels FPGA.lvproj` is a LabVIEW project used to generate a bitfile for the FPGA Addon.
+### LabVIEW FPGA Project
+
+`LabVIEW FPGA Project\DMA Channels FPGA.lvproj` is a LabVIEW project used to generate a bitfile for the FPGA Addon.
 - In the current configuration, the bitfile is generated for a PXIe-7858R target.
 - A different target can be added to the project and the `FPGA Personality.vi` can be used to generate a compatible bitfile for the new target.
    
-### `VeriStand Project\VS FPGA Addon Interleaved Example.nivsproj` is a VeriStand project that contains a configured FPGA Addon using the bitfile generated from `LabVIEW FPGA Project\DMA Channels FPGA.lvproj`.
+### VeriStand Project
+
+`VeriStand Project\VS FPGA Addon Interleaved Example.nivsproj` is a VeriStand project that contains a configured FPGA Addon using the bitfile generated from `LabVIEW FPGA Project\DMA Channels FPGA.lvproj`.
 - Target Operating System is Windows.
 - *RIO Device* is: `rio://10.113.0.134/RIO1` to access the PXIe-7858R target.
  
-### `LabVIEW Host\Basic Waveform Read Example.vi` reads a Waveform from a deployed VeriStand system.
+### LabVIEW Host
+
+`LabVIEW Host\Basic Waveform Read Example.vi` reads a Waveform from a deployed VeriStand system.
 - After the System Definition from `VeriStand Project\VS FPGA Addon Interleaved Example.nivsproj` is deployed, the `Basic Waveform Read Example.vi` can be run.
 - When running, it will read a waveform and get the array cycle in order to populate the *Waveform* Graph.
