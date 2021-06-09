@@ -16,10 +16,14 @@ You can generate a bitfile for your specific target from the LabVIEW project.
 
 ![Speciality IO Example](../../Quick%20Start%20Documentation/Images/image025.png)
 
-    **Note:** If you wish different logic:
-    - Add Speciality IO items of interests.
-    - It is a requirement for the FPGA code to have an IRQ (address of 30) to control when the FPGA bitfile starts. This IRQ only needs to control when DMA read/write operations start
-    - Any other code can start whenever it makes sense. 
+---
+
+**Note:** If you wish different logic:
+- Add Speciality IO items of interests.
+- It is a requirement for the FPGA code to have an IRQ (address of 30) to control when the FPGA bitfile starts. This IRQ only needs to control when DMA read/write operations start
+- Any other code can start whenever it makes sense. 
+
+---
 
 6. Open `VeriStand Project\VS FPGA Addon Speciality IO Example.nivsproj`.
 7. Open the *System Definition* and navigate to the FPGA Addon under Custom Devices.
