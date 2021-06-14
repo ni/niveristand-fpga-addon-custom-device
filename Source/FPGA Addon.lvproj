@@ -68,7 +68,6 @@
 						<Item Name="image034.png" Type="Document" URL="../Quick Start Documentation/Images/image034.png"/>
 						<Item Name="image035.jpg" Type="Document" URL="../Quick Start Documentation/Images/image035.jpg"/>
 						<Item Name="image045.jpg" Type="Document" URL="../Quick Start Documentation/Images/image045.jpg"/>
-						<Item Name="image046.jpg" Type="Document" URL="../Quick Start Documentation/Images/image046.jpg"/>
 					</Item>
 					<Item Name="FPGA Addon Quick Start Guide.md" Type="Document" URL="../Quick Start Documentation/FPGA Addon Quick Start Guide.md"/>
 				</Item>
@@ -106,6 +105,9 @@
 				</Item>
 				<Item Name="Scalar Channels Testing" Type="Folder">
 					<Item Name="FPGA Addon Scalar Channels System Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Scalar Channels Testing/Scalar Channels Testing/FPGA Addon Scalar Channels System Tests.lvclass"/>
+				</Item>
+				<Item Name="Speciality IO Testing" Type="Folder">
+					<Item Name="FPGA Addon Speciality IO Tests.lvclass" Type="LVClass" URL="../Tests/System Tests/Speciality IO Testing/FPGA Addon Speciality IO Tests/FPGA Addon Speciality IO Tests.lvclass"/>
 				</Item>
 			</Item>
 			<Item Name="Unit Tests" Type="Folder">
@@ -611,13 +613,7 @@
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="Waveform Subtype Enum__ogtk__jki_vi_tester.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/VI Tester/_support/Support.llb/Waveform Subtype Enum__ogtk__jki_vi_tester.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
-				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
-				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
-				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="Data Type.ctl" Type="VI" URL="../Addon/Addon Shared/Types/Data Type.ctl"/>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1027,13 +1023,7 @@
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
-				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
-				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
-				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="Data Type.ctl" Type="VI" URL="../Addon/Addon Shared/Types/Data Type.ctl"/>
 			<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
 			<Item Name="FPGA Register IO.lvlib" Type="Library" URL="../APIs/FPGA Register IO/FPGA Register IO.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
@@ -1241,6 +1231,7 @@
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
 				<Item Name="LVFixedPointRepBitsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepBitsTypeDef.ctl"/>
 				<Item Name="LVFixedPointRepRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepRangeTypeDef.ctl"/>
+				<Item Name="LVFPGAAdvSessionResources.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/FPGA Advanced Session Resources/LVFPGA Adv Session Resources/LVFPGAAdvSessionResources.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -1248,7 +1239,6 @@
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
-				<Item Name="OpenByNameSubVI.vi" Type="VI" URL="/&lt;vilib&gt;/NI/LVFPGA Adv Session Resources/OpenByNameSubVI.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -1257,7 +1247,6 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Data Type.ctl" Type="VI" URL="../Addon/Addon Shared/Types/Data Type.ctl"/>
 			<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
 			<Item Name="FPGA Register IO.lvlib" Type="Library" URL="../APIs/FPGA Register IO/FPGA Register IO.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
@@ -1274,6 +1263,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../Submodules/Source/Speciality FPGA IO.lvlib"/>
@@ -1466,6 +1458,7 @@
 				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
 				<Item Name="LVFixedPointRepBitsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepBitsTypeDef.ctl"/>
 				<Item Name="LVFixedPointRepRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepRangeTypeDef.ctl"/>
+				<Item Name="LVFPGAAdvSessionResources.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/FPGA Advanced Session Resources/LVFPGA Adv Session Resources/LVFPGAAdvSessionResources.lvlib"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -1473,7 +1466,6 @@
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
-				<Item Name="OpenByNameSubVI.vi" Type="VI" URL="/&lt;vilib&gt;/NI/LVFPGA Adv Session Resources/OpenByNameSubVI.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -1482,7 +1474,6 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Data Type.ctl" Type="VI" URL="../Addon/Addon Shared/Types/Data Type.ctl"/>
 			<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
 			<Item Name="FPGA Register IO.lvlib" Type="Library" URL="../APIs/FPGA Register IO/FPGA Register IO.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
@@ -1499,6 +1490,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../Submodules/Source/Speciality FPGA IO.lvlib"/>
@@ -1706,7 +1700,6 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Data Type.ctl" Type="VI" URL="../Addon/Addon Shared/Types/Data Type.ctl"/>
 			<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
 			<Item Name="FPGA Register IO.lvlib" Type="Library" URL="../APIs/FPGA Register IO/FPGA Register IO.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>

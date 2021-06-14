@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,26 +11,32 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Images" Type="Folder">
+			<Item Name="CreateAndImportAnFpgaAddonConfiguration.JPG" Type="Document" URL="../Images/CreateAndImportAnFpgaAddonConfiguration.JPG"/>
+			<Item Name="CreateAnFpgaAddonAndImportScalars.JPG" Type="Document" URL="../Images/CreateAnFpgaAddonAndImportScalars.JPG"/>
+			<Item Name="CreateAnFpgaAddonAndSelectivelyImportScalars.JPG" Type="Document" URL="../Images/CreateAnFpgaAddonAndSelectivelyImportScalars.JPG"/>
+			<Item Name="FindAndExportAnFpgaAddonConfiguration.JPG" Type="Document" URL="../Images/FindAndExportAnFpgaAddonConfiguration.JPG"/>
+		</Item>
 		<Item Name="Resources" Type="Folder">
-			<Item Name="Example 1" Type="Folder">
-				<Item Name="cRIO9039 FPGA Personality(Specialty).lvbitx" Type="Document" URL="../Resources/Example 1/cRIO9039 FPGA Personality(Specialty).lvbitx"/>
-				<Item Name="Example FPGA Addon Config.dat" Type="Document" URL="../Resources/Example 1/Example FPGA Addon Config.dat"/>
-				<Item Name="Example SysDef(Specialty).nivssdf" Type="Document" URL="../Resources/Example 1/Example SysDef(Specialty).nivssdf"/>
+			<Item Name="Create an FPGA Addon and import scalars" Type="Folder">
+				<Item Name="cRIO9039 FPGA Personality(Specialty).lvbitx" Type="Document" URL="../Resources/Create an FPGA Addon and import scalars/cRIO9039 FPGA Personality(Specialty).lvbitx"/>
+				<Item Name="Example FPGA Addon Config.dat" Type="Document" URL="../Resources/Create an FPGA Addon and import scalars/Example FPGA Addon Config.dat"/>
+				<Item Name="Example SysDef(Specialty).nivssdf" Type="Document" URL="../Resources/Create an FPGA Addon and import scalars/Example SysDef(Specialty).nivssdf"/>
 			</Item>
-			<Item Name="Example 2" Type="Folder">
-				<Item Name="cRIO9039 FPGA Personality(Specialty).lvbitx" Type="Document" URL="../Resources/Example 2/cRIO9039 FPGA Personality(Specialty).lvbitx"/>
-				<Item Name="Example FPGA Addon Config.dat" Type="Document" URL="../Resources/Example 2/Example FPGA Addon Config.dat"/>
-				<Item Name="Example SysDef(Specialty).nivssdf" Type="Document" URL="../Resources/Example 2/Example SysDef(Specialty).nivssdf"/>
+			<Item Name="Create an FPGA Addon and selectively import scalars" Type="Folder">
+				<Item Name="cRIO9039 FPGA Personality(Specialty).lvbitx" Type="Document" URL="../Resources/Create an FPGA Addon and selectively import scalars/cRIO9039 FPGA Personality(Specialty).lvbitx"/>
+				<Item Name="Example FPGA Addon Config.dat" Type="Document" URL="../Resources/Create an FPGA Addon and selectively import scalars/Example FPGA Addon Config.dat"/>
+				<Item Name="Example SysDef(Specialty).nivssdf" Type="Document" URL="../Resources/Create an FPGA Addon and selectively import scalars/Example SysDef(Specialty).nivssdf"/>
 			</Item>
-			<Item Name="Example 3" Type="Folder">
-				<Item Name="cRIO9039 FPGA Personality(Specialty).lvbitx" Type="Document" URL="../Resources/Example 3/cRIO9039 FPGA Personality(Specialty).lvbitx"/>
-				<Item Name="Example FPGA Addon Config.dat" Type="Document" URL="../Resources/Example 3/Example FPGA Addon Config.dat"/>
-				<Item Name="Example SysDef(Specialty).nivssdf" Type="Document" URL="../Resources/Example 3/Example SysDef(Specialty).nivssdf"/>
+			<Item Name="Create and import an FPGA Addon configuration" Type="Folder">
+				<Item Name="cRIO9039 FPGA Personality(Specialty).lvbitx" Type="Document" URL="../Resources/Create and import an FPGA Addon configuration/cRIO9039 FPGA Personality(Specialty).lvbitx"/>
+				<Item Name="Example FPGA Addon Config.dat" Type="Document" URL="../Resources/Create and import an FPGA Addon configuration/Example FPGA Addon Config.dat"/>
+				<Item Name="Example SysDef(Specialty).nivssdf" Type="Document" URL="../Resources/Create and import an FPGA Addon configuration/Example SysDef(Specialty).nivssdf"/>
 			</Item>
-			<Item Name="Example 4" Type="Folder">
-				<Item Name="cRIO9039 FPGA Personality(Specialty).lvbitx" Type="Document" URL="../Resources/Example 4/cRIO9039 FPGA Personality(Specialty).lvbitx"/>
-				<Item Name="Example FPGA Addon Config.dat" Type="Document" URL="../Resources/Example 4/Example FPGA Addon Config.dat"/>
-				<Item Name="Example SysDef(Specialty).nivssdf" Type="Document" URL="../Resources/Example 4/Example SysDef(Specialty).nivssdf"/>
+			<Item Name="Find and export an FPGA Addon configuration" Type="Folder">
+				<Item Name="cRIO9039 FPGA Personality(Specialty).lvbitx" Type="Document" URL="../Resources/Find and export an FPGA Addon configuration/cRIO9039 FPGA Personality(Specialty).lvbitx"/>
+				<Item Name="Example FPGA Addon Config.dat" Type="Document" URL="../Resources/Find and export an FPGA Addon configuration/Example FPGA Addon Config.dat"/>
+				<Item Name="Example SysDef(Specialty).nivssdf" Type="Document" URL="../Resources/Find and export an FPGA Addon configuration/Example SysDef(Specialty).nivssdf"/>
 			</Item>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
@@ -39,10 +46,11 @@
 		<Item Name="Utilities" Type="Folder">
 			<Item Name="Post-Build Action.vi" Type="VI" URL="../Utilities/Post-Build Action.vi"/>
 		</Item>
-		<Item Name="Example 1 - Create and Configure FPGA Addon.vi" Type="VI" URL="../Example 1 - Create and Configure FPGA Addon.vi"/>
-		<Item Name="Example 2 - Find and Export FPGA Addon Configuration.vi" Type="VI" URL="../Example 2 - Find and Export FPGA Addon Configuration.vi"/>
-		<Item Name="Example 3 - Create FPGA Addon and Import Scalars.vi" Type="VI" URL="../Example 3 - Create FPGA Addon and Import Scalars.vi"/>
-		<Item Name="Example 4 - Create FPGA Addon and Selectively Import Scalars.vi" Type="VI" URL="../Example 4 - Create FPGA Addon and Selectively Import Scalars.vi"/>
+		<Item Name="Create and import an FPGA Addon configuration.vi" Type="VI" URL="../Create and import an FPGA Addon configuration.vi"/>
+		<Item Name="Create an FPGA Addon and import scalars.vi" Type="VI" URL="../Create an FPGA Addon and import scalars.vi"/>
+		<Item Name="Create an FPGA Addon and selectively import scalars.vi" Type="VI" URL="../Create an FPGA Addon and selectively import scalars.vi"/>
+		<Item Name="Find and export an FPGA Addon Configuration.vi" Type="VI" URL="../Find and export an FPGA Addon Configuration.vi"/>
+		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -166,11 +174,13 @@
 					<Item Name="Remove Duplicates from 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/user.lib/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (String)__ogtk.vi"/>
 					<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/Submodules/Source/Speciality FPGA IO.lvlib"/>
 					<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+					<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Trim Whitespace.vi"/>
 					<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
 					<Item Name="Type Descriptor Header__ogtk.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Header__ogtk.ctl"/>
 					<Item Name="Type Descriptor__ogtk.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor__ogtk.ctl"/>
 					<Item Name="Variant to Header Info__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/user.lib/_OpenG.lib/lvdata/lvdata.llb/Variant to Header Info__ogtk.vi"/>
 					<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/Utility/VariantDataType/VariantType.lvlib"/>
+					<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/VeriStand Custom Device Scripting APIs/FPGA Addon/Scripting API.lvlibp/1abvi3w/vi.lib/Utility/error.llb/whitespace.ctl"/>
 				</Item>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
@@ -224,23 +234,26 @@
 				<Property Name="Destination[3].destName" Type="Str">SubVIs Directory</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/SubVIs</Property>
 				<Property Name="Destination[3].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{04815EC6-A2A5-4CA7-A2ED-152CD8C46F88}</Property>
+				<Property Name="Destination[4].destName" Type="Str">Images</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Images</Property>
+				<Property Name="Destination[4].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E49A6C8B-84A1-4B38-9BAF-0AB49EAB5313}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Example 1 - Create and Configure FPGA Addon.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Create and import an FPGA Addon configuration.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Example 2 - Find and Export FPGA Addon Configuration.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Find and export an FPGA Addon Configuration.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Example 3 - Create FPGA Addon and Import Scalars.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Create an FPGA Addon and import scalars.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Example 4 - Create FPGA Addon and Selectively Import Scalars.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Create an FPGA Addon and selectively import scalars.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
@@ -257,7 +270,17 @@
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/SubVIs</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/README.md</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Images</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">9</Property>
 			</Item>
 		</Item>
 	</Item>
