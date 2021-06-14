@@ -68,7 +68,6 @@
 						<Item Name="image034.png" Type="Document" URL="../Quick Start Documentation/Images/image034.png"/>
 						<Item Name="image035.jpg" Type="Document" URL="../Quick Start Documentation/Images/image035.jpg"/>
 						<Item Name="image045.jpg" Type="Document" URL="../Quick Start Documentation/Images/image045.jpg"/>
-						<Item Name="image046.jpg" Type="Document" URL="../Quick Start Documentation/Images/image046.jpg"/>
 					</Item>
 					<Item Name="FPGA Addon Quick Start Guide.md" Type="Document" URL="../Quick Start Documentation/FPGA Addon Quick Start Guide.md"/>
 				</Item>
