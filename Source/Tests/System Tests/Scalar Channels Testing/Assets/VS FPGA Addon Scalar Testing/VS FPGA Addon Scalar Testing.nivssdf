@@ -261,7 +261,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\PXIe7858 Personality.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>baa233a743e97cffc482fedf53dc73fb</MD5>
+									<MD5>a0c185270b0e63a9e7a5c96c7d1a8d8e</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
