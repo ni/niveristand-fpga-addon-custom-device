@@ -6,7 +6,7 @@ archive_location = '\\nirvana\Measurements\VeriStandAddons\fpga_addon_custom_dev
 path = 'Source\FPGA Addon.lvproj'
 
 [projects.api_examples]
-path = 'Source\Examples\Scripting API Examples\FPGA Addon Scripting Examples.lvproj'
+path = 'Source\Examples\Scripting API Examples\FPGA Addon Scripting API Examples.lvproj'
 
 [[build.steps]]
 name = 'Packed Scripting API'
