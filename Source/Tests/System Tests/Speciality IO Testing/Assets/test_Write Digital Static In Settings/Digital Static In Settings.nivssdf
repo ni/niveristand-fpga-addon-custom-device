@@ -253,7 +253,7 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Relative" Path="Digital Static In Settings.lvbitx">
+								<DependentFile Type="Absolute" Path="D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO LVFPGA Proj\FPGA Bitfiles\Digital Static In Settings.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\Digital Static In Settings.lvbitx</RTDestination>

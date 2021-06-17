@@ -10,7 +10,7 @@
 				<String>Analog PWM In</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.23</String>
+				<String>1.0.0.22</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -244,7 +244,7 @@
 								<String>3.2.1</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Bitfile">
-								<String>D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\test_Read Analog PWM In\Analog PWM In.lvbitx</String>
+								<String>D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO LVFPGA Proj\FPGA Bitfiles\Analog PWM In.lvbitx</String>
 							</Property>
 							<Property Name="user.CD.FPGA.Device">
 								<String>RIO1</String>
@@ -253,7 +253,7 @@
 								<Boolean>false</Boolean>
 							</Property>
 							<Property Name="user.CD.Bitfile">
-								<DependentFile Type="Relative" Path="Analog PWM In.lvbitx">
+								<DependentFile Type="Absolute" Path="D:\GitBranches\niveristand-fpga-addon-custom-device\Source\Tests\System Tests\Speciality IO Testing\Assets\Speciality IO LVFPGA Proj\FPGA Bitfiles\Analog PWM In.lvbitx">
 									<Version>1.0</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\Analog PWM In.lvbitx</RTDestination>
