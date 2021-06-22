@@ -10,7 +10,7 @@
 				<String>VS FPGA Addon Scalar Testing</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.60</String>
+				<String>1.0.0.63</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -199,8 +199,8 @@
 								<U32>1</U32>
 							</Property>
 							<Property Name="Driver VI Path_0">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\EngineCheck\Windows\EngineCheck Engine Windows.llb\RT Driver VI.vi">
-									<Version>3.1.1</Version>
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\FPGA Addon\Linux_x64\FPGA Addon Engine Linux64.llb\RT Driver VI.vi">
+									<Version>3.2.1</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine Linux64.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
@@ -208,8 +208,8 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_1">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\EngineCheck\Windows\EngineCheck Engine Windows.llb\RT Driver VI.vi">
-									<Version>3.1.1</Version>
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\FPGA Addon\Linux_32_ARM\FPGA Addon Engine LinuxARM.llb\RT Driver VI.vi">
+									<Version>3.2.1</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Linux_32_ARM</SupportedTarget>
@@ -217,8 +217,8 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Driver VI Path_2">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\EngineCheck\Windows\EngineCheck Engine Windows.llb\RT Driver VI.vi">
-									<Version>3.1.1</Version>
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\FPGA Addon\VxWorks\FPGA Addon Engine VxWorks.llb\RT Driver VI.vi">
+									<Version>3.2.1</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine VxWorks.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>VxWorks</SupportedTarget>
@@ -227,7 +227,7 @@
 							</Property>
 							<Property Name="Driver VI Path_3">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\FPGA Addon\Pharlap\FPGA Addon Engine Pharlap.llb\RT Driver VI.vi">
-									<Version>3.1.1</Version>
+									<Version>3.2.1</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>PharLap</SupportedTarget>
@@ -236,7 +236,7 @@
 							</Property>
 							<Property Name="Driver VI Path_4">
 								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\FPGA Addon\Windows\FPGA Addon Engine Windows.llb\RT Driver VI.vi">
-									<Version>3.1.1</Version>
+									<Version>3.2.1</Version>
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\FPGA Addon Engine Windows.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Windows</SupportedTarget>
@@ -261,7 +261,7 @@
 									<ForceDownload>false</ForceDownload>
 									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\FPGA Addon\PXIe7858 Personality.lvbitx</RTDestination>
 									<SupportedTarget>All</SupportedTarget>
-									<MD5>baa233a743e97cffc482fedf53dc73fb</MD5>
+									<MD5>a0c185270b0e63a9e7a5c96c7d1a8d8e</MD5>
 								</DependentFile>
 							</Property>
 						</Properties>
@@ -578,6 +578,18 @@
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
+								<Channel Name="FXP3.2 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP3.2 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
 								<Channel Name="FXP32.16 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
 									<Description />
 									<Properties>
@@ -607,6 +619,18 @@
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
 											<String>FXP64.32 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP64.5 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP64.5 out</String>
 										</Property>
 									</Properties>
 									<Errors />
@@ -710,6 +734,18 @@
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
+								<Channel Name="Group1.FXP3.2 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP3.2 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
 								<Channel Name="Group1.FXP32.16 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
 									<Description />
 									<Properties>
@@ -739,6 +775,18 @@
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
 											<String>Group1.FXP64.32 out</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP64.5 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP64.5 out</String>
 										</Property>
 									</Properties>
 									<Errors />
@@ -955,54 +1003,6 @@
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
 											<String>U8 out</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="Group1.FXP64.5 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>Group1.FXP64.5 out</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="Group1.FXP3.2 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>Group1.FXP3.2 out</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="FXP64.5 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>FXP64.5 out</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="FXP3.2 out" TypeGUID="7579cb69-d559-4b2b-a1fc-0d112e8661b6" RowDim="1" ColDim="1" Units="" BitFields="13">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>FXP3.2 out</String>
 										</Property>
 									</Properties>
 									<Errors />
@@ -1572,6 +1572,18 @@ Value = 1; Increment B Leads A
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
+								<Channel Name="FXP3.2" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP3.2</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
 								<Channel Name="FXP32.16" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
 									<Description />
 									<Properties>
@@ -1601,6 +1613,18 @@ Value = 1; Increment B Leads A
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
 											<String>FXP64.32</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="FXP64.5" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>FXP64.5</String>
 										</Property>
 									</Properties>
 									<Errors />
@@ -1704,6 +1728,18 @@ Value = 1; Increment B Leads A
 										<Elem>0</Elem>
 									</DefaultValue>
 								</Channel>
+								<Channel Name="Group1.FXP3.2" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP3.2</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
 								<Channel Name="Group1.FXP32.16" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
 									<Description />
 									<Properties>
@@ -1733,6 +1769,18 @@ Value = 1; Increment B Leads A
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
 											<String>Group1.FXP64.32</String>
+										</Property>
+									</Properties>
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Group1.FXP64.5" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.Bitfile Object Name">
+											<String>Group1.FXP64.5</String>
 										</Property>
 									</Properties>
 									<Errors />
@@ -1961,54 +2009,6 @@ Value = 1; Increment B Leads A
 									<Properties>
 										<Property Name="user.CD.Bitfile Object Name">
 											<String>Z</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="Group1.FXP3.2" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>Group1.FXP3.2</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="Group1.FXP64.5" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>Group1.FXP64.5</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="FXP3.2" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>FXP3.2</String>
-										</Property>
-									</Properties>
-									<Errors />
-									<DefaultValue>
-										<Elem>0</Elem>
-									</DefaultValue>
-								</Channel>
-								<Channel Name="FXP64.5" TypeGUID="ddc5186b-4b14-4629-b48a-cef4575f789c" RowDim="1" ColDim="1" Units="" BitFields="15">
-									<Description />
-									<Properties>
-										<Property Name="user.CD.Bitfile Object Name">
-											<String>FXP64.5</String>
 										</Property>
 									</Properties>
 									<Errors />
