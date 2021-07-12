@@ -218,6 +218,24 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
+		<Item Name="test_FXP16.5 Write and Read_Higher Than Maximum.vi" Type="VI" URL="../tests/test_FXP16.5 Write and Read_Higher Than Maximum.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;W!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;:!=!!?!!!R,U:12U%A172E&lt;WYA5W.B&lt;'&amp;S)%.I97ZO:7RT)&amp;.Z=X2F&lt;3"5:8.U=SZM&gt;G.M98.T!"N49W&amp;M98)A1WBB&lt;GZF&lt;(-A6'6T&gt;'FO:S"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"71(!!(A!!-3^'5%&gt;")%&amp;E:'^O)&amp;.D97RB=C"$;'&amp;O&lt;G6M=S"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!;5W.B&lt;'&amp;S)%.I97ZO:7RT)&amp;2F=X2J&lt;G=A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+		</Item>
+		<Item Name="test_FXP16.5 Write and Read_Lower Than Minimum.vi" Type="VI" URL="../tests/test_FXP16.5 Write and Read_Lower Than Minimum.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;W!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;:!=!!?!!!R,U:12U%A172E&lt;WYA5W.B&lt;'&amp;S)%.I97ZO:7RT)&amp;.Z=X2F&lt;3"5:8.U=SZM&gt;G.M98.T!"N49W&amp;M98)A1WBB&lt;GZF&lt;(-A6'6T&gt;'FO:S"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"71(!!(A!!-3^'5%&gt;")%&amp;E:'^O)&amp;.D97RB=C"$;'&amp;O&lt;G6M=S"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!;5W.B&lt;'&amp;S)%.I97ZO:7RT)&amp;2F=X2J&lt;G=A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074541072</Property>
+		</Item>
 		<Item Name="test_Boolean Write and Read.vi" Type="VI" URL="../tests/test_Boolean Write and Read.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;W!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;:!=!!?!!!R,U:12U%A172E&lt;WYA5W.B&lt;'&amp;S)%.I97ZO:7RT)&amp;.Z=X2F&lt;3"5:8.U=SZM&gt;G.M98.T!"N49W&amp;M98)A1WBB&lt;GZF&lt;(-A6'6T&gt;'FO:S"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"71(!!(A!!-3^'5%&gt;")%&amp;E:'^O)&amp;.D97RB=C"$;'&amp;O&lt;G6M=S"4?8.U:7UA6'6T&gt;(-O&lt;(:D&lt;'&amp;T=Q!;5W.B&lt;'&amp;S)%.I97ZO:7RT)&amp;2F=X2J&lt;G=A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
