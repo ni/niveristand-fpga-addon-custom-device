@@ -10,7 +10,7 @@
 				<String>VS FPGA Addon Scalar Testing</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.63</String>
+				<String>1.0.0.65</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -3168,6 +3168,15 @@ Value = 1; Increment B Leads A
 					</Properties>
 					<Errors />
 				</Alias>
+				<Alias Name="FXP16.5 Input" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Inputs/FXP16.5 out" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
 			</Section>
 			<Section Name="Scalar Outputs" TypeGUID="A579F6FF-5680-1F22-249C-2C499E16CDB8">
 				<Description />
@@ -3286,6 +3295,15 @@ Value = 1; Increment B Leads A
 					<Properties>
 						<Property Name="Referenced Channel">
 							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/FXP64.5" />
+						</Property>
+					</Properties>
+					<Errors />
+				</Alias>
+				<Alias Name="FXP16.5 Output" TypeGUID="2c11e122-dad9-44da-989c-a66ff203fa31">
+					<Description />
+					<Properties>
+						<Property Name="Referenced Channel">
+							<DependentNode Path="Targets/Controller/Custom Devices/FPGA Addon/Scalars/Scalar Outputs/FXP16.5" />
 						</Property>
 					</Properties>
 					<Errors />
