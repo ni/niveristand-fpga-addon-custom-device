@@ -146,9 +146,13 @@
 			</Item>
 		</Item>
 		<Item Name="Utilities" Type="Folder">
+			<Item Name=".LVLIBP CD XML Updater" Type="Folder">
+				<Item Name=".LVLIBP CD XML Updater.lvlib" Type="Library" URL="../Utilities/.LVLIBP CD XML Updater/.LVLIBP CD XML Updater.lvlib"/>
+			</Item>
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utilities/Copy .LLB to NI VeriStand dir.vi"/>
 			<Item Name="Copy Scripting .LLB to LV Addons dir.vi" Type="VI" URL="../Utilities/Copy Scripting .LLB to LV Addons dir.vi"/>
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utilities/LLB Pre-Build CHM Build.vi"/>
+			<Item Name=".LVLIBP CD XML Updater.vi" Type="VI" URL="../Utilities/.LVLIBP CD XML Updater.vi"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -927,9 +931,9 @@
 				<Property Name="Bld_localDestDir" Type="Path">../built/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/.LVLIBP CD XML Updater.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EE648090-D65B-4AAD-8CBF-3F370907D3D3}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FPGA Addon Configuration.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../built/NI_AB_PROJECTNAME/Windows/FPGA Addon Configuration.lvlibp</Property>
@@ -951,7 +955,7 @@
 				<Property Name="Destination[6].path" Type="Path">../built/NI_AB_PROJECTNAME</Property>
 				<Property Name="DestinationCount" Type="Int">7</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{06E4D6CA-F8A8-4812-86F4-FC2FF639253B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5530B3A8-D349-49A1-AC6A-FC218491B9AA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Addon/FPGA Addon System Explorer.lvlib</Property>
@@ -1007,7 +1011,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../built/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/.LVLIBP CD XML Updater.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C2758D7D-0C80-43C8-B6CC-25723AE9C7A9}</Property>
 				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -1019,7 +1023,7 @@
 				<Property Name="Destination[1].path" Type="Path">../built/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{98B53CDF-6D04-4EC0-BC8A-2F34E896FBA2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5530B3A8-D349-49A1-AC6A-FC218491B9AA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Addon/FPGA Addon Engine.lvlib</Property>
@@ -1340,7 +1344,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../built/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/.LVLIBP CD XML Updater.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{14BE827D-E3F7-4554-A121-EAB1B79A4A11}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64</Property>
 				<Property Name="Bld_version.build" Type="Int">6</Property>
@@ -1354,7 +1358,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6534D5C3-7771-45EF-A8AD-C2455CA6EE76}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{76B7B9B7-6061-48E8-9156-173FC4AFD7F8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/FPGA Addon Engine.lvlib</Property>
