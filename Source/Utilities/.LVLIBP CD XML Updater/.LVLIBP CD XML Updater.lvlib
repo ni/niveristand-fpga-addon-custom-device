@@ -7,6 +7,7 @@
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="Copy .LVLIBP to NI VeriStand dir.vi" Type="VI" URL="../Utilities/Copy .LVLIBP to NI VeriStand dir.vi"/>
 		<Item Name="Find LVLIBP Path.vi" Type="VI" URL="../Utilities/Find LVLIBP Path.vi"/>
+		<Item Name="Find XML Config Path.vi" Type="VI" URL="../Utilities/Find XML Config Path.vi"/>
 		<Item Name="Get BuildSpec Type.vi" Type="VI" URL="../Utilities/Get BuildSpec Type.vi"/>
 	</Item>
 	<Item Name="LVLIBP Parser.lvclass" Type="LVClass" URL="../LVLIBP Parser/LVLIBP Parser.lvclass"/>
