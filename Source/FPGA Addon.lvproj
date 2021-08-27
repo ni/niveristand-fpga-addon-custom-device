@@ -933,7 +933,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/.LVLIBP CD XML Updater.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EE648090-D65B-4AAD-8CBF-3F370907D3D3}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FPGA Addon Configuration.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../built/NI_AB_PROJECTNAME/Windows/FPGA Addon Configuration.lvlibp</Property>
@@ -955,7 +955,7 @@
 				<Property Name="Destination[6].path" Type="Path">../built/NI_AB_PROJECTNAME</Property>
 				<Property Name="DestinationCount" Type="Int">7</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5530B3A8-D349-49A1-AC6A-FC218491B9AA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DF3AE368-10C0-4412-8036-2D2E219705BA}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Addon/FPGA Addon System Explorer.lvlib</Property>

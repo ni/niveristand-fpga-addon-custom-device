@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
-<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+<?xml version="1.0" encoding="utf-8" standalone="no" ?><CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+<XSDVersion Build="0" Fix="0" Major="2010" Minor="0"/>
   <AddMenu>
     <eng>NI::FPGA Addon</eng>
     <loc>NI::FPGA Addon</loc>
@@ -36,7 +35,7 @@
 		</Source>
 	</SourceDistribution>
 	</CustomDeviceVI>
-  <Dependencies />
+  <Dependencies/>
   <Pages>
     <Page>
       <Name>
@@ -513,8 +512,8 @@
             <loc>Import DMA Channels</loc>
           </TipStrip>
           <Documentation>
-            <eng></eng>
-            <loc></loc>
+            <eng/>
+            <loc/>
           </Documentation>
         </Button>
     </ButtonList>
@@ -823,6 +822,6 @@
     </Page>
   </Pages>
   <CustomXML>
-    <Dummy></Dummy>
+    <Dummy/>
   </CustomXML>
 </CustomDevice>
