@@ -37,11 +37,17 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Available DMA FG.vi" Type="VI" URL="../SubVIs/Available DMA FG.vi"/>
 			<Item Name="Available Registers FG.vi" Type="VI" URL="../SubVIs/Available Registers FG.vi"/>
+			<Item Name="Clear Driver VIs Dependent File Paths - 331.vi" Type="VI" URL="../SubVIs/Clear Driver VIs Dependent File Paths - 331.vi"/>
 			<Item Name="Constants.vi" Type="VI" URL="../SubVIs/Constants.vi"/>
+			<Item Name="Convert CD Reference to Pointer.vi" Type="VI" URL="../SubVIs/Convert CD Reference to Pointer.vi"/>
 			<Item Name="Convert Version String to Cluster.vi" Type="VI" URL="../SubVIs/Convert Version String to Cluster.vi"/>
 			<Item Name="DMA Settings.vi" Type="VI" URL="../SubVIs/DMA Settings.vi"/>
 			<Item Name="FPGA Settings.vi" Type="VI" URL="../SubVIs/FPGA Settings.vi"/>
+			<Item Name="Get RT Driver Info - 331.vi" Type="VI" URL="../SubVIs/Get RT Driver Info - 331.vi"/>
+			<Item Name="Remove Dependent Files.vi" Type="VI" URL="../SubVIs/Remove Dependent Files.vi"/>
 			<Item Name="Scalar Settings.vi" Type="VI" URL="../SubVIs/Scalar Settings.vi"/>
+			<Item Name="Set Dependent File Node.vi" Type="VI" URL="../SubVIs/Set Dependent File Node.vi"/>
+			<Item Name="Set Driver VIs Dependent File Paths - 331.vi" Type="VI" URL="../SubVIs/Set Driver VIs Dependent File Paths - 331.vi"/>
 			<Item Name="Update DMA Values - 321.vi" Type="VI" URL="../SubVIs/Update DMA Values - 321.vi"/>
 			<Item Name="Update Register Values - 321.vi" Type="VI" URL="../SubVIs/Update Register Values - 321.vi"/>
 			<Item Name="Upgrade Addon to Latest Version.vi" Type="VI" URL="../SubVIs/Upgrade Addon to Latest Version.vi"/>
