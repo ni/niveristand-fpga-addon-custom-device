@@ -22,13 +22,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Bundled Dependencies" Type="Folder">
-			<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
-			<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-			<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
-			<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
-			<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
-		</Item>
 		<Item Name="Addon" Type="Folder">
 			<Item Name="Support Files" Type="Folder">
 				<Item Name="Glyphs" Type="Folder" URL="../Addon/Support Files/Glyphs">
@@ -620,6 +613,11 @@
 				<Item Name="Filter Type.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Hardware Discovery/_Types/Filter Type.ctl"/>
 				<Item Name="Select Device Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Hardware Discovery/Select Device Dialog.vi"/>
 				<Item Name="OpenByNameSubVI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/FPGA Advanced Session Resources/LVFPGA Adv Session Resources/OpenByNameSubVI.vi"/>
+				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
+				<Item Name="ImportExport.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Custom Device Import and Export Tool/ImportExport.lvlib"/>
+				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
+				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -672,7 +670,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/.LVLIBP CD XML Updater.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{EE648090-D65B-4AAD-8CBF-3F370907D3D3}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FPGA Addon Configuration.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../built/NI_AB_PROJECTNAME/Windows/FPGA Addon Configuration.lvlibp</Property>
@@ -752,7 +750,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/.LVLIBP CD XML Updater.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C2758D7D-0C80-43C8-B6CC-25723AE9C7A9}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FPGA Addon Engine Windows.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../built/NI_AB_PROJECTNAME/Windows/FPGA Addon Engine Windows.lvlibp</Property>
@@ -792,7 +790,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy Scripting .LLB to LV Addons dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E9671E71-2243-4A1D-B875-5C40438CA38C}</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Scripting API.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../built/Packed Scripting API/Scripting API.lvlibp</Property>
@@ -827,18 +825,15 @@
 			</Item>
 		</Item>
 	</Item>
-	<Item Name="RT CompactRIO Target - Linux x64" Type="RT CompactRIO">
-		<Property Name="alias.name" Type="Str">RT CompactRIO Target - Linux x64</Property>
+	<Item Name="Linux x64" Type="RT PXI Chassis">
+		<Property Name="alias.name" Type="Str">Linux x64</Property>
 		<Property Name="alias.value" Type="Str">0.0.0.0</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,7735;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">7735</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,PharLap;CPU,x86;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
-		<Property Name="host.TargetCPUID" Type="UInt">9</Property>
-		<Property Name="host.TargetOSID" Type="UInt">19</Property>
-		<Property Name="host.TargetUIEnabled" Type="Bool">false</Property>
-		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Property Name="host.TargetCPUID" Type="UInt">3</Property>
+		<Property Name="host.TargetOSID" Type="UInt">15</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
@@ -857,7 +852,7 @@
 		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
 		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
 		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
-		<Property Name="target.RTTarget.VIPath" Type="Path">/home/lvuser/natinst/bin</Property>
+		<Property Name="target.RTTarget.VIPath" Type="Path">/c/ni-rt/startup</Property>
 		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.access" Type="Str">+*</Property>
@@ -879,10 +874,6 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Bundled Dependencies" Type="Folder">
-			<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
-			<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
-		</Item>
 		<Item Name="FPGA Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/FPGA Addon Engine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -908,9 +899,13 @@
 				<Item Name="Advanced System Definition.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Advanced SysDef API/SysDef API/Advanced System Definition.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
+				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
+				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
 				<Item Name="LVFixedPointRepBitsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepBitsTypeDef.ctl"/>
 				<Item Name="LVFixedPointRepRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/fxp/LVFixedPointRepRangeTypeDef.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
@@ -918,18 +913,16 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
-				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
+				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
+				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeriStand_DataServices.dll"/>
+				<Item Name="OpenByNameSubVI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/FPGA Advanced Session Resources/LVFPGA Adv Session Resources/OpenByNameSubVI.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Custom Device API.lvlib"/>
-				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="NI_VS Custom Device Waveform API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Waveform API/NI_VS Custom Device Waveform API.lvlib"/>
-				<Item Name="Internal Comm Classes.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI Veristand/Custom Device Waveform API/Internal Comm Classes/Internal Comm Classes.lvlib"/>
-				<Item Name="OpenByNameSubVI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/FPGA Advanced Session Resources/LVFPGA Adv Session Resources/OpenByNameSubVI.vi"/>
 			</Item>
 			<Item Name="FPGA Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/FPGA Addon Shared.lvlib"/>
 			<Item Name="FPGA Register IO.lvlib" Type="Library" URL="../APIs/FPGA Register IO/FPGA Register IO.lvlib"/>
@@ -949,29 +942,28 @@
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../Submodules/Source/Speciality FPGA IO.lvlib"/>
-			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
+			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
+			<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../Submodules/Source/Speciality FPGA IO.lvlib"/>
+			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release PPL" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{80BE07CC-F5F8-42E4-A0BE-E5316E987CE0}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BA4265A0-8A73-48D0-8547-636CDC5A5A18}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release PPL</Property>
-				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../built/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/.LVLIBP CD XML Updater.vi</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{14BE827D-E3F7-4554-A121-EAB1B79A4A11}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C320709B-996C-4F7B-9579-2DBB9D72E4C5}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64</Property>
-				<Property Name="Bld_version.build" Type="Int">6</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">FPGA Addon Engine Linux64.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/FPGA Addon Engine Linux64.lvlibp</Property>
@@ -982,10 +974,10 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{76B7B9B7-6061-48E8-9156-173FC4AFD7F8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0C361EDE-E596-4FE4-B155-29A558492801}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/FPGA Addon Engine.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/Linux x64/FPGA Addon Engine.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.atomicCopy" Type="Bool">true</Property>
 				<Property Name="Source[1].Library.LVLIBPtopLevel" Type="Bool">true</Property>
@@ -997,7 +989,7 @@
 				<Property Name="TgtF_internalName" Type="Str">Engine Release PPL</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 </Property>
 				<Property Name="TgtF_productName" Type="Str">Engine Release PPL</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{9E29DC15-A291-457D-B1BF-D24D8D98B4F4}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D479AADF-3D80-47AE-933E-64360FF90289}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">FPGA Addon Engine Linux64.lvlibp</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
