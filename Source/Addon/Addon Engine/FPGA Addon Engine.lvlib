@@ -38,12 +38,21 @@
 		<Item Name="Output DMA Engine.vi" Type="VI" URL="../Processes/Output DMA Engine.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
-		<Item Name="Close Scalar Refs.vi" Type="VI" URL="../SubVIs/Close Scalar Refs.vi"/>
+		<Item Name="Convert Analog Measurement to Analog PWM.vi" Type="VI" URL="../SubVIs/Convert Analog Measurement to Analog PWM.vi"/>
+		<Item Name="Convert Analog PWM Values to Analog Measurement.vi" Type="VI" URL="../SubVIs/Convert Analog PWM Values to Analog Measurement.vi"/>
 		<Item Name="Convert Bitpacked Array.vi" Type="VI" URL="../SubVIs/Convert Bitpacked Array.vi"/>
 		<Item Name="Convert Bitpacked U8 DMA.vi" Type="VI" URL="../SubVIs/Convert Bitpacked U8 DMA.vi"/>
 		<Item Name="Convert Bitpacked U16 DMA.vi" Type="VI" URL="../SubVIs/Convert Bitpacked U16 DMA.vi"/>
 		<Item Name="Convert Bitpacked U32 DMA.vi" Type="VI" URL="../SubVIs/Convert Bitpacked U32 DMA.vi"/>
 		<Item Name="Convert Bitpacked U64 DMA.vi" Type="VI" URL="../SubVIs/Convert Bitpacked U64 DMA.vi"/>
+		<Item Name="Convert Channel Values to PWM Generate Digital Settings.vi" Type="VI" URL="../SubVIs/Convert Channel Values to PWM Generate Digital Settings.vi"/>
+		<Item Name="Convert Channel Values to PWM Measure Digital Settings.vi" Type="VI" URL="../SubVIs/Convert Channel Values to PWM Measure Digital Settings.vi"/>
+		<Item Name="Convert Channel Values to Quadrature Encoder Measure Digital Settings.vi" Type="VI" URL="../SubVIs/Convert Channel Values to Quadrature Encoder Measure Digital Settings.vi"/>
+		<Item Name="Convert Channel Values to Sine Generate Settings.vi" Type="VI" URL="../SubVIs/Convert Channel Values to Sine Generate Settings.vi"/>
+		<Item Name="Convert Channel Values to Static Generate Digital Settings.vi" Type="VI" URL="../SubVIs/Convert Channel Values to Static Generate Digital Settings.vi"/>
+		<Item Name="Convert Channel Values to Static Measure Digital Settings.vi" Type="VI" URL="../SubVIs/Convert Channel Values to Static Measure Digital Settings.vi"/>
+		<Item Name="Convert Channel Values to WSS Generate Digital Settings.vi" Type="VI" URL="../SubVIs/Convert Channel Values to WSS Generate Digital Settings.vi"/>
+		<Item Name="Convert Digital Measurement to Digital PWM values.vi" Type="VI" URL="../SubVIs/Convert Digital Measurement to Digital PWM values.vi"/>
 		<Item Name="Format Bitpacked Array.vi" Type="VI" URL="../SubVIs/Format Bitpacked Array.vi"/>
 		<Item Name="Format Debug String.vi" Type="VI" URL="../SubVIs/Format Debug String.vi"/>
 		<Item Name="Initialize DMA.vi" Type="VI" URL="../SubVIs/Initialize DMA.vi"/>
@@ -52,6 +61,7 @@
 		<Item Name="Initialize Output DMA Refs.vi" Type="VI" URL="../SubVIs/Initialize Output DMA Refs.vi"/>
 		<Item Name="Initialize Scalar Datatype Classes.vi" Type="VI" URL="../SubVIs/Initialize Scalar Datatype Classes.vi"/>
 		<Item Name="Initialize Scalar Datatypes and Refs.vi" Type="VI" URL="../SubVIs/Initialize Scalar Datatypes and Refs.vi"/>
+		<Item Name="Initialize VeriStand Globals.vi" Type="VI" URL="../SubVIs/Initialize VeriStand Globals.vi"/>
 		<Item Name="Poll DMA.vi" Type="VI" URL="../SubVIs/Poll DMA.vi"/>
 		<Item Name="Read DMA and Update Waveform.vi" Type="VI" URL="../SubVIs/Read DMA and Update Waveform.vi"/>
 		<Item Name="Read DMA Number of Samples.vi" Type="VI" URL="../SubVIs/Read DMA Number of Samples.vi"/>

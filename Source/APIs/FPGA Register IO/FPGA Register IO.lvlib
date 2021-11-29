@@ -25,6 +25,8 @@
 			<Item Name="Convert Bool Array to Cluster.vim" Type="VI" URL="../SubVIs/Convert Bool Array to Cluster.vim"/>
 			<Item Name="Convert Cluster BLOB to Bool Array.vi" Type="VI" URL="../SubVIs/Convert Cluster BLOB to Bool Array.vi"/>
 			<Item Name="Convert Cluster to Bool Array.vim" Type="VI" URL="../SubVIs/Convert Cluster to Bool Array.vim"/>
+			<Item Name="Convert U8Cluster to U32 Representation.vi" Type="VI" URL="../SubVIs/Convert U8Cluster to U32 Representation.vi"/>
+			<Item Name="Convert U32Cluster to U8 Representation.vi" Type="VI" URL="../SubVIs/Convert U32Cluster to U8 Representation.vi"/>
 			<Item Name="DBL to FXP Raw.vi" Type="VI" URL="../SubVIs/DBL to FXP Raw.vi"/>
 			<Item Name="FXP Raw to DBL.vi" Type="VI" URL="../SubVIs/FXP Raw to DBL.vi"/>
 			<Item Name="Pad FXP Raw Data Array.vi" Type="VI" URL="../SubVIs/Pad FXP Raw Data Array.vi"/>
