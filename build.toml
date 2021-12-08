@@ -47,13 +47,13 @@ package_output_dir = 'Built'
 [[package]]
 type = 'nipkg'
 payload_dir = 'Built\Packed Scripting API'
-install_destination = 'ni-paths-LV{veristand_version}DIR\vi.lib\addons\VeriStand Custom Device Scripting APIs\FPGA Addon'
+install_destination = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\vi.lib\addons\VeriStand Custom Device Scripting APIs\FPGA Addon'
 control_file = 'control_scripting_api'
 package_output_dir = 'Built'
 
 [[package]]
 type = 'nipkg'
 payload_dir = 'Built\Scripting Examples'
-install_destination = 'ni-paths-LV{veristand_version}DIR\examples\NI VeriStand Custom Devices\FPGA Addon'
+install_destination = 'ni-paths-LV{veristand_version}DIR{nipaths_64_bitness_suffix}\examples\NI VeriStand Custom Devices\FPGA Addon'
 control_file = 'control_scripting_examples'
 package_output_dir = 'Built'
