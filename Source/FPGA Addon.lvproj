@@ -137,7 +137,7 @@
 					<Item Name="FPGA Addon Scripting API Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/Scripting API Testing/Scripting API Unit Tests/FPGA Addon Scripting API Unit Tests.lvclass"/>
 				</Item>
 				<Item Name="LVLIBP CD XML Updater" Type="Folder">
-					<Item Name="LVLIBP CD XML Updater.lvclass" Type="LVClass" URL="../Tests/Unit Tests/LVLIBP CD XML Updater/LVLIBP CD XML Updater/LVLIBP CD XML Updater.lvclass"/>
+					<Item Name="LVLIBP CD XML Updater Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit Tests/LVLIBP CD XML Updater/LVLIBP CD XML Updater/LVLIBP CD XML Updater Unit Tests.lvclass"/>
 				</Item>
 			</Item>
 		</Item>
