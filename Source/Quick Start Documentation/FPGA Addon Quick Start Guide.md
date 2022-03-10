@@ -144,7 +144,7 @@ An addon configuration can be imported with the following dialog box:
 
 ---
 
-After the FPGA Addon has been added, set the **Bitfile path** to ​​​the desired location.​​ You must select the **RIO Device**. Using the search (magnifier glass) will display available FPGAs on the specified Target or Controller.
+After the FPGA Addon has been added, set the **Bitfile path** to ​​​the desired location.​​ You must select the **RIO Device**. Using the search (magnifier glass) will display available FPGAs on the specified Target or Controller. An alias can be entered manually as well.
 
 ![FPGA Settings](./Images/image029.png)
 
