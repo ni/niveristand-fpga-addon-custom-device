@@ -23,8 +23,8 @@ The **FPGA Addon Custom Device** supports using the Speciality IO IP located [he
 
 ## Adding Additional Scripting Functionality
 
-All the scripting API nodes available for the FPGA Addon along with examples can be found in the [Quick Start Guide](https://github.com/ni/niveristand-fpga-addon-custom-device/blob/main/Source/Quick%20Start%20Documentation/FPGA%20Addon%20Quick%20Start%20Guide.md#scripting-api).
+ Details regarding scripting API nodes available for the FPGA Addon along with examples can be found in the [Quick Start Guide](https://github.com/ni/niveristand-fpga-addon-custom-device/blob/main/Source/Quick%20Start%20Documentation/FPGA%20Addon%20Quick%20Start%20Guide.md#scripting-api).
 
 The scripting API implementation for the FPGA Addon is located inside `Source\APIs\Scripting API\Scripting API.lvlib`. Adding new scripting functionality will require understanding the current state in order to successfully integrate new functionality.
 
-Examples on how to use the scripting functionality can be found [here](https://github.com/ni/niveristand-fpga-addon-custom-device/blob/main/Source/Examples/Scripting%20API%20Examples/README.md).
+Examples on how to use the scripting functionality can be found in [`Source\Examples\Scripting API Examples`](https://github.com/ni/niveristand-fpga-addon-custom-device/blob/main/Source/Examples/Scripting%20API%20Examples/README.md).
