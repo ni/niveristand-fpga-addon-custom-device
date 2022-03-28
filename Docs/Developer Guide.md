@@ -6,7 +6,7 @@ The transfer of the scalar data types is done inline with the VeriStand's Primar
 
 Interaction with the NI FPGA targets is done using the [LabVIEW FPGA Advanced Session Resources](https://forums.ni.com/t5/NI-Labs-Toolkits/LabVIEW-FPGA-Advanced-Session-Resources/ta-p/3500447).
 
-The FPGA code requires an IRQ (address of 30)to control when the FPGA bitfile starts. This IRQ need to control when DMA read and write operations start.
+The FPGA code requires an IRQ (address of 30) to control when the FPGA bitfile starts. This IRQ is needed to control when DMA read and write operations start.
 
 ## Extending Data Types Support
 
@@ -19,7 +19,7 @@ These are the main entry points where supported data types for the FPGA Addon ar
 
 ## Special IP Data Types
 
-The **FPGA Addon Custom Device** supports using the [Speciality IO](https://github.com/ni/niveristand-fpga-addon-speciality-io) IP. This IP extends the support for the FPGA Addon by allowing the generation of Pulse-Width Modulation signals, sinewave signals, digital wheel speed sensor simulation and other.
+The **FPGA Addon Custom Device** supports using the [Speciality IO](https://github.com/ni/niveristand-fpga-addon-speciality-io) IP. This IP extends the support for the FPGA Addon by allowing the generation of Pulse-Width Modulation signals, sinewave signals, digital wheel speed sensor simulation and others.
 
 ## Adding Additional Scripting Functionality
 
