@@ -17,20 +17,20 @@ The following table displays locations where you can access quick start document
 
 ## LabVIEW Version
 
-The FPGA Addon Custom Device source code is in LabVIEW 2018.
+The FPGA Addon Custom Device source code is in LabVIEW 2019.
 
 ## Dependencies
 
 ### Running the add-on
 
 To run the FPGA Addon Custom Device, you will need to install the following:
-- [VeriStand 2018 or later](https://www.ni.com/ro-ro/support/downloads/software-products/download.veristand.html#382072)
-- [NI RIO 18.0 or later](https://www.ni.com/ro-ro/support/documentation/compatibility/17/ni-rio-and-labview-version-compatibility.html)
+- [VeriStand 2019 or later](https://www.ni.com/ro-ro/support/downloads/software-products/download.veristand.html)
+- [NI RIO 19.0 or later](https://www.ni.com/ro-ro/support/documentation/compatibility/17/ni-rio-and-labview-version-compatibility.html)
 
 ### Source
 
 Install the following dependencies to check the source code, modify the add-on, or build the FPGA Addon Custom Device locally.
-- [NI RIO 18.0 or later](https://www.ni.com/ro-ro/support/documentation/compatibility/17/ni-rio-and-labview-version-compatibility.html)
+- [NI RIO 19.0 or later](https://www.ni.com/ro-ro/support/documentation/compatibility/17/ni-rio-and-labview-version-compatibility.html)
 - [LabVIEW FPGA Advanced Session Resources](https://decibel.ni.com/content/docs/DOC-35574)
 - [NI VeriStand Custom Device Development Tools with *Dependencies*](https://github.com/ni/niveristand-custom-device-development-tools)
 - [NI VeriStand Custom Device Testing Tools with *Dependencies*](https://github.com/ni/niveristand-custom-device-testing-tools)
