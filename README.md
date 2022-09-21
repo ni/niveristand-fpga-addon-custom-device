@@ -15,26 +15,29 @@ The following table displays locations where you can access quick start document
 | Built | `%Public%\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\FPGA Addon\Windows\Quick Start Documentation` |
 | Source | `Source\Quick Start Documentation` |
 
-## LabVIEW Version
+## LabVIEW Source Code Version
 
-The FPGA Addon Custom Device source code is in LabVIEW 2019.
+LabVIEW 2019
 
 ## Dependencies
 
-### Running the add-on
+### Running the custom device
 
-To run the FPGA Addon Custom Device, you will need to install the following:
-- [VeriStand 2019 or later](https://www.ni.com/ro-ro/support/downloads/software-products/download.veristand.html)
-- [NI RIO 19.0 or later](https://www.ni.com/ro-ro/support/documentation/compatibility/17/ni-rio-and-labview-version-compatibility.html)
+- [VeriStand 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
 
-### Source
+### Developing or building from source
 
-Install the following dependencies to check the source code, modify the add-on, or build the FPGA Addon Custom Device locally.
-- [NI RIO 19.0 or later](https://www.ni.com/ro-ro/support/documentation/compatibility/17/ni-rio-and-labview-version-compatibility.html)
-- [LabVIEW FPGA Advanced Session Resources](https://decibel.ni.com/content/docs/DOC-35574)
-- [NI VeriStand Custom Device Development Tools with *Dependencies*](https://github.com/ni/niveristand-custom-device-development-tools)
-- [NI VeriStand Custom Device Testing Tools with *Dependencies*](https://github.com/ni/niveristand-custom-device-testing-tools)
-- [Microsoft HTML Help Workshop and Documentation 1.32 or later](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/htmlhelp/microsoft-html-help-downloads)
+- [LabVIEW 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
+- [LabVIEW FPGA Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-fpga-module.html)
+- [NI R Series Multifunction RIO](https://www.ni.com/en-us/support/downloads/drivers/download.ni-r-series-multifunction-rio.html#442612)
+- LabVIEW FPGA Advanced Session Resources
+  - For driver versions older than 21.0, find the download on [NI Labs Toolkits](https://forums.ni.com/t5/NI-Labs-Toolkits/LabVIEW-FPGA-Advanced-Session-Resources/ta-p/3500447?profile.language=en)
+  - For R Series device driver versions 21.0 and later, this library is included with the installer
+- [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-development-tools/releases)
+- [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-testing-tools/releases)
 
 ## Git History & Rebasing Policy
 
