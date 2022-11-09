@@ -53,6 +53,7 @@
 		<Item Name="Initialize Scalar Datatype Classes.vi" Type="VI" URL="../SubVIs/Initialize Scalar Datatype Classes.vi"/>
 		<Item Name="Initialize Scalar Datatypes and Refs.vi" Type="VI" URL="../SubVIs/Initialize Scalar Datatypes and Refs.vi"/>
 		<Item Name="Poll DMA.vi" Type="VI" URL="../SubVIs/Poll DMA.vi"/>
+		<Item Name="Print VS Debug String.vi" Type="VI" URL="../SubVIs/Print VS Debug String.vi"/>
 		<Item Name="Read DMA and Update Waveform.vi" Type="VI" URL="../SubVIs/Read DMA and Update Waveform.vi"/>
 		<Item Name="Read DMA Number of Samples.vi" Type="VI" URL="../SubVIs/Read DMA Number of Samples.vi"/>
 		<Item Name="Read Scalar Data.vi" Type="VI" URL="../SubVIs/Read Scalar Data.vi"/>
