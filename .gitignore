@@ -1,5 +1,27 @@
-Built
+# Libraries
+*.lvlibp
+*.llb
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+
+# Metadata
 *.aliases
 *.lvlps
+*.lvproj.config
 *.lvcodedb
 .cache/
+
+# Output directory
+Built/
+
+# Intermediate Help Files
+*.log
+*.hhp
+*.chm
