@@ -90,7 +90,12 @@
 				<Item Name="FPGA Register IO.lvlib" Type="Library" URL="../APIs/FPGA Register IO/FPGA Register IO.lvlib"/>
 			</Item>
 			<Item Name="Scripting API" Type="Folder">
-				<Item Name="dir.mnu" Type="Document" URL="../APIs/Scripting API/dir.mnu"/>
+				<Item Name="Palettes" Type="Folder">
+					<Item Name="dir.mnu" Type="Document" URL="../APIs/Scripting API/dir.mnu"/>
+					<Item Name="Bitfile Resources_palette.mnu" Type="Document" URL="../APIs/Scripting API/Bitfile Resources_palette.mnu"/>
+					<Item Name="Custom Device_palette.mnu" Type="Document" URL="../APIs/Scripting API/Custom Device_palette.mnu"/>
+					<Item Name="Utilities_palette.mnu" Type="Document" URL="../APIs/Scripting API/Utilities_palette.mnu"/>
+				</Item>
 				<Item Name="Scripting API.lvlib" Type="Library" URL="../APIs/Scripting API/Scripting API.lvlib"/>
 			</Item>
 		</Item>
@@ -919,7 +924,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy Scripting .LLB to LV Addons dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E9671E71-2243-4A1D-B875-5C40438CA38C}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Scripting API.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../built/Packed Scripting API/Scripting API.lvlibp</Property>
@@ -929,7 +934,7 @@
 				<Property Name="Destination[1].path" Type="Path">../built/Packed Scripting API</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3B69E7BE-9D59-40C3-A1FC-BA9CDF146257}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1B2C9567-CC0D-426D-9E74-547320341B5E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/APIs/Scripting API/Scripting API.lvlib</Property>
@@ -940,10 +945,22 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/APIs/Scripting API/dir.mnu</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/APIs/Scripting API/Palettes/dir.mnu</Property>
 				<Property Name="Source[2].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/APIs/Scripting API/Palettes/Bitfile Resources_palette.mnu</Property>
+				<Property Name="Source[3].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/APIs/Scripting API/Palettes/Custom Device_palette.mnu</Property>
+				<Property Name="Source[4].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">1</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/APIs/Scripting API/Palettes/Utilities_palette.mnu</Property>
+				<Property Name="Source[5].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Packed Scripting API</Property>
 				<Property Name="TgtF_internalName" Type="Str">Packed Scripting API</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 </Property>
