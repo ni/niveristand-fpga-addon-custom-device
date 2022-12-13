@@ -11,11 +11,6 @@
 	<Item Name="Friends List" Type="Friends List">
 		<Item Name="FPGA Addon System Explorer.lvlib" Type="Friended Library" URL="../../../Addon/Addon System Explorer/FPGA Addon System Explorer.lvlib"/>
 	</Item>
-	<Item Name="Palettes" Type="Folder">
-		<Item Name="Bitfile Resources_palette.mnu" Type="Document" URL="../Public/Bitfile Resources/Bitfile Resources_palette.mnu"/>
-		<Item Name="Custom Device_palette.mnu" Type="Document" URL="../Public/Custom Device/Custom Device_palette.mnu"/>
-		<Item Name="Utilities_palette.mnu" Type="Document" URL="../Public/Utilities/Utilities_palette.mnu"/>
-	</Item>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="SubVIs" Type="Folder">
