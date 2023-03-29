@@ -1,0 +1,66 @@
+trigger:
+  batch: true
+  branches:
+    include:
+      - main
+      - release/*
+
+resources:
+  repositories:
+    - repository: niveristand-custom-device-build-tools
+      type:       github
+      ref:        main
+      endpoint:   nivs-custom-devices
+      name:       ni/niveristand-custom-device-build-tools
+
+stages:
+  - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
+    parameters:
+      lvVersionsToBuild:
+        - version: '2020'
+          bitness: '32bit'
+        - version: '2021'
+          bitness: '64bit'
+        - version: '2023'
+          bitness: '64bit'
+
+      buildSteps:
+        - projectLocation: 'Source\FPGA Addon.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Packed Scripting API'
+
+        - projectLocation: 'Source\FPGA Addon.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Configuration Release'
+
+        - projectLocation: 'Source\FPGA Addon.lvproj'
+          buildOperation: 'ExecuteBuildSpecAllTargets'
+          target: 'All'
+          buildSpec: 'Engine Release'
+
+        - projectLocation: 'Source\Examples\Scripting API Examples\FPGA Addon Scripting API Examples.lvproj'
+          buildOperation: 'ExecuteBuildSpec'
+          target: 'My Computer'
+          buildSpec: 'Scripting Examples'
+
+      releaseVersion: '23.3.0'
+      buildOutputLocation: 'Built'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\fpga_addon_custom_device'
+
+      packages:
+        - controlFileName: 'control'
+          payloadMaps:
+            - installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\FPGA Addon'
+              payloadLocation: 'Built\FPGA Addon'
+
+        - controlFileName: 'control_scripting_api'
+          payloadMaps:
+            - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\FPGA Addon'
+              payloadLocation: 'Built\Packed Scripting API'
+
+        - controlFileName: 'control_scripting_examples'
+          payloadMaps:
+            - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\FPGA Addon'
+              payloadLocation: 'BBuilt\Scripting Examples'
