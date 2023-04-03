@@ -16,8 +16,6 @@ resources:
 stages:
   - template: azure-templates/stages.yml@niveristand-custom-device-build-tools
     parameters:
-      submodules: true
-      
       lvVersionsToBuild:
         - version: '2020'
           bitness: '32bit'
