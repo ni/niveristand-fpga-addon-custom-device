@@ -63,4 +63,4 @@ stages:
         - controlFileName: 'control_scripting_examples'
           payloadMaps:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\FPGA Addon'
-              payloadLocation: 'BBuilt\Scripting Examples'
+              payloadLocation: 'Built\Scripting Examples'
