@@ -1,10 +1,14 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<Property Name="CCSymbols" Type="Str">OFFLINE,FALSE;</Property>
 =======
 	<Property Name="CCSymbols" Type="Str">OFFLINE,FALSE;DEBUG,FALSE;</Property>
 >>>>>>> 01a29c3 (Add lots of debug prints and CDS to enable them)
+=======
+	<Property Name="CCSymbols" Type="Str">OFFLINE,FALSE;DEBUG,FALSE;</Property>
+>>>>>>> 66f9e0083652f7ebef01f1c6ea12ac0a837f61fe
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
