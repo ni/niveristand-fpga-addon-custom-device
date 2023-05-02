@@ -55,14 +55,14 @@ stages:
         - controlFileName: 'control'
           payloadMaps:
             - installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices\FPGA Addon'
-              payloadLocation: 'Built\FPGA Addon'
+              payloadLocation: 'FPGA Addon'
 
         - controlFileName: 'control_scripting_api'
           payloadMaps:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\vi.lib\addons\VeriStand Custom Device Scripting APIs\FPGA Addon'
-              payloadLocation: 'Built\Packed Scripting API'
+              payloadLocation: 'Packed Scripting API'
 
         - controlFileName: 'control_scripting_examples'
           payloadMaps:
             - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\FPGA Addon'
-              payloadLocation: 'Built\Scripting Examples'
+              payloadLocation: 'Scripting Examples'
