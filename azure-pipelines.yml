@@ -19,8 +19,6 @@ stages:
       submodules: true
       
       lvVersionsToBuild:
-        - version: '2020'
-          bitness: '32bit'
         - version: '2021'
           bitness: '64bit'
         - version: '2023'
@@ -47,7 +45,7 @@ stages:
           target: 'My Computer'
           buildSpec: 'Scripting Examples'
 
-      releaseVersion: '23.3.0'
+      releaseVersion: '24.0.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\fpga_addon_custom_device'
 
