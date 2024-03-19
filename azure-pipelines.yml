@@ -47,7 +47,7 @@ stages:
           target: 'My Computer'
           buildSpec: 'Scripting Examples'
 
-      releaseVersion: '24.0.0'
+      releaseVersion: '24.0.1'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\fpga_addon_custom_device'
 
