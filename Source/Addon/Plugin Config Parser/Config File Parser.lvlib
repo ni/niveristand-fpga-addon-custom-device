@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Utilities" Type="Folder">
-		<Item Name="Add To Item.vi" Type="VI" URL="../Utilities/Add To Item.vi"/>
+		<Item Name="Add To Storage.vi" Type="VI" URL="../Utilities/Add To Storage.vi"/>
 		<Item Name="Create Cluster BasedOn Item.vi" Type="VI" URL="../Utilities/Create Cluster BasedOn Item.vi"/>
 		<Item Name="Get Child Nodes.vi" Type="VI" URL="../Utilities/Get Child Nodes.vi"/>
 	</Item>
@@ -13,5 +13,7 @@
 	<Item Name="Property.lvclass" Type="LVClass" URL="../Property/Property.lvclass"/>
 	<Item Name="Channel.lvclass" Type="LVClass" URL="../Channel/Channel.lvclass"/>
 	<Item Name="Section.lvclass" Type="LVClass" URL="../Section/Section.lvclass"/>
+	<Item Name="Custom Device Config.lvclass" Type="LVClass" URL="../Custom Device Config/Custom Device Config.lvclass"/>
 	<Item Name="Plugin Config Parser.vi" Type="VI" URL="../Plugin Config Parser.vi"/>
+	<Item Name="Custom Device Plugin.xsd" Type="Document" URL="../../../../../../../Users/kperiyas/Downloads/Custom Device Plugin.xsd"/>
 </Library>
