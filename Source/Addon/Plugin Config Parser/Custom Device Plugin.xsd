@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="BaseCustomNodeProperty" />
+	<xs:complexType name="ArrayStringProperty">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="Elem" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayDoubleProperty">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="Elem" type="xs:double" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayU64Property">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="Elem" type="xs:unsignedLong" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayU32Property">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="Elem" type="xs:unsignedInt" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayU16Property">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="Elem" type="xs:unsignedShort" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayI64Property">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="Elem" type="xs:long" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayI32Property">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="Elem" type="xs:int" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayI16Property">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="Elem" type="xs:short" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayBooleanProperty">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="Elem" type="xs:boolean" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DependentNodeProperty">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:attribute name="Path" type="xs:string" use="required" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DataSourceNodeProperty">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:attribute name="Channel" type="xs:string" use="required" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DependentFileProperty">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:sequence>
+					<xs:element minOccurs="0" name="Version" type="xs:string" />
+					<xs:element minOccurs="0" name="ForceDownload" type="xs:boolean" />
+					<xs:element minOccurs="0" name="RTDestination" type="xs:string" />
+					<xs:element minOccurs="0" name="SupportedTarget" type="xs:string" />
+					<xs:element minOccurs="0" name="MD5" type="xs:string" />
+				</xs:sequence>
+				<xs:attribute name="Type" use="required">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Absolute" />
+							<xs:enumeration value="Relative" />
+							<xs:enumeration value="To Common Doc Dir" />
+							<xs:enumeration value="To Application Data Dir" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+				<xs:attribute name="Path" type="xs:string" use="required" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="VariantProperty">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:sequence>
+					<xs:element name="Type" type="xs:base64Binary" />
+					<xs:element name="Data" type="xs:base64Binary" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="DictionaryElement">
+		<xs:choice>
+			<xs:element name="String" type="xs:string" />
+			<xs:element name="Boolean" type="xs:boolean" />
+			<xs:element name="I32" type="xs:int" />
+			<xs:element name="I16" type="xs:short" />
+			<xs:element name="I64" type="xs:long" />
+			<xs:element name="U32" type="xs:unsignedInt" />
+			<xs:element name="U16" type="xs:unsignedShort" />
+			<xs:element name="Double" type="xs:double" />
+			<xs:element name="U64" type="xs:unsignedLong" />
+			<xs:element name="BooleanArray" type="ArrayBooleanProperty" />
+			<xs:element name="U64Array" type="ArrayU64Property" />
+			<xs:element name="U32Array" type="ArrayU32Property" />
+			<xs:element name="U16Array" type="ArrayU16Property" />
+			<xs:element name="DoubleArray" type="ArrayDoubleProperty" />
+			<xs:element name="I64Array" type="ArrayI64Property" />
+			<xs:element name="I32Array" type="ArrayI32Property" />
+			<xs:element name="I16Array" type="ArrayI16Property" />
+			<xs:element name="StringArray" type="ArrayStringProperty" />
+		</xs:choice>
+		<xs:attribute name="Key" type="xs:string" />
+	</xs:complexType>
+	<xs:complexType name="DictionaryProperty">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="Elem" type="DictionaryElement" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ArrayDictionaryProperty">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseCustomNodeProperty">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="Elem" type="DictionaryProperty" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="PropertyType">
+		<xs:choice>
+			<xs:element name="String" type="xs:string" />
+			<xs:element name="BinaryString" type="xs:base64Binary" />
+			<xs:element name="Boolean" type="xs:boolean" />
+			<xs:element name="I32" type="xs:int" />
+			<xs:element name="I16" type="xs:short" />
+			<xs:element name="I64" type="xs:long" />
+			<xs:element name="U32" type="xs:unsignedInt" />
+			<xs:element name="U16" type="xs:unsignedShort" />
+			<xs:element name="Double" type="xs:double" />
+			<xs:element name="U64" type="xs:unsignedLong" />
+			<xs:element name="Variant" type="VariantProperty" />
+			<xs:element name="DependentNode" type="DependentNodeProperty" />
+			<xs:element name="DataSourceNode" type="DataSourceNodeProperty" />
+			<xs:element name="DependentFile" type="DependentFileProperty" />
+			<xs:element name="BooleanArray" type="ArrayBooleanProperty" />
+			<xs:element name="U64Array" type="ArrayU64Property" />
+			<xs:element name="U32Array" type="ArrayU32Property" />
+			<xs:element name="U16Array" type="ArrayU16Property" />
+			<xs:element name="DoubleArray" type="ArrayDoubleProperty" />
+			<xs:element name="I64Array" type="ArrayI64Property" />
+			<xs:element name="I32Array" type="ArrayI32Property" />
+			<xs:element name="I16Array" type="ArrayI16Property" />
+			<xs:element name="StringArray" type="ArrayStringProperty" />
+			<xs:element name="Dictionary" type="DictionaryProperty" />
+			<xs:element name="DictionaryArray" type="ArrayDictionaryProperty"/>
+		</xs:choice>
+		<xs:attribute name="Name" type="xs:string" use="required" />
+	</xs:complexType>
+	<xs:complexType name="ErrorEntry">
+		<xs:sequence minOccurs="0">
+			<xs:element minOccurs="0" name="Message" type="xs:string" />
+		</xs:sequence>
+		<xs:attribute name="Key" type="xs:string" use="required" />
+		<xs:attribute name="IsError" type="xs:boolean" use="required" />
+		<xs:attribute name="Code" type="xs:int" use="required" />
+	</xs:complexType>
+	<xs:complexType name="ErrorCollection">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="Error" type="ErrorEntry" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="BaseNodeType">
+		<xs:sequence minOccurs="0">
+			<xs:element minOccurs="0" name="Description" type="xs:string" />
+			<xs:element minOccurs="0" name="Properties" type="PropertiesCollection" />
+			<xs:element minOccurs="0" name="Errors" type="ErrorCollection" />
+		</xs:sequence>
+		<xs:attribute name="Name" type="xs:string" use="required" />
+		<xs:attribute name="TypeGUID" type="xs:string" use="required" />
+		<xs:attribute name="Identifier" type="xs:string" />
+	</xs:complexType>
+	<xs:complexType name="PropertiesCollection">
+		<xs:sequence>
+			<xs:element minOccurs="0" maxOccurs="unbounded" name="Property" type="PropertyType" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ChannelType">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseNodeType">
+				<xs:sequence>
+					<xs:element name="DefaultValue">
+						<xs:complexType>
+							<xs:sequence>
+								<xs:element minOccurs="0" maxOccurs="unbounded" name="Elem" type="xs:double" />
+							</xs:sequence>
+						</xs:complexType>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="RowDim" type="xs:int" use="required" />
+				<xs:attribute name="ColDim" type="xs:int" use="required" />
+				<xs:attribute name="Units" type="xs:string" use="required" />
+				<xs:attribute name="BitFields" type="xs:unsignedInt" use="required" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="WaveformType">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseNodeType">
+				<xs:attribute name="DataType" use="required">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="Double"/>
+							<xs:enumeration value="ComplexDouble"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+				<xs:attribute name="Units" type="xs:string" use="required" />
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="SectionType">
+		<xs:complexContent mixed="false">
+			<xs:extension base="BaseNodeType">
+				<xs:sequence>
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="Section" type="SectionType" />
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="Channel" type="ChannelType" />
+					<xs:element minOccurs="0" maxOccurs="unbounded" name="Waveform" type="WaveformType" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="VersionType">
+		<xs:attribute name="Major" type="xs:unsignedInt" use="required" />
+		<xs:attribute name="Minor" type="xs:unsignedInt" use="required" />
+		<xs:attribute name="Fix" type="xs:unsignedInt" use="required" />
+		<xs:attribute name="Build" type="xs:unsignedInt" use="required" />
+	</xs:complexType>
+	<xs:complexType name="CustomDeviceType">
+		<xs:sequence>
+			<xs:element minOccurs="0" name="XSDVersion" type="VersionType" />
+			<xs:element name="Version" type="xs:string" />
+			<xs:element minOccurs="0" name="Properties" type="PropertiesCollection" />
+			<xs:choice>
+				<xs:element minOccurs="0" maxOccurs="unbounded" name="Section" type="SectionType" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" name="Channel" type="ChannelType" />
+				<xs:element minOccurs="0" maxOccurs="unbounded" name="Waveform" type="WaveformType" />
+			</xs:choice>
+		</xs:sequence>
+		<xs:attribute name="Name" type="xs:string" use="required" />
+	</xs:complexType>
+	<xs:element name="CustomDevice" type="CustomDeviceType" />
+</xs:schema>
