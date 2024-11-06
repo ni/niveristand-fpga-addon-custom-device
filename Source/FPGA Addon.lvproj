@@ -87,7 +87,7 @@
 			<Item Name="FPGA Addon System Explorer.lvlib" Type="Library" URL="../Addon/Addon System Explorer/FPGA Addon System Explorer.lvlib"/>
 			<Item Name="VS Plugin Inline Async API.lvlib" Type="Library" URL="../Addon/VS Plugin Inline Async API/VS Plugin Inline Async API.lvlib"/>
 			<Item Name="VS Engine Abstraction.lvlib" Type="Library" URL="../Addon/VS Engine Abstraction/VS Engine Abstraction.lvlib"/>
-			<Item Name="Config File Parser.lvlib" Type="Library" URL="../Addon/Plugin Config Parser/Config File Parser.lvlib"/>
+			<Item Name="Parser.lvlib" Type="Library" URL="../Addon/Parser/Parser.lvlib"/>
 		</Item>
 		<Item Name="APIs" Type="Folder">
 			<Item Name="FPGA Register IO" Type="Folder">
