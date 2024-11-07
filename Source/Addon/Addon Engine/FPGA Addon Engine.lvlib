@@ -36,9 +36,6 @@
 	<Item Name="Plugin" Type="Folder">
 		<Item Name="Plugin.lvclass" Type="LVClass" URL="../Plugin/Plugin.lvclass"/>
 	</Item>
-	<Item Name="Plugin Framework" Type="Folder">
-		<Item Name="Plugin Framework.lvclass" Type="LVClass" URL="../Plugin Framework/Plugin Framework.lvclass"/>
-	</Item>
 	<Item Name="Processes" Type="Folder">
 		<Item Name="Input DMA Engine.vi" Type="VI" URL="../Processes/Input DMA Engine.vi"/>
 		<Item Name="Output DMA Engine.vi" Type="VI" URL="../Processes/Output DMA Engine.vi"/>

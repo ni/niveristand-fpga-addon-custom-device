@@ -4,25 +4,16 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">604012544</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Plugin Data Access" Type="Folder">
-		<Item Name="Read" Type="Folder">
-			<Item Name="Read.lvclass" Type="LVClass" URL="../Plugin Data Access/Read/Read.lvclass"/>
+	<Item Name="Error Handling Process" Type="Folder">
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Error.ConvertArray.vi" Type="VI" URL="../Error Handling Process/SubVIs/Error.ConvertArray.vi"/>
+			<Item Name="Error.Format.vi" Type="VI" URL="../Error Handling Process/SubVIs/Error.Format.vi"/>
+			<Item Name="Error.GetError.vi" Type="VI" URL="../Error Handling Process/SubVIs/Error.GetError.vi"/>
+			<Item Name="Error.Message.Format.vi" Type="VI" URL="../Error Handling Process/SubVIs/Error.Message.Format.vi"/>
+			<Item Name="Error.Tags.Check.vi" Type="VI" URL="../Error Handling Process/SubVIs/Error.Tags.Check.vi"/>
 		</Item>
-		<Item Name="ReadWrite" Type="Folder">
-			<Item Name="ReadWrite.lvclass" Type="LVClass" URL="../Plugin Data Access/ReadWrite/ReadWrite.lvclass"/>
-		</Item>
-		<Item Name="Write" Type="Folder">
-			<Item Name="Write.lvclass" Type="LVClass" URL="../Plugin Data Access/Write/Write.lvclass"/>
-		</Item>
-		<Item Name="Plugin Data Access.lvclass" Type="LVClass" URL="../Plugin Data Access/Plugin Data Access.lvclass"/>
+		<Item Name="Display and Log Process.vi" Type="VI" URL="../Error Handling Process/Display and Log Process.vi"/>
 	</Item>
-	<Item Name="Process" Type="Folder">
-		<Item Name="Process.lvclass" Type="LVClass" URL="../Process/Process.lvclass"/>
-	</Item>
-	<Item Name="Error.ConvertArray.vi" Type="VI" URL="../Error.ConvertArray.vi"/>
-	<Item Name="Error.Format.vi" Type="VI" URL="../Error.Format.vi"/>
-	<Item Name="Error.GetError.vi" Type="VI" URL="../Error.GetError.vi"/>
-	<Item Name="Error.Message.Format.vi" Type="VI" URL="../Error.Message.Format.vi"/>
-	<Item Name="Error.Tags.Check.vi" Type="VI" URL="../Error.Tags.Check.vi"/>
-	<Item Name="VS Plugin Inline Async API.lvclass" Type="LVClass" URL="../VS Plugin Inline Async API.lvclass"/>
+	<Item Name="Process.lvclass" Type="LVClass" URL="../Process/Process.lvclass"/>
+	<Item Name="VS Plugin Inline Async API.lvclass" Type="LVClass" URL="../VS Plugin Inline Async API/VS Plugin Inline Async API.lvclass"/>
 </Library>
