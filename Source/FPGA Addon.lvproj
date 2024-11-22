@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="21008000">
+<Project Type="Project" LVVersion="23008000">
 	<Property Name="CCSymbols" Type="Str">OFFLINE,FALSE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -660,6 +660,7 @@
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Word Open method.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_office/word.llb/Word Open method.vi"/>
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -880,7 +881,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FB203FE0-C0B1-4FDE-B08F-33137158F9FC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{62C93B8A-C3B1-4A9B-B9F2-FB8453C01F16}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -971,6 +972,7 @@
 				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
@@ -1145,6 +1147,7 @@
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -1197,6 +1200,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3C0A088C-FC56-4B53-9408-E63D219756B7}</Property>
+				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/FPGA Addon Engine Linux64.llb</Property>
 				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
@@ -1210,7 +1214,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{251341C5-C204-479D-98D7-F3B39E5D45F3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AC32BFBA-50B6-43E6-9E5E-DC5F04FB62F8}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1282,6 +1286,7 @@
 				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
