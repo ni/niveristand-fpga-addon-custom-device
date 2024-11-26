@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="21008000">
+<Project Type="Project" LVVersion="23008000">
 	<Property Name="CCSymbols" Type="Str">OFFLINE,FALSE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -195,10 +195,10 @@
 				<Item Name="Remove Duplicates from 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U64)__ogtk.vi"/>
 				<Item Name="Remove Duplicates from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (LVObject)__ogtk.vi"/>
 				<Item Name="Get TDEnum from Data__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get TDEnum from Data__ogtk.vi"/>
+				<Item Name="Append Path to Root if Relative - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Scalar__ogtk.vi"/>
 				<Item Name="File Exists__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists__ogtk.vi"/>
 				<Item Name="File Exists - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Scalar__ogtk.vi"/>
 				<Item Name="File Exists - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/File Exists - Array__ogtk.vi"/>
-				<Item Name="Append Path to Root if Relative - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Scalar__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
 				<Item Name="Append Path to Root if Relative__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative__ogtk.vi"/>
 				<Item Name="Append Path to Root if Relative - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Append Path to Root if Relative - Array__ogtk.vi"/>
@@ -660,6 +660,7 @@
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Word Open method.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_office/word.llb/Word Open method.vi"/>
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 			</Item>
 			<Item Name="DOMUserDefRef.dll" Type="Document" URL="DOMUserDefRef.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -768,7 +769,7 @@
 				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[0].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
@@ -789,7 +790,7 @@
 				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
@@ -801,7 +802,7 @@
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
@@ -844,7 +845,7 @@
 				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[8].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[8].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[8].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[8].properties[3].type" Type="Str">Allow debugging</Property>
@@ -880,7 +881,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{FB203FE0-C0B1-4FDE-B08F-33137158F9FC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0016846A-4EF5-422D-8131-7C6509555114}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -894,7 +895,7 @@
 				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[1].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[2].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[3].type" Type="Str">Auto error handling</Property>
@@ -916,7 +917,7 @@
 				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
@@ -931,7 +932,7 @@
 				<Property Name="Source[3].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[3].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
@@ -940,7 +941,7 @@
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
@@ -955,7 +956,7 @@
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[2].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[3].type" Type="Str">Run when opened</Property>
@@ -968,25 +969,21 @@
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[6].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Bundled Dependencies</Property>
 				<Property Name="Source[7].newName" Type="Str">FPGA_Addon_</Property>
-				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[7].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[7].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[7].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[7].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[7].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[7].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
@@ -1145,6 +1142,7 @@
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -1210,7 +1208,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{251341C5-C204-479D-98D7-F3B39E5D45F3}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AE9F5B8B-660A-4352-8C87-0DC139554D1B}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1224,7 +1222,7 @@
 				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[1].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[3].type" Type="Str">Allow debugging</Property>
@@ -1247,7 +1245,7 @@
 				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
@@ -1263,7 +1261,7 @@
 				<Property Name="Source[3].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[3].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
@@ -1273,7 +1271,7 @@
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
@@ -1282,8 +1280,8 @@
 				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/Linux x64/Bundled Dependencies</Property>
 				<Property Name="Source[5].newName" Type="Str">FPGA_Addon_</Property>
@@ -1293,11 +1291,7 @@
 				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[5].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[5].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[5].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
