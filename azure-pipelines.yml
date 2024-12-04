@@ -19,11 +19,11 @@ stages:
       submodules: true
       
       lvVersionsToBuild:
-        - version: '2021'
-          bitness: '64bit'
         - version: '2023'
           bitness: '64bit'
         - version: '2024'
+          bitness: '64bit'
+        - version: '2025'
           bitness: '64bit'
 
       buildSteps:
