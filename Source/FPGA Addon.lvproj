@@ -688,6 +688,7 @@
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../Submodules/Source/Speciality FPGA IO.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -703,25 +704,6 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PWM.Measure.Analog.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/PWM.Measure.Analog.Settings.ctl"/>
-			<Item Name="PWM.Measure.Digital.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/PWM.Measure.Digital.Settings.ctl"/>
-			<Item Name="WSS.Generate.Digital.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/WSS.Generate.Digital.Settings.ctl"/>
-			<Item Name="Sine.Generate.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/Sine.Generate.Settings.ctl"/>
-			<Item Name="Static.Measure.Digital.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/Static.Measure.Digital.Settings.ctl"/>
-			<Item Name="Static.Generate.Digital.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/Static.Generate.Digital.Settings.ctl"/>
-			<Item Name="QuadratureEncoder.Measure.Digital.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/QuadratureEncoder.Measure.Digital.Settings.ctl"/>
-			<Item Name="PWM.Generate.Digital.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/PWM.Generate.Digital.Settings.ctl"/>
-			<Item Name="Static.Measure.Digital.Measurement.ctl" Type="VI" URL="../Submodules/Source/Types/Static.Measure.Digital.Measurement.ctl"/>
-			<Item Name="PWM.Measure.Analog.Measurement.ctl" Type="VI" URL="../Submodules/Source/Types/PWM.Measure.Analog.Measurement.ctl"/>
-			<Item Name="PWM.Measure.Digital.Measurement.ctl" Type="VI" URL="../Submodules/Source/Types/PWM.Measure.Digital.Measurement.ctl"/>
-			<Item Name="QuadratureEncoder.Measure.Digital.Measurement.ctl" Type="VI" URL="../Submodules/Source/Types/QuadratureEncoder.Measure.Digital.Measurement.ctl"/>
-			<Item Name="PWM.Measure.Analog.Result.ctl" Type="VI" URL="../Submodules/Source/Types/PWM.Measure.Analog.Result.ctl"/>
-			<Item Name="PWM.Measure.Digital.Result.ctl" Type="VI" URL="../Submodules/Source/Types/PWM.Measure.Digital.Result.ctl"/>
-			<Item Name="PWM.Generate.Digital.Convert.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/PWM.Generate.Digital.Convert.Settings.ctl"/>
-			<Item Name="WSS.Generate.Digital.Convert.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/WSS.Generate.Digital.Convert.Settings.ctl"/>
-			<Item Name="WSS.Sensor.Type.ctl" Type="VI" URL="../Submodules/Source/Types/WSS.Sensor.Type.ctl"/>
-			<Item Name="Sine.Generate.Convert.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/Sine.Generate.Convert.Settings.ctl"/>
-			<Item Name="QuadratureEncoder.Measure.Digital.Settings.Direction.ctl" Type="VI" URL="../Submodules/Source/Types/QuadratureEncoder.Measure.Digital.Settings.Direction.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -769,7 +751,7 @@
 				<Property Name="Source[0].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[0].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
@@ -790,7 +772,7 @@
 				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
@@ -802,7 +784,7 @@
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
@@ -845,7 +827,7 @@
 				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[8].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[8].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[8].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[8].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[8].properties[3].type" Type="Str">Allow debugging</Property>
@@ -881,7 +863,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0016846A-4EF5-422D-8131-7C6509555114}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{62C93B8A-C3B1-4A9B-B9F2-FB8453C01F16}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -895,7 +877,7 @@
 				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[1].properties[2].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[3].type" Type="Str">Auto error handling</Property>
@@ -917,7 +899,7 @@
 				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
@@ -932,7 +914,7 @@
 				<Property Name="Source[3].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[3].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
@@ -941,7 +923,7 @@
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
@@ -956,7 +938,7 @@
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[5].properties[2].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[3].type" Type="Str">Run when opened</Property>
@@ -969,21 +951,26 @@
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[6].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Bundled Dependencies</Property>
 				<Property Name="Source[7].newName" Type="Str">FPGA_Addon_</Property>
-				<Property Name="Source[7].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[7].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[7].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[7].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[7].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[7].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[7].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[7].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[7].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 			</Item>
@@ -1168,21 +1155,10 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PWM.Generate.Digital.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/PWM.Generate.Digital.Settings.ctl"/>
-			<Item Name="PWM.Measure.Analog.Measurement.ctl" Type="VI" URL="../Submodules/Source/Types/PWM.Measure.Analog.Measurement.ctl"/>
-			<Item Name="PWM.Measure.Analog.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/PWM.Measure.Analog.Settings.ctl"/>
-			<Item Name="PWM.Measure.Digital.Measurement.ctl" Type="VI" URL="../Submodules/Source/Types/PWM.Measure.Digital.Measurement.ctl"/>
-			<Item Name="PWM.Measure.Digital.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/PWM.Measure.Digital.Settings.ctl"/>
-			<Item Name="QuadratureEncoder.Measure.Digital.Measurement.ctl" Type="VI" URL="../Submodules/Source/Types/QuadratureEncoder.Measure.Digital.Measurement.ctl"/>
-			<Item Name="QuadratureEncoder.Measure.Digital.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/QuadratureEncoder.Measure.Digital.Settings.ctl"/>
-			<Item Name="Sine.Generate.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/Sine.Generate.Settings.ctl"/>
-			<Item Name="Static.Generate.Digital.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/Static.Generate.Digital.Settings.ctl"/>
-			<Item Name="Static.Measure.Digital.Measurement.ctl" Type="VI" URL="../Submodules/Source/Types/Static.Measure.Digital.Measurement.ctl"/>
-			<Item Name="Static.Measure.Digital.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/Static.Measure.Digital.Settings.ctl"/>
+			<Item Name="Speciality FPGA IO.lvlib" Type="Library" URL="../Submodules/Source/Speciality FPGA IO.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="WSS.Generate.Digital.Settings.ctl" Type="VI" URL="../Submodules/Source/Types/WSS.Generate.Digital.Settings.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -1208,7 +1184,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AE9F5B8B-660A-4352-8C87-0DC139554D1B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AB4FB906-25A9-4416-B9F8-71CD4CBD6630}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1222,7 +1198,7 @@
 				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[1].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[3].type" Type="Str">Allow debugging</Property>
@@ -1245,7 +1221,7 @@
 				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
@@ -1261,7 +1237,7 @@
 				<Property Name="Source[3].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[3].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
@@ -1271,7 +1247,7 @@
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
@@ -1282,6 +1258,7 @@
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/Linux x64/Bundled Dependencies</Property>
 				<Property Name="Source[5].newName" Type="Str">FPGA_Addon_</Property>
@@ -1291,7 +1268,11 @@
 				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[5].propertiesCount" Type="Int">3</Property>
+				<Property Name="Source[5].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[5].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[5].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[5].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
