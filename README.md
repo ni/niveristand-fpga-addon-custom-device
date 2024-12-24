@@ -11,19 +11,19 @@ The add-on does not provide a way to synchronize data acquisition/generation wit
 - Download the latest release of the VeriStand Custom Devices on [ni.com](https://www.ni.com/en-us/support/downloads/software-products/download.veristand-custom-devices.html) or manually from the [GitHub Releases page](https://github.com/ni/niveristand-fpga-addon-custom-device/releases).
 - See the [Quick Start Guide](Source/Quick%20Start%20Documentation/FPGA%20Addon%20Quick%20Start%20Guide.md) for a walkthrough of using the Custom Device.
 
-## LabVIEW Source Code Version
+## Development Version
 
-LabVIEW 2020
+LabVIEW 2023
 
 ## Dependencies
 
 ### Running the custom device
 
-- [VeriStand 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
+- [VeriStand 2023 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
 
 ### Developing or building from source
 
-- [LabVIEW 2020 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW 2023 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
 - [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - [LabVIEW FPGA Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-fpga-module.html)
 - [NI R Series Multifunction RIO](https://www.ni.com/en-us/support/downloads/drivers/download.ni-r-series-multifunction-rio.html)
