@@ -539,7 +539,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{62C93B8A-C3B1-4A9B-B9F2-FB8453C01F16}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0F4B17A4-18B3-46E3-8E28-4888B83F416F}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -637,9 +637,9 @@
 				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Bundled Dependencies</Property>
 				<Property Name="Source[7].newName" Type="Str">FPGA_Addon_</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[7].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[7].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[7].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[7].properties[3].type" Type="Str">Allow debugging</Property>
