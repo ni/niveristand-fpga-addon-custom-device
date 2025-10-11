@@ -13,17 +13,17 @@ The add-on does not provide a way to synchronize data acquisition/generation wit
 
 ## Development Version
 
-LabVIEW 2023
+LabVIEW 2024
 
 ## Dependencies
 
 ### Running the custom device
 
-- [VeriStand 2023 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
+- [VeriStand 2024 or later](https://www.ni.com/en-us/support/downloads/software-products/download.veristand.html)
 
 ### Developing or building from source
 
-- [LabVIEW 2023 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
+- [LabVIEW 2024 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
 - [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - [LabVIEW FPGA Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-fpga-module.html)
 - [NI R Series Multifunction RIO](https://www.ni.com/en-us/support/downloads/drivers/download.ni-r-series-multifunction-rio.html)
