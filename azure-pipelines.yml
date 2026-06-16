@@ -50,6 +50,8 @@ stages:
       releaseVersion: '26.5.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\fpga_addon_custom_device'
+      repoName: 'niveristand-fpga-addon-custom-device'
+      createNetCoreRepo: true
 
       packages:
         - controlFileName: 'control'
