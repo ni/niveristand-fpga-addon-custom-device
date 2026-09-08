@@ -33,8 +33,6 @@ stages:
         bitness: '64bit'
       - version: '2025'
         bitness: '64bit'
-      - version: '2026'
-        bitness: '64bit'
 
     buildSteps:
       - projectLocation: 'Source\FPGA Addon.lvproj'
@@ -90,7 +88,7 @@ stages:
       - WindowsBuild
 
     lvVersionsToBuild:
-      - version: '2026'
+      - version: '2027'
         bitness: '64bit'
 
     buildSteps:
