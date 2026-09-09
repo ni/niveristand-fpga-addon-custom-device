@@ -88,7 +88,7 @@ stages:
       - WindowsBuild
 
     lvVersionsToBuild:
-      - version: '2027'
+      - version: '2026'
         bitness: '64bit'
 
     buildSteps:
