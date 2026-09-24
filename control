@@ -12,7 +12,6 @@ XB-UserVisible: yes
 Section: Add-Ons
 XB-DisplayVersion: {quarterly_display_version}
 XB-DisplayName: NI FPGA Addon for VeriStand {veristand_version}
-Depends: ni-veristand-{veristand_version} (>= {labview_short_version}.0.0)
 Description-zh-CN: 该附加工具允许用户将现有FPGA位文件提取到NI VeriStand中，无需进行修改或进行少量修改
 XB-DisplayName-zh-CN: NI FPGA Addon for VeriStand {veristand_version}
 Description-de: Das Zusatzpaket ermöglicht es dem Benutzer, eine vorhandene FPGA-Bitdatei mit nur wenigen oder keinen Änderungen in NI VeriStand zu verwenden
