@@ -67,7 +67,7 @@ stages:
     packages:
       - controlFileName: 'control'
         payloadMaps:
-          - installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Plugins\Custom Devices\FPGA Addon'
+          - installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Addons\Custom Devices\FPGA Addon'
             payloadLocation: 'FPGA Addon'
 
       - controlFileName: 'control_scripting_api'
