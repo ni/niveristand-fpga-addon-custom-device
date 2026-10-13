@@ -2,12 +2,11 @@ trigger:
   batch: true
   branches:
     include:
-      - main
-      - release/*
+      - legacy
 
 variables:
   - name: ConvertNetCore
-    value: true
+    value: false
 
 resources:
   repositories:
@@ -22,7 +21,7 @@ stages:
 # =====================================================================
 # WINDOWS BUILD (Stage Template)
 # =====================================================================
-- template: azure-templates/stages.yml@niveristand-custom-device-build-tools
+- template: azure-templates/stages-legacy.yml@niveristand-custom-device-build-tools
   parameters:
     stageName: WindowsBuild
 
@@ -34,8 +33,6 @@ stages:
       - version: '2025'
         bitness: '64bit'
       - version: '2026'
-        bitness: '64bit'
-      - version: '2027'
         bitness: '64bit'
 
     buildSteps:
@@ -59,9 +56,9 @@ stages:
         target: 'My Computer'
         buildSpec: 'Scripting Examples'
 
-    releaseVersion: '26.8.0'
+    releaseVersion: '27.0.0'
     buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\fpga_addon_custom_device'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\legacy\fpga_addon_custom_device'
     repoName: 'niveristand-fpga-addon-custom-device'
 
     packages:
@@ -79,32 +76,3 @@ stages:
         payloadMaps:
           - installLocation: 'ni-paths-LV$(lvVersion)DIR$(nipkgx64suffix)\examples\NI VeriStand Custom Devices\FPGA Addon'
             payloadLocation: 'Scripting Examples'
-
-# =====================================================================
-# LINUX BUILD
-# =====================================================================
-- template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
-  parameters:
-    stageName: LinuxBuild
-
-    # If your linux-stage.yml supports these parameters:
-    dependsOn: 
-      - WindowsBuild
-
-    lvVersionsToBuild:
-      - version: '2027'
-        bitness: '64bit'
-
-    buildSteps:
-      - id: 'fpga-addon-linux-build'
-        projectLocation: 'Source/FPGA Addon.lvproj'
-        buildOperation: 'ExecuteBuildSpec'
-        target: 'My Computer'
-        buildSpec: 'Configuration(Linux) Release'
-
-    releaseVersion: '26.8.0'
-    branch: 'main'
-    debugBuild: 'no'
-    buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\fpga_addon_custom_device'
-    repoName: 'niveristand-fpga-addon-custom-device'
